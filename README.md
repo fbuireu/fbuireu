@@ -1,5 +1,7 @@
 ### 👋 Hi there, I'm a front end developer based in Barcelona 
 
+![Walking on the React's moon]( https://raw.githubusercontent.com/fbuireu/fbuireu/e1d63569c2132c328023d57f8ff69fb000b6b63c/assets/images/react-universe.svg)
+
 > "Lock up your libraries if you like; but there is no gate, no lock, no bolt that you can set upon the freedom of my mind." - Virginia Woolf
 
 > "I am rubber, you are glue" - Guybrush Threepwood
@@ -18,6 +20,7 @@
  ⚡ *Fun fact*: I love a challenge. That's why I run half-marathons and still haven't given up on flipping tortillas. I know I can do it. My girlfriend disagrees.
  
  📫 *How to reach me*: &nbsp;[![StackOverflow][1]][2] &nbsp; [![LinkedIn][3]][4] &nbsp; [![CodePen][5]][6] &nbsp; [![CodePen][7]][8] &nbsp; [![CodePen][9]][10] &nbsp; [![CodePen][11]][12] &nbsp; [![CodePen][13]][14]
+
 
 
 [1]:  https://raw.githubusercontent.com/fbuireu/fbuireu/e1d63569c2132c328023d57f8ff69fb000b6b63c/assets/svg/mail.svg
