@@ -9,5 +9,5 @@
 - 📫 How to reach me: [![CodePen][1]][2]
 - ⚡ Fun fact: I love a challenge. That's why I run half-marathons and still haven't given up on flipping tortillas. I know I can do it. My girlfriend disagrees.
 
-[1]:  https://github.com/fbuireu/fbuireu/assets/svg/codepen.svg
+[1]:  https://github.com/fbuireu/fbuireu/tree/master/assets/svg/codepen.svg
 [2]:  https://codepen.io/fbuireu "CodePen Profile"
