@@ -26,7 +26,7 @@
 [2]:  mailto:fbuireu@gmail.com "Email"
 
 [3]:  https://raw.githubusercontent.com/fbuireu/fbuireu/e1d63569c2132c328023d57f8ff69fb000b6b63c/assets/svg/web.svg
-[4]:  https://ferranbuireu.dev "Personal Website"
+[4]:  https://ferranbuireu.dev "Website"
 
 [5]:  https://raw.githubusercontent.com/fbuireu/fbuireu/e1d63569c2132c328023d57f8ff69fb000b6b63c/assets/svg/stack-overflow.svg
 [6]:  https://stackoverflow.com/users/5585371/ferran-buireu "StackOverflow"
