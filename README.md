@@ -11,7 +11,7 @@
  
  🌱 *I’m currently learning*: Learning cool stuff as always, right now I'm obsessed with **Gatsby**, **React** and **JavaScript**. 
  
- 👯 *I’m looking to collaborate on*: open-source projects, the core of any amazing frameworks, world domination/overthrowing capitalism. 
+ 👯 *I’m looking to collaborate on*: open-source projects, the core of any amazing frameworks, overthrowing capitalism. 
  
  💬 *Ask me about*: that time I invented a new risotto recipe during quarantine, or anything Gatsby-related.
  
