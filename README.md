@@ -6,7 +6,7 @@
 
 > "I am rubber, you are glue" - Guybrush Threepwood
 
-> "return true" - My code 
+> `return true` - My code 
 -----
 
  🔭 *I’m currently working on*: got 99 projects but finishing them ain't one. (For real though, I love starting stuff from scratch and fresh ideas).
