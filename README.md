@@ -27,22 +27,22 @@
 [4]:  https://ferranbuireu.dev "Personal Website"
 
 [5]:  https://raw.githubusercontent.com/fbuireu/fbuireu/e1d63569c2132c328023d57f8ff69fb000b6b63c/assets/svg/stack-overflow.svg
-[6]:  https://stackoverflow.com/users/5585371/ferran-buireu "StackOverflow Profile"
+[6]:  https://stackoverflow.com/users/5585371/ferran-buireu "StackOverflow"
 
 [7]:  https://raw.githubusercontent.com/fbuireu/fbuireu/e1d63569c2132c328023d57f8ff69fb000b6b63c/assets/svg/linkedin.svg
-[8]:  https://www.linkedin.com/in/ferran-buireu/ "LinkedIn Profile"
+[8]:  https://www.linkedin.com/in/ferran-buireu/ "LinkedIn"
 
 [9]:  https://raw.githubusercontent.com/fbuireu/fbuireu/e1d63569c2132c328023d57f8ff69fb000b6b63c/assets/svg/codepen.svg
-[10]:  https://codepen.io/fbuireu "CodePen Profile"
+[10]:  https://codepen.io/fbuireu "CodePen"
 
 [11]:  https://raw.githubusercontent.com/fbuireu/fbuireu/e1d63569c2132c328023d57f8ff69fb000b6b63c/assets/svg/medium.svg
-[12]:  https://medium.com/@fbuireu "Medium Profile"
+[12]:  https://medium.com/@fbuireu "Medium"
 
 [13]:  https://raw.githubusercontent.com/fbuireu/fbuireu/e1d63569c2132c328023d57f8ff69fb000b6b63c/assets/svg/dev.svg
-[14]: https://dev.to/fbuireu "Dev Profile"
+[14]: https://dev.to/fbuireu "Dev.to"
 
 [15]:  https://raw.githubusercontent.com/fbuireu/fbuireu/e1d63569c2132c328023d57f8ff69fb000b6b63c/assets/svg/twitter.svg
-[16]:  https://twitter.com/fbuireu "Twitter Profile"
+[16]:  https://twitter.com/fbuireu "Twitter"
 
 [17]:  https://raw.githubusercontent.com/fbuireu/fbuireu/e1d63569c2132c328023d57f8ff69fb000b6b63c/assets/svg/strava.svg
-[18]:  https://www.strava.com/athletes/19488414 "Strava Profile"
+[18]:  https://www.strava.com/athletes/19488414 "Strava"
