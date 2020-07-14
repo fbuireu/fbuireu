@@ -1,6 +1,6 @@
 ## 👋 Hi there, I'm a front end developer based in Barcelona 
 
-
+![Walking on the React's moon](https://github.com/fbuireu/fbuireu/blob/master/assets/images/react-universe.jpg?raw=true)
 
 > "Lock up your libraries if you like; but there is no gate, no lock, no bolt that you can set upon the freedom of my mind." - Virginia Woolf
 
