@@ -9,7 +9,7 @@
 > `return true` - My code 
 -----
 
- 🔭 *I’m currently working on*: got 99 projects but finishing them ain't one. (For real though, I love starting stuff from scratch and fresh ideas).
+ 🔭 *I’m currently working on*: got 99 projects but finishing them ain't one (for real though, I love starting stuff from scratch and fresh ideas).
  
  🌱 *I’m currently learning*: cool stuff as always, right now I'm obsessed with **Gatsby**, **React** and **JavaScript**. 
  
