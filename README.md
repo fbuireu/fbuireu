@@ -19,7 +19,7 @@
  
  ⚡ *Fun fact*: I love a challenge. That's why I run half-marathons, I play the guitar and still haven't given up on flipping tortillas. I know I can do it. My girlfriend disagrees.
  
- 📫 *How to reach me*: &nbsp;[![StackOverflow][1]][2] &nbsp; [![LinkedIn][3]][4] &nbsp; [![CodePen][5]][6] &nbsp; [![CodePen][7]][8] &nbsp; [![CodePen][9]][10] &nbsp; [![CodePen][11]][12] &nbsp; [![CodePen][13]][14]
+ 📫 *How to reach me*: &nbsp;[![Email][1]][2] &nbsp; [![Website][3]][4] &nbsp; [![StackOverflow][5]][6] &nbsp; [![LinkedIn][7]][8] &nbsp; [![CodePen][9]][10] &nbsp; [![Medium][11]][12] &nbsp; [![Dev.to][13]][14] &nbsp; [![Twitter][15]][16] &nbsp; [![Strava][17]][18]
 
 
 [1]:  https://raw.githubusercontent.com/fbuireu/fbuireu/e1d63569c2132c328023d57f8ff69fb000b6b63c/assets/svg/mail.svg
