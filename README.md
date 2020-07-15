@@ -22,7 +22,7 @@
  📫 *How to reach me*: &nbsp;[![Email][1]][2] &nbsp; [![Website][3]][4] &nbsp; [![StackOverflow][5]][6] &nbsp; [![LinkedIn][7]][8] &nbsp; [![CodePen][9]][10] &nbsp; [![Medium][11]][12] &nbsp; [![Dev.to][13]][14] &nbsp; [![Twitter][15]][16] &nbsp; [![Strava][17]][18]
 
 
-[1]:  https://raw.githubusercontent.com/fbuireu/fbuireu/5ba1cf466850eb5ab66af3e2e1feda542ae8aa58/assets/svg/mail.svg
+[1]:  https://raw.githubusercontent.com/fbuireu/fbuireu/bc8840d390df5e7ecf65b776d96e70db98a65172/assets/svg/mail.svg
 [2]:  mailto:fbuireu@gmail.com "Email"
 
 [3]:  https://raw.githubusercontent.com/fbuireu/fbuireu/5ba1cf466850eb5ab66af3e2e1feda542ae8aa58/assets/svg/web.svg
@@ -37,10 +37,10 @@
 [9]:  https://raw.githubusercontent.com/fbuireu/fbuireu/5ba1cf466850eb5ab66af3e2e1feda542ae8aa58/assets/svg/codepen.svg
 [10]:  https://codepen.io/fbuireu "CodePen"
 
-[11]:  https://raw.githubusercontent.com/fbuireu/fbuireu/5ba1cf466850eb5ab66af3e2e1feda542ae8aa58/assets/svg/medium.svg
+[11]:  https://raw.githubusercontent.com/fbuireu/fbuireu/bc8840d390df5e7ecf65b776d96e70db98a65172/assets/svg/medium.svg
 [12]:  https://medium.com/@fbuireu "Medium"
 
-[13]: https://raw.githubusercontent.com/fbuireu/fbuireu/63ab1e5f091c67fb1067c2aa1fe74f26d0175d59/assets/svg/dev.svg
+[13]: https://raw.githubusercontent.com/fbuireu/fbuireu/bc8840d390df5e7ecf65b776d96e70db98a65172/assets/svg/dev.svg
 [14]: https://dev.to/fbuireu "Dev.to"
 
 [15]:  https://raw.githubusercontent.com/fbuireu/fbuireu/5ba1cf466850eb5ab66af3e2e1feda542ae8aa58/assets/svg/twitter.svg
