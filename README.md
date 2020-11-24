@@ -1,4 +1,4 @@
-## 👋 Hi there, I'm a front end developer based in Barcelona 
+## 👋 Hi there, I'm a front-end developer based in Barcelona 
 
 ![Walking on the React's moon](https://github.com/fbuireu/fbuireu/blob/master/assets/images/jpg/react-universe.jpg?raw=true)
 
