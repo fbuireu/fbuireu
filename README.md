@@ -51,7 +51,7 @@
 
 ### A few more stats about me
 
-![](https://hit.yhype.me/github/profile?user_id=14785182)
+![](https://komarev.com/ghpvc/?username=fbuireu&style=flat&color=4bada9)
 
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=fbuireu&theme=dark&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
