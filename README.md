@@ -53,7 +53,7 @@
 
 ![](https://komarev.com/ghpvc/?username=fbuireu&style=flat&color=4bada9)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=fbuireu&theme=dark&show_icons=true)]
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=fbuireu&theme=dark&show_icons=true)
 
 ![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&layout=compact&theme=dark)
 
