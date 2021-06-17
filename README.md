@@ -1,4 +1,4 @@
-## 👋 Hi there, I'm a front-end developer based in Barcelona ![](https://hit.yhype.me/github/profile?user_id=14785182)
+## 👋 Hi there, I'm a front-end developer based in Barcelona 
 
 ![Walking on the React's moon](https://github.com/fbuireu/fbuireu/blob/master/assets/images/jpg/react-universe.jpg?raw=true)
 
@@ -50,6 +50,8 @@
 [18]:  https://www.strava.com/athletes/19488414 "Strava"
 
 ### A few more stats about me
+
+![](https://hit.yhype.me/github/profile?user_id=14785182)
 
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=fbuireu&theme=dark&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
