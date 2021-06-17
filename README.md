@@ -49,6 +49,7 @@
 [17]:  https://raw.githubusercontent.com/fbuireu/fbuireu/5ba1cf466850eb5ab66af3e2e1feda542ae8aa58/assets/svg/strava.svg
 [18]:  https://www.strava.com/athletes/19488414 "Strava"
 
+-----
 ### A few more stats about me
 
 ![](https://komarev.com/ghpvc/?username=fbuireu&style=flat&color=4bada9)
