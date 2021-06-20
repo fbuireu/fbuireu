@@ -1,4 +1,4 @@
-## <img src="https://github.com/fbuireu/fbuireu/blob/16ba62ffa9ca2a1f19e0d5030aa503b228d38628/assets/gifs/waving-hand.gif?raw=true" width="30px"> Hi there, I'm a front-end developer based in Barcelona 
+## <img src="https://github.com/fbuireu/fbuireu/blob/e1e94d68902c8ea92013ad311ee514a903db09ca/assets/gifs/waving-hand.gif?raw=true" width="30px"> Hi there, I'm a front-end developer based in Barcelona 
 
 ![Walking on the React's moon](https://github.com/fbuireu/fbuireu/blob/master/assets/images/jpg/react-universe.jpg?raw=true)
 
