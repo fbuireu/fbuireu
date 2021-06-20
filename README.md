@@ -57,19 +57,19 @@
 <details>	
   <summary><b>☄️ GitHub Streaks</b></summary>
   <br />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=fbuireu&theme=dark&hide_border=true" alt="GitHub Streaks"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=fbuireu&theme=dark" alt="GitHub Streaks"/>
 </details>
 
 <details>	
   <summary><b>📊 GitHub Stats</b></summary>
 
-  <img src="https://github-readme-stats.vercel.app/api?username=fbuireu&theme=dark&show_icons=true&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=fbuireu&theme=dark&show_icons=true" alt="GitHub Stats" />
 </details>
 
 <details>	
   <summary><b>👨🏻‍💻 Languages Stats</b></summary>
   <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&layout=compact&theme=dark&hide_border=true" alt="Languages Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&layout=compact&theme=dark" alt="Languages Stats" />
 </details>
 
 
