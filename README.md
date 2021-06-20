@@ -1,4 +1,4 @@
-## 👋 Hi there, I'm a front-end developer based in Barcelona 
+## <img src="https://github.com/fbuireu/fbuireu/blob/16ba62ffa9ca2a1f19e0d5030aa503b228d38628/assets/gifs/hi.gif?raw=true" width="30px"> Hi there, I'm a front-end developer based in Barcelona 
 
 ![Walking on the React's moon](https://github.com/fbuireu/fbuireu/blob/master/assets/images/jpg/react-universe.jpg?raw=true)
 
@@ -54,7 +54,23 @@
 
 ![](https://komarev.com/ghpvc/?username=fbuireu&style=flat&color=4bada9)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=fbuireu&theme=dark&show_icons=true)
+<details>	
+  <summary><b>☄️ GitHub Streaks</b></summary>
+  <br />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=fbuireu&theme=dark&hide_border=true" />
+</details>
+  <br />
+<details>	
+  <summary><b>📊 GitHub Stats</b></summary>
+  <br />
+  <img src="https://github-readme-stats.vercel.app/api?username=fbuireu&theme=dark&show_icons=true&hide_border=true" />
+</details>
+  <br />
+<details>	
+  <summary><b>👨🏻‍💻 Languages stats</b></summary>
+  <br />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&layout=compact&theme=dark&hide_border=true" />
+</details>
 
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&layout=compact&theme=dark)
+
 
