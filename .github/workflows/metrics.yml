@@ -14,6 +14,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: fbuireu
+          svg_out_path: dist/github-metrics.svg
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Madrid
