@@ -36,6 +36,6 @@
 ![GitHub Followers](https://img.shields.io/github/followers/fbuireu?label=GitHub%20Followers&style=flat&color=4bada9)
 ![Profile Views](https://komarev.com/ghpvc/?username=fbuireu&style=flat&color=4bada9)
 
-![Metrics](https://github.com/fbuireu/fbuireu/blob/output/github-metrics.svg)
+![GitHub Metrics](https://github.com/fbuireu/fbuireu/blob/master/assets/svg/github-metrics.svg)
 
 ![GitHub Contribution Snake Animation](https://github.com/fbuireu/fbuireu/blob/output/github-contribution-snake-animation.svg)
