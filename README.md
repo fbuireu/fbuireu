@@ -19,35 +19,9 @@
  
  ⚡ *Fun fact*: I love a challenge. That's why I run half-marathons, I play the guitar and still haven't given up on flipping tortillas. I know I can do it. My girlfriend disagrees.
  
- 📫 *How to reach me*:  &nbsp; [![Website][3]][4] &nbsp; [![Email][1]][2] &nbsp; [![StackOverflow][5]][6] &nbsp; [![LinkedIn][7]][8] &nbsp; [![CodePen][9]][10] &nbsp; [![Twitter][15]][16] &nbsp; [![Strava][17]][18] &nbsp; [![Medium][11]][12] &nbsp; [![Dev.to][13]][14] 
+ 📫 *How to reach me*: <a href="mailto:fbuireu@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a> <a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy me a Coffe"></a>
+ <a href="https://stackoverflow.com/users/5585371/ferran-buireu?tab=profile" target="_blank"><img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow"></a> <a href="https://www.linkedin.com/in/ferran-buireu/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="https://codepen.io/fbuireu" target="_blank"><img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen"></a> <a href="https://twitter.com/fbuireu" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a> <a href="https://www.strava.com/athletes/19488414" target="_blank"><img src="https://img.shields.io/static/v1?style=for-the-badge&message=Strava&color=FC4C02&logo=Strava&logoColor=FFFFFF&label=" alt="Strava"></a> <a href="https://medium.com/@fbuireu" target="_blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a> <a href="https://dev.to/fbuireu" target="_blank"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to"></a>
 
-
-[1]:  https://raw.githubusercontent.com/fbuireu/fbuireu/bc8840d390df5e7ecf65b776d96e70db98a65172/assets/svg/mail.svg
-[2]:  mailto:fbuireu@gmail.com "Email"
-
-[3]:  https://raw.githubusercontent.com/fbuireu/fbuireu/5ba1cf466850eb5ab66af3e2e1feda542ae8aa58/assets/svg/web.svg
-[4]:  https://ferranbuireu.dev "Website"
-
-[5]:  https://raw.githubusercontent.com/fbuireu/fbuireu/5ba1cf466850eb5ab66af3e2e1feda542ae8aa58/assets/svg/stack-overflow.svg
-[6]:  https://stackoverflow.com/users/5585371/ferran-buireu "StackOverflow"
-
-[7]:  https://raw.githubusercontent.com/fbuireu/fbuireu/5ba1cf466850eb5ab66af3e2e1feda542ae8aa58/assets/svg/linkedin.svg
-[8]:  https://www.linkedin.com/in/ferran-buireu/ "LinkedIn"
-
-[9]:  https://raw.githubusercontent.com/fbuireu/fbuireu/5ba1cf466850eb5ab66af3e2e1feda542ae8aa58/assets/svg/codepen.svg
-[10]:  https://codepen.io/fbuireu "CodePen"
-
-[11]:  https://raw.githubusercontent.com/fbuireu/fbuireu/bc8840d390df5e7ecf65b776d96e70db98a65172/assets/svg/medium.svg
-[12]:  https://medium.com/@fbuireu "Medium"
-
-[13]: https://raw.githubusercontent.com/fbuireu/fbuireu/bc8840d390df5e7ecf65b776d96e70db98a65172/assets/svg/dev.svg
-[14]: https://dev.to/fbuireu "Dev.to"
-
-[15]:  https://raw.githubusercontent.com/fbuireu/fbuireu/5ba1cf466850eb5ab66af3e2e1feda542ae8aa58/assets/svg/twitter.svg
-[16]:  https://twitter.com/fbuireu "Twitter"
-
-[17]:  https://raw.githubusercontent.com/fbuireu/fbuireu/5ba1cf466850eb5ab66af3e2e1feda542ae8aa58/assets/svg/strava.svg
-[18]:  https://www.strava.com/athletes/19488414 "Strava"
 
 -----
 ### My latest articles
