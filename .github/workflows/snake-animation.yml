@@ -25,4 +25,4 @@ jobs:
           target_branch: snake-grid-animation
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.SNAKE_GRID_ANIMATION_TOKEN }
+          GITHUB_TOKEN: ${{ secrets.SNAKE_GRID_ANIMATION_TOKEN }}
