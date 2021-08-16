@@ -73,5 +73,5 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&layout=compact&theme=dark" alt="Languages Stats" />
 </details>
 
-![GitHub Contribution Snake Animation](https://github.com/fbuireu/fbuireu/blob/output/github-contribution-grid-snake.gif)
+![GitHub Contribution Snake Animation](https://github.com/fbuireu/fbuireu/blob/output/github-contribution-grid-snake.svg)
 
