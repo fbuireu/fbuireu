@@ -59,26 +59,9 @@
 -----
 ### A few more stats about me
 
-![](https://img.shields.io/github/followers/fbuireu?label=GitHub%20Followers&style=flat&color=4bada9)
-![](https://komarev.com/ghpvc/?username=fbuireu&style=flat&color=4bada9)
+![GitHub Followers](https://img.shields.io/github/followers/fbuireu?label=GitHub%20Followers&style=flat&color=4bada9)
+![Profile Views](https://komarev.com/ghpvc/?username=fbuireu&style=flat&color=4bada9)
 
-<details>	
-  <summary><b>☄️ GitHub Streaks</b></summary>
-  <br />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=fbuireu&theme=dark" alt="GitHub Streaks"/>
-</details>
-
-<details>	
-  <summary><b>📊 GitHub Stats</b></summary>
-
-  <img src="https://github-readme-stats.vercel.app/api?username=fbuireu&theme=dark&show_icons=true" alt="GitHub Stats" />
-</details>
-
-<details>	
-  <summary><b>👨🏻‍💻 Languages Stats</b></summary>
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&layout=compact&theme=dark" alt="Languages Stats" />
-</details>
+![Metrics](https://metrics.lecoq.io/fbuireu?template=classic&repositories.forks=true&isocalendar=1&languages=1&stars=1&people=1&followup=1&lines=1&activity=1&achievements=1&discussions=1&notable=1&repositories=1&pagespeed=1&stackoverflow=1&repositories=100&repositories.batch=100&repositories.forks=true&repositories.affiliations=owner&isocalendar.duration=full-year&languages.limit=8&languages.sections=most-used&languages.colors=github&languages.threshold=0%25&languages.indepth=false&languages.recent.load=300&languages.recent.days=14&stars.limit=4&people.limit=24&people.size=28&people.types=followers%2C%20following&people.identicons=false&people.shuffle=false&followup.sections=repositories&activity.limit=5&activity.load=300&activity.days=14&activity.filter=all&activity.visibility=all&activity.timestamps=false&achievements.threshold=C&achievements.secrets=true&achievements.limit=0&notable.repositories=true&repositories.featured=fbuireu%2Fbiancafiore%2C%20fbuireu%2Ffbuireu&pagespeed.url=.user.website&pagespeed.detailed=false&pagespeed.screenshot=false&stackoverflow.user=5585371&stackoverflow.sections=answers-top%2C%20questions-recent&stackoverflow.limit=2&stackoverflow.lines=4&stackoverflow.lines.snippet=2&config.timezone=Europe%2FMadrid)
 
 ![GitHub Contribution Snake Animation](https://github.com/fbuireu/fbuireu/blob/output/github-contribution-snake-animation.svg)
-
