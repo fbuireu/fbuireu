@@ -51,8 +51,9 @@
 
 -----
 ### My latest articles
- <!-- BLOG-POST-LIST:START --> 
-
+ <!-- BLOG-POST-LIST:START -->
+- [What is point-free programming?](https://fbuireu.medium.com/what-is-point-free-programming-99db1e373763?source=rss-152ec07c2b6d------2)
+- [Closures and currying](https://fbuireu.medium.com/closures-and-currying-9774676d33fa?source=rss-152ec07c2b6d------2)
 <!-- BLOG-POST-LIST:END -->
 
 -----
