@@ -87,7 +87,6 @@ jobs:
           plugin_reactions_details: count, percentage
           plugin_reactions_ignored: bot
           plugin_stargazers: yes
-          plugin_support: yes
           plugin_topics: yes
           plugin_topics_sort: stars
           plugin_topics_mode: starred
