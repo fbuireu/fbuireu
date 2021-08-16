@@ -2,6 +2,9 @@ name: Snake Grid Animation
 on:
   schedule:
     - cron: "0 0 * * *"
+  push:
+    branches:
+      - master
   workflow_dispatch:
 jobs:
   build:
@@ -12,7 +15,7 @@ jobs:
         id: snake-grid-animation
         with:
           github_user_name: fbuireu
-          svg_out_path: dist/assets/svg/github-contribution-snake-grid-animation.svg
+          svg_out_path: dist/github-contribution-snake-grid-animation.svg
       - run: git status
       - name: Push changes
         uses: ad-m/github-push-action@master
