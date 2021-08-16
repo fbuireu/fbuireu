@@ -1,0 +1,15 @@
+name: Latest Articles
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+jobs:
+  update-readme-with-blog:
+    name: Update my README.md with latest blog posts from Medium
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://medium.com/feed/@fbuireu"
+          max_post_count: 5
