@@ -38,4 +38,4 @@
 
 ![GitHub Metrics](https://raw.githubusercontent.com/fbuireu/fbuireu/master/assets/svg/github-metrics.svg)
 
-![GitHub Contribution Snake Animation](https://raw.githubusercontent.com/fbuireu/fbuireu/master/assets/svg/github-contribution-snake-animation.svg)
+![GitHub Contribution Snake Grid Animation](https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-snake-grid-animation.svg)
