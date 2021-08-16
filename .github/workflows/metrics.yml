@@ -53,7 +53,6 @@ jobs:
           plugin_repositories: yes
           plugin_repositories_affiliations: owner
           plugin_repositories_batch: 100
-          plugin_repositories_featured: fbuireu/biancafiore, fbuireu/fbuireu
           plugin_repositories_forks: yes
           plugin_stackoverflow: yes
           plugin_stackoverflow_limit: 2
@@ -71,7 +70,6 @@ jobs:
           plugin_contributors_ignored: bot
           plugin_contributors_contributions: yes
           plugin_contributors_sections: contributors
-          plugin_gists: yes
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
