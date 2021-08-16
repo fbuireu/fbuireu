@@ -12,7 +12,7 @@ jobs:
         id: snake-animation
         with:
           github_user_name: fbuireu
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          svg_out_path: dist/github-contribution-snake-animation.svg
       - run: git status
       - name: Push changes
         uses: ad-m/github-push-action@master
