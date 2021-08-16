@@ -50,6 +50,12 @@
 [18]:  https://www.strava.com/athletes/19488414 "Strava"
 
 -----
+### My latest articles
+ <!-- BLOG-POST-LIST:START --> 
+
+<!-- BLOG-POST-LIST:END -->
+
+-----
 ### A few more stats about me
 
 ![](https://img.shields.io/github/followers/fbuireu?label=GitHub%20Followers&style=flat&color=4bada9)
