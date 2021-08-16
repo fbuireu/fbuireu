@@ -43,7 +43,7 @@ jobs:
           plugin_notable: yes
           plugin_notable_repositories: yes
           plugin_pagespeed: yes
-          plugin_pagespeed_url: .user.website
+          plugin_pagespeed_url: https://ferranbuireu.dev/
           plugin_people: yes
           plugin_people_limit: 24
           plugin_people_size: 28
