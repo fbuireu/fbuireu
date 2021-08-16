@@ -52,6 +52,7 @@
 -----
 ### A few more stats about me
 
+![](https://img.shields.io/github/followers/fbuireu?label=GitHub%20Followers&style=flat&color=4bada9)
 ![](https://komarev.com/ghpvc/?username=fbuireu&style=flat&color=4bada9)
 
 <details>	
@@ -72,5 +73,5 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&layout=compact&theme=dark" alt="Languages Stats" />
 </details>
 
-
+![GitHub Contribution Snake Animation](https://github.com/fbuireu/fbuireu/blob/output/github-contribution-grid-snake.gif)
 
