@@ -15,49 +15,49 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Madrid
-          plugin_achievements: true
-          plugin_achievements_secrets: true
-          plugin_activity: true
-          plugin_discussions: true
-          plugin_followup: true
+          plugin_achievements: yes
+          plugin_achievements_secrets: yes
+          plugin_activity: yes
+          plugin_discussions: yes
+          plugin_followup: yes
           plugin_followup_sections: repositories, user
-          plugin_isocalendar: true
+          plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_lines: true
-          plugin_notable: true
-          plugin_notable_repositories: true
+          plugin_lines: yes
+          plugin_notable: yes
+          plugin_notable_repositories: yes
           plugin_notable_filter: stars:>500 forks:>100
-          plugin_pagespeed: true
+          plugin_pagespeed: yes
           plugin_pagespeed_url: https://ferranbuireu.dev/
-          plugin_stars: true
-          plugin_languages: true
+          plugin_stars: yes
+          plugin_languages: yes
           plugin_languages_sections: most-used, recently-used
-          plugin_languages_indepth: true
-          plugin_people: true
-          plugin_repositories: true
-          plugin_repositories_forks: true
+          plugin_languages_indepth: yes
+          plugin_people: yes
+          plugin_repositories: yes
+          plugin_repositories_forks: yes
           plugin_repositories_list: fbuireu/biancafiore, fbuireu/fbuireu
-          plugin_stackoverflow: true
+          plugin_stackoverflow: yes
           plugin_stackoverflow_user: ${{ secrets.STACKOVERFLOW_ID }} 
-          repositories_forks: true
-          config_twemoji: true
-          plugin_contributors: true
-          plugin_licenses_ratio: true
+          repositories_forks: yes
+          config_twemoji: yes
+          plugin_contributors: yes
+          plugin_licenses_ratio: yes
           plugin_licenses_setup: npm ci
-          plugin_reactions: true
+          plugin_reactions: yes
           plugin_reactions_days: 14
           plugin_reactions_details: count, percentage
-          plugin_habits: true
-          plugin_habits_facts: true
-          plugin_habits_charts: true
-          plugin_habits_trim: true
-          plugin_licenses: true
-          plugin_contributors_contributions: true
-          plugin_stargazers: true
-          plugin_topics: true
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_trim: yes
+          plugin_licenses: yes
+          plugin_contributors_contributions: yes
+          plugin_stargazers: yes
+          plugin_topics: yes
           plugin_topics_mode: starred, mastered
-          plugin_traffic: true
-          plugin_music: true
+          plugin_traffic: yes
+          plugin_music: yes
           plugin_music_provider: spotify
           plugin_music_mode: recent
           plugin_music_limit: 10
