@@ -17,81 +17,47 @@ jobs:
           config_timezone: Europe/Madrid
           plugin_achievements: yes
           plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
           plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
           plugin_discussions: yes
           plugin_followup: yes
           plugin_followup_sections: repositories, user
           plugin_isocalendar: yes
-          plugin_people_sponsors_custom: octocat
           plugin_isocalendar_duration: full-year
-          plugin_languages: yes
-          plugin_languages_colors: github
-          plugin_languages_limit: 8
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used, recently-used
-          plugin_languages_threshold: 0%
           plugin_lines: yes
           plugin_notable: yes
           plugin_notable_repositories: yes
           plugin_pagespeed: yes
           plugin_pagespeed_url: https://ferranbuireu.dev/
-          plugin_pagespeed_screenshot: no
+          plugin_stars: yes
+          plugin_languages: yes
+          plugin_languages_sections: most-used, recently-used
           plugin_people: yes
-          plugin_people_limit: 24
-          plugin_people_size: 28
-          plugin_people_types: followers, following, thanks
           plugin_repositories: yes
-          plugin_repositories_affiliations: owner
-          plugin_repositories_batch: 100
           plugin_repositories_forks: yes
           plugin_stackoverflow: yes
-          plugin_stackoverflow_limit: 2
-          plugin_stackoverflow_lines: 4
-          plugin_stackoverflow_lines_snippet: 2
-          plugin_stackoverflow_sections: answers-top, questions-recent
-          plugin_stackoverflow_user: 5585371
-          plugin_stars: yes
-          plugin_stars_limit: 4
+          plugin_stackoverflow_user: ${{ secrets.STACKOVERFLOW_ID }} 
           repositories_forks: yes
           config_twemoji: yes
           plugin_contributors: yes
-          plugin_contributors_base: ""
-          plugin_contributors_head: main
-          plugin_contributors_ignored: bot
-          plugin_contributors_contributions: yes
-          plugin_contributors_sections: contributors
+          plugin_licenses_ratio: yes
+          plugin_licenses_setup: npm ci
+          plugin_reactions: yes
+          plugin_reactions_days: 14
+          plugin_reactions_details: count, percentage
           plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           plugin_habits_trim: yes
           plugin_licenses: yes
-          plugin_licenses_setup: npm ci
-          plugin_licenses_ratio: yes
-          plugin_licenses_legal: yes
-          plugin_reactions: yes
-          plugin_reactions_limit: 200
-          plugin_reactions_limit_issues: 100
-          plugin_reactions_days: 14
-          plugin_reactions_details: count, percentage
-          plugin_reactions_ignored: bot
+          plugin_contributors_contributions: yes
           plugin_stargazers: yes
           plugin_topics: yes
-          plugin_topics_sort: stars
-          plugin_topics_mode: starred
-          plugin_topics_limit: 0
+          plugin_topics_mode: starred, mastered
           plugin_traffic: yes
           plugin_music: yes
           plugin_music_provider: spotify
           plugin_music_mode: recent
           plugin_music_limit: 10
-          plugin_music_user: fbuireu
+          plugin_music_user: ${{ secrets.SPOTIFY_USER }}
           plugin_music_token: "${{ secrets.SPOTIFY_CLIENT_ID }}, ${{ secrets.SPOTIFY_CLIENT_SECRET }}, ${{ secrets.SPOTIFY_REFRESH_TOKEN }}"
+          
