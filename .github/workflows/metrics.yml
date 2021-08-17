@@ -90,8 +90,8 @@ jobs:
           plugin_topics_limit: 0
           plugin_traffic: yes
           plugin_music: yes
-          plugin_music_provider: lastfm
+          plugin_music_provider: spotify
           plugin_music_mode: recent
-          plugin_music_limit: 4
+          plugin_music_limit: 10
           plugin_music_user: fbuireu
-          plugin_music_token: ${{ secrets.LASTFM_API_KEY }}
+          plugin_music_token: "${{ secrets.SPOTIFY_CLIENT_ID }}, ${{ secrets.SPOTIFY_CLIENT_SECRET }}, ${{ secrets.SPOTIFY_REFRESH_TOKEN }}"
