@@ -34,8 +34,6 @@ jobs:
           plugin_languages_sections: most-used, recently-used
           plugin_languages_indepth: yes
           plugin_people: yes
-          plugin_repositories: yes
-          plugin_repositories_featured: fbuireu/biancafiore, fbuireu/fbuireu
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: ${{ secrets.STACKOVERFLOW_ID }} 
           repositories_forks: yes
