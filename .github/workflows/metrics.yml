@@ -26,6 +26,7 @@ jobs:
           plugin_lines: true
           plugin_notable: true
           plugin_notable_repositories: true
+          plugin_notable_filter: stars:>500 forks:>100
           plugin_pagespeed: true
           plugin_pagespeed_url: https://ferranbuireu.dev/
           plugin_stars: true
@@ -35,6 +36,7 @@ jobs:
           plugin_people: true
           plugin_repositories: true
           plugin_repositories_forks: true
+          plugin_repositories_list: fbuireu/biancafiore, fbuireu/fbuireu
           plugin_stackoverflow: true
           plugin_stackoverflow_user: ${{ secrets.STACKOVERFLOW_ID }} 
           repositories_forks: true
