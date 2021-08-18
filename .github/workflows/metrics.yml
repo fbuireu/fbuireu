@@ -55,6 +55,9 @@ jobs:
           plugin_topics: yes
           plugin_topics_mode: starred, mastered
           plugin_traffic: yes
+          plugin_projects: yes
+          plugin_projects_descriptions: yes
+          plugin_projects_repositories: users/fbuireu/projects/1
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_music: yes
