@@ -33,8 +33,6 @@
 -----
 ### A few more stats about me
 
-![Profile Views](https://komarev.com/ghpvc/?username=fbuireu&style=flat-square&color=4bada9)
-
 ![GitHub Contribution Snake Grid Animation](https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-snake-grid-animation.svg)
 
 ![GitHub Metrics](https://raw.githubusercontent.com/fbuireu/fbuireu/master/assets/svg/github-metrics.svg)
