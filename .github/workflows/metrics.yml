@@ -55,6 +55,7 @@ jobs:
           plugin_topics: yes
           plugin_topics_mode: starred, mastered
           plugin_traffic: yes
+          plugin_gists: yes
           plugin_projects: yes
           plugin_projects_descriptions: yes
           plugin_projects_repositories: fbuireu/projects/1
