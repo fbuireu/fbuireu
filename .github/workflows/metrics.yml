@@ -17,7 +17,6 @@ jobs:
           config_timezone: Europe/Madrid
           config_twemoji: yes
           config_animations: yes
-          config_display: columns 
           plugin_achievements: yes
           plugin_achievements_secrets: yes
           plugin_activity: yes
