@@ -15,7 +15,6 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Madrid
-          config_display: large
           config_twemoji: yes
           config_animations: yes
           plugin_achievements: yes
