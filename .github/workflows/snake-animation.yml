@@ -26,3 +26,4 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.SNAKE_GRID_ANIMATION_TOKEN }}
+          
