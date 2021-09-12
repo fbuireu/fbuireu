@@ -1,4 +1,4 @@
-name: Latest Articles
+name: Medium Latest Articles
 on:
   schedule:
     - cron: "0 0 * * *"
