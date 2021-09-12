@@ -25,12 +25,15 @@
 <a href="https://hashnode.com/@Buireu" target="_blank"><img src="https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white" alt="Dev.to"></a> <a href="https://dev.to/fbuireu" target="_blank"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to"></a><a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy me a Coffe"></a>
 
 -----
-### My latest articles
- <!-- BLOG-POST-LIST:START -->
+### My latest Medium articles
+ <!-- MEDIUM-LATEST-ARTICLES:START -->
 - [What is point-free programming?](https://fbuireu.medium.com/what-is-point-free-programming-99db1e373763?source=rss-152ec07c2b6d------2)
 - [Closures and currying](https://fbuireu.medium.com/closures-and-currying-9774676d33fa?source=rss-152ec07c2b6d------2)
-<!-- BLOG-POST-LIST:END -->
+<!-- MEDIUM-LATEST-ARTICLES:END -->
 
+### My latest Hashnode articles
+ <!-- HASHNODE-LATEST-ARTICLES:START -->
+ <!-- HASHNODE-LATEST-ARTICLES:END -->
 -----
 ### A few more stats about me
 
