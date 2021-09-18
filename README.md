@@ -56,10 +56,8 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ### 📝 My latest Medium articles
 
  <!-- MEDIUM-LATEST-ARTICLES:START -->
-
 - [What is point-free programming?](https://fbuireu.medium.com/what-is-point-free-programming-99db1e373763?source=rss-152ec07c2b6d------2)
 - [Closures and currying](https://fbuireu.medium.com/closures-and-currying-9774676d33fa?source=rss-152ec07c2b6d------2)
-
 <!-- MEDIUM-LATEST-ARTICLES:END -->
 
 ### 📝 My latest Hashnode articles
