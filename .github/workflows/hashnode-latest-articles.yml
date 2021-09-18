@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   update-readme-with-blog:
-    name: Update my README.md with latest blog posts from Hashnode
+    name: Update my ${{ matrix.readme }} with latest blog posts from Hashnode
     runs-on: ubuntu-latest
     strategy:
       matrix:
