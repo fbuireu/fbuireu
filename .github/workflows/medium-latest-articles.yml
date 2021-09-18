@@ -5,8 +5,11 @@ on:
   workflow_dispatch:
 jobs:
   update-readme-with-blog:
-    name: Update my README.md with latest blog posts from Medium
+    name: Update my ${{ matrix.readme }} with latest blog posts from Hashnode
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        readme: [README.md, README_ca.md, README_es.md, README_it.md]
     steps:
       - uses: actions/checkout@v2
       - uses: gautamkrishnar/blog-post-workflow@master
