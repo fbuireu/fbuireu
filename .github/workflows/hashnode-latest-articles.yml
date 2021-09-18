@@ -18,3 +18,4 @@ jobs:
           comment_tag_name: 'HASHNODE-LATEST-ARTICLES'
           max_post_count: 5
           feed_list: "https://ferranbuireu.hashnode.dev/rss.xml"
+          commit_message: 'docs: update ${{ matrix.readme }} with latest blog posts from Hashnode'
