@@ -12,7 +12,7 @@
 <th>Also available in:</th>
  <tr><td><a href="README_ca.md"><img src="assets/images/png/flags/catalonia-flag.png" width="24" height="24" alt="Català">&#32;Català</a></td></tr>
  <tr><td><a href="README.md"><img src="assets/images/png/flags/uk-flag.png" width="24" height="24" alt="English">&#32;<img src="assets/images/png/flags/usa-flag.png" width="24" height="24" alt="English"> English</a></td></tr>
- <tr><td><a href="README_es.md"><img src=assets/images/png/flags/spain-flag.png" width="24" height="24" alt="Español">&#32;Español</a></td></tr>
+ <tr><td><a href="README_es.md"><img src="assets/images/png/flags/spain-flag.png" width="24" height="24" alt="Español">&#32;Español</a></td></tr>
  <tr><td><a href="README_it.md"><img src="assets/images/png/flags/italy-flag.png" width="24" height="24" alt="Italiano">&#32;Italiano</a></td></tr>
 </table>
 
