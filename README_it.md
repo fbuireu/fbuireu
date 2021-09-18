@@ -69,6 +69,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <!-- HASHNODE-LATEST-ARTICLES:END -->
 
 -----
+ 
+ ## My Latest GitHub Activity
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+ 
 ## More about me
 ### 🎧 My exquisite musical taste (I don't have proof, but I don’t have doubts)
 
