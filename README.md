@@ -8,7 +8,7 @@
 
 > `return true` - My code 
 -----
-<table align="right" style="padding-left: 1rem;">
+<table align="right">
 <th>Also available in:</th>
  <tr><td><a href="README_ca.md"><img src="assets/images/png/flags/catalonia-flag.png" width="24" height="24" alt="Català">&#32;Català</a></td></tr>
  <tr><td><a href="README.md"><img src="assets/images/png/flags/uk-flag.png" width="24" height="24" alt="English">&#32;<img src="assets/images/png/flags/usa-flag.png" width="24" height="24" alt="English">&#32;English</a></td></tr>

@@ -8,7 +8,7 @@
 
 > `return true` - My code 
 -----
-<table align="right" style="padding-left: 1rem;">
+<table align="right">
 <th>Also available in:</th>
  <tr><td><a href="README_ca.md"><img src="assets/images/png/flags/catalonia-flag.png" width="24" height="24" alt="Català">&#32;Català</a></td></tr>
  <tr><td><a href="README.md"><img src="assets/images/png/flags/uk-flag.png" width="24" height="24" alt="English">&#32;<img src="assets/images/png/flags/usa-flag.png" width="24" height="24" alt="English">&#32;English</a></td></tr>
@@ -29,12 +29,22 @@ overthrowing capitalism.
 ⚡ **Fun fact**: I love a challenge. That's why I run half-marathons, I play the guitar and still haven't given up on
 flipping tortillas. I know I can do it. My girlfriend disagrees.
 
-<!-- add stats, a little bit of my career CV -->
+<!-- add stats, a little bit of my career CV, title to all anchors -->
 
-### How to reach me:
-
-<a href="mailto:fbuireu@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a> <a href="https://stackoverflow.com/users/5585371/ferran-buireu?tab=profile" target="_blank"><img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow"></a> <a href="https://www.linkedin.com/in/ferran-buireu/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="https://codepen.io/fbuireu" target="_blank"><img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen"></a> <a href="https://twitter.com/fbuireu" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a> <a href="https://www.strava.com/athletes/19488414" target="_blank"><img src="https://img.shields.io/static/v1?style=for-the-badge&message=Strava&color=FC4C02&logo=Strava&logoColor=FFFFFF&label=" alt="Strava"></a> <a href="https://medium.com/@fbuireu" target="_blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
+## How to reach me:
+### Personal
+<a href="mailto:fbuireu@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Personal%20Website-1b1d1d?style=for-the-badge&logo=globe&logoColor=white" alt="Gmail"></a>
+<a href="mailto:fbuireu@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
+### Social Networks
+### Blog Platforms
+### Leisure, Music & Streaming Platforms
+ <a href="https://stackoverflow.com/users/5585371/ferran-buireu?tab=profile" target="_blank"><img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow"></a> <a href="https://www.linkedin.com/in/ferran-buireu/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="https://codepen.io/fbuireu" target="_blank"><img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen"></a> <a href="https://twitter.com/fbuireu" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a> <a href="https://www.strava.com/athletes/19488414" target="_blank"><img src="https://img.shields.io/static/v1?style=for-the-badge&message=Strava&color=FC4C02&logo=Strava&logoColor=FFFFFF&label=" alt="Strava"></a> <a href="https://medium.com/@fbuireu" target="_blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
 <a href="https://hashnode.com/@Buireu" target="_blank"><img src="https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white" alt="Dev.to"></a> <a href="https://dev.to/fbuireu" target="_blank"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to"></a>
+<a href="https://open.spotify.com/user/buireu?si=b2dfa1e6c2f649d9" target="_blank"><img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify"></a>
+<a href="https://steamcommunity.com/id/fbuireu/" target="_blank"><img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=spotify&logoColor=white" alt="Steam">
+<a href="https://www.facebook.com/ferranbuireu/" target="_blank"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook">
+<a href="https://www.codewars.com/users/fbuireu/" target="_blank"><img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=grey" alt="Codewars">
+
 
 ### Do you want personalized help? You can also find me at:
 
