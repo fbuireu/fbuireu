@@ -68,4 +68,3 @@ jobs:
           plugin_music_limit: 10
           plugin_music_user: ${{ secrets.SPOTIFY_USER }}
           plugin_music_token: "${{ secrets.SPOTIFY_CLIENT_ID }}, ${{ secrets.SPOTIFY_CLIENT_SECRET }}, ${{ secrets.SPOTIFY_REFRESH_TOKEN }}"
-          
