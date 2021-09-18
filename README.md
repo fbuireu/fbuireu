@@ -8,12 +8,12 @@
 
 > `return true` - My code 
 -----
-<table align="right">
+<table align="right" style="padding-left: 1rem;">
 <th>Also available in:</th>
- <tr><td><a href="README_ca.md"><img src="assets/images/png/flags/catalonia-flag.png" width="13" alt="Català">&#32;Català</a></td></tr>
- <tr><td><a href="README.md"><img src="assets/images/png/flags/uk-flag.png" width="13" alt="English">&#32;<img src="assets/images/png/flags/usa-flag.png" width="13" alt="English"> English</a></td></tr>
- <tr><td><a href="README_es.md"><img src=assets/images/png/flags/spain-flag.png" width="13" alt="Español">&#32;Español</a></td></tr>
- <tr><td><a href="README_it.md"><img src="assets/images/png/flags/italy-flag.png" width="13" alt="Italiano">&#32;Italiano</a></td></tr>
+ <tr><td><a href="README_ca.md"><img src="assets/images/png/flags/catalonia-flag.png" width="24" height="24" alt="Català">&#32;Català</a></td></tr>
+ <tr><td><a href="README.md"><img src="assets/images/png/flags/uk-flag.png" width="24" height="24" alt="English">&#32;<img src="assets/images/png/flags/usa-flag.png" width="24" height="24" alt="English"> English</a></td></tr>
+ <tr><td><a href="README_es.md"><img src=assets/images/png/flags/spain-flag.png" width="24" height="24" alt="Español">&#32;Español</a></td></tr>
+ <tr><td><a href="README_it.md"><img src="assets/images/png/flags/italy-flag.png" width="24" height="24" alt="Italiano">&#32;Italiano</a></td></tr>
 </table>
 
 🔭 **I’m currently working on**: got 99 projects but finishing them ain't one (for real though, I love starting stuff from
