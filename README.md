@@ -56,10 +56,8 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ### 📝 My latest Medium articles
 
  <!-- MEDIUM-LATEST-ARTICLES:START -->
-
 - [What is point-free programming?](https://fbuireu.medium.com/what-is-point-free-programming-99db1e373763?source=rss-152ec07c2b6d------2)
 - [Closures and currying](https://fbuireu.medium.com/closures-and-currying-9774676d33fa?source=rss-152ec07c2b6d------2)
-
 <!-- MEDIUM-LATEST-ARTICLES:END -->
 
 ### 📝 My latest Hashnode articles
@@ -72,6 +70,12 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
 ## My Latest GitHub Activity
 <!--START_SECTION:activity-->
+1. 🗣 Commented on [#33091](https://github.com/gatsbyjs/gatsby/issues/33091) in [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
+2. 🗣 Commented on [#6514](https://github.com/simple-icons/simple-icons/issues/6514) in [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons)
+3. ❗️ Opened issue [#6514](https://github.com/simple-icons/simple-icons/issues/6514) in [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons)
+4. 🗣 Commented on [#365](https://github.com/googleads/googleads-mobile-flutter/issues/365) in [googleads/googleads-mobile-flutter](https://github.com/googleads/googleads-mobile-flutter)
+5. ❗️ Closed issue [#365](https://github.com/googleads/googleads-mobile-flutter/issues/365) in [googleads/googleads-mobile-flutter](https://github.com/googleads/googleads-mobile-flutter)
+<!--END_SECTION:activity-->
 
 ## More about me
 ### 🎧 My exquisite music taste (I don't have proof, but I have no doubt either)
