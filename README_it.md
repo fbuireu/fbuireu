@@ -72,10 +72,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
  
  ## My Latest GitHub Activity
 <!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
  
 ## More about me
-### 🎧 My exquisite musical taste (I don't have proof, but I don’t have doubts)
+### 🎧 My exquisite music taste (I don't have proof, but I have no doubt either)
 
 ![Recently Played in Spotify](https://spotify-recently-played-readme.vercel.app/api?user=buireu)
 
