@@ -7,10 +7,14 @@ jobs:
   update-readme-with-blog:
     name: Update my README.md with latest blog posts from Hashnode
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        readme: [README.md, README_ca.md, README_es.md, README_it.md]
     steps:
       - uses: actions/checkout@v2
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
+          readme_path: ${{ matrix.readme }}
           comment_tag_name: "HASHNODE-LATEST-ARTICLES"
           max_post_count: 5
           feed_list: "https://ferranbuireu.hashnode.dev/rss.xml"
