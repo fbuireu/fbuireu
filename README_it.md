@@ -49,6 +49,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ### Do you want personalized help? You can also find me at:
 
 <a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy me a Coffe"></a>
+<a href="https://github.com/sponsors/fbuireu" target="_blank"><img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Codewars">
 
 -----
 
@@ -75,8 +76,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <details>
     <summary>Wanna see more detailed charts?</summary>
         <details>
-        <summary>Really, it's long. Are you sure?</summary>
-        <img src="https://raw.githubusercontent.com/fbuireu/fbuireu/master/assets/svg/github-metrics.svg" alt="Detailed GitHub statistics">
-        </details>
+            <summary>Really, it's long. Are you sure?</summary>
+        <details>
+            <summary>Ok. This is the last. Here it goes</summary>
+            <img src="https://raw.githubusercontent.com/fbuireu/fbuireu/master/assets/svg/github-metrics.svg" alt="Detailed GitHub statistics">
+        </details>        
+    </details>
 </details>
 
