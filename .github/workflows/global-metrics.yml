@@ -1,4 +1,4 @@
-name: Metrics
+name: Global Metrics
 on:
   schedule:
     - cron: '0 0 * * *'
