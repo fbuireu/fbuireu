@@ -68,6 +68,10 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
  <!-- HASHNODE-LATEST-ARTICLES:END -->
 
 -----
+## More about me
+### 🎧 My exquisite musical taste (I don't have proof, but I don’t have doubts)
+
+![Recently Played in Spotify](https://spotify-recently-played-readme.vercel.app/api?user=buireu)
 
 ### This is Qwerty, my contribution snake. Fed daily (almost):
 
