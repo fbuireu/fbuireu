@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
+    name: 'style: update GitHub Contribution Snake Grid'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
