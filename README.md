@@ -59,6 +59,10 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
 -----
 
+## My Latest GitHub Activity
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
 ### This is Qwerty, my contribution snake. Fed daily (almost):
 
 ![GitHub Contribution Snake Grid Animation](https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-snake-grid-animation.svg)
