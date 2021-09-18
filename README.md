@@ -54,7 +54,8 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ### 📝 My latest Hashnode articles
 
  <!-- HASHNODE-LATEST-ARTICLES:START -->
- <!-- HASHNODE-LATEST-ARTICLES:END -->
+- [What is Redux? Do I need to use it?](https://ferranbuireu.hashnode.dev/what-is-redux-do-i-need-to-use-it)
+<!-- HASHNODE-LATEST-ARTICLES:END -->
 
 -----
 
