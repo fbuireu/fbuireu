@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    name: 'docs: update ${{ matrix.readme }} with latest blog posts from Medium'
+    name: 'Update ${{ matrix.readmes }}'
     runs-on: ubuntu-latest
     strategy:
       matrix:
