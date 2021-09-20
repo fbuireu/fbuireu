@@ -1,4 +1,4 @@
-## <img src="https://github.com/fbuireu/fbuireu/blob/e1e94d68902c8ea92013ad311ee514a903db09ca/assets/gifs/waving-hand.gif?raw=true" width="30px"> Hi there, I'm a software engineer based in Barcelona
+## <img src="https://github.com/fbuireu/fbuireu/blob/master/assets/gifs/punk-horn.gif?raw=true" width="45px"> Hi there, I'm a software engineer based in Barcelona
 
 ![Walking on the React's moon](https://github.com/fbuireu/fbuireu/blob/master/assets/images/jpg/react-universe.jpg?raw=true)
 
@@ -32,17 +32,17 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <!-- add stats, a little bit of my career CV, title to all anchors -->
 
 ## 👨🏻‍💻 Check out my GitHub stats
-<font size="3">Latest Activity</font>
+### Latest Activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#33091](https://github.com/gatsbyjs/gatsby/issues/33091) in [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
-2. 🗣 Commented on [#6514](https://github.com/simple-icons/simple-icons/issues/6514) in [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons)
-3. ❗️ Opened issue [#6514](https://github.com/simple-icons/simple-icons/issues/6514) in [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons)
-4. 🗣 Commented on [#365](https://github.com/googleads/googleads-mobile-flutter/issues/365) in [googleads/googleads-mobile-flutter](https://github.com/googleads/googleads-mobile-flutter)
-5. ❗️ Closed issue [#365](https://github.com/googleads/googleads-mobile-flutter/issues/365) in [googleads/googleads-mobile-flutter](https://github.com/googleads/googleads-mobile-flutter)
+1. 💪 Opened PR [#33261](https://github.com/gatsbyjs/gatsby/pull/33261) in [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
+2. 🗣 Commented on [#33091](https://github.com/gatsbyjs/gatsby/issues/33091) in [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
+3. 🗣 Commented on [#6514](https://github.com/simple-icons/simple-icons/issues/6514) in [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons)
+4. ❗️ Opened issue [#6514](https://github.com/simple-icons/simple-icons/issues/6514) in [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons)
+5. 🗣 Commented on [#365](https://github.com/googleads/googleads-mobile-flutter/issues/365) in [googleads/googleads-mobile-flutter](https://github.com/googleads/googleads-mobile-flutter)
 <!--END_SECTION:activity-->
 
 <details>
-    <summary><font size="3">Top repositories & contributions</font></summary>
+    <summary><strong>Top repositories & contributions</strong></summary>
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=netlify-cms&theme=onedark&hide_border=true"
          alt="Netlify CMS" />
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=fbuireu&theme=onedark&hide_border=true"
@@ -51,12 +51,12 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
          alt="biancafiore" />
     <img src="https://activity-graph.herokuapp.com/graph?username=fbuireu&theme=github&bg_color=282c34&line=c3a875&point=d77077&hide_border=true"
          alt="Ferran Buireu's Monthly GitHub Contribution Grap" />
-    <img src="(https://github-readme-streak-stats.herokuapp.com/?user=fbuireu&theme=onedark&hide_border=true"
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=fbuireu&theme=onedark&hide_border=true"
          alt="Ferran Buireu's GitHub Streak" />
 </details>    
 
 <details>
-    <summary><font size="3">Languages & Stats</font></summary>
+    <summary><strong>Languages & Stats</strong></summary>
     <img src="https://github-readme-stats.vercel.app/api?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
          alt="Ferran Buireu's GitHub stats" />
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
@@ -64,16 +64,83 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 </details>
 
 <details>
-    <summary><font size="3">Trophies</font></summary>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
+    <summary><strong>Trophies</strong></summary>
+    <img src="https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark&no-frame=true"
          alt="Ferran Buireu's Top GitHub Languages" />
 </details>    
 
 ## ⌛ Check out my Wakatime stats
 <!--START_SECTION:waka-->
+**I'm an Early 🐤**
+
+```text
+🌞 Morning    47 commits     █████░░░░░░░░░░░░░░░░░░░░   22.27% 
+🌆 Daytime    101 commits    ████████████░░░░░░░░░░░░░   47.87% 
+🌃 Evening    63 commits     ███████░░░░░░░░░░░░░░░░░░   29.86% 
+🌙 Night      0 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%
+
+```
+📅 **I'm Most Productive on Monday**
+
+```text
+Monday       51 commits     ██████░░░░░░░░░░░░░░░░░░░   24.17% 
+Tuesday      26 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.32% 
+Wednesday    28 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.27% 
+Thursday     28 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.27% 
+Friday       7 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   3.32% 
+Saturday     49 commits     █████░░░░░░░░░░░░░░░░░░░░   23.22% 
+Sunday       22 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.43%
+
+```
+
+
+📊 **This Week I Spent My Time On**
+
+```text
+⌚︎ Time Zone: Europe/Madrid
+
+💬 Programming Languages: 
+Dart                     16 hrs 57 mins      █████████████████░░░░░░░░   67.78% 
+Markdown                 3 hrs 31 mins       ███░░░░░░░░░░░░░░░░░░░░░░   14.1% 
+Other                    2 hrs 15 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   9.0% 
+Objective-C              54 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.61% 
+JavaScript               35 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.37%
+
+🔥 Editors: 
+Android Studio           17 hrs 36 mins      █████████████████░░░░░░░░   70.37% 
+WebStorm                 4 hrs 11 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.72% 
+Unknown Editor           2 hrs               ██░░░░░░░░░░░░░░░░░░░░░░░   7.99% 
+Xcode                    58 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.92% 
+VS Code                  14 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   0.99%
+
+🐱‍💻 Projects: 
+Private Company Projects 18 hrs 50 mins      ██████████████████░░░░░░░   75.28% 
+fbuireu                  3 hrs 35 mins       ███░░░░░░░░░░░░░░░░░░░░░░   14.33% 
+Unknown Project          2 hrs               ██░░░░░░░░░░░░░░░░░░░░░░░   7.99% 
+biancafiore              35 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.39% 
+flutter                  0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.01%
+
+💻 Operating System: 
+Mac                      18 hrs 50 mins      ██████████████████░░░░░░░   75.29% 
+Windows                  4 hrs 11 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.72% 
+Unknown OS               2 hrs               ██░░░░░░░░░░░░░░░░░░░░░░░   7.99%
+
+```
+
+**I Mostly Code in JavaScript**
+
+```text
+JavaScript               1 repo              ████████████░░░░░░░░░░░░░   50.0% 
+Python                   1 repo              ████████████░░░░░░░░░░░░░   50.0%
+
+```
+
+
+
+Last Updated on 20/09/2021
 <!--END_SECTION:waka-->
 <details>
-    <summary><font size="3">Overall Languages</font></summary>
+    <summary><strong>Overall Languages</strong></summary>
     <img src="https://github-readme-stats.vercel.app/api/wakatime?username=fbuireu&theme=onedark&layout=compact&hide_border=true"
          alt="Wakatime Overall Languages" />
 </details>   
@@ -82,7 +149,6 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 [![Ferran Buireu's Stack Overflow Profile](https://github-readme-stackoverflow.vercel.app/?userID=5585371&theme=dark)](https://stackoverflow.com/users/5585371/ferran-buireu)
 
 -----
-
 ## 📝 Sometimes I write my dev delusions on:
 
 ### Medium
@@ -100,7 +166,12 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
 -----
 
-## How to reach me (under construction):
+## 🎧 My exquisite music taste
+<sup><sub>(I don't have proof, but I have no doubt either)</sup></sub>
+
+![Recently Played in Spotify](https://spotify-recently-played-readme.vercel.app/api?user=buireu)
+
+## 📨 How to reach me:
 ### Personal
 <a href="https://ferranbuireu.dev" target="_blank"><img src="https://img.shields.io/badge/Personal%20Website-1b1d1d?style=for-the-badge&logo=globe&logoColor=white" alt="ferranbuireu.dev"></a>
 <a href="mailto:fbuireu@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
@@ -126,15 +197,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy me a Coffe" /></a>
 <a href="https://github.com/sponsors/fbuireu" target="_blank"><img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Codewars" /></a>
 
------
+-------
 
-## 🎧 My exquisite music taste <font size="1">(I don't have proof, but I have no doubt either)</font>
-![Recently Played in Spotify](https://spotify-recently-played-readme.vercel.app/api?user=buireu)
-
-
------
-
-### This is <font color="purple">Qwerty</font>, my contribution snake. Fed daily (almost):
+### This is <span style="color: purple">Qwerty</span>, my contribution snake. Fed daily (almost):
 ![GitHub Contribution Snake Grid Animation](https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-snake-grid-animation.svg)
 
 <details>

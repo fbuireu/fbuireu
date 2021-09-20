@@ -51,7 +51,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
          alt="biancafiore" />
     <img src="https://activity-graph.herokuapp.com/graph?username=fbuireu&theme=github&bg_color=282c34&line=c3a875&point=d77077&hide_border=true"
          alt="Ferran Buireu's Monthly GitHub Contribution Grap" />
-    <img src="(https://github-readme-streak-stats.herokuapp.com/?user=fbuireu&theme=onedark&hide_border=true"
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=fbuireu&theme=onedark&hide_border=true"
          alt="Ferran Buireu's GitHub Streak" />
 </details>    
 
@@ -65,7 +65,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
 <details>
     <summary><strong>Trophies</strong></summary>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
+    <img src="https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark&no-frame=true"
          alt="Ferran Buireu's Top GitHub Languages" />
 </details>    
 
@@ -166,13 +166,12 @@ Python                   1 repo              ███████████�
 
 -----
 
-## More about me
-### 🎧 My exquisite music taste 
+## 🎧 My exquisite music taste
 <sup><sub>(I don't have proof, but I have no doubt either)</sup></sub>
 
 ![Recently Played in Spotify](https://spotify-recently-played-readme.vercel.app/api?user=buireu)
 
-## How to reach me:
+## 📨 How to reach me:
 ### Personal
 <a href="https://ferranbuireu.dev" target="_blank"><img src="https://img.shields.io/badge/Personal%20Website-1b1d1d?style=for-the-badge&logo=globe&logoColor=white" alt="ferranbuireu.dev"></a>
 <a href="mailto:fbuireu@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
