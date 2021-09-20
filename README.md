@@ -32,7 +32,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <!-- add stats, a little bit of my career CV, title to all anchors -->
 
 ## 👨🏻‍💻 Check out my GitHub stats
-<font size="3">Latest Activity</font>
+### Latest Activity
 <!--START_SECTION:activity-->
 1. 💪 Opened PR [#33261](https://github.com/gatsbyjs/gatsby/pull/33261) in [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
 2. 🗣 Commented on [#33091](https://github.com/gatsbyjs/gatsby/issues/33091) in [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
@@ -42,7 +42,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <!--END_SECTION:activity-->
 
 <details>
-    <summary><font size="3">Top repositories & contributions</font></summary>
+    <summary><strong>Top repositories & contributions</strong></summary>
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=netlify-cms&theme=onedark&hide_border=true"
          alt="Netlify CMS" />
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=fbuireu&theme=onedark&hide_border=true"
@@ -56,7 +56,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 </details>    
 
 <details>
-    <summary><font size="3">Languages & Stats</font></summary>
+    <summary><strong>Languages & Stats</strong></summary>
     <img src="https://github-readme-stats.vercel.app/api?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
          alt="Ferran Buireu's GitHub stats" />
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
@@ -64,7 +64,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 </details>
 
 <details>
-    <summary><font size="3">Trophies</font></summary>
+    <summary><strong>Trophies</strong></summary>
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
          alt="Ferran Buireu's Top GitHub Languages" />
 </details>    
@@ -140,7 +140,7 @@ Python                   1 repo              ███████████�
  Last Updated on 20/09/2021
 <!--END_SECTION:waka-->
 <details>
-    <summary><font size="3">Overall Languages</font></summary>
+    <summary><strong>Overall Languages</strong></summary>
     <img src="https://github-readme-stats.vercel.app/api/wakatime?username=fbuireu&theme=onedark&layout=compact&hide_border=true"
          alt="Wakatime Overall Languages" />
 </details>   
@@ -167,7 +167,8 @@ Python                   1 repo              ███████████�
 -----
 
 ## More about me
-### 🎧 My exquisite music taste <font size="1">(I don't have proof, but I have no doubt either)</font>
+### 🎧 My exquisite music taste 
+<sup><sub>(I don't have proof, but I have no doubt either)</sup></sub>
 
 ![Recently Played in Spotify](https://spotify-recently-played-readme.vercel.app/api?user=buireu)
 
@@ -199,8 +200,7 @@ Python                   1 repo              ███████████�
 
 -------
 
-### This is Qwerty, my contribution snake. Fed daily (almost):
-
+### This is <span style="color: purple">Qwerty</span>, my contribution snake. Fed daily (almost):
 ![GitHub Contribution Snake Grid Animation](https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-snake-grid-animation.svg)
 
 <details>
