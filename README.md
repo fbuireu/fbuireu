@@ -32,7 +32,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <!-- add stats, a little bit of my career CV, title to all anchors -->
 
 ## 👨🏻‍💻 Check out my GitHub stats
-### Latest Activity
+####Latest Activity
 <!--START_SECTION:activity-->
 1. 💪 Opened PR [#33261](https://github.com/gatsbyjs/gatsby/pull/33261) in [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
 2. 🗣 Commented on [#33091](https://github.com/gatsbyjs/gatsby/issues/33091) in [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
@@ -193,7 +193,9 @@ Python                   1 repo              ███████████�
 <a href="https://www.codewars.com/users/fbuireu/" target="_blank"><img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=grey" alt="Codewars" /></a>
 <a href="https://codepen.io/fbuireu" target="_blank"><img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen" /></a>
 
-### Do you want personalized help? You can also find me at:
+### Do you want personalized help? You can also find me at
+<a href="https://www.codementor.io/@fbuireu" target="_blank"><img src="https://img.shields.io/badge/Codementor-003648?style=for-the-badge&logo=codementor&logoColor=black" alt="Buy me a Coffe" /></a>
+<a href="https://mentorcruise.com/mentor/ferranbuireu/" target="_blank"><img src="https://img.shields.io/badge/Mentorcruise-05b197?style=for-the-badge&logo=mentorcruise&logoColor=black" alt="Buy me a Coffe" /></a>
 <a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy me a Coffe" /></a>
 <a href="https://github.com/sponsors/fbuireu" target="_blank"><img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Codewars" /></a>
 
