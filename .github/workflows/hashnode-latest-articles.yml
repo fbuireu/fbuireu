@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        readme: [README.md, README_ca.md, README_es.md, README_it.md]
+        readmes: [README.md, README_ca.md, README_es.md, README_it.md]
     steps:
       - uses: actions/checkout@v2
       - uses: gautamkrishnar/blog-post-workflow@master
@@ -18,4 +18,4 @@ jobs:
           comment_tag_name: 'HASHNODE-LATEST-ARTICLES'
           max_post_count: 5
           feed_list: "https://ferranbuireu.hashnode.dev/rss.xml"
-          commit_message: 'docs: update ${{ matrix.readme }} with latest blog posts from Hashnode'
+          commit_message: 'docs: update ${{ matrix.readmes }} with latest blog posts from Hashnode'
