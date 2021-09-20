@@ -29,7 +29,7 @@ overthrowing capitalism.
 ⚡ **Fun fact**: I love a challenge. That's why I run half-marathons, I play the guitar and still haven't given up on
 flipping tortillas. I know I can do it. My girlfriend disagrees.
 
-## 📨 How to reach me:
+## 📨 How to reach me
 ### Personal
 <a href="https://ferranbuireu.dev" target="_blank"><img src="https://img.shields.io/badge/Personal%20Website-1b1d1d?style=for-the-badge&logo=globe&logoColor=white" alt="ferranbuireu.dev"></a>
 <a href="mailto:fbuireu@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
@@ -59,7 +59,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
 -----
 
-## 📝 Sometimes I write my dev delusions on:
+## 📝 Sometimes I write my dev delusions on
 
 ### Medium
  <!-- MEDIUM-LATEST-ARTICLES:START -->
