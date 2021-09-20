@@ -83,7 +83,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ![Recently Played in Spotify](https://spotify-recently-played-readme.vercel.app/api?user=buireu)
 
 ## 👨🏻‍💻 Check out my GitHub stats
-####Latest Activity
+### Latest Activity
 <!--START_SECTION:activity-->
 1. 💪 Opened PR [#33261](https://github.com/gatsbyjs/gatsby/pull/33261) in [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
 2. 🗣 Commented on [#33091](https://github.com/gatsbyjs/gatsby/issues/33091) in [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
