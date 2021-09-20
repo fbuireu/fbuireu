@@ -5,15 +5,15 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    name: 'Update ${{ matrix.readme }}'
+    name: 'Update ${{ matrix.readmes }}'
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        readme: [README.md, README_ca.md, README_es.md, README_it.md]
+        readmes: [README.md, README_ca.md, README_es.md, README_it.md]
     steps:
       - uses: actions/checkout@v2
       - uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          COMMIT_MSG: 'docs: update ${{ matrix.readme }} with latest GitHub activity'
+          COMMIT_MSG: 'docs: update ${{ matrix.readmes }} with latest GitHub activity'
