@@ -71,20 +71,6 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
 ## ⌛ Check out my Wakatime stats
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-370-blue)
-
-**🐱 My Github Data** 
-
-> 🏆 681 Contributions in the Year 2021
- > 
-> 📦 141.4 kB Used in Github's Storage 
- > 
-> 💼 Opted to Hire
- > 
-> 📜 15 Public Repositories 
- > 
-> 🔑 0 Private Repositories  
- > 
 **I'm an Early 🐤** 
 
 ```text
@@ -149,10 +135,6 @@ Python                   1 repo              ███████████�
 
 ```
 
-
-**Timeline**
-
-![Chart not found](https://raw.githubusercontent.com/fbuireu/fbuireu/master/charts/bar_graph.png) 
 
 
  Last Updated on 20/09/2021
