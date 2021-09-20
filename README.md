@@ -34,11 +34,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 <font size="3">Latest Activity</font>
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#33091](https://github.com/gatsbyjs/gatsby/issues/33091) in [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
-2. 🗣 Commented on [#6514](https://github.com/simple-icons/simple-icons/issues/6514) in [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons)
-3. ❗️ Opened issue [#6514](https://github.com/simple-icons/simple-icons/issues/6514) in [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons)
-4. 🗣 Commented on [#365](https://github.com/googleads/googleads-mobile-flutter/issues/365) in [googleads/googleads-mobile-flutter](https://github.com/googleads/googleads-mobile-flutter)
-5. ❗️ Closed issue [#365](https://github.com/googleads/googleads-mobile-flutter/issues/365) in [googleads/googleads-mobile-flutter](https://github.com/googleads/googleads-mobile-flutter)
+1. 💪 Opened PR [#33261](https://github.com/gatsbyjs/gatsby/pull/33261) in [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
+2. 🗣 Commented on [#33091](https://github.com/gatsbyjs/gatsby/issues/33091) in [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
+3. 🗣 Commented on [#6514](https://github.com/simple-icons/simple-icons/issues/6514) in [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons)
+4. ❗️ Opened issue [#6514](https://github.com/simple-icons/simple-icons/issues/6514) in [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons)
+5. 🗣 Commented on [#365](https://github.com/googleads/googleads-mobile-flutter/issues/365) in [googleads/googleads-mobile-flutter](https://github.com/googleads/googleads-mobile-flutter)
 <!--END_SECTION:activity-->
 
 <details>
