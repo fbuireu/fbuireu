@@ -82,6 +82,8 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
 ![Recently Played in Spotify](https://spotify-recently-played-readme.vercel.app/api?user=buireu)
 
+-----
+
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
@@ -119,6 +121,8 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
     <img src="https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark&no-frame=true"
          alt="Ferran Buireu's Top GitHub Languages" />
 </details>    
+
+-----
 
 ## ⌛ Check out my Wakatime stats
 <!--START_SECTION:waka-->
@@ -199,7 +203,7 @@ Last Updated on 20/09/2021
 
 -------
 
-### If you've reached this point, you deserve to meet <span style="color: purple">Qwerty</span>, my contribution snake. Fed daily (almost):
+If you've reached this point, you deserve to meet <span style="color: purple">Qwerty</span>, my contribution snake. Fed daily (almost):
 ![GitHub Contribution Snake Grid Animation](https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-snake-grid-animation.svg)
 
 <details>
