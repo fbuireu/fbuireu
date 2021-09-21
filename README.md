@@ -7,7 +7,9 @@
 > "I am rubber, you are glue" - Guybrush Threepwood
 
 > `return true` - My code
------
+
+-------
+
 <table align="right">
 <th>Also available in:</th>
  <tr><td><a href="README_ca.md"><img src="assets/images/png/flags/catalonia-flag.png" width="24" height="24" alt="Català"/>&#32;Català</a></td></tr>
@@ -57,7 +59,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy me a Coffe" /></a>
 <a href="https://github.com/sponsors/fbuireu" target="_blank"><img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Codewars" /></a>
 
------
+-------
 
 ## 📝 Sometimes I share my dev delusions on
 
@@ -75,14 +77,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ### Stack Overflow
 [![Ferran Buireu's Stack Overflow Profile](https://github-readme-stackoverflow.vercel.app/?userID=5585371&theme=dark)](https://stackoverflow.com/users/5585371/ferran-buireu)
 
------
-
-## 🎧 My exquisite music taste
-<sup><sub>(I don't have proof, but I have no doubt either)</sup></sub>
-
-![Recently Played in Spotify](https://spotify-recently-played-readme.vercel.app/api?user=buireu)
-
------
+-------
 
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
@@ -122,7 +117,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
          alt="Ferran Buireu's Top GitHub Languages" />
 </details>    
 
------
+-------
 
 ## ⌛ Check out my Wakatime stats
 <details>
@@ -136,6 +131,13 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
     <img src="https://github-readme-stats.vercel.app/api/wakatime?username=fbuireu&theme=onedark&layout=compact&hide_border=true"
          alt="Wakatime Overall Languages" />
 </details>   
+
+-------
+
+## 🎧 My exquisite music taste
+<sup><sub>(I don't have proof, but I have no doubt either)</sup></sub>
+
+![Recently Played in Spotify](https://spotify-recently-played-readme.vercel.app/api?user=buireu)
 
 -------
 
