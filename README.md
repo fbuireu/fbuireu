@@ -63,6 +63,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <a href="https://twitter.com/fbuireu" target="_blank">
   <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
 </a>
+<a href="https://www.instagram.com/fbuireu/" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram" />
+</a>
 <a href="https://www.facebook.com/ferranbuireu/" target="_blank">
   <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook" />
 </a>
@@ -185,7 +188,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 🌙 Night      0 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%
 
 ```
-📅 **I'm Most Productive on Monday** 
+📅 **I'm Most Productive on Monday**
 
 ```text
 Monday       51 commits     ██████░░░░░░░░░░░░░░░░░░░   23.94% 
@@ -199,7 +202,7 @@ Sunday       22 commits     ██░░░░░░░░░░░░░░░�
 ```
 
 
-📊 **This Week I Spent My Time On** 
+📊 **This Week I Spent My Time On**
 
 ```text
 ⌚︎ Time Zone: Europe/Madrid
@@ -233,7 +236,7 @@ Unknown OS               2 hrs               ██░░░░░░░░░�
 ```
 
 
- Last Updated on 21/09/2021
+Last Updated on 21/09/2021
 <!--END_SECTION:waka-->
 </details>  
 
