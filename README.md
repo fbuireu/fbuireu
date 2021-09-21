@@ -20,7 +20,6 @@
     <tr>
       <td>
         <a href="README.md"><img src="assets/images/png/flags/uk-flag.png" width="24" height="24" alt="English"/>&#32;&#32;English</a>
-        <img src="https://via.placeholder.com/15/c3a875/000000?text=+" alt="You are here">
       </td>
     </tr>
     <tr>

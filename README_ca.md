@@ -15,7 +15,6 @@
     <tr>
       <td>
         <a href="README_ca.md"><img src="assets/images/png/flags/catalonia-flag.png" width="24" height="24" alt="Català"/>&#32;Català</a>
-        <img src="https://via.placeholder.com/15/c3a875/000000?text=+" alt="You are here">
       </td>
     </tr>
     <tr>

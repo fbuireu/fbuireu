@@ -30,7 +30,6 @@
     <tr>
       <td>
         <a href="README_it.md"><img src="assets/images/png/flags/italy-flag.png" width="24" height="24" alt="Italiano"/>&#32;Italiano</a>
-        <img src="https://via.placeholder.com/15/c3a875/000000?text=+" alt="You are here">
       </td>
     </tr>
 </table>
