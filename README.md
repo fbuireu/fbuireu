@@ -11,11 +11,11 @@
 -------
 
 <table align="right">
-<th>Also available in:</th>
- <tr><td><a href="README_ca.md"><img src="assets/images/png/flags/catalonia-flag.png" width="24" height="24" alt="Català"/>&#32;Català</a></td></tr>
- <tr><td><a href="README.md"><img src="assets/images/png/flags/uk-flag.png" width="24" height="24" alt="English"/>&#32;&#32;English</a></td></tr>
- <tr><td><a href="README_es.md"><img src="assets/images/png/flags/spain-flag.png" width="24" height="24" alt="Español"/>&#32;Español</a></td></tr>
- <tr><td><a href="README_it.md"><img src="assets/images/png/flags/italy-flag.png" width="24" height="24" alt="Italiano"/>&#32;Italiano</a></td></tr>
+  <th>Also available in:</th>
+    <tr><td><a href="README_ca.md"><img src="assets/images/png/flags/catalonia-flag.png" width="24" height="24" alt="Català"/>&#32;Català</a></td></tr>
+    <tr><td><a href="README.md"><img src="assets/images/png/flags/uk-flag.png" width="24" height="24" alt="English"/>&#32;&#32;English</a></td></tr>
+    <tr><td><a href="README_es.md"><img src="assets/images/png/flags/spain-flag.png" width="24" height="24" alt="Español"/>&#32;Español</a></td></tr>
+    <tr><td><a href="README_it.md"><img src="assets/images/png/flags/italy-flag.png" width="24" height="24" alt="Italiano"/>&#32;Italiano</a></td></tr>
 </table>
 
 🔭 **I’m currently working on**: got 99 projects but finishing them ain't one (for real though, I love starting stuff from
@@ -64,13 +64,13 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 📝 Sometimes I share my dev delusions on
 
 ### Medium
- <!-- MEDIUM-LATEST-ARTICLES:START -->
+<!-- MEDIUM-LATEST-ARTICLES:START -->
 - [What is point-free programming?](https://fbuireu.medium.com/what-is-point-free-programming-99db1e373763?source=rss-152ec07c2b6d------2)
 - [Closures and currying](https://fbuireu.medium.com/closures-and-currying-9774676d33fa?source=rss-152ec07c2b6d------2)
 <!-- MEDIUM-LATEST-ARTICLES:END -->
 
 ### Hashnode
- <!-- HASHNODE-LATEST-ARTICLES:START -->
+<!-- HASHNODE-LATEST-ARTICLES:START -->
 - [What is Redux? Do I need to use it?](https://ferranbuireu.hashnode.dev/what-is-redux-do-i-need-to-use-it)
 <!-- HASHNODE-LATEST-ARTICLES:END -->
 
@@ -90,52 +90,52 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <!--END_SECTION:activity-->
 
 <details>
-    <summary><strong>Top repositories & contributions</strong></summary>
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=netlify-cms&theme=onedark&hide_border=true"
-         alt="Netlify CMS" />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=fbuireu&theme=onedark&hide_border=true"
-         alt="fbuireu" />    
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=biancafiore&theme=onedark&hide_border=true"
-         alt="biancafiore" />
-    <img src="https://activity-graph.herokuapp.com/graph?username=fbuireu&theme=github&bg_color=282c34&line=c3a875&point=d77077&hide_border=true"
-         alt="Ferran Buireu's Monthly GitHub Contribution Grap" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=fbuireu&theme=onedark&hide_border=true"
-         alt="Ferran Buireu's GitHub Streak" />
+  <summary><strong>Top repositories & contributions</strong></summary>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=netlify-cms&theme=onedark&hide_border=true"
+       alt="Netlify CMS" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=fbuireu&theme=onedark&hide_border=true"
+       alt="fbuireu" />    
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=biancafiore&theme=onedark&hide_border=true"
+       alt="biancafiore" />
+  <img src="https://activity-graph.herokuapp.com/graph?username=fbuireu&theme=github&bg_color=282c34&line=c3a875&point=d77077&hide_border=true"
+       alt="Ferran Buireu's Monthly GitHub Contribution Grap" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fbuireu&theme=onedark&hide_border=true"
+       alt="Ferran Buireu's GitHub Streak" />
 </details>    
 
 <details>
-    <summary><strong>Languages & Stats</strong></summary>
-    <img src="https://github-readme-stats.vercel.app/api?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
-         alt="Ferran Buireu's GitHub stats" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
-         alt="Ferran Buireu's Top GitHub Languages" />
+  <summary><strong>Languages & Stats</strong></summary>
+  <img src="https://github-readme-stats.vercel.app/api?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
+       alt="Ferran Buireu's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
+       alt="Ferran Buireu's Top GitHub Languages" />
 </details>
 
 <details>
-    <summary><strong>Trophies</strong></summary>
-    <img src="https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark&no-frame=true"
-         alt="Ferran Buireu's Top GitHub Languages" />
+  <summary><strong>Trophies</strong></summary>
+  <img src="https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark&no-frame=true"
+       alt="Ferran Buireu's Top GitHub Languages" />
 </details>    
 
 -------
 
 ## ⌛ Check out my Wakatime stats
 <details>
-    <summary><strong>Weekly stats</strong></summary>
-   <!--START_SECTION:waka-->
-   <!--END_SECTION:waka-->
+  <summary><strong>Weekly stats</strong></summary>
+  <!--START_SECTION:waka-->
+  <!--END_SECTION:waka-->
 </details>  
 
 <details>
-    <summary><strong>Overall Languages</strong></summary>
-    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=fbuireu&theme=onedark&layout=compact&hide_border=true"
-         alt="Wakatime Overall Languages" />
+  <summary><strong>Overall Languages</strong></summary>
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=fbuireu&theme=onedark&layout=compact&hide_border=true"
+       alt="Wakatime Overall Languages" />
 </details>   
 
 -------
 
 ## 🎧 My exquisite music taste
-<sup><sub>(I don't have proof, but I have no doubt either)</sup></sub>
+<sup><sub>(I don't have proof, but I have no doubt either)</sub></sup>
 
 ![Recently Played in Spotify](https://spotify-recently-played-readme.vercel.app/api?user=buireu)
 
@@ -145,13 +145,13 @@ If you've reached this point, you deserve to meet <span style="color: purple">Qw
 ![GitHub Contribution Snake Grid Animation](https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-snake-grid-animation.svg)
 
 <details>
-    <summary>Wanna see more detailed charts?</summary>
-        <details>
-            <summary>Really, it's long. Are you sure?</summary>
-        <details>
-            <summary>Ok. This is the last. Here it goes</summary>
-            <img src="https://raw.githubusercontent.com/fbuireu/fbuireu/master/assets/svg/github-metrics.svg"
-                 alt="Detailed GitHub statistics" />
-        </details>        
-    </details>
+  <summary>Wanna see more detailed charts?</summary>
+  <details>
+    <summary>Really, it's long. Are you sure?</summary>
+    <details>
+      <summary>Ok. This is the last. Here it goes</summary>
+      <img src="https://raw.githubusercontent.com/fbuireu/fbuireu/master/assets/svg/github-metrics.svg"
+           alt="Detailed GitHub statistics" />
+    </details>        
+  </details>
 </details>
