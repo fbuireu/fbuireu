@@ -43,7 +43,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <a href="https://medium.com/@fbuireu" target="_blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
 <a href="https://dev.to/fbuireu" target="_blank"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to" /></a>
 
-### Leisure, Music
+### Leisure & Music
 <a href="https://stackoverflow.com/users/5585371/ferran-buireu?tab=profile" target="_blank"><img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow" /></a>
 <a href="https://www.strava.com/athletes/19488414" target="_blank"><img src="https://img.shields.io/static/v1?style=for-the-badge&message=Strava&color=FC4C02&logo=Strava&logoColor=FFFFFF&label=" alt="Strava" /></a>
 <a href="https://open.spotify.com/user/buireu?si=b2dfa1e6c2f649d9" target="_blank"><img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" /></a>
@@ -125,75 +125,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 -----
 
 ## ⌛ Check out my Wakatime stats
-<!--START_SECTION:waka-->
-**I'm an Early 🐤**
-
-```text
-🌞 Morning    47 commits     █████░░░░░░░░░░░░░░░░░░░░   22.27% 
-🌆 Daytime    101 commits    ████████████░░░░░░░░░░░░░   47.87% 
-🌃 Evening    63 commits     ███████░░░░░░░░░░░░░░░░░░   29.86% 
-🌙 Night      0 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%
-
-```
-📅 **I'm Most Productive on Monday**
-
-```text
-Monday       51 commits     ██████░░░░░░░░░░░░░░░░░░░   24.17% 
-Tuesday      26 commits     ███░░░░░░░░░░░░░░░░░░░░░░   12.32% 
-Wednesday    28 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.27% 
-Thursday     28 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.27% 
-Friday       7 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   3.32% 
-Saturday     49 commits     █████░░░░░░░░░░░░░░░░░░░░   23.22% 
-Sunday       22 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.43%
-
-```
-
-
-📊 **This Week I Spent My Time On**
-
-```text
-⌚︎ Time Zone: Europe/Madrid
-
-💬 Programming Languages: 
-Dart                     16 hrs 57 mins      █████████████████░░░░░░░░   67.78% 
-Markdown                 3 hrs 31 mins       ███░░░░░░░░░░░░░░░░░░░░░░   14.1% 
-Other                    2 hrs 15 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   9.0% 
-Objective-C              54 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.61% 
-JavaScript               35 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.37%
-
-🔥 Editors: 
-Android Studio           17 hrs 36 mins      █████████████████░░░░░░░░   70.37% 
-WebStorm                 4 hrs 11 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.72% 
-Unknown Editor           2 hrs               ██░░░░░░░░░░░░░░░░░░░░░░░   7.99% 
-Xcode                    58 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.92% 
-VS Code                  14 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   0.99%
-
-🐱‍💻 Projects: 
-Private Company Projects 18 hrs 50 mins      ██████████████████░░░░░░░   75.28% 
-fbuireu                  3 hrs 35 mins       ███░░░░░░░░░░░░░░░░░░░░░░   14.33% 
-Unknown Project          2 hrs               ██░░░░░░░░░░░░░░░░░░░░░░░   7.99% 
-biancafiore              35 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.39% 
-flutter                  0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.01%
-
-💻 Operating System: 
-Mac                      18 hrs 50 mins      ██████████████████░░░░░░░   75.29% 
-Windows                  4 hrs 11 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.72% 
-Unknown OS               2 hrs               ██░░░░░░░░░░░░░░░░░░░░░░░   7.99%
-
-```
-
-**I Mostly Code in JavaScript**
-
-```text
-JavaScript               1 repo              ████████████░░░░░░░░░░░░░   50.0% 
-Python                   1 repo              ████████████░░░░░░░░░░░░░   50.0%
-
-```
-
-
-
-Last Updated on 20/09/2021
-<!--END_SECTION:waka-->
+<details>
+    <summary><strong>Weekly stats</strong></summary>
+   <!--START_SECTION:waka-->
+   <!--END_SECTION:waka-->
+</details>  
 
 <details>
     <summary><strong>Overall Languages</strong></summary>
