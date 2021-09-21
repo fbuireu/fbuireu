@@ -1,11 +1,11 @@
 name: Global Metrics
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: 0 0 * * *
   workflow_dispatch:
 jobs:
   build:
-    name: 'Update GitHub Metrics Assets'
+    name: Update GitHub Metrics Assets
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
