@@ -1,15 +1,15 @@
 name: Wakatime stats
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: 0 0 * * *
   workflow_dispatch:
 jobs:
   build:
-    name: 'Update ${{ matrix.readmes }}'
+    name: Update ${{ matrix.readme }}
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        readmes: [README.md, README_ca.md, README_es.md, README_it.md]
+        readme: [README.md, README_ca.md, README_es.md, README_it.md]
     steps:
       - uses: anmol098/waka-readme-stats@master
         with:
