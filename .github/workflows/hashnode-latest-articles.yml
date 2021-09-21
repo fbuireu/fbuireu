@@ -1,11 +1,11 @@
 name: Hashnode Latest Articles
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: 0 0 * * *
   workflow_dispatch:
 jobs:
   build:
-    name: 'Update ${{ matrix.readme }}'
+    name: Update ${{ matrix.readme }}
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -15,7 +15,7 @@ jobs:
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
           readme_path: ${{ matrix.readme }}
-          comment_tag_name: 'HASHNODE-LATEST-ARTICLES'
+          comment_tag_name: HASHNODE-LATEST-ARTICLES
           max_post_count: 5
-          feed_list: "https://ferranbuireu.hashnode.dev/rss.xml"
+          feed_list: https://ferranbuireu.hashnode.dev/rss.xml
           commit_message: 'docs: update ${{ matrix.readme }} with latest Hashnode articles'
