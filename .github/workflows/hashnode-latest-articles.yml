@@ -5,17 +5,17 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    name: 'Update ${{ matrix.readmes }}'
+    name: 'Update ${{ matrix.readme }}'
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        readmes: [README.md, README_ca.md, README_es.md, README_it.md]
+        readme: [README.md, README_ca.md, README_es.md, README_it.md]
     steps:
       - uses: actions/checkout@v2
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
-          readme_path: ${{ matrix.readmes }}
+          readme_path: ${{ matrix.readme }}
           comment_tag_name: 'HASHNODE-LATEST-ARTICLES'
           max_post_count: 5
           feed_list: "https://ferranbuireu.hashnode.dev/rss.xml"
-          commit_message: 'docs: update ${{ matrix.readmes }} with latest Hashnode articles'
+          commit_message: 'docs: update ${{ matrix.readme }} with latest Hashnode articles'
