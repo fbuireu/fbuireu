@@ -1,4 +1,4 @@
-name: Wakatime stats
+name: Wakatime Stats
 on:
   schedule:
     - cron: 0 0 * * *
