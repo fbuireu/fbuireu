@@ -21,7 +21,7 @@
       <td>
         <a href="README.md"><img src="assets/images/png/flags/uk-flag.png" width="24" height="24" alt="English"/>
           &#32;&#32;English
-        <img src="https://github.com/fbuireu/fbuireu/blob/master/assets/images/png/icons/pin.png?raw=true" width="24" alt="You are here" />
+        <img src="https://github.com/fbuireu/fbuireu/blob/master/assets/images/png/icons/pin-icon.png?raw=true" width="24" alt="You are here" />
         </a>
       </td>
     </tr>
