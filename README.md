@@ -1,6 +1,6 @@
 # <img src="https://github.com/fbuireu/fbuireu/blob/master/assets/images/gifs/punk-horn.gif?raw=true" width="45px"> Hi there, I'm a software engineer based in Barcelona
 
-![Walking on the React's moon](https://github.com/fbuireu/fbuireu/blob/master/assets/images/jpg/react-universe.jpg?raw=true)
+![Walking on the React's moon](https://github.com/fbuireu/fbuireu/blob/master/assets/images/jpg/developer-coffee.jpg?raw=true)
 
 > "Lock up your libraries if you like; but there is no gate, no lock, no bolt that you can set upon the freedom of my mind." - Virginia Woolf
 
