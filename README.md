@@ -1,4 +1,4 @@
-# <img src="https://github.com/fbuireu/fbuireu/blob/master/assets/gifs/punk-horn.gif?raw=true" width="45px"> Hi there, I'm a software engineer based in Barcelona
+# <img src="https://github.com/fbuireu/fbuireu/blob/master/assets/images/gifs/punk-horn.gif?raw=true" width="45px"> Hi there, I'm a software engineer based in Barcelona
 
 ![Walking on the React's moon](https://github.com/fbuireu/fbuireu/blob/master/assets/images/jpg/react-universe.jpg?raw=true)
 
