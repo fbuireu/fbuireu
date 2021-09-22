@@ -15,7 +15,7 @@
     <tr>
       <td>
         <a href="README_ca.md">
-          <img src="assets/images/png/flags/catalonia-flag.png" width="24" height="24" alt="Català"/>
+          <img src="assets/images/png/flags/catalonia.png" width="24" height="24" alt="Català"/>
           <span>Català</span>
         </a>
       </td>
@@ -23,16 +23,16 @@
     <tr>
       <td>
         <a href="README.md">
-          <img src="assets/images/png/flags/uk-flag.png" width="24" height="24" alt="English"/>
+          <img src="assets/images/png/flags/uk.png" width="24" height="24" alt="English"/>
           <span>English</span>
-          <img src="assets/images/png/icons/pin-icon.png" width="24" alt="You are here" />
+          <img src="assets/images/png/icons/pin.png" width="18" alt="You are here" />
         </a>
       </td>
     </tr>
     <tr>
       <td>
         <a href="README_es.md">
-          <img src="assets/images/png/flags/spain-flag.png" width="24" height="24" alt="Español"/>
+          <img src="assets/images/png/flags/spain.png" width="24" height="24" alt="Español"/>
           <span>Español</span>
         </a>
       </td>
@@ -40,7 +40,7 @@
     <tr>
       <td>
         <a href="README_it.md">
-          <img src="assets/images/png/flags/italy-flag.png" width="24" height="24" alt="Italiano"/>
+          <img src="assets/images/png/flags/italy.png" width="24" height="24" alt="Italiano"/>
           <span>Italiano</span>
         </a>
       </td>
@@ -171,7 +171,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 </details>
 
 <details>
-  <summary><strong>Top Contributions & Streak</strrong></summary>
+  <summary><strong>Top Contributions & Streak</strong></summary>
   <a href="https://github.com/gatsbyjs/gatsby/pull/33261" target="__blank">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=gatsby&theme=onedark&hide_border=true"
        alt="Gatsby" />
