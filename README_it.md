@@ -14,22 +14,35 @@
   <th>Also available in:</th>
     <tr>
       <td>
-        <a href="README_ca.md"><img src="assets/images/png/flags/catalonia-flag.png" width="24" height="24" alt="Català"/>&#32;Català</a>
+        <a href="README_ca.md">
+          <img src="assets/images/png/flags/catalonia.png" width="24" height="24" alt="Català"/>
+          <span>Català</span>
+        </a>
       </td>
     </tr>
     <tr>
       <td>
-        <a href="README.md"><img src="assets/images/png/flags/uk-flag.png" width="24" height="24" alt="English"/>&#32;&#32;English</a>
+        <a href="README.md">
+          <img src="assets/images/png/flags/uk.png" width="24" height="24" alt="English"/>
+          <span>English</span>
+        </a>
       </td>
     </tr>
     <tr>
       <td>
-        <a href="README_es.md"><img src="assets/images/png/flags/spain-flag.png" width="24" height="24" alt="Español"/>&#32;Español</a>
+        <a href="README_es.md">
+          <img src="assets/images/png/flags/spain.png" width="24" height="24" alt="Español"/>
+          <span>Español</span>
+        </a>
       </td>
     </tr>
     <tr>
       <td>
-        <a href="README_it.md"><img src="assets/images/png/flags/italy-flag.png" width="24" height="24" alt="Italiano"/>&#32;Italiano</a>
+        <a href="README_it.md">
+          <img src="assets/images/png/flags/italy.png" width="24" height="24" alt="Italiano"/>
+          <span>Italiano</span>
+          <img src="assets/images/png/icons/pin.png" width="18" alt="You are here" />
+        </a>
       </td>
     </tr>
 </table>
@@ -146,13 +159,27 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <!--END_SECTION:activity-->
 
 <details>
-  <summary><strong>Top repositories & contributions</strong></summary>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=netlify-cms&theme=onedark&hide_border=true"
-       alt="Netlify CMS" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=fbuireu&theme=onedark&hide_border=true"
-       alt="fbuireu" />    
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=biancafiore&theme=onedark&hide_border=true"
-       alt="biancafiore" />
+  <summary><strong>Top repositories</strong></summary>
+  <a href="https://github.com/fbuireu/fbuireu" target="__blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=fbuireu&theme=onedark&hide_border=true"
+         alt="fbuireu" />    
+  </a>
+  <a href="https://github.com/fbuireu/biancafiore" target="__blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=biancafiore&theme=onedark&hide_border=true"
+         alt="biancafiore" />
+  </a>
+</details>
+
+<details>
+  <summary><strong>Top Contributions & Streak</strong></summary>
+  <a href="https://github.com/gatsbyjs/gatsby/pull/33261" target="__blank">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=gatsby&theme=onedark&hide_border=true"
+       alt="Gatsby" />
+  </a>
+  <a href="https://github.com/netlify/netlify-cms/pull/3412" target="__blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=netlify-cms&theme=onedark&hide_border=true"
+         alt="Netlify CMS" />
+  </a>
   <img src="https://activity-graph.herokuapp.com/graph?username=fbuireu&theme=github&bg_color=282c34&line=c3a875&point=d77077&hide_border=true"
        alt="Ferran Buireu's Monthly GitHub Contribution Grap" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=fbuireu&theme=onedark&hide_border=true"
@@ -178,26 +205,27 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## ⌛ Check out my Wakatime stats
 <details>
   <summary><strong>Weekly stats</strong></summary>
+
   <!--START_SECTION:waka-->
-**I'm an Early 🐤** 
+**I'm an Early 🐤**
 
 ```text
-🌞 Morning    45 commits     █████░░░░░░░░░░░░░░░░░░░░   21.13% 
-🌆 Daytime    107 commits    ████████████░░░░░░░░░░░░░   50.23% 
-🌃 Evening    61 commits     ███████░░░░░░░░░░░░░░░░░░   28.64% 
+🌞 Morning    35 commits     ████░░░░░░░░░░░░░░░░░░░░░   16.28% 
+🌆 Daytime    116 commits    █████████████░░░░░░░░░░░░   53.95% 
+🌃 Evening    64 commits     ███████░░░░░░░░░░░░░░░░░░   29.77% 
 🌙 Night      0 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%
 
 ```
 📅 **I'm Most Productive on Monday**
 
 ```text
-Monday       51 commits     ██████░░░░░░░░░░░░░░░░░░░   23.94% 
-Tuesday      38 commits     ████░░░░░░░░░░░░░░░░░░░░░   17.84% 
-Wednesday    24 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   11.27% 
-Thursday     22 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.33% 
-Friday       7 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   3.29% 
-Saturday     49 commits     █████░░░░░░░░░░░░░░░░░░░░   23.0% 
-Sunday       22 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.33%
+Monday       51 commits     ██████░░░░░░░░░░░░░░░░░░░   23.72% 
+Tuesday      43 commits     █████░░░░░░░░░░░░░░░░░░░░   20.0% 
+Wednesday    36 commits     ████░░░░░░░░░░░░░░░░░░░░░   16.74% 
+Thursday     22 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.23% 
+Friday       7 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   3.26% 
+Saturday     40 commits     ████░░░░░░░░░░░░░░░░░░░░░   18.6% 
+Sunday       16 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   7.44%
 
 ```
 
@@ -208,35 +236,35 @@ Sunday       22 commits     ██░░░░░░░░░░░░░░░�
 ⌚︎ Time Zone: Europe/Madrid
 
 💬 Programming Languages: 
-Dart                     14 hrs 44 mins      ██████████████░░░░░░░░░░░   57.35% 
-Markdown                 5 hrs 36 mins       █████░░░░░░░░░░░░░░░░░░░░   21.85% 
-Other                    2 hrs 31 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   9.81% 
-Objective-C              1 hr 24 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   5.51% 
-YAML                     35 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.31%
+Dart                     13 hrs 29 mins      █████████████░░░░░░░░░░░░   52.39% 
+Markdown                 6 hrs 20 mins       ██████░░░░░░░░░░░░░░░░░░░   24.64% 
+Other                    2 hrs 25 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   9.39% 
+Objective-C              1 hr 14 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   4.8% 
+JavaScript               1 hr 12 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   4.68%
 
 🔥 Editors: 
-Android Studio           15 hrs 37 mins      ███████████████░░░░░░░░░░   60.77% 
-WebStorm                 6 hrs 16 mins       ██████░░░░░░░░░░░░░░░░░░░   24.4% 
-Unknown Editor           2 hrs               ██░░░░░░░░░░░░░░░░░░░░░░░   7.78% 
-Xcode                    1 hr 33 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   6.09% 
-VS Code                  14 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   0.96%
+Android Studio           14 hrs 23 mins      ██████████████░░░░░░░░░░░   55.89% 
+WebStorm                 8 hrs 5 mins        ███████░░░░░░░░░░░░░░░░░░   31.4% 
+Unknown Editor           2 hrs               ██░░░░░░░░░░░░░░░░░░░░░░░   7.77% 
+Xcode                    1 hr 16 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   4.94% 
+VS Code                  0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%
 
 🐱‍💻 Projects: 
-Private Company Projects 17 hrs 25 mins      █████████████████░░░░░░░░   67.81% 
-fbuireu                  5 hrs 40 mins       █████░░░░░░░░░░░░░░░░░░░░   22.07% 
-Unknown Project          2 hrs               ██░░░░░░░░░░░░░░░░░░░░░░░   7.78% 
-biancafiore              35 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.33% 
-flutter                  0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.01%
+Private Company Projects 15 hrs 39 mins      ███████████████░░░░░░░░░░   60.83% 
+fbuireu                  6 hrs 24 mins       ██████░░░░░░░░░░░░░░░░░░░   24.86% 
+Unknown Project          2 hrs               ██░░░░░░░░░░░░░░░░░░░░░░░   7.77% 
+febsv2                   1 hr 21 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   5.29% 
+biancafiore              19 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   1.25%
 
 💻 Operating System: 
-Mac                      17 hrs 25 mins      █████████████████░░░░░░░░   67.82% 
-Windows                  6 hrs 16 mins       ██████░░░░░░░░░░░░░░░░░░░   24.4% 
-Unknown OS               2 hrs               ██░░░░░░░░░░░░░░░░░░░░░░░   7.78%
+Mac                      15 hrs 40 mins      ███████████████░░░░░░░░░░   60.83% 
+Windows                  8 hrs 5 mins        ███████░░░░░░░░░░░░░░░░░░   31.4% 
+Unknown OS               2 hrs               ██░░░░░░░░░░░░░░░░░░░░░░░   7.77%
 
 ```
 
 
-Last Updated on 21/09/2021
+Last Updated on 22/09/2021
 <!--END_SECTION:waka-->
 </details>  
 
@@ -264,8 +292,7 @@ If you've reached this point, you deserve to meet <span style="color: purple">Qw
     <summary>Really, it's long. Are you sure?</summary>
     <details>
       <summary>Ok. This is the last. Here it goes</summary>
-      <img src="https://raw.githubusercontent.com/fbuireu/fbuireu/master/assets/svg/github-metrics.svg"
-           alt="Detailed GitHub statistics" />
+      <img src="assets/images/svg/github-metrics.svg" alt="Detailed GitHub statistics" />
     </details>        
   </details>
 </details>
