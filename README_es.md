@@ -299,10 +299,10 @@ If you've reached this point, you deserve to meet <span style="color: purple">Qw
 
 -------
 
-## Debug
+## ⚠️ Debug
 [![GitHub Activity](https://github.com/fbuireu/fbuireu/actions/workflows/github-activity.yml/badge.svg?style=flat-square)](https://github.com/fbuireu/fbuireu/actions/workflows/github-activity.yml)
 [![Global Metrics](https://github.com/fbuireu/fbuireu/actions/workflows/global-metrics.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/global-metrics.yml)
 [![Hashnode Latest Articles](https://github.com/fbuireu/fbuireu/actions/workflows/hashnode-latest-articles.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/hashnode-latest-articles.yml)
 [![Medium Latest Articles](https://github.com/fbuireu/fbuireu/actions/workflows/medium-latest-articles.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/medium-latest-articles.yml)
 [![Snake Grid Animation](https://github.com/fbuireu/fbuireu/actions/workflows/snake-animation.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/snake-animation.yml)
-[![Wakatime stats](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml)
+[![Wakatime Stats](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml)
