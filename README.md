@@ -146,13 +146,27 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <!--END_SECTION:activity-->
 
 <details>
-  <summary><strong>Top repositories & contributions</strong></summary>
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=netlify-cms&theme=onedark&hide_border=true"
-       alt="Netlify CMS" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=fbuireu&theme=onedark&hide_border=true"
-       alt="fbuireu" />    
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=biancafiore&theme=onedark&hide_border=true"
-       alt="biancafiore" />
+  <summary><strong>Top repositories</strong></summary>
+  <a href="https://github.com/fbuireu/fbuireu" target="__blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=fbuireu&theme=onedark&hide_border=true"
+         alt="fbuireu" />    
+  </a>
+  <a href="https://github.com/fbuireu/biancafiore" target="__blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=biancafiore&theme=onedark&hide_border=true"
+         alt="biancafiore" />
+  </a>
+</details>
+
+<details>
+  <summary><strong>Top Contributions & Streak</strrong></summary>
+  <a href="https://github.com/gatsbyjs/gatsby/pull/33261" target="__blank">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=gatsby&theme=onedark&hide_border=true"
+       alt="Gatsby" />
+  </a>
+  <a href="https://github.com/netlify/netlify-cms/pull/3412" target="__blank">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=netlify-cms&theme=onedark&hide_border=true"
+         alt="Netlify CMS" />
+  </a>
   <img src="https://activity-graph.herokuapp.com/graph?username=fbuireu&theme=github&bg_color=282c34&line=c3a875&point=d77077&hide_border=true"
        alt="Ferran Buireu's Monthly GitHub Contribution Grap" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=fbuireu&theme=onedark&hide_border=true"
