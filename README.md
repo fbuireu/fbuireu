@@ -14,25 +14,35 @@
   <th>Also available in:</th>
     <tr>
       <td>
-        <a href="README_ca.md"><img src="assets/images/png/flags/catalonia-flag.png" width="24" height="24" alt="Català"/>&#32;Català</a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="README.md"><img src="assets/images/png/flags/uk-flag.png" width="24" height="24" alt="English"/>
-          &#32;&#32;English
-        <img src="https://github.com/fbuireu/fbuireu/blob/master/assets/images/png/icons/pin-icon.png?raw=true" width="24" alt="You are here" />
+        <a href="README_ca.md">
+          <img src="assets/images/png/flags/catalonia-flag.png" width="24" height="24" alt="Català"/>
+          <span>Català</span>
         </a>
       </td>
     </tr>
     <tr>
       <td>
-        <a href="README_es.md"><img src="assets/images/png/flags/spain-flag.png" width="24" height="24" alt="Español"/>&#32;Español</a>
+        <a href="README.md">
+          <img src="assets/images/png/flags/uk-flag.png" width="24" height="24" alt="English"/>
+          <span>English</span>
+          <img src="assets/images/png/icons/pin-icon.png" width="24" alt="You are here" />
+        </a>
       </td>
     </tr>
     <tr>
       <td>
-        <a href="README_it.md"><img src="assets/images/png/flags/italy-flag.png" width="24" height="24" alt="Italiano"/>&#32;Italiano</a>
+        <a href="README_es.md">
+          <img src="assets/images/png/flags/spain-flag.png" width="24" height="24" alt="Español"/>
+          <span>Español</span>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="README_it.md">
+          <img src="assets/images/png/flags/italy-flag.png" width="24" height="24" alt="Italiano"/>
+          <span>Italiano</span>
+        </a>
       </td>
     </tr>
 </table>
