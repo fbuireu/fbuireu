@@ -205,6 +205,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## ⌛ Check out my Wakatime stats
 <details>
   <summary><strong>Weekly stats</strong></summary>
+
   <!--START_SECTION:waka-->
 **I'm an Early 🐤** 
 
