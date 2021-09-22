@@ -20,6 +20,7 @@
     <tr>
       <td>
         <a href="README.md"><img src="assets/images/png/flags/uk-flag.png" width="24" height="24" alt="English"/>&#32;&#32;English</a>
+        <img src="https://cdn-icons-png.flaticon.com/512/3603/3603850.png" width="24" alt="You are here" />
       </td>
     </tr>
     <tr>
