@@ -291,7 +291,7 @@ If you've reached this point, you deserve to meet <span style="color: purple">Qw
     <summary>Really, it's long. Are you sure?</summary>
     <details>
       <summary>Ok. This is the last. Here it goes</summary>
-      <img src="https://raw.githubusercontent.com/fbuireu/fbuireu/master/assets/svg/github-metrics.svg"
+      <img src="https://raw.githubusercontent.com/fbuireu/fbuireu/master/images/assets/svg/github-metrics.svg"
            alt="Detailed GitHub statistics" />
     </details>        
   </details>
