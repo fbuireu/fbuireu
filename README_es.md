@@ -47,6 +47,8 @@
     </tr>
 </table>
 
+👦🏻 **Pronouns**: He/Him
+
 🔭 **I’m currently working on**: got 99 projects but finishing them ain't one (for real though, I love starting stuff from
 scratch and fresh ideas).
 
