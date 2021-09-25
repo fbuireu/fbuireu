@@ -112,14 +112,17 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <a href="https://codepen.io/fbuireu" target="_blank">
   <img src="https://img.shields.io/badge/codepen-ffffff?style=for-the-badge&logo=codepen&logoColor=000000" alt="CodePen" />
 </a>
-<a href="https://www.codewars.com/users/fbuireu/" target="_blank">
+<a href="https://codesandbox.io/u/fbuireu" target="_blank">
   <img src="https://img.shields.io/badge/codesandbox-040404?style=for-the-badge&logo=codesandbox&logoColor=DBDBDB" alt="CodeSandbox" />
 </a>
-<a href="https://www.codewars.com/users/fbuireu/" target="_blank">
+<a href="https://app.codesignal.com/profile/fbuireu/" target="_blank">
   <img src="https://img.shields.io/badge/codesignal-33485f?style=for-the-badge&logo=codesignal&logoColor=grey" alt="CodeSignal" />
 </a>
 <a href="https://www.codewars.com/users/fbuireu/" target="_blank">
-  <img src="https://img.shields.io/badge/codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=grey" alt="Codewars" />
+  <img src="https://img.shields.io/badge/codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=808080" alt="Codewars" />
+</a>
+<a href="https://www.hackerrank.com/fbuireu" target="_blank">
+  <img src="https://img.shields.io/badge/hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=ffffff" alt="Hackerrank" />
 </a>
 
 ### Do you want personalized help? You can also find me at
@@ -132,28 +135,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank">
   <img src="https://img.shields.io/badge/buy_me_a_coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000" alt="Buy me a Coffe" />
 </a>
-
 <a href="https://github.com/sponsors/fbuireu" target="_blank">
   <img src="https://img.shields.io/badge/gitHub%20sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=ffffff" alt="GitHub Sponsors" />
 </a>
-
--------
-
-## 📝 Sometimes I share my dev delusions on
-
-### Medium
-<!-- MEDIUM-LATEST-ARTICLES:START -->
-- [What is point-free programming?](https://fbuireu.medium.com/what-is-point-free-programming-99db1e373763?source=rss-152ec07c2b6d------2)
-- [Closures and currying](https://fbuireu.medium.com/closures-and-currying-9774676d33fa?source=rss-152ec07c2b6d------2)
-<!-- MEDIUM-LATEST-ARTICLES:END -->
-
-### Hashnode
-<!-- HASHNODE-LATEST-ARTICLES:START -->
-- [What is Redux? Do I need to use it?](https://ferranbuireu.hashnode.dev/what-is-redux-do-i-need-to-use-it)
-<!-- HASHNODE-LATEST-ARTICLES:END -->
-
-### Stack Overflow
-[![Ferran Buireu's Stack Overflow Profile](https://github-readme-stackoverflow.vercel.app/?userID=5585371&theme=dark)](https://stackoverflow.com/users/5585371/ferran-buireu)
 
 -------
 
