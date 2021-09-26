@@ -162,11 +162,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#226](https://github.com/anmol098/waka-readme-stats/issues/226) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-2. ❗️ Opened issue [#228](https://github.com/anmol098/waka-readme-stats/issues/228) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-3. 💪 Opened PR [#5836](https://github.com/netlify/netlify-cms/pull/5836) in [netlify/netlify-cms](https://github.com/netlify/netlify-cms)
-4. 💪 Opened PR [#227](https://github.com/anmol098/waka-readme-stats/pull/227) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-5. ❌ Closed PR [#392](https://github.com/fbuireu/biancafiore/pull/392) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+1. ❗️ Opened issue [#6598](https://github.com/simple-icons/simple-icons/issues/6598) in [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons)
+2. 🗣 Commented on [#226](https://github.com/anmol098/waka-readme-stats/issues/226) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
+3. ❗️ Opened issue [#228](https://github.com/anmol098/waka-readme-stats/issues/228) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
+4. 💪 Opened PR [#5836](https://github.com/netlify/netlify-cms/pull/5836) in [netlify/netlify-cms](https://github.com/netlify/netlify-cms)
+5. 💪 Opened PR [#227](https://github.com/anmol098/waka-readme-stats/pull/227) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
 <!--END_SECTION:activity-->
 
 <details>
@@ -222,8 +222,8 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
 ```text
 🌞 Morning    47 commits     █████░░░░░░░░░░░░░░░░░░░░   21.86% 
-🌆 Daytime    101 commits    ███████████░░░░░░░░░░░░░░   46.98% 
-🌃 Evening    67 commits     ███████░░░░░░░░░░░░░░░░░░   31.16% 
+🌆 Daytime    103 commits    ████████████░░░░░░░░░░░░░   47.91% 
+🌃 Evening    65 commits     ███████░░░░░░░░░░░░░░░░░░   30.23% 
 🌙 Night      0 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%
 
 ```
@@ -247,35 +247,35 @@ Sunday       16 commits     █░░░░░░░░░░░░░░░░�
 ⌚︎ Time Zone: Europe/Madrid
 
 💬 Programming Languages: 
-Markdown                 6 hrs 44 mins       ██████████░░░░░░░░░░░░░░░   40.98% 
-Dart                     5 hrs 50 mins       █████████░░░░░░░░░░░░░░░░   35.56% 
-Other                    1 hr 26 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   8.72% 
-JavaScript               57 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   5.83% 
-Objective-C              30 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.13%
+Dart                     5 hrs 50 mins       ██████████░░░░░░░░░░░░░░░   40.59% 
+Markdown                 4 hrs 46 mins       ████████░░░░░░░░░░░░░░░░░   33.11% 
+Other                    1 hr 26 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   9.95% 
+JavaScript               57 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   6.66% 
+Objective-C              30 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.58%
 
 🔥 Editors: 
-WebStorm                 8 hrs 17 mins       ████████████░░░░░░░░░░░░░   50.42% 
-Android Studio           6 hrs 23 mins       █████████░░░░░░░░░░░░░░░░   38.84% 
-Unknown Editor           1 hr                █░░░░░░░░░░░░░░░░░░░░░░░░   6.08% 
-Xcode                    34 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.54% 
-VS Code                  11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   1.12%
+Android Studio           6 hrs 23 mins       ███████████░░░░░░░░░░░░░░   44.33% 
+WebStorm                 6 hrs 15 mins       ██████████░░░░░░░░░░░░░░░   43.4% 
+Unknown Editor           1 hr                █░░░░░░░░░░░░░░░░░░░░░░░░   6.94% 
+Xcode                    34 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.05% 
+VS Code                  11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   1.28%
 
 🐱‍💻 Projects: 
-Private Company Projects 7 hrs 9 mins        ███████████░░░░░░░░░░░░░░   43.5% 
-fbuireu                  6 hrs 51 mins       ██████████░░░░░░░░░░░░░░░   41.68% 
-febsv2                   1 hr 21 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   8.28% 
-Unknown Project          1 hr                █░░░░░░░░░░░░░░░░░░░░░░░░   6.08% 
-biancafiore              4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.46%
+Private Company Projects 7 hrs 9 mins        ████████████░░░░░░░░░░░░░   49.66% 
+fbuireu                  4 hrs 49 mins       ████████░░░░░░░░░░░░░░░░░   33.45% 
+febsv2                   1 hr 21 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   9.45% 
+Unknown Project          1 hr                █░░░░░░░░░░░░░░░░░░░░░░░░   6.94% 
+biancafiore              4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.5%
 
 💻 Operating System: 
-Windows                  8 hrs 17 mins       ████████████░░░░░░░░░░░░░   50.42% 
-Mac                      7 hrs 9 mins        ███████████░░░░░░░░░░░░░░   43.5% 
-Unknown OS               1 hr                █░░░░░░░░░░░░░░░░░░░░░░░░   6.08%
+Mac                      7 hrs 9 mins        ████████████░░░░░░░░░░░░░   49.66% 
+Windows                  6 hrs 15 mins       ██████████░░░░░░░░░░░░░░░   43.4% 
+Unknown OS               1 hr                █░░░░░░░░░░░░░░░░░░░░░░░░   6.94%
 
 ```
 
 
- Last Updated on 25/09/2021
+ Last Updated on 26/09/2021
 <!--END_SECTION:waka-->
 </details>  
 
