@@ -162,11 +162,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#226](https://github.com/anmol098/waka-readme-stats/issues/226) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-2. ❗️ Opened issue [#228](https://github.com/anmol098/waka-readme-stats/issues/228) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-3. 💪 Opened PR [#5836](https://github.com/netlify/netlify-cms/pull/5836) in [netlify/netlify-cms](https://github.com/netlify/netlify-cms)
-4. 💪 Opened PR [#227](https://github.com/anmol098/waka-readme-stats/pull/227) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-5. ❌ Closed PR [#392](https://github.com/fbuireu/biancafiore/pull/392) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+1. ❗️ Opened issue [#6598](https://github.com/simple-icons/simple-icons/issues/6598) in [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons)
+2. 🗣 Commented on [#226](https://github.com/anmol098/waka-readme-stats/issues/226) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
+3. ❗️ Opened issue [#228](https://github.com/anmol098/waka-readme-stats/issues/228) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
+4. 💪 Opened PR [#5836](https://github.com/netlify/netlify-cms/pull/5836) in [netlify/netlify-cms](https://github.com/netlify/netlify-cms)
+5. 💪 Opened PR [#227](https://github.com/anmol098/waka-readme-stats/pull/227) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
 <!--END_SECTION:activity-->
 
 <details>
