@@ -162,11 +162,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
-1. ❗️ Opened issue [#2](https://github.com/saviomartin/styler/issues/2) in [saviomartin/styler](https://github.com/saviomartin/styler)
-2. ❗️ Opened issue [#6598](https://github.com/simple-icons/simple-icons/issues/6598) in [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons)
-3. 🗣 Commented on [#226](https://github.com/anmol098/waka-readme-stats/issues/226) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-4. ❗️ Opened issue [#228](https://github.com/anmol098/waka-readme-stats/issues/228) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-5. 💪 Opened PR [#5836](https://github.com/netlify/netlify-cms/pull/5836) in [netlify/netlify-cms](https://github.com/netlify/netlify-cms)
+1. 💪 Opened PR [#1](https://github.com/Webcontext-Limited/gatsby-script/pull/1) in [Webcontext-Limited/gatsby-script](https://github.com/Webcontext-Limited/gatsby-script)
+2. ❗️ Opened issue [#2](https://github.com/saviomartin/styler/issues/2) in [saviomartin/styler](https://github.com/saviomartin/styler)
+3. ❗️ Opened issue [#6598](https://github.com/simple-icons/simple-icons/issues/6598) in [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons)
+4. 🗣 Commented on [#226](https://github.com/anmol098/waka-readme-stats/issues/226) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
+5. ❗️ Opened issue [#228](https://github.com/anmol098/waka-readme-stats/issues/228) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
 <!--END_SECTION:activity-->
 
 <details>
