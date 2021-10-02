@@ -165,11 +165,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#1](https://github.com/zreecespieces/jamstack-ecommerce-course/pull/1) in [zreecespieces/jamstack-ecommerce-course](https://github.com/zreecespieces/jamstack-ecommerce-course)
-2. 🗣 Commented on [#6598](https://github.com/simple-icons/simple-icons/issues/6598) in [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons)
-3. 💪 Opened PR [#1](https://github.com/Webcontext-Limited/gatsby-script/pull/1) in [Webcontext-Limited/gatsby-script](https://github.com/Webcontext-Limited/gatsby-script)
-4. ❗️ Opened issue [#2](https://github.com/saviomartin/styler/issues/2) in [saviomartin/styler](https://github.com/saviomartin/styler)
-5. ❗️ Opened issue [#6598](https://github.com/simple-icons/simple-icons/issues/6598) in [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons)
+1. ❌ Closed PR [#402](https://github.com/fbuireu/biancafiore/pull/402) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+2. ❌ Closed PR [#401](https://github.com/fbuireu/biancafiore/pull/401) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+3. ❌ Closed PR [#400](https://github.com/fbuireu/biancafiore/pull/400) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+4. ❌ Closed PR [#399](https://github.com/fbuireu/biancafiore/pull/399) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+5. ❌ Closed PR [#398](https://github.com/fbuireu/biancafiore/pull/398) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
 <!--END_SECTION:activity-->
 
 <details>
