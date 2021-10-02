@@ -13,7 +13,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: fbuireu
           filename: assets/images/svg/github-metrics.*
-          committer_message: 'style: update ${filename} - [Skip GitHub Action]'
+          committer_message: 'style: update ${filename} - [skip ci]'
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Madrid
