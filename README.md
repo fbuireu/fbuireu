@@ -277,7 +277,7 @@ Windows                  1 hr 15 mins        █░░░░░░░░░░�
 ```
 
 
- Last Updated on 16/10/2021
+ Last Updated on 17/10/2021
 <!--END_SECTION:waka-->
 </details>  
 
