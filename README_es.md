@@ -128,7 +128,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <img src="https://img.shields.io/badge/codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=808080" alt="Codewars" />
 </a>
 
-### Do you want personalized help? You can also find me at
+### Do you want personalized help? You can also find me at:
 <a href="https://www.codementor.io/@fbuireu" target="_blank">
   <img src="https://img.shields.io/badge/codementor-003648?style=for-the-badge&logo=codementor&logoColor=000000" alt="Codementor" />
 </a>
@@ -139,7 +139,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <img src="https://img.shields.io/badge/polywork-4a1ae6?style=for-the-badge&logo=mentorcruise&logoColor=000000" alt="Polywork" />
 </a>
 
-### ̶R̶e̶f̶i̶l̶l  Rehydrate me at
+### ̶R̶e̶f̶i̶l̶l̶  Rehydrate me at:
 <a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank">
   <img src="https://img.shields.io/badge/buy_me_a_coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000" alt="Buy me a Coffe" />
 </a>
@@ -149,7 +149,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
 -------
 
-## 📝 Sometimes I share my dev delusions on
+## 📝 Sometimes I share my dev delusions on:
 
 ### Medium
 <!-- MEDIUM-LATEST-ARTICLES:START -->
