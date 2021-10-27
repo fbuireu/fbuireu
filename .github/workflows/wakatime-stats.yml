@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        readme: [README.md, README_ca.md, README_es.md, README_it.md]
+        readme: [README.md, README.ca.md, README.es.md, README.it.md]
     steps:
       - uses: anmol098/waka-readme-stats@master
         with:
