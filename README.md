@@ -14,7 +14,7 @@
   <th>Also available in:</th>
     <tr>
       <td>
-        <a href="README_ca.md">
+        <a href="README.ca.md">
           <img src="assets/images/png/flags/catalonia.png" width="24" height="24" alt="Català"/>
           <span>Català</span>
         </a>
@@ -31,7 +31,7 @@
     </tr>
     <tr>
       <td>
-        <a href="README_es.md">
+        <a href="README.es.md">
           <img src="assets/images/png/flags/spain.png" width="24" height="24" alt="Español"/>
           <span>Español</span>
         </a>
@@ -39,7 +39,7 @@
     </tr>
     <tr>
       <td>
-        <a href="README_it.md">
+        <a href="README.it.md">
           <img src="assets/images/png/flags/italy.png" width="24" height="24" alt="Italiano"/>
           <span>Italiano</span>
         </a>
