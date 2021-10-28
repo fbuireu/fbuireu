@@ -170,11 +170,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/hhimanshu/gatsby-svg-import-example/issues/1) in [hhimanshu/gatsby-svg-import-example](https://github.com/hhimanshu/gatsby-svg-import-example)
-2. 💪 Opened PR [#1](https://github.com/hhimanshu/gatsby-svg-import-example/pull/1) in [hhimanshu/gatsby-svg-import-example](https://github.com/hhimanshu/gatsby-svg-import-example)
-3. 🎉 Merged PR [#403](https://github.com/fbuireu/biancafiore/pull/403) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-4. 💪 Opened PR [#403](https://github.com/fbuireu/biancafiore/pull/403) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-5. ❌ Closed PR [#402](https://github.com/fbuireu/biancafiore/pull/402) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+1. ❗️ Closed issue [#104](https://github.com/gautamkrishnar/blog-post-workflow/issues/104) in [gautamkrishnar/blog-post-workflow](https://github.com/gautamkrishnar/blog-post-workflow)
+2. 🗣 Commented on [#104](https://github.com/gautamkrishnar/blog-post-workflow/issues/104) in [gautamkrishnar/blog-post-workflow](https://github.com/gautamkrishnar/blog-post-workflow)
+3. 🗣 Commented on [#104](https://github.com/gautamkrishnar/blog-post-workflow/issues/104) in [gautamkrishnar/blog-post-workflow](https://github.com/gautamkrishnar/blog-post-workflow)
+4. ❗️ Opened issue [#235](https://github.com/anmol098/waka-readme-stats/issues/235) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
+5. ❗️ Opened issue [#104](https://github.com/gautamkrishnar/blog-post-workflow/issues/104) in [gautamkrishnar/blog-post-workflow](https://github.com/gautamkrishnar/blog-post-workflow)
 <!--END_SECTION:activity-->
 
 <details>
