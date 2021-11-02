@@ -170,11 +170,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
-1. ❗️ Closed issue [#104](https://github.com/gautamkrishnar/blog-post-workflow/issues/104) in [gautamkrishnar/blog-post-workflow](https://github.com/gautamkrishnar/blog-post-workflow)
-2. 🗣 Commented on [#104](https://github.com/gautamkrishnar/blog-post-workflow/issues/104) in [gautamkrishnar/blog-post-workflow](https://github.com/gautamkrishnar/blog-post-workflow)
-3. 🗣 Commented on [#104](https://github.com/gautamkrishnar/blog-post-workflow/issues/104) in [gautamkrishnar/blog-post-workflow](https://github.com/gautamkrishnar/blog-post-workflow)
-4. ❗️ Opened issue [#235](https://github.com/anmol098/waka-readme-stats/issues/235) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-5. ❗️ Opened issue [#104](https://github.com/gautamkrishnar/blog-post-workflow/issues/104) in [gautamkrishnar/blog-post-workflow](https://github.com/gautamkrishnar/blog-post-workflow)
+1. ❌ Closed PR [#424](https://github.com/fbuireu/biancafiore/pull/424) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+2. ❌ Closed PR [#423](https://github.com/fbuireu/biancafiore/pull/423) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+3. ❌ Closed PR [#422](https://github.com/fbuireu/biancafiore/pull/422) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+4. ❌ Closed PR [#421](https://github.com/fbuireu/biancafiore/pull/421) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+5. ❌ Closed PR [#420](https://github.com/fbuireu/biancafiore/pull/420) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
 <!--END_SECTION:activity-->
 
 <details>
