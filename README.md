@@ -170,11 +170,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
-1. ❌ Closed PR [#424](https://github.com/fbuireu/biancafiore/pull/424) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-2. ❌ Closed PR [#423](https://github.com/fbuireu/biancafiore/pull/423) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-3. ❌ Closed PR [#422](https://github.com/fbuireu/biancafiore/pull/422) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-4. ❌ Closed PR [#421](https://github.com/fbuireu/biancafiore/pull/421) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-5. ❌ Closed PR [#420](https://github.com/fbuireu/biancafiore/pull/420) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+1. ❌ Closed PR [#443](https://github.com/fbuireu/biancafiore/pull/443) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+2. ❌ Closed PR [#442](https://github.com/fbuireu/biancafiore/pull/442) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+3. ❌ Closed PR [#441](https://github.com/fbuireu/biancafiore/pull/441) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+4. ❌ Closed PR [#440](https://github.com/fbuireu/biancafiore/pull/440) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+5. ❌ Closed PR [#439](https://github.com/fbuireu/biancafiore/pull/439) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
 <!--END_SECTION:activity-->
 
 <details>
