@@ -170,11 +170,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#445](https://github.com/fbuireu/biancafiore/pull/445) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-2. 💪 Opened PR [#445](https://github.com/fbuireu/biancafiore/pull/445) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-3. 🎉 Merged PR [#444](https://github.com/fbuireu/biancafiore/pull/444) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-4. 💪 Opened PR [#444](https://github.com/fbuireu/biancafiore/pull/444) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-5. 🗣 Commented on [#112](https://github.com/theyakka/qr.flutter/issues/112) in [theyakka/qr.flutter](https://github.com/theyakka/qr.flutter)
+1. ❌ Closed PR [#455](https://github.com/fbuireu/biancafiore/pull/455) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+2. ❌ Closed PR [#454](https://github.com/fbuireu/biancafiore/pull/454) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+3. ❌ Closed PR [#449](https://github.com/fbuireu/biancafiore/pull/449) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+4. ❌ Closed PR [#453](https://github.com/fbuireu/biancafiore/pull/453) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+5. ❌ Closed PR [#452](https://github.com/fbuireu/biancafiore/pull/452) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
 <!--END_SECTION:activity-->
 
 <details>
