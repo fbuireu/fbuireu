@@ -170,11 +170,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
-1. ❌ Closed PR [#455](https://github.com/fbuireu/biancafiore/pull/455) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-2. ❌ Closed PR [#454](https://github.com/fbuireu/biancafiore/pull/454) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-3. ❌ Closed PR [#449](https://github.com/fbuireu/biancafiore/pull/449) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-4. ❌ Closed PR [#453](https://github.com/fbuireu/biancafiore/pull/453) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-5. ❌ Closed PR [#452](https://github.com/fbuireu/biancafiore/pull/452) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+1. 🎉 Merged PR [#456](https://github.com/fbuireu/biancafiore/pull/456) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+2. 💪 Opened PR [#456](https://github.com/fbuireu/biancafiore/pull/456) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+3. 🗣 Commented on [#15](https://github.com/wonjerry/flutter_wifi_connector/issues/15) in [wonjerry/flutter_wifi_connector](https://github.com/wonjerry/flutter_wifi_connector)
+4. ❌ Closed PR [#455](https://github.com/fbuireu/biancafiore/pull/455) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+5. ❌ Closed PR [#454](https://github.com/fbuireu/biancafiore/pull/454) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
 <!--END_SECTION:activity-->
 
 <details>
