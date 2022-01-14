@@ -226,8 +226,6 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <summary><strong>Weekly stats</strong></summary>
 
   <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-494%20hrs-blue)
-
 **I'm an Early 🐤** 
 
 ```text
@@ -240,10 +238,10 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 📅 **I'm Most Productive on Tuesday** 
 
 ```text
-Monday       23 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.55% 
+Monday       22 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.09% 
 Tuesday      63 commits     ███████░░░░░░░░░░░░░░░░░░   28.9% 
 Wednesday    41 commits     ████░░░░░░░░░░░░░░░░░░░░░   18.81% 
-Thursday     29 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.3% 
+Thursday     30 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.76% 
 Friday       7 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   3.21% 
 Saturday     7 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   3.21% 
 Sunday       48 commits     █████░░░░░░░░░░░░░░░░░░░░   22.02%
@@ -283,7 +281,7 @@ Unknown OS               45 mins             ░░░░░░░░░░░�
 ```
 
 
- Last Updated on 13/01/2022
+ Last Updated on 14/01/2022
 <!--END_SECTION:waka-->
 </details>  
 
