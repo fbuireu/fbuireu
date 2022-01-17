@@ -170,11 +170,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
-1. ❌ Closed PR [#458](https://github.com/fbuireu/biancafiore/pull/458) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-2. ❌ Closed PR [#457](https://github.com/fbuireu/biancafiore/pull/457) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-3. 🗣 Commented on [#235](https://github.com/anmol098/waka-readme-stats/issues/235) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-4. 🗣 Commented on [#14](https://github.com/wonjerry/flutter_wifi_connector/issues/14) in [wonjerry/flutter_wifi_connector](https://github.com/wonjerry/flutter_wifi_connector)
-5. 🎉 Merged PR [#456](https://github.com/fbuireu/biancafiore/pull/456) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+1. 🎉 Merged PR [#465](https://github.com/fbuireu/biancafiore/pull/465) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+2. 💪 Opened PR [#465](https://github.com/fbuireu/biancafiore/pull/465) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+3. 🎉 Merged PR [#464](https://github.com/fbuireu/biancafiore/pull/464) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+4. 💪 Opened PR [#464](https://github.com/fbuireu/biancafiore/pull/464) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+5. 🎉 Merged PR [#463](https://github.com/fbuireu/biancafiore/pull/463) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
 <!--END_SECTION:activity-->
 
 <details>
