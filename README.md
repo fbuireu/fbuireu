@@ -226,8 +226,6 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <summary><strong>Weekly stats</strong></summary>
 
   <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-546%20hrs%208%20mins-blue)
-
 **I'm an Early 🐤** 
 
 ```text
@@ -284,7 +282,7 @@ Windows                  47 mins             █░░░░░░░░░░�
 ```
 
 
- Last Updated on 04/02/2022 01:04:06 UTC
+ Last Updated on 05/02/2022 00:56:30 UTC
 <!--END_SECTION:waka-->
 </details>  
 
