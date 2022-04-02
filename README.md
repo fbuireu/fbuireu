@@ -170,11 +170,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#26](https://github.com/jon-sully/gatsby-plugin-force-trailing-slashes/issues/26) in [jon-sully/gatsby-plugin-force-trailing-slashes](https://github.com/jon-sully/gatsby-plugin-force-trailing-slashes)
-2. ❌ Closed PR [#26](https://github.com/jon-sully/gatsby-plugin-force-trailing-slashes/pull/26) in [jon-sully/gatsby-plugin-force-trailing-slashes](https://github.com/jon-sully/gatsby-plugin-force-trailing-slashes)
-3. 💪 Opened PR [#26](https://github.com/jon-sully/gatsby-plugin-force-trailing-slashes/pull/26) in [jon-sully/gatsby-plugin-force-trailing-slashes](https://github.com/jon-sully/gatsby-plugin-force-trailing-slashes)
-4. ❌ Closed PR [#494](https://github.com/fbuireu/biancafiore/pull/494) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-5. ❌ Closed PR [#493](https://github.com/fbuireu/biancafiore/pull/493) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+1. ❌ Closed PR [#499](https://github.com/fbuireu/biancafiore/pull/499) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+2. ❌ Closed PR [#504](https://github.com/fbuireu/biancafiore/pull/504) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+3. ❌ Closed PR [#503](https://github.com/fbuireu/biancafiore/pull/503) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+4. ❌ Closed PR [#496](https://github.com/fbuireu/biancafiore/pull/496) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+5. ❌ Closed PR [#502](https://github.com/fbuireu/biancafiore/pull/502) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
 <!--END_SECTION:activity-->
 
 <details>
