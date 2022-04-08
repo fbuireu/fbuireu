@@ -136,7 +136,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <img src="https://img.shields.io/badge/mentorcruise-05b197?style=for-the-badge&logo=mentorcruise&logoColor=000000" alt="MentorCruise" />
 </a>
 <a href="https://www.polywork.com/fbuireu" target="_blank">
-  <img src="https://img.shields.io/badge/polywork-4a1ae6?style=for-the-badge&logo=mentorcruise&logoColor=000000" alt="Polywork" />
+  <img src="https://img.shields.io/badge/polywork-4a1ae6?style=for-the-badge&logo=polywork&logoColor=000000" alt="Polywork" />
 </a>
 
 ### ̶R̶e̶f̶i̶l̶l̶  Rehydrate me at:
