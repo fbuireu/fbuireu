@@ -170,11 +170,6 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#5836](https://github.com/netlify/netlify-cms/pull/5836) in [netlify/netlify-cms](https://github.com/netlify/netlify-cms)
-2. 💪 Opened PR [#227](https://github.com/anmol098/waka-readme-stats/pull/227) in [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
-3. ❌ Closed PR [#392](https://github.com/fbuireu/biancafiore/pull/392) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-4. 💪 Opened PR [#33261](https://github.com/gatsbyjs/gatsby/pull/33261) in [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
-5. 🗣 Commented on [#33091](https://github.com/gatsbyjs/gatsby/issues/33091) in [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
 <!--END_SECTION:activity-->
 
 <details>
