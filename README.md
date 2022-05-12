@@ -132,6 +132,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <a href="https://profile.codersrank.io/user/fbuireu/" target="_blank" title="CodersRank">
   <img src="https://img.shields.io/badge/codersrank-245659?style=for-the-badge&logo=codersrank" alt="CodersRank" />
 </a>
+<a href="https://rviewer.io/fbuireu/" target="_blank" title="Rviewer">
+  <img src="https://img.shields.io/badge/rviewer-4FFAB6?style=for-the-badge&logo=rviewer" alt="Rviewer" />
+</a>
 <a href="https://wakatime.com/@fbuireu?rank=me&page=53" target="_blank" title="WakaTime">
   <img src="https://img.shields.io/badge/wakatime-000000?style=for-the-badge&logo=wakatime&logoColor=ffffff" alt="WakaTime" />
 </a>
