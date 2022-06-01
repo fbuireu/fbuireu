@@ -1,4 +1,4 @@
-# <img src="https://github.com/fbuireu/fbuireu/blob/main/assets/images/gifs/punk-horn.gif?raw=true" width="45px"> Hi there, I'm a software engineer based in Barcelona
+# <img src="https://github.com/fbuireu/fbuireu/blob/main/assets/images/gif/punk-horn.gif?raw=true" width="45px"> Hi there, I'm a software engineer based in Barcelona
 
 ![Hi there, I'm a software engineer based in Barcelona](https://github.com/fbuireu/fbuireu/blob/main/assets/images/jpg/developer-life.jpg?raw=true)
 
