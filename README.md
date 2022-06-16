@@ -81,6 +81,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <a href="https://www.instagram.com/fbuireu/" target="_blank" title="Instagram">
   <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=ffffff" alt="Instagram" />
 </a>
+<a href="https://www.polywork.com/fbuireu" target="_blank" title="Polywork">
+  <img src="https://img.shields.io/badge/polywork-4a1ae6?style=for-the-badge&logo=polywork&logoColor=000000" alt="Polywork" />
+</a>
 <a href="https://www.facebook.com/ferranbuireu/" target="_blank" title="Facebook">
   <img src="https://img.shields.io/badge/facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=ffffff" alt="Facebook" />
 </a>
@@ -146,9 +149,6 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 </a>
 <a href="https://mentorcruise.com/mentor/ferranbuireu/" target="_blank" title="MentorCruise">
   <img src="https://img.shields.io/badge/mentorcruise-05b197?style=for-the-badge&logo=mentorcruise&logoColor=000000" alt="MentorCruise" />
-</a>
-<a href="https://www.polywork.com/fbuireu" target="_blank" title="Polywork">
-  <img src="https://img.shields.io/badge/polywork-4a1ae6?style=for-the-badge&logo=polywork&logoColor=000000" alt="Polywork" />
 </a>
 
 ### ̶R̶e̶f̶i̶l̶l̶  Rehydrate me at:
