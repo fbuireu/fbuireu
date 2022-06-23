@@ -90,7 +90,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
 ### Blog Platforms
 <a href="https://app.daily.dev/buireu" target="_blank" title="daily.dev">
-  <img src="https://img.shields.io/badge/daily.dev-000000?style=for-the-badge&logo=dailydev&logoColor=ffffff" alt="daily.dev" />
+  <img src="https://img.shields.io/badge/daily.dev-0e1217?style=for-the-badge&logo=dailydev&logoColor=ffffff" alt="daily.dev" />
 </a>
 <a href="https://hashnode.com/@Buireu" target="_blank" title="Hashnode">
   <img src="https://img.shields.io/badge/hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=ffffff" alt="Hashnode" />
@@ -113,13 +113,16 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <img src="https://img.shields.io/badge/spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=ffffff" alt="Spotify" />
 </a>
 <a href="https://steamcommunity.com/id/fbuireu/" target="_blank" title="Steam">
-  <img src="https://img.shields.io/badge/steam-000000?style=for-the-badge&logo=steam&logoColor=ffffff" alt="Steam" />
+  <img src="https://img.shields.io/badge/steam-171a21?style=for-the-badge&logo=steam&logoColor=ffffff" alt="Steam" />
 </a>
 <a href="https://codepen.io/fbuireu" target="_blank" title="CodePen">
-  <img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen" />
+  <img src="https://img.shields.io/badge/codepen-1e1f26?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen" />
 </a>
 <a href="https://codesandbox.io/u/fbuireu" target="_blank" title="CodeSandbox">
   <img src="https://img.shields.io/badge/codesandbox-040404?style=for-the-badge&logo=codesandbox&logoColor=DBDBDB" alt="CodeSandbox" />
+</a>
+<a href="https://www.frontendmentor.io/profile/fbuireu" target="_blank" title="Frontend Mentor">
+  <img src="https://img.shields.io/badge/frontendmentor-3f54a3?style=for-the-badge&logo=frontendmentor&logoColor=ffffff" alt="Frontend Mentor" />
 </a>
 <a href="https://www.hackerrank.com/fbuireu" target="_blank" title="Hackerrank">
   <img src="https://img.shields.io/badge/hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=ffffff" alt="Hackerrank" />
@@ -142,7 +145,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <img src="https://img.shields.io/badge/rviewer-4FFAB6?style=for-the-badge&logo=rviewer" alt="Rviewer" />
 </a>
 <a href="https://wakatime.com/@fbuireu" target="_blank" title="WakaTime">
-  <img src="https://img.shields.io/badge/wakatime-000000?style=for-the-badge&logo=wakatime&logoColor=ffffff" alt="WakaTime" />
+  <img src="https://img.shields.io/badge/wakatime-29333a?style=for-the-badge&logo=wakatime&logoColor=ffffff" alt="WakaTime" />
 </a>
 
 ### Do you want personalized help? You can also find me at:
