@@ -89,6 +89,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 </a>
 
 ### Blog Platforms
+<a href="https://app.daily.dev/buireu" target="_blank" title="daily.dev">
+  <img src="https://img.shields.io/badge/daily.dev-000000?style=for-the-badge&logo=dailydev&logoColor=ffffff" alt="daily.dev" />
+</a>
 <a href="https://hashnode.com/@Buireu" target="_blank" title="Hashnode">
   <img src="https://img.shields.io/badge/hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=ffffff" alt="Hashnode" />
 </a>
