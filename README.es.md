@@ -68,24 +68,30 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <img src="https://img.shields.io/badge/personal%20Website-1b1d1d?style=for-the-badge&logo=globe&logoColor=ffffff" alt="ferranbuireu.dev">
 </a>
 <a href="mailto:fbuireu@gmail.com" target="_blank" title="Gmail">
-  <img src="https://img.shields.io/badge/gmail-D14836?style=for-the-badge&logo=gmail&logoColor=ffffff" alt="Gmail" />
+  <img src="https://img.shields.io/badge/gmail-d14836?style=for-the-badge&logo=gmail&logoColor=ffffff" alt="Gmail" />
 </a>
 
 ### Social Networks
 <a href="https://www.linkedin.com/in/ferran-buireu/" target="_blank" title="LinkedIn">
-  <img src="https://img.shields.io/badge/linkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=ffffff" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/linkedIn-0077b5?style=for-the-badge&logo=xing&logoColor=ffffff" alt="LinkedIn" />
+</a>
+<a href="https://www.xing.com/profile/Ferran_Buireu/cv" target="_blank" title="XING">
+  <img src="https://img.shields.io/badge/xing-c5f06c?style=for-the-badge&logo=globe&logoColor=ffffff" alt="XING">
 </a>
 <a href="https://twitter.com/fbuireu" target="_blank" title="Twitter">
-  <img src="https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=ffffff" alt="Twitter" />
+  <img src="https://img.shields.io/badge/twitter-1da1f2?style=for-the-badge&logo=twitter&logoColor=ffffff" alt="Twitter" />
 </a>
 <a href="https://www.instagram.com/fbuireu/" target="_blank" title="Instagram">
-  <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=ffffff" alt="Instagram" />
+  <img src="https://img.shields.io/badge/instagram-%23e4405f.svg?style=for-the-badge&logo=instagram&logoColor=ffffff" alt="Instagram" />
 </a>
 <a href="https://www.polywork.com/fbuireu" target="_blank" title="Polywork">
   <img src="https://img.shields.io/badge/polywork-4a1ae6?style=for-the-badge&logo=polywork&logoColor=000000" alt="Polywork" />
 </a>
 <a href="https://www.facebook.com/ferranbuireu/" target="_blank" title="Facebook">
-  <img src="https://img.shields.io/badge/facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=ffffff" alt="Facebook" />
+  <img src="https://img.shields.io/badge/facebook-%231877f2.svg?style=for-the-badge&logo=facebook&logoColor=ffffff" alt="Facebook" />
+</a>
+<a href="https://mnf.red/ferran-buireu" target="_blank" title="Manfred">
+  <img src="https://img.shields.io/badge/manfred-0da1a4?style=for-the-badge&logo=globe&logoColor=ffffff" alt="Manfred">
 </a>
 
 ### Blog Platforms
@@ -93,24 +99,24 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <img src="https://img.shields.io/badge/daily.dev-0e1217?style=for-the-badge&logo=dailydev&logoColor=ffffff" alt="daily.dev" />
 </a>
 <a href="https://hashnode.com/@Buireu" target="_blank" title="Hashnode">
-  <img src="https://img.shields.io/badge/hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=ffffff" alt="Hashnode" />
+  <img src="https://img.shields.io/badge/hashnode-2962ff?style=for-the-badge&logo=hashnode&logoColor=ffffff" alt="Hashnode" />
 </a>
 <a href="https://medium.com/@fbuireu" target="_blank" title="Medium">
-  <img src="https://img.shields.io/badge/medium-12100E?style=for-the-badge&logo=medium&logoColor=ffffff" alt="Medium" />
+  <img src="https://img.shields.io/badge/medium-12100e?style=for-the-badge&logo=medium&logoColor=ffffff" alt="Medium" />
 </a>
 <a href="https://dev.to/fbuireu" target="_blank" title="Dev.to">
-  <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=ffffff" alt="Dev.to" />
+  <img src="https://img.shields.io/badge/dev.to-0a0a0a?style=for-the-badge&logo=devdotto&logoColor=ffffff" alt="Dev.to" />
 </a>
 
 ### Leisure & Music
 <a href="https://stackoverflow.com/users/5585371/ferran-buireu?tab=profile" target="_blank" title="Stack Overflow">
-  <img src="https://img.shields.io/badge/stack_overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=ffffff" alt="Stack Overflow" />
+  <img src="https://img.shields.io/badge/stack_overflow-fe7a16?style=for-the-badge&logo=stack-overflow&logoColor=ffffff" alt="Stack Overflow" />
 </a>
 <a href="https://www.strava.com/athletes/19488414" target="_blank" title="Strava">
-  <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Strava&color=FC4C02&logo=strava&logoColor=FFFFFF&label=" alt="Strava" />
+  <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Strava&color=fc4c02&logo=strava&logoColor=FFFFFF&label=" alt="Strava" />
 </a>
 <a href="https://open.spotify.com/user/buireu?si=b2dfa1e6c2f649d9" target="_blank" title="Spotify">
-  <img src="https://img.shields.io/badge/spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=ffffff" alt="Spotify" />
+  <img src="https://img.shields.io/badge/spotify-1ed760?style=for-the-badge&logo=spotify&logoColor=ffffff" alt="Spotify" />
 </a>
 <a href="https://steamcommunity.com/id/fbuireu/" target="_blank" title="Steam">
   <img src="https://img.shields.io/badge/steam-171a21?style=for-the-badge&logo=steam&logoColor=ffffff" alt="Steam" />
@@ -125,16 +131,16 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <img src="https://img.shields.io/badge/frontendmentor-3f54a3?style=for-the-badge&logo=frontendmentor&logoColor=ffffff" alt="Frontend Mentor" />
 </a>
 <a href="https://www.hackerrank.com/fbuireu" target="_blank" title="Hackerrank">
-  <img src="https://img.shields.io/badge/hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=ffffff" alt="Hackerrank" />
+  <img src="https://img.shields.io/badge/hackerrank-2ec866?style=for-the-badge&logo=HackerRank&logoColor=ffffff" alt="Hackerrank" />
 </a>
 <a href="https://leetcode.com/fbuireu/" target="_blank" title="LeetCode">
-<img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+<img src="https://img.shields.io/badge/-LeetCode-ffa116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
 </a>
 <a href="https://app.codesignal.com/profile/fbuireu/" target="_blank" title="CodeSignal">
   <img src="https://img.shields.io/badge/codesignal-33485f?style=for-the-badge&logo=codesignal&logoColor=grey" alt="CodeSignal" />
 </a>
 <a href="https://www.codewars.com/users/fbuireu/" target="_blank" title="Codewars">
-  <img src="https://img.shields.io/badge/codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=808080" alt="Codewars" />
+  <img src="https://img.shields.io/badge/codewars-b1361e?style=for-the-badge&logo=codewars&logoColor=808080" alt="Codewars" />
 </a>
 
 ### Data & Rankings
@@ -142,7 +148,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <img src="https://img.shields.io/badge/codersrank-245659?style=for-the-badge&logo=codersrank" alt="CodersRank" />
 </a>
 <a href="https://rviewer.io/fbuireu/" target="_blank" title="Rviewer">
-  <img src="https://img.shields.io/badge/rviewer-4FFAB6?style=for-the-badge&logo=rviewer" alt="Rviewer" />
+  <img src="https://img.shields.io/badge/rviewer-4ffab6?style=for-the-badge&logo=rviewer" alt="Rviewer" />
 </a>
 <a href="https://wakatime.com/@fbuireu" target="_blank" title="WakaTime">
   <img src="https://img.shields.io/badge/wakatime-29333a?style=for-the-badge&logo=wakatime&logoColor=ffffff" alt="WakaTime" />
@@ -158,10 +164,10 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
 ### ̶R̶e̶f̶i̶l̶l̶  Rehydrate me at:
 <a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank" title="Buy me a Coffe">
-  <img src="https://img.shields.io/badge/buy_me_a_coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000" alt="Buy me a Coffe" />
+  <img src="https://img.shields.io/badge/buy_me_a_coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000" alt="Buy me a Coffe" />
 </a>
 <a href="https://github.com/sponsors/fbuireu" target="_blank" title="GitHub Sponsors">
-  <img src="https://img.shields.io/badge/gitHub%20sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=ffffff" alt="GitHub Sponsors" />
+  <img src="https://img.shields.io/badge/gitHub%20sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=ffffff" alt="GitHub Sponsors" />
 </a>
 
 -------
