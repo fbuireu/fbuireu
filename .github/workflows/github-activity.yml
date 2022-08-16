@@ -19,7 +19,7 @@
        #   TARGET_FILE: ${{ matrix.readme }}
         #  COMMIT_MSG: 'docs: update ${{ matrix.readme }} with latest GitHub activity'
 
-name: Update README
+name: GitHub Activity
 
 on:
   schedule:
