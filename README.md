@@ -194,11 +194,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ### Latest Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#1](https://github.com/fbuireu/fbuireu/pull/1) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-2. ❗️ Closed issue [#5](https://github.com/NyanKaungSet/Github-Workflow/issues/5) in [NyanKaungSet/Github-Workflow](https://github.com/NyanKaungSet/Github-Workflow)
-3. 🗣 Commented on [#5](https://github.com/NyanKaungSet/Github-Workflow/issues/5) in [NyanKaungSet/Github-Workflow](https://github.com/NyanKaungSet/Github-Workflow)
+1. 🗣 Commented on [#80](https://github.com/jamesgeorge007/github-activity-readme/issues/80) in [jamesgeorge007/github-activity-readme](https://github.com/jamesgeorge007/github-activity-readme)
+2. 💪 Opened PR [#1](https://github.com/fbuireu/fbuireu/pull/1) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+3. ❗️ Closed issue [#5](https://github.com/NyanKaungSet/Github-Workflow/issues/5) in [NyanKaungSet/Github-Workflow](https://github.com/NyanKaungSet/Github-Workflow)
 4. 🗣 Commented on [#5](https://github.com/NyanKaungSet/Github-Workflow/issues/5) in [NyanKaungSet/Github-Workflow](https://github.com/NyanKaungSet/Github-Workflow)
-5. ❗️ Opened issue [#5](https://github.com/NyanKaungSet/Github-Workflow/issues/5) in [NyanKaungSet/Github-Workflow](https://github.com/NyanKaungSet/Github-Workflow)
+5. 🗣 Commented on [#5](https://github.com/NyanKaungSet/Github-Workflow/issues/5) in [NyanKaungSet/Github-Workflow](https://github.com/NyanKaungSet/Github-Workflow)
 <!--END_SECTION:activity-->
 
 <details>
