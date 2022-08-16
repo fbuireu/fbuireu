@@ -193,6 +193,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 <details>
   <summary><strong>Top repositories</strong></summary>
