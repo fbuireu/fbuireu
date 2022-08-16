@@ -192,6 +192,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
+
 <!--START_SECTION:activity-->
 1. 🎉 Merged PR [#90](https://github.com/CartimDraluc/Cartimpedia/pull/90) in [CartimDraluc/Cartimpedia](https://github.com/CartimDraluc/Cartimpedia)
 2. 💪 Opened PR [#90](https://github.com/CartimDraluc/Cartimpedia/pull/90) in [CartimDraluc/Cartimpedia](https://github.com/CartimDraluc/Cartimpedia)
