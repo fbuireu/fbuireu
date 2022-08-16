@@ -194,11 +194,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
-1. ❌ Closed PR [#551](https://github.com/fbuireu/biancafiore/pull/551) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-2. ❌ Closed PR [#541](https://github.com/fbuireu/biancafiore/pull/541) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-3. ❌ Closed PR [#542](https://github.com/fbuireu/biancafiore/pull/542) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-4. ❌ Closed PR [#544](https://github.com/fbuireu/biancafiore/pull/544) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-5. ❌ Closed PR [#543](https://github.com/fbuireu/biancafiore/pull/543) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+1. ❗️ Closed issue [#2](https://github.com/NyanKaungSet/Github-Workflow/issues/2) in [NyanKaungSet/Github-Workflow](https://github.com/NyanKaungSet/Github-Workflow)
+2. 🗣 Commented on [#80](https://github.com/jamesgeorge007/github-activity-readme/issues/80) in [jamesgeorge007/github-activity-readme](https://github.com/jamesgeorge007/github-activity-readme)
+3. 💪 Opened PR [#1](https://github.com/kansuorhan/Github-Workflow/pull/1) in [kansuorhan/Github-Workflow](https://github.com/kansuorhan/Github-Workflow)
+4. 🗣 Commented on [#80](https://github.com/jamesgeorge007/github-activity-readme/issues/80) in [jamesgeorge007/github-activity-readme](https://github.com/jamesgeorge007/github-activity-readme)
+5. 🗣 Commented on [#80](https://github.com/jamesgeorge007/github-activity-readme/issues/80) in [jamesgeorge007/github-activity-readme](https://github.com/jamesgeorge007/github-activity-readme)
 <!--END_SECTION:activity-->
 
 <details>
