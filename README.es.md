@@ -191,7 +191,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 -------
 
 ## 👨🏻‍💻 Check out my GitHub stats
+
 ### Latest Activity
+
 <!--START_SECTION:activity-->
 1. ❌ Closed PR [#551](https://github.com/fbuireu/biancafiore/pull/551) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
 2. ❌ Closed PR [#541](https://github.com/fbuireu/biancafiore/pull/541) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
