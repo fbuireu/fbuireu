@@ -15,5 +15,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-         COMMIT_MSG: 'docs: update README.es.md with latest GitHub activity'
+         COMMIT_MSG: 'docs: updateREADME.es.md with latest GitHub activity'
          TARGET_FILE: './README.es.md'
