@@ -39,4 +39,7 @@ jobs:
       - uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+         TARGET_FILE: ${{ matrix.readme }}
+         COMMIT_MSG: 'docs: update ${{ matrix.readme }} with latest GitHub activity'
 
