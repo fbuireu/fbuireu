@@ -29,12 +29,12 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        readme: ['README.md, README.ca.md, README.es.md, README.it.md']
+        readme: [README.md, README.ca.md, README.es.md, README.it.md]
     steps:
       - uses: actions/checkout@v2
       - uses: fbuireu/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          TARGET_FILE: ${{ matrix.readme }}
+          TARGET_FILE: README.md, README.ca.md, README.es.md, README.it.md
           COMMIT_MSG: 'docs: update ${{ matrix.readme }} with latest GitHub activity'
