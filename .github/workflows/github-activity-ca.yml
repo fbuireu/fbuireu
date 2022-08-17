@@ -16,4 +16,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
          COMMIT_MSG: 'docs: update README.ca.md with latest GitHub activity'
-         TARGET_FILE: './README.ca.md''
+         TARGET_FILE: './README.ca.md'
