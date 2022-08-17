@@ -194,10 +194,10 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#6](https://github.com/NyanKaungSet/Github-Workflow/issues/6) in [NyanKaungSet/Github-Workflow](https://github.com/NyanKaungSet/Github-Workflow)
-2. ❗️ Reopened issue [#6](https://github.com/NyanKaungSet/Github-Workflow/issues/6) in [NyanKaungSet/Github-Workflow](https://github.com/NyanKaungSet/Github-Workflow)
+1. ❗️ Closed issue [#6](https://github.com/NyanKaungSet/Github-Workflow/issues/6) in [NyanKaungSet/Github-Workflow](https://github.com/NyanKaungSet/Github-Workflow)
+2. 🗣 Commented on [#6](https://github.com/NyanKaungSet/Github-Workflow/issues/6) in [NyanKaungSet/Github-Workflow](https://github.com/NyanKaungSet/Github-Workflow)
 3. 🗣 Commented on [#6](https://github.com/NyanKaungSet/Github-Workflow/issues/6) in [NyanKaungSet/Github-Workflow](https://github.com/NyanKaungSet/Github-Workflow)
-4. ❗️ Closed issue [#6](https://github.com/NyanKaungSet/Github-Workflow/issues/6) in [NyanKaungSet/Github-Workflow](https://github.com/NyanKaungSet/Github-Workflow)
+4. ❗️ Reopened issue [#6](https://github.com/NyanKaungSet/Github-Workflow/issues/6) in [NyanKaungSet/Github-Workflow](https://github.com/NyanKaungSet/Github-Workflow)
 5. 🗣 Commented on [#6](https://github.com/NyanKaungSet/Github-Workflow/issues/6) in [NyanKaungSet/Github-Workflow](https://github.com/NyanKaungSet/Github-Workflow)
 <!--END_SECTION:activity-->
 
