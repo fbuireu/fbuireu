@@ -1,4 +1,4 @@
-name: GitHub Activity
+name: GitHub Activity 2
 on:
   schedule:
     - cron: 0 0 * * *
