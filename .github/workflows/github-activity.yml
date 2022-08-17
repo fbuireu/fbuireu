@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-       readme: [README.md, README.ca.md, README.es.md, README.it.md]
+       readme: [README.ca.md, README.es.md, README.it.md, README.md]
     steps:
       - uses: actions/checkout@v2
       - uses: lissy93/github-activity-readme@master
