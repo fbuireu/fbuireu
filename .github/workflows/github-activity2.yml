@@ -1,0 +1,20 @@
+name: GitHub Activity
+on:
+  schedule:
+    - cron: 0 0 * * *
+  workflow_dispatch:
+jobs:
+  build:
+    name: Update ${{ matrix.readme }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        readme: [README.es.md, README.it.md]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: fbuireu/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          TARGET_FILE: ${{ matrix.readme }}
+          COMMIT_MSG: 'docs: update ${{ matrix.readme }} with latest GitHub activity'
