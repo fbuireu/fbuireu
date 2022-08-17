@@ -30,10 +30,6 @@ jobs:
     strategy:
       matrix:
         readme: [README.md, README.ca.md, README.es.md, README.it.md]
-        en: [README.md]
-        ca: [README.ca.md]
-        es: [README.es.md]
-        it: [README.it.md]
     steps:
       - uses: actions/checkout@v2
       - uses: fbuireu/github-activity-readme@master
@@ -41,9 +37,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           TARGET_FILE: |
-            - 'README.md' #${{ matrix.en }} 
-            - 'README.ca.md' #${{ matrix.ca }} 
-            - 'README.es.md' #${{ matrix.es }} 
-            - 'README.it.md' #${{ matrix.it }} 
+            - ./README.md
+            - ./README.ca.md
+            - ./README.es.md
+            - ./README.it.md
             
           COMMIT_MSG: 'docs: update ${{ matrix.readme }} with latest GitHub activity'
