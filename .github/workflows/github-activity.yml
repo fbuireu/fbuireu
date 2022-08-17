@@ -18,10 +18,10 @@
 #         COMMIT_MSG: 'docs: update README.md with latest GitHub activity'
 #         TARGET_FILE: './README.md'
 
-name: GitHub Activity
+name: GitHub Activity 1
 on:
   schedule:
-    - cron: 0 0 * * *
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 jobs:
   build:
