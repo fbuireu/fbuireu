@@ -20,8 +20,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
          COMMIT_MSG: 'docs: update ${{ matrix.readme }} with latest GitHub activity'
-         #TARGET_FILE: ${{ matrix.readme }}
-         TARGET_FILE: |
-               './README.es.md'
-               './README.md' #'README.md''README.ca.md''README.es.md''README.it.md'
-
+         TARGET_FILE: ${{ matrix.readme }}
