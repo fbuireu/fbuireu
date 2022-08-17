@@ -36,8 +36,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          TARGET_FILE: ./README.md
-          TARGET_FILE: ./README.ca.md
-          TARGET_FILE: ./README.es.md
-          TARGET_FILE: ./README.it.md
+          TARGET_FILE: ${{ matrix.readme }}
           COMMIT_MSG: 'docs: update ${{ matrix.readme }} with latest GitHub activity'
