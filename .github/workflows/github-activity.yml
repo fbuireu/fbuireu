@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        readme: [README.ca.md]
+        readme: [README.md, README.ca.md]
     steps:
       - uses: actions/checkout@v2
       - uses: fbuireu/github-activity-readme@master
