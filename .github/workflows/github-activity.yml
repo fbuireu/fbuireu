@@ -37,7 +37,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           #TARGET_FILE: 
-          branches: |
+          branches:
               - main
-              - '**.js'
+              - '**.md'
           COMMIT_MSG: 'docs: update ${{ matrix.readme }} with latest GitHub activity'
