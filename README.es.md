@@ -193,11 +193,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
-1. ❌ Closed PR [#551](https://github.com/fbuireu/biancafiore/pull/551) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-2. ❌ Closed PR [#541](https://github.com/fbuireu/biancafiore/pull/541) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-3. ❌ Closed PR [#542](https://github.com/fbuireu/biancafiore/pull/542) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-4. ❌ Closed PR [#544](https://github.com/fbuireu/biancafiore/pull/544) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-5. ❌ Closed PR [#543](https://github.com/fbuireu/biancafiore/pull/543) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+1. 🗣 Commented on [#1](https://github.com/fbuireu/fbuireu/issues/1) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+2. 🗣 Commented on [#1](https://github.com/fbuireu/fbuireu/issues/1) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+3. 🗣 Commented on [#80](https://github.com/jamesgeorge007/github-activity-readme/issues/80) in [jamesgeorge007/github-activity-readme](https://github.com/jamesgeorge007/github-activity-readme)
+4. 🗣 Commented on [#80](https://github.com/jamesgeorge007/github-activity-readme/issues/80) in [jamesgeorge007/github-activity-readme](https://github.com/jamesgeorge007/github-activity-readme)
+5. 🗣 Commented on [#80](https://github.com/jamesgeorge007/github-activity-readme/issues/80) in [jamesgeorge007/github-activity-readme](https://github.com/jamesgeorge007/github-activity-readme)
 <!--END_SECTION:activity-->
 
 <details>
