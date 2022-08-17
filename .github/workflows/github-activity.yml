@@ -19,6 +19,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-         TARGET_FILE: '${{ matrix.readme }}'
+         TARGET: '${{ matrix.readme }}'
          COMMIT_MSG: 'docs: update ${{ matrix.readme }} with latest GitHub activity'
 
