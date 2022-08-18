@@ -127,6 +127,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <a href="https://codesandbox.io/u/fbuireu" target="_blank" title="CodeSandbox">
   <img src="https://img.shields.io/badge/codesandbox-040404?style=for-the-badge&logo=codesandbox&logoColor=DBDBDB" alt="CodeSandbox" />
 </a>
+<a href="https://exercism.org/profiles/fbuireu" target="_blank" title="Exercism">
+  <img src="https://img.shields.io/badge/exercism-130b43?style=for-the-badge&logo=exercism&logoColor=ffffff" alt="Exercism" />
+</a>
 <a href="https://www.frontendmentor.io/profile/fbuireu" target="_blank" title="Frontend Mentor">
   <img src="https://img.shields.io/badge/frontendmentor-3f54a3?style=for-the-badge&logo=frontendmentor&logoColor=ffffff" alt="Frontend Mentor" />
 </a>
