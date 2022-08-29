@@ -12,9 +12,10 @@ jobs:
         readme: [README.md, README.ca.md, README.es.md, README.it.md]
     steps:
       - uses: actions/checkout@v3
-      - uses: Readme-Workflows/recent-activity@1.3.0
+      - uses: fbuireu/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          README_FILE: ${{ matrix.readme }}
+          TARGET_FILE: ${{ matrix.readme }}
+          COMMIT_MSG: 'docs: update ${{ matrix.readme }} with latest GitHub activity'
           
