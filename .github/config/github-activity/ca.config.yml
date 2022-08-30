@@ -1,0 +1,4 @@
+
+settings:
+  commit_msg: "⚡ Update README.ca.md with the recent activity"
+  readme_file: "./README.ca.md"
