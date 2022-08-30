@@ -1,0 +1,3 @@
+settings:
+  commit_msg: "⚡ Update README.md with the recent activity"
+  readme_file: "./README.md"
