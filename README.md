@@ -196,7 +196,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--START_SECTION:activity-->
-1. ❌ Closed PR [#2](https://github.com/fbuireu/fbuireu/pull/2) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+1. ❗️ Opened issue [#211](https://github.com/Readme-Workflows/recent-activity/issues/211) in [Readme-Workflows/recent-activity](https://github.com/Readme-Workflows/recent-activity)
 2. 🗣 Commented on [#2](https://github.com/fbuireu/fbuireu/issues/2) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 3. 🗣 Commented on [#76](https://github.com/jamesgeorge007/github-activity-readme/issues/76) in [jamesgeorge007/github-activity-readme](https://github.com/jamesgeorge007/github-activity-readme)
 4. 🗣 Commented on [#80](https://github.com/jamesgeorge007/github-activity-readme/issues/80) in [jamesgeorge007/github-activity-readme](https://github.com/jamesgeorge007/github-activity-readme)
