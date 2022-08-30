@@ -5,15 +5,14 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    name: Update ${{ matrix.readme }}
+    name: Update README files
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        readme: [README.md, README.ca.md, README.es.md, README.it.md]
         config_file: [./.github/config/github-activity/en.config.yml, ./.github/config/github-activity/ca.config.yml, ./.github/config/github-activity/es.config.yml, ./.github/config/github-activity/it.config.yml]
     steps:
       - uses: actions/checkout@v3
-      - uses: Readme-Workflows/recent-activity@2.4
+      - uses: Readme-Workflows/recent-activity@v2.4.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
