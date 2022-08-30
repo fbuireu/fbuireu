@@ -1,4 +1,4 @@
 
 settings:
-  commit_msg: "⚡ Update README.ca.md with the recent activity"
+  commit_msg: "docs: update README.ca.md with latest GitHub activity"
   readme_file: "./README.ca.md"
