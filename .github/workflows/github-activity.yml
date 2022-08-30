@@ -10,12 +10,11 @@ jobs:
     strategy:
       matrix:
         readme: [README.md, README.ca.md, README.es.md, README.it.md]
+        config_file: [./.github/config/github-activity/en.config.yml, ./.github/config/github-activity/ca.config.yml, ./.github/config/github-activity/es.config.yml, ./.github/config/github-activity/it.config.yml]
     steps:
       - uses: actions/checkout@v3
-      - uses: fbuireu/github-activity-readme@master
+      - uses: Readme-Workflows/recent-activity@2.4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          TARGET_FILE: ${{ matrix.readme }}
-          COMMIT_MSG: 'docs: update ${{ matrix.readme }} with latest GitHub activity'
-          
+          CONFIG_FILE: ${{ matrix.config_file }}
