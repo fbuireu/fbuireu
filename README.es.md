@@ -200,7 +200,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 2. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 3. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 4. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-5. ❌ Closed PR [#572](https://github.com/fbuireu/biancafiore/pull/572) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+5. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
