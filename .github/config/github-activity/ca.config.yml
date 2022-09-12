@@ -1,4 +1,3 @@
-
 settings:
   commit_msg: "docs: update README.ca.md with latest GitHub activity"
   readme_file: "./README.ca.md"
@@ -12,9 +11,9 @@ messages:
   create_repo: "📔 Ha creat un nou repositori {REPO}"
   fork_repo: "🔱 Ha bifurcat {FORK} des de {REPO}"
   wiki_create: "📖 Ha creat una nova wiki {WIKI} a {REPO}"
-  added_member: "🤝 S'ha convertit en col·laborador a {REPO}"
+  added_member: "🤝 S'ha convertit en col·laborador de {REPO}"
   changes_approved: "👍 Ha aprovat {ID} a {REPO}"
   changes_requested: "🔴 Ha demanat canvis a {ID} a {REPO}"
-  new_release: "✌️ Ha llançat {ID} a {REPO}"
+  new_release: "✌️ Ha publicat {ID} a {REPO}"
   new_star: "⭐ Ha destacat {REPO}"
   push: "⬆️ Ha empès {AMOUNT} compromís(os) a {REPO}"
