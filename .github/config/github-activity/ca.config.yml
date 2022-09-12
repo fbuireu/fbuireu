@@ -17,4 +17,4 @@ messages:
   changes_requested: "🔴 Ha demanat canvis a {ID} a {REPO}"
   new_release: "✌️ Ha llançat {ID} a {REPO}"
   new_star: "⭐ Ha destacat {REPO}"
-  push: "⬆️ Ha empès {AMOUNT} commit(s) a {REPO}"
+  push: "⬆️ Ha empès {AMOUNT} compromís(os) a {REPO}"
