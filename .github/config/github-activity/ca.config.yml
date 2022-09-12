@@ -10,7 +10,7 @@ messages:
   pr_closed: "❌ Ha tancat una PR {ID} a {REPO}"
   pr_merged: "🎉 Ha fusionat una PR {ID} a {REPO}"
   create_repo: "📔 Ha creat un nou repositori {REPO}"
-  fork_repo: "🔱 Ha bifurcat {FORK} from {REPO}"
+  fork_repo: "🔱 Ha bifurcat {FORK} des de {REPO}"
   wiki_create: "📖 Ha creat una nova wiki {WIKI} a {REPO}"
   added_member: "🤝 S'ha convertit en col·laborador a {REPO}"
   changes_approved: "👍 Ha aprovat {ID} a {REPO}"
