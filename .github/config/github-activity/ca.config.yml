@@ -2,3 +2,18 @@
 settings:
   commit_msg: "docs: update README.ca.md with latest GitHub activity"
   readme_file: "./README.ca.md"
+messages:
+  comments: "💬 Ha comentat a {ID} a {REPO}"
+  issue_opened: "❗️ Ha obert el tema {ID} a {REPO}"
+  issue_closed: "✔️ Ha tancat el tema {ID} a {REPO}"
+  pr_opened: "💪 Ha obert una PR {ID} a {REPO}"
+  pr_closed: "❌ Ha tancat una PR {ID} a {REPO}"
+  pr_merged: "🎉 Ha fusionat una PR {ID} a {REPO}"
+  create_repo: "📔 Ha creat un nou repositori {REPO}"
+  fork_repo: "🔱 Ha bifurcat {FORK} from {REPO}"
+  wiki_create: "📖 Ha creat una nova wiki {WIKI} a {REPO}"
+  added_member: "🤝 S'ha convertit en col·laborador a {REPO}"
+  changes_approved: "👍 Ha aprovat {ID} a {REPO}"
+  changes_requested: "🔴 Ha demanat canvis a {ID} a {REPO}"
+  new_release: "✌️ Ha llançat {ID} a {REPO}"
+  new_star: "⭐ Ha destacat {REPO}"
