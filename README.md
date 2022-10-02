@@ -196,11 +196,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-2. ⬆️ Pushed 1 commit(s) to [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-3. ⬆️ Pushed 1 commit(s) to [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-4. 🎉 Merged PR [#573](https://github.com/fbuireu/biancafiore/pull/573) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-5. 💪 Opened PR [#573](https://github.com/fbuireu/biancafiore/pull/573) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+1. ⬆️ Pushed 1 commit(s) to [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+2. 🎉 Merged PR [#574](https://github.com/fbuireu/biancafiore/pull/574) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+3. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+4. ⬆️ Pushed 1 commit(s) to [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+5. ⬆️ Pushed 1 commit(s) to [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
