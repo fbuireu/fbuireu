@@ -197,11 +197,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. 🔱 Ha biforcato [fbuireu/loadable-components](https://github.com/fbuireu/loadable-components) da [gregberge/loadable-components](https://github.com/gregberge/loadable-components)
+1. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 2. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-3. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-4. 🎉 Ha unificato il PR [#574](https://github.com/fbuireu/biancafiore/pull/574) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+3. 🔱 Ha biforcato [fbuireu/loadable-components](https://github.com/fbuireu/loadable-components) da [gregberge/loadable-components](https://github.com/gregberge/loadable-components)
+4. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
