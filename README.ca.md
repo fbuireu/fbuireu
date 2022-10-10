@@ -199,8 +199,8 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 1. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 2. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 3. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-4. ❗️ Ha obert el tema [#103](https://github.com/athul/waka-readme/issues/103) a [athul/waka-readme](https://github.com/athul/waka-readme)
-5. 💬 Ha comentat a [#235](https://github.com/anmol098/waka-readme-stats/issues/235#issuecomment-1268469622) a [anmol098/waka-readme-stats](https://github.com/anmol098/waka-readme-stats)
+4. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+5. ❗️ Ha obert el tema [#103](https://github.com/athul/waka-readme/issues/103) a [athul/waka-readme](https://github.com/athul/waka-readme)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
