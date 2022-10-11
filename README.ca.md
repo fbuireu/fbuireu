@@ -196,11 +196,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+1. ⭐ Ha destacat [makenotion/notion-sdk-js](https://github.com/makenotion/notion-sdk-js)
 2. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 3. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 4. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-5. ❗️ Ha obert el tema [#103](https://github.com/athul/waka-readme/issues/103) a [athul/waka-readme](https://github.com/athul/waka-readme)
+5. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
