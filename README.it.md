@@ -198,10 +198,10 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-2. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+2. ⭐ Ha rimarcato [makenotion/notion-sdk-js](https://github.com/makenotion/notion-sdk-js)
 3. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 4. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-5. ❗Ha aperto il tema [#103](https://github.com/athul/waka-readme/issues/103) in [athul/waka-readme](https://github.com/athul/waka-readme)
+5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
