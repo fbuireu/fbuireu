@@ -197,9 +197,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-2. ⭐ Ha destacado [makenotion/notion-sdk-js](https://github.com/makenotion/notion-sdk-js)
+2. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 3. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-4. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+4. ⭐ Ha destacado [makenotion/notion-sdk-js](https://github.com/makenotion/notion-sdk-js)
 5. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 <!--RECENT_ACTIVITY:end-->
 
