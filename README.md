@@ -196,11 +196,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed 1 commit(s) to [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-2. 🎉 Merged PR [#575](https://github.com/fbuireu/biancafiore/pull/575) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-3. 💪 Opened PR [#575](https://github.com/fbuireu/biancafiore/pull/575) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-4. 💪 Opened PR [#16](https://github.com/poleselfg/pilenses/pull/16) in [poleselfg/pilenses](https://github.com/poleselfg/pilenses)
-5. 🔱 Forked [fbuireu/pilenses](https://github.com/fbuireu/pilenses) from [poleselfg/pilenses](https://github.com/poleselfg/pilenses)
+1. ⬆️ Pushed 158 commit(s) to [fbuireu/amplication](https://github.com/fbuireu/amplication)
+2. 💬 Commented on [#4208](https://github.com/amplication/amplication/pull/4208#issuecomment-1286767646) in [amplication/amplication](https://github.com/amplication/amplication)
+3. ⬆️ Pushed 148 commit(s) to [fbuireu/amplication](https://github.com/fbuireu/amplication)
+4. ⬆️ Pushed 2 commit(s) to [fbuireu/amplication](https://github.com/fbuireu/amplication)
+5. 💬 Commented on [#4208](https://github.com/amplication/amplication/pull/4208#issuecomment-1286735635) in [amplication/amplication](https://github.com/amplication/amplication)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
