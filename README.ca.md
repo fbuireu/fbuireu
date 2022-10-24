@@ -197,10 +197,10 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-2. ⬆️ Ha empès 158 commit(s) a [fbuireu/amplication](https://github.com/fbuireu/amplication)
-3. 💬 Ha comentat a [#4208](https://github.com/amplication/amplication/pull/4208#issuecomment-1286767646) a [amplication/amplication](https://github.com/amplication/amplication)
-4. ⬆️ Ha empès 148 commit(s) a [fbuireu/amplication](https://github.com/fbuireu/amplication)
-5. ⬆️ Ha empès 2 commit(s) a [fbuireu/amplication](https://github.com/fbuireu/amplication)
+2. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+3. ⬆️ Ha empès 158 commit(s) a [fbuireu/amplication](https://github.com/fbuireu/amplication)
+4. 💬 Ha comentat a [#4208](https://github.com/amplication/amplication/pull/4208#issuecomment-1286767646) a [amplication/amplication](https://github.com/amplication/amplication)
+5. ⬆️ Ha empès 148 commit(s) a [fbuireu/amplication](https://github.com/fbuireu/amplication)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
