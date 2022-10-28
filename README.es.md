@@ -198,8 +198,8 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 2. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-3. 💬 Ha comentado a [#161](https://github.com/microapps/gatsby-plugin-react-i18next/issues/161#issuecomment-1289370180) en [microapps/gatsby-plugin-react-i18next](https://github.com/microapps/gatsby-plugin-react-i18next)
-4. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+3. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+4. 💬 Ha comentado a [#161](https://github.com/microapps/gatsby-plugin-react-i18next/issues/161#issuecomment-1289370180) en [microapps/gatsby-plugin-react-i18next](https://github.com/microapps/gatsby-plugin-react-i18next)
 5. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 <!--RECENT_ACTIVITY:end-->
 
