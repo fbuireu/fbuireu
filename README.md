@@ -198,9 +198,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 2. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-3. ⬆️ Pushed 158 commit(s) to [fbuireu/amplication](https://github.com/fbuireu/amplication)
-4. 💬 Commented on [#4208](https://github.com/amplication/amplication/pull/4208#issuecomment-1286767646) in [amplication/amplication](https://github.com/amplication/amplication)
-5. ⬆️ Pushed 148 commit(s) to [fbuireu/amplication](https://github.com/fbuireu/amplication)
+3. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+4. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+5. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
