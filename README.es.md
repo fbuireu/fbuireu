@@ -196,11 +196,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. ❌ Ha cerrado una PR [#576](https://github.com/fbuireu/biancafiore/pull/576) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-2. ❌ Ha cerrado una PR [#578](https://github.com/fbuireu/biancafiore/pull/578) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-3. ❌ Ha cerrado una PR [#577](https://github.com/fbuireu/biancafiore/pull/577) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-4. ❌ Ha cerrado una PR [#586](https://github.com/fbuireu/biancafiore/pull/586) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-5. ❌ Ha cerrado una PR [#579](https://github.com/fbuireu/biancafiore/pull/579) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+1. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+2. ❌ Ha cerrado una PR [#576](https://github.com/fbuireu/biancafiore/pull/576) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+3. ❌ Ha cerrado una PR [#578](https://github.com/fbuireu/biancafiore/pull/578) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+4. ❌ Ha cerrado una PR [#577](https://github.com/fbuireu/biancafiore/pull/577) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+5. ❌ Ha cerrado una PR [#586](https://github.com/fbuireu/biancafiore/pull/586) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
