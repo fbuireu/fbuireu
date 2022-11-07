@@ -197,11 +197,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/amplication](https://github.com/fbuireu/amplication)
-2. ❌ Ha chiuso il PR [#16](https://github.com/poleselfg/pilenses/pull/16) in [poleselfg/pilenses](https://github.com/poleselfg/pilenses)
-3. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/poleselfg](https://github.com/fbuireu/poleselfg)
-4. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/Video-Hub-App](https://github.com/fbuireu/Video-Hub-App)
-5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/simplQ-frontend](https://github.com/fbuireu/simplQ-frontend)
+1. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+2. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/amplication](https://github.com/fbuireu/amplication)
+3. ❌ Ha chiuso il PR [#16](https://github.com/poleselfg/pilenses/pull/16) in [poleselfg/pilenses](https://github.com/poleselfg/pilenses)
+4. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/poleselfg](https://github.com/fbuireu/poleselfg)
+5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/Video-Hub-App](https://github.com/fbuireu/Video-Hub-App)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
