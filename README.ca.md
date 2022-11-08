@@ -198,9 +198,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 2. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-3. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-4. ❌ Ha tancat una PR [#576](https://github.com/fbuireu/biancafiore/pull/576) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-5. ❌ Ha tancat una PR [#578](https://github.com/fbuireu/biancafiore/pull/578) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+3. ⬆️ Ha empès 1 commit(s) a [fbuireu/amplication](https://github.com/fbuireu/amplication)
+4. ❌ Ha tancat una PR [#16](https://github.com/poleselfg/pilenses/pull/16) a [poleselfg/pilenses](https://github.com/poleselfg/pilenses)
+5. ⬆️ Ha empès 1 commit(s) a [fbuireu/poleselfg](https://github.com/fbuireu/poleselfg)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
