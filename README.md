@@ -196,11 +196,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. ❌ Closed PR [#576](https://github.com/fbuireu/biancafiore/pull/576) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-2. ❌ Closed PR [#578](https://github.com/fbuireu/biancafiore/pull/578) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-3. ❌ Closed PR [#577](https://github.com/fbuireu/biancafiore/pull/577) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-4. ❌ Closed PR [#586](https://github.com/fbuireu/biancafiore/pull/586) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-5. ❌ Closed PR [#579](https://github.com/fbuireu/biancafiore/pull/579) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+1. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+2. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+3. ⬆️ Pushed 1 commit(s) to [fbuireu/amplication](https://github.com/fbuireu/amplication)
+4. ❌ Closed PR [#16](https://github.com/poleselfg/pilenses/pull/16) in [poleselfg/pilenses](https://github.com/poleselfg/pilenses)
+5. ⬆️ Pushed 1 commit(s) to [fbuireu/poleselfg](https://github.com/fbuireu/poleselfg)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
