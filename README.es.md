@@ -199,8 +199,8 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 1. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 2. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 3. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-4. ⬆️ Ha empujado 1 commit(s) en [fbuireu/amplication](https://github.com/fbuireu/amplication)
-5. ❌ Ha cerrado una PR [#16](https://github.com/poleselfg/pilenses/pull/16) en [poleselfg/pilenses](https://github.com/poleselfg/pilenses)
+4. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+5. ⬆️ Ha empujado 1 commit(s) en [fbuireu/amplication](https://github.com/fbuireu/amplication)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
