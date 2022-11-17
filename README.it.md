@@ -198,9 +198,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-2. ⭐ Ha rimarcato [huggingface/transformers](https://github.com/huggingface/transformers)
-3. ⭐ Ha rimarcato [CitizenLabDotCo/citizenlab](https://github.com/CitizenLabDotCo/citizenlab)
-4. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+2. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+3. ⭐ Ha rimarcato [huggingface/transformers](https://github.com/huggingface/transformers)
+4. ⭐ Ha rimarcato [CitizenLabDotCo/citizenlab](https://github.com/CitizenLabDotCo/citizenlab)
 5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 <!--RECENT_ACTIVITY:end-->
 
