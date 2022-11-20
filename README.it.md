@@ -200,8 +200,8 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 1. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 2. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 3. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-4. ⭐ Ha rimarcato [huggingface/transformers](https://github.com/huggingface/transformers)
-5. ⭐ Ha rimarcato [CitizenLabDotCo/citizenlab](https://github.com/CitizenLabDotCo/citizenlab)
+4. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
