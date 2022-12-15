@@ -196,11 +196,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-2. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-3. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-4. 🎉 Ha fusionat una PR [#587](https://github.com/fbuireu/biancafiore/pull/587) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
-5. ⬆️ Ha empès 1 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+1. ⬆️ Ha empès 6 commit(s) a [fbuireu/bw](https://github.com/fbuireu/bw)
+2. 💪 Ha obert una PR [#33](https://github.com/code-istvan/bw/pull/33) a [code-istvan/bw](https://github.com/code-istvan/bw)
+3. ⬆️ Ha empès 1 commit(s) a [fbuireu/bw](https://github.com/fbuireu/bw)
+4. ⬆️ Ha empès 1 commit(s) a [fbuireu/bw](https://github.com/fbuireu/bw)
+5. 🔱 Ha bifurcat [fbuireu/bw](https://github.com/fbuireu/bw) des de [code-istvan/bw](https://github.com/code-istvan/bw)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
