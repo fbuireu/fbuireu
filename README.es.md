@@ -196,11 +196,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empujado 6 commit(s) en [fbuireu/bw](https://github.com/fbuireu/bw)
-2. 💪 Ha abierto una PR [#33](https://github.com/code-istvan/bw/pull/33) en [code-istvan/bw](https://github.com/code-istvan/bw)
-3. ⬆️ Ha empujado 1 commit(s) en [fbuireu/bw](https://github.com/fbuireu/bw)
-4. ⬆️ Ha empujado 1 commit(s) en [fbuireu/bw](https://github.com/fbuireu/bw)
-5. 🔱 Ha bifurcado [fbuireu/bw](https://github.com/fbuireu/bw) desde [code-istvan/bw](https://github.com/code-istvan/bw)
+1. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+2. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+3. ⬆️ Ha empujado 6 commit(s) en [fbuireu/bw](https://github.com/fbuireu/bw)
+4. 💪 Ha abierto una PR [#33](https://github.com/code-istvan/bw/pull/33) en [code-istvan/bw](https://github.com/code-istvan/bw)
+5. ⬆️ Ha empujado 1 commit(s) en [fbuireu/bw](https://github.com/fbuireu/bw)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
