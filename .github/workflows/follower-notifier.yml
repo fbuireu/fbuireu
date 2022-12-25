@@ -1,0 +1,27 @@
+name: Follower Notifier
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Follower Change
+        id: followerChange
+        uses: Sorosliu1029/follower-change@v2
+        with:
+          myToken: ${{ secrets.FOLLOWER_NOTIFIER_TOKEN }}
+          notifyUnFollowEvent: true
+      - name: Email Me
+        uses: dawidd6/action-send-mail@v3
+        if: steps.followerChange.outputs.shouldNotify == 'true'
+        with:
+          server_address: smtp.qq.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: GitHub Follower Change
+          from: Follower Change Notifier
+          to: ${{ secrets.MAIL_USERNAME }}
+          html_body: file://${{ steps.followerChange.outputs.htmlFilePath }}
