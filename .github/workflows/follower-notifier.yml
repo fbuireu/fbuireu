@@ -4,7 +4,8 @@ on:
     - cron: '0 3 * * *'
   workflow_dispatch:
 jobs:
-  main:
+  build:
+    name: Follower Notifier
     runs-on: ubuntu-latest
     steps:
       - name: Get Follower Change
