@@ -203,10 +203,10 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-2. 💪 Ha aperto il PR [#34](https://github.com/code-istvan/bw/pull/34) in [code-istvan/bw](https://github.com/code-istvan/bw)
-3. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/bw](https://github.com/fbuireu/bw)
-4. ⬆️ Ha impulsato 9 commit(s) in [fbuireu/bw](https://github.com/fbuireu/bw)
-5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+2. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+3. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+4. 💪 Ha aperto il PR [#34](https://github.com/code-istvan/bw/pull/34) in [code-istvan/bw](https://github.com/code-istvan/bw)
+5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/bw](https://github.com/fbuireu/bw)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
