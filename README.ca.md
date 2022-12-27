@@ -204,9 +204,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 2. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-3. 💪 Ha obert una PR [#34](https://github.com/code-istvan/bw/pull/34) a [code-istvan/bw](https://github.com/code-istvan/bw)
-4. ⬆️ Ha empès 1 commit(s) a [fbuireu/bw](https://github.com/fbuireu/bw)
-5. ⬆️ Ha empès 9 commit(s) a [fbuireu/bw](https://github.com/fbuireu/bw)
+3. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+4. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+5. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
