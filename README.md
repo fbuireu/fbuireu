@@ -168,7 +168,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <img src="https://img.shields.io/badge/mentorcruise-05b197?style=for-the-badge&logo=mentorcruise&logoColor=000000" alt="MentorCruise" />
 </a>
 
-### ̶R̶e̶f̶i̶l̶l̶  Rehydrate me at:
+### ̶R̶e̶f̶i̶l̶l̶  Rehydrate & Support me at:
 <a href="https://www.patreon.com/fbuireu" target="_blank" title="Patreon">
   <img src="https://img.shields.io/badge/patreon-ff424d?style=for-the-badge&logo=patreon&logoColor=ffffff" alt="Patreon" />
 </a>
@@ -177,6 +177,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 </a>
 <a href="https://github.com/sponsors/fbuireu" target="_blank" title="GitHub Sponsors">
   <img src="https://img.shields.io/badge/gitHub%20sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=ffffff" alt="GitHub Sponsors" />
+</a>
+<a href="https://fbuireu.gumroad.com/" target="_blank" title="Gumroad">
+  <img src="https://img.shields.io/badge/gumroad-ff90e8?style=for-the-badge&logo=gumroad&logoColor=000000" alt="Gumroad" />
 </a>
 
 -------
