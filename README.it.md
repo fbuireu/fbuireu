@@ -205,11 +205,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. ❗Ha aperto il tema [#1346](https://github.com/lowlighter/metrics/issues/1346) in [lowlighter/metrics](https://github.com/lowlighter/metrics)
+1. 💬 Ha commentato [#1346](https://github.com/lowlighter/metrics/issues/1346#issuecomment-1381380462) in [lowlighter/metrics](https://github.com/lowlighter/metrics)
 2. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-3. ⬆️ Ha impulsato 3 commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
+3. ❗Ha aperto il tema [#1346](https://github.com/lowlighter/metrics/issues/1346) in [lowlighter/metrics](https://github.com/lowlighter/metrics)
 4. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+5. ⬆️ Ha impulsato 3 commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
