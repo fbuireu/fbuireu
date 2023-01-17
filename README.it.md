@@ -207,9 +207,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 2. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-3. 💬 Ha commentato [#1346](https://github.com/lowlighter/metrics/issues/1346#issuecomment-1381380462) in [lowlighter/metrics](https://github.com/lowlighter/metrics)
-4. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-5. ❗Ha aperto il tema [#1346](https://github.com/lowlighter/metrics/issues/1346) in [lowlighter/metrics](https://github.com/lowlighter/metrics)
+3. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+4. 💬 Ha commentato [#1346](https://github.com/lowlighter/metrics/issues/1346#issuecomment-1381380462) in [lowlighter/metrics](https://github.com/lowlighter/metrics)
+5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
 <!--RECENT_ACTIVITY:end-->
 
 <details>
