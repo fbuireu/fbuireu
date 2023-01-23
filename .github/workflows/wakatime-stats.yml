@@ -20,4 +20,4 @@ jobs:
           SHOW_PROFILE_VIEWS: false
           SHOW_LOC_CHART: false
           SHOW_LANGUAGE_PER_REPO: false
-          COMMIT_MESSAGE: 'docs: update ${{ matrix.readme }} with latest WakaTime stats'
+          #COMMIT_MESSAGE: 'docs: update ${{ matrix.readme }} with latest WakaTime stats'
