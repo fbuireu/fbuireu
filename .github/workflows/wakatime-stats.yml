@@ -11,7 +11,7 @@ jobs:
       matrix:
         readme: [README.md, README.ca.md, README.es.md, README.it.md]
     steps:
-      - uses: fbuireu/waka-readme-stats@latest
+      - uses: fbuireu/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_TOKEN }}
           TARGET_FILE: ${{ matrix.readme }}
