@@ -11,7 +11,7 @@ jobs:
       matrix:
         readme: [README.md, README.ca.md, README.es.md, README.it.md]
     steps:
-      - uses: fbuireu/waka-readme-stats@master
+      - uses: fbuireu/waka-readme-stats@latest
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_TOKEN }}
           TARGET_FILE: ${{ matrix.readme }}
@@ -20,4 +20,4 @@ jobs:
           SHOW_PROFILE_VIEWS: false
           SHOW_LOC_CHART: false
           SHOW_LANGUAGE_PER_REPO: false
-          #COMMIT_MESSAGE: 'docs: update ${{ matrix.readme }} with latest WakaTime stats'
+          COMMIT_MESSAGE: 'docs: update ${{ matrix.readme }} with latest WakaTime stats'
