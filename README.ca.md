@@ -205,11 +205,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-2. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-3. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-4. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
-5. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)
+1. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+2. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+3. ⬆️ Ha empès 1 commit(s) a [fbuireu/waka-readme](https://github.com/fbuireu/waka-readme)<br>
+4. ⬆️ Ha empès 1 commit(s) a [fbuireu/waka-readme](https://github.com/fbuireu/waka-readme)<br>
+5. 🔱 Ha bifurcat [fbuireu/waka-readme](https://github.com/fbuireu/waka-readme) des de [athul/waka-readme](https://github.com/athul/waka-readme)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
