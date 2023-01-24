@@ -1,3 +1,5 @@
 settings:
   commit_msg: "docs: update README.md with latest GitHub activity"
   readme_file: "./README.md"
+date:
+  timezone: "Europe/Madrid"
