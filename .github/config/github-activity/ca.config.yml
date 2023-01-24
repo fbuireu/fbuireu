@@ -1,6 +1,8 @@
 settings:
   commit_msg: "docs: update README.ca.md with latest GitHub activity"
   readme_file: "./README.ca.md"
+date:
+  timezone: "Europe/Madrid"
 messages:
   comments: "💬 Ha comentat a {ID} a {REPO}"
   issue_opened: "❗️ Ha obert el tema {ID} a {REPO}"
