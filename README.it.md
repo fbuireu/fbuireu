@@ -234,7 +234,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=netlify-cms&theme=onedark&hide_border=true"
          alt="Netlify CMS" />
   </a>
-  <img src="https://activity-graph.herokuapp.com/graph?username=fbuireu&theme=github&bg_color=282c34&line=c3a875&point=d77077&hide_border=true"
+  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=fbuireu&theme=github&bg_color=282c34&line=c3a875&point=d77077&hide_border=true"
        alt="Ferran Buireu's Monthly GitHub Contribution Grap" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=fbuireu&theme=onedark&hide_border=true"
        alt="Ferran Buireu's GitHub Streak" />
