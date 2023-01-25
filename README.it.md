@@ -312,3 +312,5 @@ If you've reached this point, you deserve to meet <span style="color: purple">Qw
 [![Medium Latest Articles](https://github.com/fbuireu/fbuireu/actions/workflows/medium-latest-articles.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/medium-latest-articles.yml)
 [![Snake Grid Animation](https://github.com/fbuireu/fbuireu/actions/workflows/snake-animation.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/snake-animation.yml)
 [![Wakatime Stats](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml)
+[![Follower Notifier](https://github.com/fbuireu/fbuireu/actions/workflows/follower-notifier.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/follower-notifier.yml)
+[![CodeQL Analysis](https://github.com/fbuireu/fbuireu/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/codeql-analysis.yml)
