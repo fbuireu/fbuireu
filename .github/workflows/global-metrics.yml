@@ -25,14 +25,18 @@ jobs:
           plugin_discussions: yes
           plugin_followup: yes
           plugin_followup_sections: repositories, user
+          plugin_calendar: yes
+          plugin_calendar_limit: 0
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_lines: yes
           plugin_notable: yes
           plugin_notable_repositories: yes
           plugin_notable_filter: stars:>500 forks:>100
+          plugin_starlists: yes
+          plugin_starlists_languages: yes
           plugin_pagespeed: yes
-          plugin_pagespeed_url: https://ferranbuireu.dev/
+          plugin_pagespeed_url: ${{ secrets.PERSONAL_SITE_URL }}
           plugin_stars: yes
           plugin_languages: yes
           plugin_languages_sections: most-used, recently-used
@@ -54,6 +58,11 @@ jobs:
           plugin_licenses: yes
           plugin_contributors_contributions: yes
           plugin_stargazers: yes
+          plugin_stargazers_charts: yes
+          plugin_stargazers_charts_type: chartist
+          plugin_stargazers_worldmap: yes
+          plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAPS_TOKEN }}
+          plugin_stargazers_worldmap_sample: 200
           plugin_topics: yes
           plugin_topics_mode: starred, mastered
           plugin_traffic: yes
@@ -71,3 +80,7 @@ jobs:
           plugin_music_token: '${{ secrets.SPOTIFY_CLIENT_ID }}, ${{ secrets.SPOTIFY_CLIENT_SECRET }}, ${{ secrets.SPOTIFY_REFRESH_TOKEN }}'
           plugin_skyline: yes
           plugin_skyline_frames: 120
+          plugin_leetcode: yes
+          plugin_leetcode_user: ${{ secrets.LEETCODE_USER }}
+          plugin_sponsorships: yes
+          plugin_sponsors: yes
