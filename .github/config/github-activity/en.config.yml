@@ -1,5 +1,6 @@
 settings:
   commit_msg: "docs: update README.md with latest GitHub activity"
   readme_file: "./README.md"
+  whitelisted_events: [comments, create_repo, fork, issues, member, pr, push, release, review, star, wiki]
 date:
   timezone: "Europe/Madrid"
