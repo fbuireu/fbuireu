@@ -1,18 +1,18 @@
-name: Follower Notifier
+name: Followers Notifier
 on:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch:
 jobs:
   build:
-    name: Follower Notifier
+    name: Followers Notifier
     runs-on: ubuntu-latest
     steps:
-      - name: Get Follower Change
-        id: followerChange
+      - name: Get Followers Change
+        id: followersChange
         uses: Sorosliu1029/follower-change@v2
         with:
-          myToken: ${{ secrets.FOLLOWER_NOTIFIER_TOKEN }}
+          myToken: ${{ secrets.FOLLOWERS_NOTIFIER_TOKEN }}
           notifyUnFollowEvent: true
       - name: Email Me
         uses: dawidd6/action-send-mail@v3
