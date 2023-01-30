@@ -168,7 +168,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <img src="https://img.shields.io/badge/mentorcruise-05b197?style=for-the-badge&logo=mentorcruise&logoColor=000000" alt="MentorCruise" />
 </a>
 
-### ̶R̶e̶f̶i̶l̶l̶  Rehydrate & Support me at:
+### R̶e̶f̶i̶l̶l̶  Rehydrate & Support me at:
 <a href="https://www.patreon.com/fbuireu" target="_blank" title="Patreon">
   <img src="https://img.shields.io/badge/patreon-ff424d?style=for-the-badge&logo=patreon&logoColor=ffffff" alt="Patreon" />
 </a>
