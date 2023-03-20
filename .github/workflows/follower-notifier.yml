@@ -20,7 +20,7 @@ jobs:
         with:
           server_address: ${{ secrets.SMTP_SERVER }}
           server_port: ${{ env.SMTP_PORT }}
-          username: ${{ secrets.MAIL_USERNAME }}
+          username: ${{ env.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: ${{ env.MAIL_SUBJECT }}
           from: ${{ env.MAIL_FROM }}
