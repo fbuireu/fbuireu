@@ -18,11 +18,11 @@ jobs:
         uses: dawidd6/action-send-mail@v3
         if: steps.followerChange.outputs.shouldNotify == 'true'
         with:
-          server_address: ${{ env.SMTP_SERVER }}
-          server_port: ${{ env.SMTP_PORT }}
-          username: ${{ env.MAIL_USERNAME }}
+          server_address: ${{ vars.SMTP_SERVER }}
+          server_port: ${{ vars.SMTP_PORT }}
+          username: ${{ vars.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
-          subject: ${{ env.MAIL_SUBJECT }}
-          from: ${{ env.MAIL_FROM }}
-          to: ${{ env.MAIL_USERNAME }}
+          subject: ${{ vars.MAIL_SUBJECT }}
+          from: ${{ vars.MAIL_FROM }}
+          to: ${{ vars.MAIL_USERNAME }}
           html_body: file://${{ steps.followerChange.outputs.htmlFilePath }}
