@@ -43,7 +43,7 @@ jobs:
           plugin_languages_indepth: yes
           plugin_people: yes
           plugin_stackoverflow: yes
-          plugin_stackoverflow_user: ${{ secrets.STACKOVERFLOW_ID }} 
+          plugin_stackoverflow_user: ${{ env.STACKOVERFLOW_ID }} 
           repositories_forks: yes
           plugin_contributors: yes
           plugin_licenses_ratio: yes
@@ -76,11 +76,11 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_mode: recent
           plugin_music_limit: 10
-          plugin_music_user: ${{ secrets.SPOTIFY_USER }}
+          plugin_music_user: ${{ env.SPOTIFY_USER }}
           plugin_music_token: '${{ secrets.SPOTIFY_CLIENT_ID }}, ${{ secrets.SPOTIFY_CLIENT_SECRET }}, ${{ secrets.SPOTIFY_REFRESH_TOKEN }}'
           plugin_skyline: yes
           plugin_skyline_frames: 120
           plugin_leetcode: yes
-          plugin_leetcode_user: ${{ secrets.LEETCODE_USER }}
+          plugin_leetcode_user: ${{ env.LEETCODE_USER }}
           plugin_sponsorships: yes
           plugin_sponsors: yes
