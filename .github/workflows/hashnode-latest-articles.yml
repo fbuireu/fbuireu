@@ -17,5 +17,5 @@ jobs:
           readme_path: ${{ matrix.readme }}
           comment_tag_name: HASHNODE-LATEST-ARTICLES
           max_post_count: 5
-          feed_list: ${{ env.HASHNODE_RSS }}
+          feed_list: ${{ vars.HASHNODE_RSS }}
           commit_message: 'docs: update ${{ matrix.readme }} with latest Hashnode articles'
