@@ -19,10 +19,10 @@ jobs:
         if: steps.followerChange.outputs.shouldNotify == 'true'
         with:
           server_address: ${{ secrets.SMTP_SERVER }}
-          server_port: ${{ secrets.SMTP_PORT }}
+          server_port: ${{ env.SMTP_PORT }}
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
-          subject: 👀🧑‍💻 GitHub Followers Change 🧑‍💻👀
-          from: Follower Change Notifier (GitHub Action)
+          subject: ${{ env.MAIL_SUBJECT }}
+          from: ${{ env.MAIL_FROM }}
           to: ${{ secrets.MAIL_USERNAME }}
           html_body: file://${{ steps.followerChange.outputs.htmlFilePath }}
