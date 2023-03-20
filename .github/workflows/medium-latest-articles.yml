@@ -17,5 +17,5 @@ jobs:
           readme_path: ${{ matrix.readme }}
           comment_tag_name: MEDIUM-LATEST-ARTICLES
           max_post_count: 5
-          feed_list: ${{ env.MEDIUM_RSS }}
+          feed_list: ${{ vars.MEDIUM_RSS }}
           commit_message: 'docs: update ${{ matrix.readme }} with latest Medium articles'
