@@ -178,6 +178,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank" title="Buy me a Coffe">
   <img src="https://img.shields.io/badge/buy_me_a_coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000" alt="Buy me a Coffe" />
 </a>
+  <a href="https://ko-fi.com/ferranbuireu" target="_blank" title="Ko-Fi">
+  <img src="https://img.shields.io/badge/ko--fi-ff5e5b?style=for-the-badge&logo=kofi&logoColor=ffffff" alt="Ko-Fi" />
+</a>
 <a href="https://github.com/sponsors/fbuireu" target="_blank" title="GitHub Sponsors">
   <img src="https://img.shields.io/badge/gitHub%20sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=ffffff" alt="GitHub Sponsors" />
 </a>
