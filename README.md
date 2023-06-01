@@ -170,7 +170,17 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <a href="https://fbuireu.gumroad.com/" target="_blank" title="Gumroad">
   <img src="https://img.shields.io/badge/gumroad-ff90e8?style=for-the-badge&logo=gumroad&logoColor=000000" alt="Gumroad" />
 </a>
-
+<a href="https://www.etsy.com/shop/NotionByBuireu" target="_blank" title="Etsy">
+  <img src="https://img.shields.io/badge/etsy-ea6624?style=for-the-badge&logo=etsy&logoColor=ffffff" alt="Etsy" />
+</a>
+<a href="https://fbuireu.lemonsqueezy.com/" target="_blank" title="Lemon Squeezy">
+  <img src="https://img.shields.io/badge/lemonSqueezy-ffc233?style=for-the-badge&logo=lemonSqueezy&logoColor=000000" alt="Lemon Squeezy" />
+</a>
+<a href="https://www.producthunt.com/@fbuireu" target="_blank" title="Product Hunt">
+  <img src="https://img.shields.io/badge/productHunt-da552f?style=for-the-badge&logo=productHunt&logoColor=ffffff" alt="Product Hunt" />
+</a>
+  
+  
 ### R̶e̶f̶i̶l̶l̶  Rehydrate & Support me at:
 <a href="https://www.patreon.com/fbuireu" target="_blank" title="Patreon">
   <img src="https://img.shields.io/badge/patreon-ff424d?style=for-the-badge&logo=patreon&logoColor=ffffff" alt="Patreon" />
