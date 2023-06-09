@@ -220,8 +220,8 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 1. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 2. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 3. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-4. 💬 Ha comentado a [#51](https://github.com/code-istvan/bw/pull/51#issuecomment-1579225194) en [code-istvan/bw](https://github.com/code-istvan/bw)<br>
-5. 💪 Ha abierto una PR [#51](https://github.com/code-istvan/bw/pull/51) en [code-istvan/bw](https://github.com/code-istvan/bw)<br>
+4. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+5. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
