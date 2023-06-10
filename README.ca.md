@@ -217,10 +217,10 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. 💬 Ha comentat a [#51](https://github.com/code-istvan/bw/pull/51#issuecomment-1579225194) a [code-istvan/bw](https://github.com/code-istvan/bw)<br>
-2. 💪 Ha obert una PR [#51](https://github.com/code-istvan/bw/pull/51) a [code-istvan/bw](https://github.com/code-istvan/bw)<br>
-3. ⬆️ Ha empès 8 commit(s) a [fbuireu/bw](https://github.com/fbuireu/bw)<br>
-4. ⬆️ Ha empès 8 commit(s) a [fbuireu/bw](https://github.com/fbuireu/bw)<br>
+1. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+2. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+3. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+4. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 5. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
