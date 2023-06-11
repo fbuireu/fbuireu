@@ -217,11 +217,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+1. ❌ Ha chiuso il PR [#593](https://github.com/fbuireu/biancafiore/pull/593) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 2. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 3. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-4. 💬 Ha commentato [#51](https://github.com/code-istvan/bw/pull/51#issuecomment-1579225194) in [code-istvan/bw](https://github.com/code-istvan/bw)<br>
-5. 💪 Ha aperto il PR [#51](https://github.com/code-istvan/bw/pull/51) in [code-istvan/bw](https://github.com/code-istvan/bw)<br>
+4. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
