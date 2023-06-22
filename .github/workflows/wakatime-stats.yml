@@ -11,13 +11,9 @@ jobs:
       matrix:
         readme: [README.md, README.ca.md, README.es.md, README.it.md]
     steps:
-      - uses: fbuireu/waka-readme@main
+      - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_TOKEN }}
           TARGET_FILE: ${{ matrix.readme }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          #SHOW_SHORT_INFO: false
-          #SHOW_PROFILE_VIEWS: false
-          #SHOW_LOC_CHART: false
-          #SHOW_LANGUAGE_PER_REPO: false
           COMMIT_MESSAGE: 'docs: update ${{ matrix.readme }} with latest WakaTime stats'
