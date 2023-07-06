@@ -276,11 +276,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <!--START_SECTION:waka-->
 
 ```txt
-TypeScript                 1 hr 40 mins    ███████████████████████░░   92.27 %
-Nginx configuration file   7 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.87 %
-Text                       0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.76 %
-YAML                       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 %
-SourceMap                  0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
