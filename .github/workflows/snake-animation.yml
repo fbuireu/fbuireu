@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: Platane/snk@v3
-        id: snake-grid-animation
+        id: ${{ vars.SNAKE_GRID_ANIMATION_TARGET_BRANCH }}
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -27,8 +27,8 @@ jobs:
           force: true
       - uses: crazy-max/ghaction-github-pages@v3
         with:
-          target_branch: snake-grid-animation
-          build_dir: dist
+          target_branch: ${{ vars.SNAKE_GRID_ANIMATION_TARGET_BRANCH }}
+          build_dir: ${{ vars.SNAKE_GRID_ANIMATION_BUILD_DIR }}
         env:
           GITHUB_TOKEN: ${{ secrets.SNAKE_GRID_ANIMATION_TOKEN }}
         
