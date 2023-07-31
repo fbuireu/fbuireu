@@ -16,13 +16,13 @@ jobs:
           notifyUnFollowEvent: true
       - name: Email Me
         uses: dawidd6/action-send-mail@v3
-        if: steps.followerChange.outputs.shouldNotify == true
+        if: steps.followerChange.outputs.shouldNotify == 'true'
         with:
-          server_address: ${{ vars.SMTP_SERVER }}
-          server_port: ${{ vars.SMTP_PORT }}
+          server_address: smtp.qq.com # {{ vars.SMTP_SERVER }}
+          server_port: 465 #{{ vars.SMTP_PORT }}
           username: ${{ vars.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
-          subject: ${{ vars.MAIL_SUBJECT }}
+          subject: 👀🧑‍💻 GitHub Followers Change 🧑‍💻👀 #${{ vars.MAIL_SUBJECT }}
           from: ${{ vars.MAIL_FROM }}
           to: ${{ vars.MAIL_USERNAME }}
           html_body: file://${{ steps.followerChange.outputs.htmlFilePath }}
