@@ -14,6 +14,6 @@ jobs:
       - uses: fbuireu/waka-readme@main
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_TOKEN }}
-          TARGET_FILE: ${{ matrix.readme }}
+          TARGET_PATH: ${{ matrix.readme }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           COMMIT_MESSAGE: 'docs: update ${{ matrix.readme }} with latest WakaTime stats'
