@@ -188,8 +188,8 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <img src="https://img.shields.io/badge/adobe%20stock-ff0000?style=for-the-badge&logo=adobe&logoColor=ffffff" alt="Adobe Stock" />
 </a>  
 
-<a href="https://www.istockphoto.com/it/portfolio/fbuireu" target="_blank" title="gettyimages">
-  <img src="https://img.shields.io/badge/gettyimages-000000?style=for-the-badge&logo=gettyimages&logoColor=ffffff" alt="gettyimages" />
+<a href="https://www.istockphoto.com/it/portfolio/fbuireu" target="_blank" title="Getty Images">
+  <img src="https://img.shields.io/badge/gettyimages-000000?style=for-the-badge&logo=gettyimages&logoColor=ffffff" alt="Getty Images" />
 </a>  
 <a href="https://www.eyeem.com/u/fbuireu" target="_blank" title="EyeEm">
   <img src="https://img.shields.io/badge/eyeem-000000?style=for-the-badge&logo=eyeem&logoColor=ffffff" alt="EyeEm" />
