@@ -255,7 +255,7 @@
 
 ## ⌛ Consulta mis estadísticas de Wakatime
 <details>
-  <summary><strong>Estadística semanales</strong></summary>
+  <summary><strong>Estadísticas semanales</strong></summary>
 
   <!--START_SECTION:waka-->
 
