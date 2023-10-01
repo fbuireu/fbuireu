@@ -295,11 +295,11 @@ Si has llegado hasta aquí mereces conocer a <span style="color: purple">Qwerty<
 </picture>
 
 <details>
-  <summary>¿Quiere ver gráficos más detallados?</summary>
+  <summary>¿Quieres ver gráficos más detallados?</summary>
   <details>
     <summary>De verdad, es largo. ¿Seguro?</summary>
     <details>
-      <summary>De acuerdo. Esta es la última. Aquí va.</summary>
+      <summary>De acuerdo. Esta es la última. Allá va.</summary>
       <img src="assets/images/svg/github-metrics.svg" alt="Estadísticas de GitHub en detalle" />
     </details>        
   </details>
