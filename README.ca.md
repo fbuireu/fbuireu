@@ -1,6 +1,6 @@
-# <img src="https://github.com/fbuireu/fbuireu/blob/main/assets/images/gif/punk-horn.gif?raw=true" width="45px"> Hola, sóc un enginyer de software de Barcelona
+# <img src="https://github.com/fbuireu/fbuireu/blob/main/assets/images/gif/punk-horn.gif?raw=true" width="45px"> Hola! Sóc un enginyer de software de Barcelona
 
-![Hola, sóc un enginyer de software de Barcelona](https://github.com/fbuireu/fbuireu/blob/main/assets/images/png/backgrounds/developer-life.png?raw=true) 
+![Hola! Sóc un enginyer de software de Barcelona](https://github.com/fbuireu/fbuireu/blob/main/assets/images/png/backgrounds/developer-life.png?raw=true) 
 
 > "Lock up your libraries if you like; but there is no gate, no lock, no bolt that you can set upon the freedom of my mind." - Virginia Woolf
 
