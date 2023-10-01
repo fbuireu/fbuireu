@@ -242,7 +242,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
        alt="Estadísticas de Ferran Buireu en GitHub" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
-       alt="Los mejores lenguajes de GitHub de Ferran Buireu" />
+       alt="Mejores lenguajes de GitHub de Ferran Buireu" />
 </details>
 
 <details>
