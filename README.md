@@ -166,7 +166,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <img src="https://img.shields.io/badge/mentorcruise-05b197?style=for-the-badge&logo=mentorcruise&logoColor=000000" alt="MentorCruise" />
 </a>
 
-### My <a href="https://affiliate.notion.so/rqsl2ll719u1" target="_blank">Notion<a/> templates:
+### My <a href="https://affiliate.notion.so/rqsl2ll719u1" target="_blank">Notion</a> templates:
 <a href="https://fbuireu.gumroad.com/" target="_blank" title="Gumroad">
   <img src="https://img.shields.io/badge/gumroad-ff90e8?style=for-the-badge&logo=gumroad&logoColor=000000" alt="Gumroad" />
 </a>
