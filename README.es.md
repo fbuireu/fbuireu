@@ -286,7 +286,7 @@ yarn.lock       2 mins          ░░░░░░░░░░░░░░░░
 
 -------
 
-Si has llegado hasta aquí, mereces conocer a <span style="color: purple">Qwerty</span>, mi serpiente colaboradora. Alimentada a diario (casi):
+Si has llegado hasta aquí mereces conocer a <span style="color: purple">Qwerty</span>, mi serpiente colaboradora. Alimentada a diario (casi):
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcSet="https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-grid-snake-dark.svg" />
