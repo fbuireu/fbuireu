@@ -59,7 +59,7 @@
 
 ## 📨 Cómo contactarme
 ### Información personal
-<a href="https://ferranbuireu.dev" target="_blank" title="Personal Website">
+<a href="https://ferranbuireu.dev" target="_blank" title="Web personal">
   <img src="https://img.shields.io/badge/personal%20Website-1b1d1d?style=for-the-badge&logo=globe&logoColor=ffffff" alt="ferranbuireu.dev">
 </a>
 <a href="mailto:fbuireu@gmail.com" target="_blank" title="Gmail">
