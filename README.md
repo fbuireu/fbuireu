@@ -15,8 +15,8 @@
     <tr>
       <td>
         <a href="README.ca.md">
-          <img src="assets/images/png/flags/catalonia.png" width="24" height="24" alt="Català"/>
-          <span>Català</span>
+          <img src="assets/images/png/flags/catalonia.png" width="24" height="24" alt="Catalan"/>
+          <span>Catalan</span>
         </a>
       </td>
     </tr>
@@ -32,16 +32,16 @@
     <tr>
       <td>
         <a href="README.es.md">
-          <img src="assets/images/png/flags/spain.png" width="24" height="24" alt="Español"/>
-          <span>Español</span>
+          <img src="assets/images/png/flags/spain.png" width="24" height="24" alt="Spanish"/>
+          <span>Spanish</span>
         </a>
       </td>
     </tr>
     <tr>
       <td>
         <a href="README.it.md">
-          <img src="assets/images/png/flags/italy.png" width="24" height="24" alt="Italiano"/>
-          <span>Italiano</span>
+          <img src="assets/images/png/flags/italy.png" width="24" height="24" alt="Italian"/>
+          <span>Italian</span>
         </a>
       </td>
     </tr>
@@ -50,12 +50,12 @@
 🔭 **I’m currently working on**: got 99 projects but finishing them ain't one (for real though, I love starting stuff from
 scratch and fresh ideas).
 
-🌱 **I’m currently learning**: cool stuff as always, right now I'm obsessed with **Gatsby**, **React**, **TypeScript** and **Flutter**.
+🌱 **I’m currently learning**: cool stuff as always, right now I'm obsessed with **TypeScript**.
 
 👯 **I’m looking to collaborate on**: open-source projects, StackOverflow knowledge, the core of any amazing frameworks,
 overthrowing capitalism.
 
-💬 **Ask me about**: that time I invented a new risotto recipe during quarantine, or anything Gatsby-related.
+💬 **Ask me about**: that time I invented a new risotto recipe during quarantine or how to flip a tortilla. Code-related questions are also welcomed.
 
 ⚡ **Fun fact**: I love a challenge. That's why I run half-marathons, I play the guitar and still haven't given up on
 flipping tortillas. I know I can do it. My girlfriend disagrees.
@@ -170,39 +170,6 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <a href="https://fbuireu.gumroad.com/" target="_blank" title="Gumroad">
   <img src="https://img.shields.io/badge/gumroad-ff90e8?style=for-the-badge&logo=gumroad&logoColor=000000" alt="Gumroad" />
 </a>
-<a href="https://www.etsy.com/shop/NotionByBuireu" target="_blank" title="Etsy">
-  <img src="https://img.shields.io/badge/etsy-ea6624?style=for-the-badge&logo=etsy&logoColor=ffffff" alt="Etsy" />
-</a>
-<a href="https://fbuireu.lemonsqueezy.com/" target="_blank" title="Lemon Squeezy">
-  <img src="https://img.shields.io/badge/lemonSqueezy-ffc233?style=for-the-badge&logo=lemonSqueezy&logoColor=000000" alt="Lemon Squeezy" />
-</a>
-<a href="https://www.producthunt.com/@fbuireu" target="_blank" title="Product Hunt">
-  <img src="https://img.shields.io/badge/productHunt-da552f?style=for-the-badge&logo=productHunt&logoColor=ffffff" alt="Product Hunt" />
-</a>
-
-### Sometimes I unveil my film roll at:
-<a href="https://www.shutterstock.com/g/Ferran+Buireu?rid=402408087" target="_blank" title="Shutterstock">
-  <img src="https://img.shields.io/badge/shutterstock-ee2b24?style=for-the-badge&logo=shutterstock&logoColor=ffffff" alt="Shutterstock" />
-</a>
-<a href="https://stock.adobe.com/es/contributor/211636808/Ferran%20Buireu" target="_blank" title="Adobe Stock">
-  <img src="https://img.shields.io/badge/adobe%20stock-ff0000?style=for-the-badge&logo=adobe&logoColor=ffffff" alt="Adobe Stock" />
-</a>  
-
-<a href="https://www.istockphoto.com/en/portfolio/fbuireu" target="_blank" title="Getty Images">
-  <img src="https://img.shields.io/badge/gettyimages-000000?style=for-the-badge&logo=gettyimages&logoColor=ffffff" alt="Getty Images" />
-</a>  
-<a href="https://www.eyeem.com/u/fbuireu" target="_blank" title="EyeEm">
-  <img src="https://img.shields.io/badge/eyeem-000000?style=for-the-badge&logo=eyeem&logoColor=ffffff" alt="EyeEm" />
-</a>  
-<a href="https://es.123rf.com/profile_fbuireu" target="_blank" title="123RF">
-  <img src="https://img.shields.io/badge/123rf-fed032?style=for-the-badge&logo=123rf&logoColor=ffffff" alt="123RF" />
-</a>  
-<a href="https://www.alamy.com/stock-photo/?comp=1&mode=0&name=Ferran+Buireu&sortBy=relevant" target="_blank" title="Alamy">
-  <img src="https://img.shields.io/badge/alamy-00ff7b?style=for-the-badge&logo=123rf&logoColor=ffffff" alt="Alamy" />
-</a>  
-<a href="https://es.dreamstime.com/fbuireu_info" target="_blank" title="Dreamstime">
-  <img src="https://img.shields.io/badge/dreamstime-d9086e?style=for-the-badge&logo=123rf&logoColor=ffffff" alt="Dreamstime" />
-</a>  
 
 ### R̶e̶f̶i̶l̶l̶  Rehydrate & Support me at:
 <a href="https://www.patreon.com/fbuireu" target="_blank" title="Patreon">
@@ -210,9 +177,6 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 </a>
 <a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank" title="Buy me a Coffe">
   <img src="https://img.shields.io/badge/buy_me_a_coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000" alt="Buy me a Coffe" />
-</a>
-  <a href="https://ko-fi.com/ferranbuireu" target="_blank" title="Ko-Fi">
-  <img src="https://img.shields.io/badge/ko--fi-ff5e5b?style=for-the-badge&logo=kofi&logoColor=ffffff" alt="Ko-Fi" />
 </a>
 <a href="https://github.com/sponsors/fbuireu" target="_blank" title="GitHub Sponsors">
   <img src="https://img.shields.io/badge/gitHub%20sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=ffffff" alt="GitHub Sponsors" />
@@ -270,8 +234,8 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=netlify-cms&theme=onedark&hide_border=true"
          alt="Netlify CMS" />
   </a>
-  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=fbuireu&theme=github&bg_color=282c34&line=c3a875&point=d77077&hide_border=true"
-       alt="Ferran Buireu's Monthly GitHub Contribution Grap" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=fbuireu&theme=github&bg_color=282c34&line=c3a875&point=d77077&hide_border=true"
+       alt="Ferran Buireu's Monthly GitHub Contribution Graph" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=fbuireu&theme=onedark&hide_border=true"
        alt="Ferran Buireu's GitHub Streak" />
 </details>    
@@ -287,7 +251,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <details>
   <summary><strong>Trophies</strong></summary>
   <img src="https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark&no-frame=true"
-       alt="Ferran Buireu's Top GitHub Languages" />
+       alt="Ferran Buireu's Trophies" />
 </details>    
 
 -------
@@ -298,12 +262,13 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
   <!--START_SECTION:waka-->
 
-```txt
-TypeScript     8 hrs 27 mins   ████████████████████▒░░░░   81.41 %
-JSON           38 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.11 %
-Vue.js         22 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.68 %
-Text           12 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.95 %
-YAML           10 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.69 %
+```text
+TypeScript      11 hrs 14 mins  ██████████████████████▓░░   91.10 %
+JSON            40 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.54 %
+Text            10 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.46 %
+Vue.js          6 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.83 %
+YAML            3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.46 %
+yarn.lock       2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.32 %
 ```
 
 <!--END_SECTION:waka-->
