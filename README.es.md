@@ -168,7 +168,7 @@
   <img src="https://img.shields.io/badge/gumroad-ff90e8?style=for-the-badge&logo=gumroad&logoColor=000000" alt="Gumroad" />
 </a>
 
-###  ̶R̶e̶l̶l̶é̶n̶a̶m̶e̶ ̶l̶a̶ ̶c̶e̶r̶v̶e̶z̶a̶ y rehidratame en:
+###  ̶R̶e̶l̶l̶é̶n̶a̶m̶e̶ ̶l̶a̶ ̶c̶e̶r̶v̶e̶z̶a̶ y rehidrátame en:
 <a href="https://www.patreon.com/fbuireu" target="_blank" title="Patreon">
   <img src="https://img.shields.io/badge/patreon-ff424d?style=for-the-badge&logo=patreon&logoColor=ffffff" alt="Patreon" />
 </a>
