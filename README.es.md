@@ -282,7 +282,7 @@ yarn.lock       2 mins          ░░░░░░░░░░░░░░░░
 ## 🎧 Mi exquisito gusto musical
 <sup><sub>(No tengo pruebas, pero tampoco dudas)</sub></sup>
 
-![Recently Played in Spotify](https://spotify-recently-played-readme.vercel.app/api?user=buireu)
+![Escuchado recientemente en Spotify](https://spotify-recently-played-readme.vercel.app/api?user=buireu)
 
 -------
 
