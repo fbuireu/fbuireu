@@ -138,7 +138,7 @@
 <img src="https://img.shields.io/badge/-LeetCode-ffa116?style=for-the-badge&logo=leetcode&logoColor=ffffff" alt="LeetCode" />
 </a>
 <a href="https://app.codesignal.com/profile/fbuireu/" target="_blank" title="CodeSignal">
-  <img src="https://img.shields.io/badge/codesignal-33485f?style=for-the-badge&logo=codesignal&logoColor=grey" alt="CodeSignal" />
+  <img src="https://img.shields.io/badge/codesignal-33485f?style=for-the-badge&logo=codesignal&logoColor=ffffff" alt="CodeSignal" />
 </a>
 <a href="https://www.codewars.com/users/fbuireu/" target="_blank" title="Codewars">
   <img src="https://img.shields.io/badge/codewars-b1361e?style=for-the-badge&logo=codewars&logoColor=ffffff" alt="Codewars" />
