@@ -51,7 +51,7 @@
 
 🌱 **Stanno imparando**: cose interessanti come sempre, al momento sono ossessionato da **TypeScript**.
 
-👯 **Cerco di collaborare**: progetti open source, conoscenze su StackOverflow, il nucleo di qualsiasi libreria fantastica e il rovesciamento del capitalismo.
+👯 **Cerco di collaborare**: progetti open source, conoscenze su Stack Overflow, il nucleo di qualsiasi libreria fantastica e il rovesciamento del capitalismo.
 
 💬 Chiedimi di: quella volta che ho inventato una nuova ricetta di risotto durante la quarantena. Anche le domande relative alla programmazione sono benvenute.
 
