@@ -92,7 +92,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <img src="https://img.shields.io/badge/manfred-0da1a4?style=for-the-badge&logo=globe&logoColor=ffffff" alt="Manfred">
 </a>
 
-### Blog Platforms 
+### Blogs
 <a href="https://app.daily.dev/buireu" target="_blank" title="daily.dev">
   <img src="https://img.shields.io/badge/daily.dev-ce3df3?style=for-the-badge&logo=dailydev&logoColor=ffffff" alt="daily.dev" />
 </a>
