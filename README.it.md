@@ -308,7 +308,7 @@ JavaScript     27 mins         ▓░░░░░░░░░░░░░░░�
 
 -------
 
-Se siete arrivati fin qui, meritate di incontrare  <span style="color: purple">Qwerty</span>, il mio collaboratore serpente. Nutrito quotidianamente (quasi):
+Se siete arrivati fin qui, meritate di incontrare ${\textcolor{purple}{\textnormal{Qwerty}}}$, il mio collaboratore serpente. Nutrito quotidianamente (quasi):
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcSet="https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-grid-snake-dark.svg" />
