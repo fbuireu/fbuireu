@@ -52,7 +52,7 @@ scratch and fresh ideas).
 
 🌱 **I’m currently learning**: cool stuff as always, right now I'm obsessed with **TypeScript**.
 
-👯 **I’m looking to collaborate on**: open-source projects, StackOverflow knowledge, the core of any amazing frameworks,
+👯 **I’m looking to collaborate on**: open-source projects, Stack Overflow knowledge, the core of any amazing frameworks,
 overthrowing capitalism.
 
 💬 **Ask me about**: that time I invented a new risotto recipe during quarantine or how to flip a tortilla. Code-related questions are also welcomed.
