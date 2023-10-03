@@ -1,6 +1,6 @@
-# <img src="https://github.com/fbuireu/fbuireu/blob/main/assets/images/gif/punk-horn.gif?raw=true" width="45px"> Hola! Sóc un enginyer de software de Barcelona
+# <img src="https://github.com/fbuireu/fbuireu/blob/main/assets/images/gif/punk-horn.gif?raw=true" width="45px"> Bones! Sóc un enginyer de software de Barcelona
 
-![Hola! Sóc un enginyer de software de Barcelona](https://github.com/fbuireu/fbuireu/blob/main/assets/images/png/backgrounds/developer-life.png?raw=true) 
+![Bones! Sóc un enginyer de software de Barcelona](https://github.com/fbuireu/fbuireu/blob/main/assets/images/png/backgrounds/developer-life.png?raw=true) 
 
 > "Lock up your libraries if you like; but there is no gate, no lock, no bolt that you can set upon the freedom of my mind." - Virginia Woolf
 
@@ -51,7 +51,7 @@
 
 🌱 Actualment estic aprenent: coses interessants com sempre, en aquest moment estic obsessionat amb **TypeScript**.
 
-👯 Estic buscant col·laborar en: projectes de codi obert, coneixement a StackOverflow, l'ànima de qualsevol llibreria impressionant i derrocar el capitalisme.
+👯 Estic buscant col·laborar en: projectes de codi obert, coneixement a Stack Overflow, l'ànima de qualsevol llibreria impressionant i derrocar el capitalisme.
 
 💬 Pregunta'm sobre: aquella vegada que vaig inventar una nova recepta de risotto durant la quarantena. També són benvingudes les preguntes relacionades amb la programació.
 
