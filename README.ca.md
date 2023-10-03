@@ -308,7 +308,7 @@ JavaScript     27 mins         ▓░░░░░░░░░░░░░░░�
 
 -------
 
-Si has arrivat fins aquí mereixes conèixer al <span style="color: purple">Qwerty</span>, la meva serp col·laboradora. Alimentada a diari (gairebé):
+Si has arrivat fins aquí mereixes conèixer al ${\textcolor{purple}{\textnormal{Qwerty}}}$, la meva serp col·laboradora. Alimentada a diari (gairebé):
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcSet="https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-grid-snake-dark.svg" />
