@@ -171,6 +171,29 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <img src="https://img.shields.io/badge/gumroad-ff90e8?style=for-the-badge&logo=gumroad&logoColor=000000" alt="Gumroad" />
 </a>
 
+### Sometimes I unveil my photo reel at:
+<a href="https://www.shutterstock.com/g/Ferran+Buireu?rid=402408087" target="_blank" title="Shutterstock">
+  <img src="https://img.shields.io/badge/shutterstock-ee2b24?style=for-the-badge&logo=shutterstock&logoColor=ffffff" alt="Shutterstock" />
+</a>
+<a href="https://stock.adobe.com/es/contributor/211636808/Ferran%20Buireu" target="_blank" title="Adobe Stock">
+  <img src="https://img.shields.io/badge/adobe%20stock-ff0000?style=for-the-badge&logo=adobe&logoColor=ffffff" alt="Adobe Stock" />
+</a>  
+<a href="https://www.istockphoto.com/en/portfolio/fbuireu" target="_blank" title="Getty Images">
+  <img src="https://img.shields.io/badge/gettyimages-000000?style=for-the-badge&logo=gettyimages&logoColor=ffffff" alt="Getty Images" />
+</a>  
+<a href="https://www.eyeem.com/u/fbuireu" target="_blank" title="EyeEm">
+  <img src="https://img.shields.io/badge/eyeem-000000?style=for-the-badge&logo=eyeem&logoColor=ffffff" alt="EyeEm" />
+</a>  
+<a href="https://es.123rf.com/profile_fbuireu" target="_blank" title="123RF">
+  <img src="https://img.shields.io/badge/123rf-fed032?style=for-the-badge&logo=123rf&logoColor=ffffff" alt="123RF" />
+</a>  
+<a href="https://www.alamy.com/stock-photo/?comp=1&mode=0&name=Ferran+Buireu&sortBy=relevant" target="_blank" title="Alamy">
+  <img src="https://img.shields.io/badge/alamy-00ff7b?style=for-the-badge&logo=123rf&logoColor=ffffff" alt="Alamy" />
+</a>  
+<a href="https://es.dreamstime.com/fbuireu_info" target="_blank" title="Dreamstime">
+  <img src="https://img.shields.io/badge/dreamstime-d9086e?style=for-the-badge&logo=123rf&logoColor=ffffff" alt="Dreamstime" />
+</a>  
+
 ### R̶e̶f̶i̶l̶l̶  Rehydrate & Support me at:
 <a href="https://www.patreon.com/fbuireu" target="_blank" title="Patreon">
   <img src="https://img.shields.io/badge/patreon-ff424d?style=for-the-badge&logo=patreon&logoColor=ffffff" alt="Patreon" />
