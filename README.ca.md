@@ -47,15 +47,15 @@
     </tr>
 </table>
 
-🔭 Actualment estic treballant en: 99 projectes, però acabar-los no n'és un (de veritat, m'encanta començar coses des de zero i tenir idees fresques).
+🔭 **Actualment estic treballant en**: 99 projectes, però acabar-los no n'és un (de veritat, m'encanta començar coses des de zero i tenir idees fresques).
 
-🌱 Actualment estic aprenent: coses interessants com sempre, en aquest moment estic obsessionat amb **TypeScript**.
+🌱 **Actualment estic aprenent**: coses interessants com sempre, en aquest moment estic obsessionat amb **TypeScript**.
 
-👯 Estic buscant col·laborar en: projectes de codi obert, coneixement a Stack Overflow, l'ànima de qualsevol llibreria impressionant i derrocar el capitalisme.
+👯 **Estic buscant col·laborar en**: projectes de codi obert, coneixement a Stack Overflow, l'ànima de qualsevol llibreria impressionant i derrocar el capitalisme.
 
-💬 Pregunta'm sobre: aquella vegada que vaig inventar una nova recepta de risotto durant la quarantena. També són benvingudes les preguntes relacionades amb la programació.
+💬 **Pregunta'm sobre**: aquella vegada que vaig inventar una nova recepta de risotto durant la quarantena. També són benvingudes les preguntes relacionades amb la programació.
 
-⚡ Dada curiosa: m'agraden els reptes. Per això, corro mitges maratons, toco la guitarra i encara no he renunciat a donar-li la volta a les truites. Sé que ho puc fer. La meva parella no hi està d'acord.
+⚡ **Dada curiosa**: m'agraden els reptes. Per això, corro mitges maratons, toco la guitarra i encara no he renunciat a donar-li la volta a les truites. Sé que ho puc fer. La meva parella no hi està d'acord.
 
 ## 📨 Com contactar amb mi
 ### Informació personal
