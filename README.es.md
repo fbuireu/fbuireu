@@ -53,7 +53,7 @@
 
 👯 **Estoy buscando colaborar en**: proyectos de código abierto, conocimiento en Stack Overflow, el núcleo de cualquier impresionante librería y derrocar el capitalismo.
 
-💬 Pregúntame sobre: esa vez que inventé una nueva receta de risotto durante la cuarentena. También son bienvenidas las preguntas relacionadas con la programación.
+💬 **Pregúntame sobre**: esa vez que inventé una nueva receta de risotto durante la cuarentena. También son bienvenidas las preguntas relacionadas con la programación.
 
 ⚡ **Dato curioso**: me encantan los desafíos. Por eso, corro medias maratones, toco la guitarra y todavía no he renunciado a dar vuelta las tortillas. Sé que puedo hacerlo. Mi novia no está de acuerdo.
 
