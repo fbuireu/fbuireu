@@ -178,6 +178,9 @@
 <a href="https://www.istockphoto.com/en/portfolio/fbuireu" target="_blank" title="Getty Images">
   <img src="https://img.shields.io/badge/gettyimages-000000?style=for-the-badge&logo=gettyimages&logoColor=ffffff" alt="Getty Images" />
 </a>  
+<a href="https://www.freepik.com/author/fbuireu" target="_blank" title="Freepik">
+  <img src="https://img.shields.io/badge/freepik-1273eb?style=for-the-badge&logo=freepik&logoColor=ffffff" alt="Getty Images" />
+</a>  
 <a href="https://www.eyeem.com/u/fbuireu" target="_blank" title="EyeEm">
   <img src="https://img.shields.io/badge/eyeem-000000?style=for-the-badge&logo=eyeem&logoColor=ffffff" alt="EyeEm" />
 </a>  
