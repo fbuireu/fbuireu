@@ -76,7 +76,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <a href="https://www.xing.com/profile/Ferran_Buireu/cv" target="_blank" title="XING">
   <img src="https://img.shields.io/badge/xing-c5f06c?style=for-the-badge&logo=xing&logoColor=000000" alt="XING">
 </a>
-<a href="https://x/fbuireu" target="_blank" title="X">
+<a href="https://x.com/fbuireu" target="_blank" title="X">
   <img src="https://img.shields.io/badge/x-000000?style=for-the-badge&logo=x&logoColor=ffffff" alt="X" />
 </a>
 <a href="https://www.instagram.com/fbuireu/" target="_blank" title="Instagram">
