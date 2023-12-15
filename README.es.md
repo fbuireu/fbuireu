@@ -76,6 +76,9 @@
 <a href="https://x.com/fbuireu" target="_blank" title="X">
   <img src="https://img.shields.io/badge/x-000000?style=for-the-badge&logo=x&logoColor=ffffff" alt="X" />
 </a>
+<a href="https://threads.net/@fbuireu" target="_blank" title="Threads">
+  <img src="https://img.shields.io/badge/threads-101010?style=for-the-badge&logo=threads&logoColor=ffffff" alt="Threads" />
+</a>
 <a href="https://www.instagram.com/fbuireu/" target="_blank" title="Instagram">
   <img src="https://img.shields.io/badge/instagram-%23e4405f?style=for-the-badge&logo=instagram&logoColor=ffffff" alt="Instagram" />
 </a>
@@ -157,10 +160,10 @@
 
 ### ¿Quieres ayuda personalizada? También puedes encontrarme en:
 <a href="https://www.codementor.io/@fbuireu" target="_blank" title="Codementor">
-  <img src="https://img.shields.io/badge/codementor-003648?style=for-the-badge&logo=codementor&logoColor=000000" alt="Codementor" />
+  <img src="https://img.shields.io/badge/codementor-003648?style=for-the-badge&logo=Codementor&logoColor=ffffff" alt="Codementor" />
 </a>
 <a href="https://mentorcruise.com/mentor/ferranbuireu/" target="_blank" title="MentorCruise">
-  <img src="https://img.shields.io/badge/mentorcruise-05b197?style=for-the-badge&logo=mentorcruise&logoColor=000000" alt="MentorCruise" />
+  <img src="https://img.shields.io/badge/mentorcruise-05b197?style=for-the-badge&logo=mentorcruise&logoColor=ffffff" alt="MentorCruise" />
 </a>
 
 ### Mis templates de <a href="https://affiliate.notion.so/rqsl2ll719u1" target="_blank">Notion</a>:
