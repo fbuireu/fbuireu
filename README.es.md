@@ -231,11 +231,11 @@
 ## 👨🏻‍💻 Consulta mis estadísticas de GitHub
 ### Última actividad
 <!--RECENT_ACTIVITY:start-->
-1. ❗️ Ha abierto el tema [#2](https://github.com/code-istvan/bw_astro_2024/issues/2) en [code-istvan/bw_astro_2024](https://github.com/code-istvan/bw_astro_2024)<br>
-2. ❗️ Ha abierto el tema [#1](https://github.com/code-istvan/bw_astro_2024/issues/1) en [code-istvan/bw_astro_2024](https://github.com/code-istvan/bw_astro_2024)<br>
+1. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+2. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 3. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-4. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-5. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+4. ❗️ Ha abierto el tema [#2](https://github.com/code-istvan/bw_astro_2024/issues/2) en [code-istvan/bw_astro_2024](https://github.com/code-istvan/bw_astro_2024)<br>
+5. ❗️ Ha abierto el tema [#1](https://github.com/code-istvan/bw_astro_2024/issues/1) en [code-istvan/bw_astro_2024](https://github.com/code-istvan/bw_astro_2024)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
