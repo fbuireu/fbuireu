@@ -234,8 +234,8 @@
 1. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 2. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 3. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-4. ❗️ Ha obert el tema [#2](https://github.com/code-istvan/bw_astro_2024/issues/2) a [code-istvan/bw_astro_2024](https://github.com/code-istvan/bw_astro_2024)<br>
-5. ❗️ Ha obert el tema [#1](https://github.com/code-istvan/bw_astro_2024/issues/1) a [code-istvan/bw_astro_2024](https://github.com/code-istvan/bw_astro_2024)<br>
+4. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+5. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
