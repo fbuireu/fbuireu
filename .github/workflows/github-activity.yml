@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
-      cancel-in-progress: true
     strategy:
       matrix:
         config_file: [./.github/config/github-activity/en.config.yml, ./.github/config/github-activity/ca.config.yml, ./.github/config/github-activity/es.config.yml, ./.github/config/github-activity/it.config.yml]
