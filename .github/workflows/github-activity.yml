@@ -7,11 +7,13 @@ jobs:
   build:
     name: Update README files
     runs-on: ubuntu-latest
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
     strategy:
       matrix:
-        config_file: [./.github/config/github-activity/en.config.yml, ./.github/config/github-activity/ca.config.yml, ./.github/config/github-activity/es.config.yml, ./.github/config/github-activity/it.config.yml]
+        config_file:
+          - ./path/to/en.config.yml
+          - ./path/to/ca.config.yml
+          - ./path/to/es.config.yml
+          - ./path/to/it.config.yml
     steps:
       - uses: actions/checkout@v3
       - uses: Readme-Workflows/recent-activity@v2.4.1
