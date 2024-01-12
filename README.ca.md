@@ -231,8 +231,8 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. ❌ Ha tancat una PR [#603](https://github.com/fbuireu/biancafiore/pull/603) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-2. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+1. ❗️ Ha obert el tema [#2](https://github.com/code-istvan/bw_astro_2024/issues/2) a [code-istvan/bw_astro_2024](https://github.com/code-istvan/bw_astro_2024)<br>
+2. ❗️ Ha obert el tema [#1](https://github.com/code-istvan/bw_astro_2024/issues/1) a [code-istvan/bw_astro_2024](https://github.com/code-istvan/bw_astro_2024)<br>
 3. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 4. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 5. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
