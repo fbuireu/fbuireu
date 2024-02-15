@@ -8,7 +8,7 @@ jobs:
     name:  Update GitHub Contribution Snake Grid
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: Platane/snk@v3
         id: snake-grid-animation
         with:
