@@ -193,6 +193,12 @@
 <a href="https://500px.com/p/fbuireu?view=photos" target="_blank" title="500px">
   <img src="https://img.shields.io/badge/500px-434343?style=for-the-badge&logo=500px&logoColor=ffffff" alt="500px" />
 </a>
+<a href="https://www.cavanimages.com/contributor/27021/ferran-buireu" target="_blank" title="Cavan Images">
+  <img src="https://img.shields.io/badge/cavan-000000?style=for-the-badge&logo=cavana&logoColor=ffffff" alt="Cavan Images" />
+</a>
+<a href="https://www.pond5.com/artist/fbuireu" target="_blank" title="Pond5">
+  <img src="https://img.shields.io/badge/pond5-ffffff?style=for-the-badge&logo=cavana&logoColor=000000" alt="Pond5" />
+</a>  
 <a href="https://es.123rf.com/profile_fbuireu" target="_blank" title="123RF">
   <img src="https://img.shields.io/badge/123rf-fed032?style=for-the-badge&logo=123rf&logoColor=ffffff" alt="123RF" />
 </a>  
@@ -201,7 +207,7 @@
 </a>  
 <a href="https://es.dreamstime.com/fbuireu_info" target="_blank" title="Dreamstime">
   <img src="https://img.shields.io/badge/dreamstime-d9086e?style=for-the-badge&logo=123rf&logoColor=ffffff" alt="Dreamstime" />
-</a>  
+</a>
 
 ###  ̶R̶e̶l̶l̶é̶n̶a̶m̶e̶ ̶l̶a̶ ̶c̶e̶r̶v̶e̶z̶a̶ y rehidrátame en:
 <a href="https://www.patreon.com/fbuireu" target="_blank" title="Patreon">
