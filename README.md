@@ -246,9 +246,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-2. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-3. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+1. ⬆️ Pushed 1 commit(s) to [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+2. ❌ Closed PR [#605](https://github.com/fbuireu/biancafiore/pull/605) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+3. ❌ Closed PR [#604](https://github.com/fbuireu/biancafiore/pull/604) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 4. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 5. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
