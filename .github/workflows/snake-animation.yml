@@ -8,8 +8,10 @@ jobs:
     name:  Update GitHub Contribution Snake Grid
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: Platane/snk@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Create Snake animation
+        uses: Platane/snk@v3
         id: snake-grid-animation
         with:
           github_user_name: ${{ github.repository_owner }}
