@@ -14,8 +14,10 @@ jobs:
       matrix:
         readme: [README.md, README.ca.md, README.es.md, README.it.md]
     steps:
+      - name: Checkout repository
       - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@v1
+      - name: Get Medium articles
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
           readme_path: ${{ matrix.readme }}
           comment_tag_name: MEDIUM-LATEST-ARTICLES
