@@ -14,8 +14,10 @@ jobs:
       matrix:
         readme: [README.md, README.ca.md, README.es.md, README.it.md]
     steps:
-      - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@v1
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Get Hashnode articles
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
           readme_path: ${{ matrix.readme }}
           comment_tag_name: HASHNODE-LATEST-ARTICLES
