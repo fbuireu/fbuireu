@@ -79,14 +79,11 @@
 <a href="https://www.instagram.com/fbuireu/" target="_blank" title="Instagram">
   <img src="https://img.shields.io/badge/instagram-%23e4405f?style=for-the-badge&logo=instagram&logoColor=ffffff" alt="Instagram" />
 </a>
-<a href="https://www.polywork.com/fbuireu" target="_blank" title="Polywork">
-  <img src="https://img.shields.io/badge/polywork-4a1ae6?style=for-the-badge&logo=polywork&logoColor=ffffff" alt="Polywork" />
-</a>
 <a href="https://www.facebook.com/ferranbuireu/" target="_blank" title="Facebook">
   <img src="https://img.shields.io/badge/facebook-%231877f2.svg?style=for-the-badge&logo=facebook&logoColor=ffffff" alt="Facebook" />
 </a>
-<a href="https://mnf.red/ferran-buireu" target="_blank" title="Manfred">
-  <img src="https://img.shields.io/badge/manfred-0da1a4?style=for-the-badge&logo=globe&logoColor=ffffff" alt="Manfred">
+<a href="https://www.polywork.com/fbuireu" target="_blank" title="Polywork">
+  <img src="https://img.shields.io/badge/polywork-4a1ae6?style=for-the-badge&logo=polywork&logoColor=ffffff" alt="Polywork" />
 </a>
 
 ### Blogs
@@ -147,9 +144,6 @@
 ### Dati e classifiche
 <a href="https://profile.codersrank.io/user/fbuireu/" target="_blank" title="CodersRank">
   <img src="https://img.shields.io/badge/codersrank-245659?style=for-the-badge&logo=codersrank&logoColor=ffffff" alt="CodersRank" />
-</a>
-<a href="https://rviewer.io/fbuireu/" target="_blank" title="Rviewer">
-  <img src="https://img.shields.io/badge/rviewer-4ffab6?style=for-the-badge&logo=rviewer" alt="Rviewer" />
 </a>
 <a href="https://wakatime.com/@fbuireu" target="_blank" title="WakaTime">
   <img src="https://img.shields.io/badge/wakatime-29333a?style=for-the-badge&logo=wakatime&logoColor=ffffff" alt="WakaTime" />
