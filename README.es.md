@@ -128,7 +128,7 @@
 <a href="https://www.frontendmentor.io/profile/fbuireu" target="_blank" title="Frontend Mentor">
   <img src="https://img.shields.io/badge/frontendmentor-3f54a3?style=for-the-badge&logo=frontendmentor&logoColor=ffffff" alt="Frontend Mentor" />
 </a>
-<a href="https://www.hackerrank.com/fbuireu" target="_blank" title="Hackerrank">
+<a href="https://www.hackerrank.com/profile/fbuireu" target="_blank" title="Hackerrank">
   <img src="https://img.shields.io/badge/hackerrank-2ec866?style=for-the-badge&logo=HackerRank&logoColor=ffffff" alt="Hackerrank" />
 </a>
 <a href="https://leetcode.com/fbuireu/" target="_blank" title="LeetCode">
