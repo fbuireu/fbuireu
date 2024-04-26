@@ -60,7 +60,7 @@
 <table align="center">
     <tr>
       <td>
-        <a href="https://github.com/fbuireu/fbuireu/blob/main/assets/pdf/CV-Català.pdf" download>
+        <a href="https://github.com/fbuireu/fbuireu/blob/main/assets/pdf/CV-Catala%CC%80.pdf" download>
           Descarrega't el meu CV
         </a>
       </td>
