@@ -57,6 +57,16 @@
 
 ⚡ **Dato curioso**: me encantan los desafíos. Por eso, corro medias maratones, toco la guitarra y todavía no he renunciado a dar vuelta las tortillas. Sé que puedo hacerlo. Mi novia no está de acuerdo.
 
+<table align="center">
+    <tr>
+      <td>
+        <a href="https://github.com/fbuireu/fbuireu/blob/main/assets/pdf/CV-Español.pdf" download>
+          Descarga mi CV
+        </a>
+      </td>
+    </tr>
+</table>
+
 ## 📨 Cómo contactarme
 ### Información personal
 <a href="https://ferranbuireu.dev" target="_blank" title="Web personal">
