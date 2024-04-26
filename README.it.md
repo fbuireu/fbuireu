@@ -57,6 +57,16 @@
 
 ⚡ **Fatto divertente**: amo le sfide. Per questo corro la mezza maratona, suono la chitarra e non ho ancora smesso di girare le tortillas. So che posso farcela. La mia ragazza non è d'accordo.
 
+<table align="center">
+    <tr>
+      <td>
+        <a href="https://github.com/fbuireu/fbuireu/blob/main/assets/pdf/CV-English.pdf" download>
+          Scarica il mio CV
+        </a>
+      </td>
+    </tr>
+</table>
+
 ## 📨 Come contattarmi
 ### Informazioni personali
 <a href="https://ferranbuireu.dev" target="_blank" title="Web personale">
