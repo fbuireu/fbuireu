@@ -57,6 +57,16 @@
 
 ⚡ **Dada curiosa**: m'agraden els reptes. Per això, corro mitges maratons, toco la guitarra i encara no he renunciat a donar-li la volta a les truites. Sé que ho puc fer. La meva parella no hi està d'acord.
 
+<table align="center">
+    <tr>
+      <td>
+        <a href="https://github.com/fbuireu/fbuireu/blob/main/assets/pdf/CV-Català.pdf" download>
+          Descarrega't el meu CV
+        </a>
+      </td>
+    </tr>
+</table>
+
 ## 📨 Com contactar amb mi
 ### Informació personal
 <a href="https://ferranbuireu.dev" target="_blank" title="Web personal">
