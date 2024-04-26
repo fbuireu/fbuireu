@@ -62,14 +62,14 @@ overthrowing capitalism.
 ⚡ **Fun fact**: I love a challenge. That's why I run half-marathons, I play the guitar and still haven't given up on
 flipping tortillas. I know I can do it. My girlfriend disagrees.
 
-<table align="right">
-  <tr>
-    <td>
-      <a href="https://github.com/fbuireu/fbuireu/blob/main/assets/pdf/CV-English.pdf" download>
-        <span>Download my CV</span>
-      </a>
-    </td>
-  </tr>
+<table align="center">
+    <tr>
+      <td>
+        <a href="https://github.com/fbuireu/fbuireu/blob/main/assets/pdf/CV-English.pdf" download>
+          Download my CV
+        </a>
+      </td>
+    </tr>
 </table>
 
 ## 📨 How to reach me
