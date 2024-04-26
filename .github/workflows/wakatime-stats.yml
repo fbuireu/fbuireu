@@ -15,7 +15,7 @@ jobs:
         readme: [README.md, README.ca.md, README.es.md, README.it.md]
     steps:
       - name: Fetch Wakatime stats
-        uses: fbuireu/waka-readme@main
+        uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_TOKEN }}
           TARGET_PATH: ${{ matrix.readme }}
