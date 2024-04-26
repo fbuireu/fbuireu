@@ -47,6 +47,8 @@
     </tr>
 </table>
 
+
+
 🔭 **I’m currently working on**: got 99 projects but finishing them ain't one (for real though, I love starting stuff from
 scratch and fresh ideas).
 
@@ -59,6 +61,16 @@ overthrowing capitalism.
 
 ⚡ **Fun fact**: I love a challenge. That's why I run half-marathons, I play the guitar and still haven't given up on
 flipping tortillas. I know I can do it. My girlfriend disagrees.
+
+<table align="right">
+  <tr>
+    <td>
+      <a href="https://github.com/fbuireu/fbuireu/blob/main/assets/pdf/CV-English.pdf" download>
+        <span>Download my CV</span>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## 📨 How to reach me
 ### Personal
