@@ -11,6 +11,8 @@ jobs:
     name: Update ${{ matrix.readme }}
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: true
+      max-parallel: 1
       matrix:
         readme: [README.md, README.ca.md, README.es.md, README.it.md]
     steps:
