@@ -31,6 +31,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_lines: yes
+          plugin_lines_delay: 30
           plugin_notable: yes
           plugin_notable_repositories: yes
           plugin_notable_filter: stars:>500 forks:>100
@@ -38,6 +39,7 @@ jobs:
           plugin_starlists_languages: yes
           plugin_pagespeed: yes
           plugin_pagespeed_url: ${{ secrets.PERSONAL_SITE_URL }}
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_stars: yes
           plugin_languages: yes
           plugin_languages_sections: most-used, recently-used
@@ -47,6 +49,7 @@ jobs:
           plugin_stackoverflow_user: ${{ vars.STACKOVERFLOW_ID }} 
           repositories_forks: yes
           plugin_contributors: yes
+          plugin_licenses: yes
           plugin_licenses_ratio: yes
           plugin_licenses_setup: npm ci
           plugin_reactions: yes
@@ -55,12 +58,12 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
+          plugin_habits_charts_type: graph
           plugin_habits_trim: yes
-          plugin_licenses: yes
           plugin_contributors_contributions: yes
           plugin_stargazers: yes
           plugin_stargazers_charts: yes
-          plugin_stargazers_charts_type: chartist
+          plugin_stargazers_charts_type: graph
           plugin_stargazers_worldmap: yes
           plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAPS_TOKEN }}
           plugin_stargazers_worldmap_sample: 200
@@ -73,15 +76,19 @@ jobs:
           plugin_projects_repositories: fbuireu/projects/1
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-          plugin_music: yes
-          plugin_music_provider: spotify
-          plugin_music_mode: recent
-          plugin_music_limit: 10
-          plugin_music_user: ${{ vars.SPOTIFY_USER }}
-          plugin_music_token: '${{ secrets.SPOTIFY_CLIENT_ID }}, ${{ secrets.SPOTIFY_CLIENT_SECRET }}, ${{ secrets.SPOTIFY_REFRESH_TOKEN }}'
           plugin_skyline: yes
           plugin_skyline_frames: 120
           plugin_leetcode: yes
           plugin_leetcode_user: ${{ vars.LEETCODE_USER }}
           plugin_sponsorships: yes
           plugin_sponsors: yes
+          plugin_music: yes
+          plugin_music_provider: spotify
+          plugin_music_mode: recent
+          plugin_music_limit: 10
+          plugin_music_user: ${{ vars.SPOTIFY_USER }}
+          plugin_music_token: '${{ secrets.SPOTIFY_CLIENT_ID }}, ${{ secrets.SPOTIFY_CLIENT_SECRET }}, ${{ secrets.SPOTIFY_REFRESH_TOKEN }}'
+          plugin_steam: yes
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam_user: '${{ vars.STEAM_ID }}'
+
