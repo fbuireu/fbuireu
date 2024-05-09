@@ -38,7 +38,7 @@ jobs:
           plugin_starlists: yes
           plugin_starlists_languages: yes
           plugin_pagespeed: yes
-          plugin_pagespeed_url: ${{ secrets.PERSONAL_SITE_URL }}
+          plugin_pagespeed_url: ${{ vars.PERSONAL_SITE_URL }}
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_stars: yes
           plugin_languages: yes
