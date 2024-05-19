@@ -18,7 +18,7 @@ jobs:
         uses: dawidd6/action-send-mail@v3
         if: steps.followersChange.outputs.shouldNotify == 'true'
         with:
-          server_address: smtp.qq.com
+          server_address: smtp.gmail.com
           server_port: 465
           username: ${{ vars.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
