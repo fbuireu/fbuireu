@@ -18,11 +18,11 @@ jobs:
         uses: dawidd6/action-send-mail@v3
         if: steps.followersChange.outputs.shouldNotify == 'true'
         with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          username: ${{ vars.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
-          subject: 👀🧑‍💻 GitHub Followers Change 🧑‍💻👀 
+          server_address: ${{ vars.SMTP_SERVER }}
+          server_port: ${{ vars.SMTP_PORT }}
+          username: ${{ vars.MAIL_USERNAME }} 
+          password: ${{ secrets.MAIL_PASSWORD }} 
+          subject: ${{ secrets.MAIL_SUBJECT }}
           from: ${{ vars.MAIL_FROM }}
           to: ${{ vars.MAIL_USERNAME }}
           html_body: file://${{ steps.followersChange.outputs.htmlFilePath }}
