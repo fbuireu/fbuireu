@@ -275,12 +275,12 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <details>
   <summary><strong>Top Contributions & Streak</strong></summary>
   <a href="https://github.com/gatsbyjs/gatsby/pull/33261" target="__blank">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=gatsby&theme=onedark&hide_border=true"
-       alt="Gatsby" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=fbuireu&theme=onedark&hide_border=true"
+       alt="Ferran's Buireu README" />
   </a>
   <a href="https://github.com/netlify/netlify-cms/pull/3412" target="__blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=netlify-cms&theme=onedark&hide_border=true"
-         alt="Netlify CMS" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=biancafiore&theme=onedark&hide_border=true"
+         alt="biancafiore.me />
   </a>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=fbuireu&theme=github&bg_color=282c34&line=c3a875&point=d77077&hide_border=true"
        alt="Ferran Buireu's Monthly GitHub Contribution Graph" />
