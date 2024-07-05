@@ -306,11 +306,7 @@
   <!--START_SECTION:waka-->
 
 ```txt
-JavaScript   35 mins         ██████████████░░░░░░░░░░░   55.39 %
-TypeScript   12 mins         █████░░░░░░░░░░░░░░░░░░░░   20.17 %
-JSON         9 mins          ███▓░░░░░░░░░░░░░░░░░░░░░   15.26 %
-Other        5 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   08.89 %
-.env file    0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.25 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
