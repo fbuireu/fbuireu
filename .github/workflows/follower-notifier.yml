@@ -22,7 +22,7 @@ jobs:
           server_port: ${{ vars.SMTP_PORT }}
           username: ${{ vars.MAIL_USERNAME }} 
           password: ${{ secrets.MAIL_PASSWORD }} 
-          subject: ${{ secrets.MAIL_SUBJECT }}
-          from: ${{ vars.MAIL_FROM }}
+          subject: 👀🧑‍💻 GitHub Followers Change 🧑‍💻👀
+          from: Follower Change Notifier (GitHub Action)
           to: ${{ vars.MAIL_USERNAME }}
           html_body: file://${{ steps.followersChange.outputs.htmlFilePath }}
