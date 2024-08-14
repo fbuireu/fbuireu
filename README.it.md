@@ -236,6 +236,7 @@
 
 ### Hashnode
 <!-- HASHNODE-LATEST-ARTICLES:START -->
+- [Floating Math Point: The Phantom Menace of Precision](https://ferranbuireu.hashnode.dev/floating-math-point)
 - [Crafting a custom Breadcrumb component in Astro:  Step-by-Step Guide](https://ferranbuireu.hashnode.dev/crafting-a-custom-breadcrumb-component-in-astro-step-by-step-guide)
 - [What is Redux? Do I need to use it?](https://ferranbuireu.hashnode.dev/what-is-redux-do-i-need-to-use-it)
 <!-- HASHNODE-LATEST-ARTICLES:END -->
