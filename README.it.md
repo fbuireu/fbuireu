@@ -250,10 +250,10 @@
 ### Ultima attività
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-2. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-3. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-4. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+2. 💪 Ha aperto il PR [#9188](https://github.com/withastro/docs/pull/9188) in [withastro/docs](https://github.com/withastro/docs)<br>
+3. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/docs](https://github.com/fbuireu/docs)<br>
+4. 🔱 Ha biforcato [fbuireu/docs](https://github.com/fbuireu/docs) da [withastro/docs](https://github.com/withastro/docs)<br>
+5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
