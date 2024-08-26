@@ -249,10 +249,10 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empès 1 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-2. 💪 Ha obert una PR [#9188](https://github.com/withastro/docs/pull/9188) a [withastro/docs](https://github.com/withastro/docs)<br>
+1. ⭐ Ha destacat [withastro/astro](https://github.com/withastro/astro)<br>
+2. ⬆️ Ha empès 1 commit(s) a [fbuireu/docs](https://github.com/fbuireu/docs)<br>
 3. ⬆️ Ha empès 1 commit(s) a [fbuireu/docs](https://github.com/fbuireu/docs)<br>
-4. 🔱 Ha bifurcat [fbuireu/docs](https://github.com/fbuireu/docs) des de [withastro/docs](https://github.com/withastro/docs)<br>
+4. ⬆️ Ha empès 2 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 5. ⬆️ Ha empès 1 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 <!--RECENT_ACTIVITY:end-->
 
