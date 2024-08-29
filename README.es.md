@@ -250,9 +250,9 @@
 ### Última actividad
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha empujado 1 commit(s) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-2. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-3. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-4. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+2. ⬆️ Ha empujado 1 commit(s) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+3. ⬆️ Ha empujado 1 commit(s) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+4. ⭐ Ha destacado [feder-cr/linkedIn_auto_jobs_applier_with_AI](https://github.com/feder-cr/linkedIn_auto_jobs_applier_with_AI)<br>
 5. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
