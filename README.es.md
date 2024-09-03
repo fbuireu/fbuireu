@@ -270,12 +270,16 @@
 
 <details>
   <summary><strong>Mejores contribuciones y rachas</strong></summary>
+  <a href="https://github.com/withastro/docs/pull/9188" target="__blank">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=withastro&repo=docs&theme=onedark&hide_border=true"
+       alt="Astro" />
+  </a>
   <a href="https://github.com/gatsbyjs/gatsby/pull/33261" target="__blank">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=gatsby&theme=onedark&hide_border=true"
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gatsbyjs&repo=gatsby&theme=onedark&hide_border=true"
        alt="Gatsby" />
   </a>
   <a href="https://github.com/netlify/netlify-cms/pull/3412" target="__blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=netlify-cms&theme=onedark&hide_border=true"
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=netlify&repo=netlify-cms&theme=onedark&hide_border=true"
          alt="Netlify CMS" />
   </a>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=fbuireu&theme=github&bg_color=282c34&line=c3a875&point=d77077&hide_border=true"
