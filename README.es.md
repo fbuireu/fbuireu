@@ -250,11 +250,11 @@
 ## 👨🏻‍💻 Consulta mis estadísticas de GitHub
 ### Última actividad
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empujado 102 commit(s) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-2. ⬆️ Ha empujado 1 commit(s) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-3. ⬆️ Ha empujado 1 commit(s) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-4. 🎉 Ha fusionado una PR [#647](https://github.com/fbuireu/biancafiore/pull/647) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-5. 💪 Ha abierto una PR [#647](https://github.com/fbuireu/biancafiore/pull/647) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+1. ⬆️ Ha empujado 1 commit(s) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+2. ⬆️ Ha empujado 1 commit(s) en [fbuireu/email-signature](https://github.com/fbuireu/email-signature)<br>
+3. 🎉 Ha fusionado una PR [#1](https://github.com/fbuireu/email-signature/pull/1) en [fbuireu/email-signature](https://github.com/fbuireu/email-signature)<br>
+4. 👍 Ha aprobado [#1](https://github.com/fbuireu/email-signature/pull/1#pullrequestreview-2314435985) en [fbuireu/email-signature](https://github.com/fbuireu/email-signature)<br>
+5. ⬆️ Ha empujado 1 commit(s) en [fbuireu/email-signature](https://github.com/fbuireu/email-signature)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
