@@ -251,10 +251,10 @@
 ### Ultima attività
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-2. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/email-signature](https://github.com/fbuireu/email-signature)<br>
-3. 🎉 Ha unificato il PR [#1](https://github.com/fbuireu/email-signature/pull/1) in [fbuireu/email-signature](https://github.com/fbuireu/email-signature)<br>
-4. 👍 Ha approvato [#1](https://github.com/fbuireu/email-signature/pull/1#pullrequestreview-2314435985) in [fbuireu/email-signature](https://github.com/fbuireu/email-signature)<br>
-5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/email-signature](https://github.com/fbuireu/email-signature)<br>
+2. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+3. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+4. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
