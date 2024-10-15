@@ -250,11 +250,11 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-2. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-3. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-4. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-5. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+1. ⬆️ Ha empès 2 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+2. 🎉 Ha fusionat una PR [#18](https://github.com/fbuireu/fbuireu/pull/18) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+3. ⬆️ Ha empès 2 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+4. 🎉 Ha fusionat una PR [#17](https://github.com/fbuireu/fbuireu/pull/17) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+5. ⬆️ Ha empès 2 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
