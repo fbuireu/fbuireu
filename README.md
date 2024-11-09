@@ -6,8 +6,6 @@
 
 > "I am rubber, you are glue" - Guybrush Threepwood
 
-> `return true` - My code
-
 -------
 
 <table align="right">
