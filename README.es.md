@@ -49,7 +49,7 @@
 
 🌱 **Actualmente estoy aprendiendo**: cosas interesantes como siempre, en este momento estoy obsesionado con **TypeScript**
 
-👯 **Estoy buscando colaborar en**: proyectos de código abierto, conocimiento en Stack Overflow, el núcleo de cualquier impresionante librería y derrocar el capitalismo.
+👯 **Estoy buscando colaborar en**: proyectos de código abierto, conocimiento en Stack Overflow y el núcleo de cualquier impresionante librería.
 
 💬 **Pregúntame sobre**: esa vez que inventé una nueva receta de risotto durante la cuarentena. También son bienvenidas las preguntas relacionadas con la programación.
 
