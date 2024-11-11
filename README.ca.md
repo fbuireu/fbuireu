@@ -49,7 +49,7 @@
 
 🌱 **Actualment estic aprenent**: coses interessants com sempre, en aquest moment estic obsessionat amb **TypeScript**.
 
-👯 **Estic buscant col·laborar en**: projectes de codi obert, coneixement a Stack Overflow, l'ànima de qualsevol llibreria impressionant i derrocar el capitalisme.
+👯 **Estic buscant col·laborar en**: projectes de codi obert, coneixement a Stack Overflow i l'ànima de qualsevol llibreria impressionant.
 
 💬 **Pregunta'm sobre**: aquella vegada que vaig inventar una nova recepta de risotto durant la quarantena. També són benvingudes les preguntes relacionades amb la programació.
 
