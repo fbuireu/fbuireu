@@ -82,6 +82,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <a href="https://www.linkedin.com/in/ferran-buireu/" target="_blank" title="LinkedIn">
   <img src="https://img.shields.io/badge/linkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=ffffff" alt="LinkedIn" />
 </a>
+<a href="https://bsky.app/profile/fbuireu.bsky.social" target="_blank" title="Bluesky">
+  <img src="https://img.shields.io/badge/bluesky-208bfe?style=for-the-badge&logo=bluesky&logoColor=ffffff" alt="Bluesky" />
+</a>
 <a href="https://x.com/fbuireu" target="_blank" title="X">
   <img src="https://img.shields.io/badge/x-000000?style=for-the-badge&logo=x&logoColor=ffffff" alt="X" />
 </a>
