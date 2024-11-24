@@ -255,11 +255,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. ⭐ Starred [sst/sst](https://github.com/sst/sst)<br>
-2. ⬆️ Pushed 1 commit(s) to [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+1. ⬆️ Pushed 2 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+2. 🎉 Merged PR [#22](https://github.com/fbuireu/fbuireu/pull/22) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 3. ⬆️ Pushed 1 commit(s) to [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-4. ❌ Closed PR [#20](https://github.com/fbuireu/fbuireu/pull/20) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-5. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+4. ⬆️ Pushed 1 commit(s) to [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+5. 🎉 Merged PR [#697](https://github.com/fbuireu/biancafiore/pull/697) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
