@@ -251,11 +251,11 @@
 ## 👨🏻‍💻 Controlla le mie statistiche su GitHub
 ### Ultima attività
 <!--RECENT_ACTIVITY:start-->
-1. ⭐ Ha rimarcato [sst/sst](https://github.com/sst/sst)<br>
-2. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+1. ⬆️ Ha impulsato 2 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+2. 🎉 Ha unificato il PR [#22](https://github.com/fbuireu/fbuireu/pull/22) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 3. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-4. ❌ Ha chiuso il PR [#20](https://github.com/fbuireu/fbuireu/pull/20) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+4. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+5. 🎉 Ha unificato il PR [#697](https://github.com/fbuireu/biancafiore/pull/697) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
