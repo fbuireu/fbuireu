@@ -251,11 +251,11 @@
 ## 👨🏻‍💻 Consulta mis estadísticas de GitHub
 ### Última actividad
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empujado 1 commit(s) en [fbuireu/email-signature](https://github.com/fbuireu/email-signature)<br>
-2. 🎉 Ha fusionado una PR [#4](https://github.com/fbuireu/email-signature/pull/4) en [fbuireu/email-signature](https://github.com/fbuireu/email-signature)<br>
-3. ❌ Ha cerrado una PR [#24](https://github.com/fbuireu/fbuireu/pull/24) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-4. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-5. ⬆️ Ha empujado 1 commit(s) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+1. ⬆️ Ha empujado 1 commit(s) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+2. ⬆️ Ha empujado 1 commit(s) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+3. ⬆️ Ha empujado 1 commit(s) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+4. ⬆️ Ha empujado 1 commit(s) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+5. ⬆️ Ha empujado 2 commit(s) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
