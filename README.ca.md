@@ -253,9 +253,9 @@
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha empès 1 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 2. ⬆️ Ha empès 1 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-3. ⬆️ Ha empès 3 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+3. ⬆️ Ha empès 1 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 4. ⬆️ Ha empès 1 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-5. ⬆️ Ha empès 2 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+5. ⬆️ Ha empès 1 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
