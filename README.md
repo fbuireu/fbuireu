@@ -97,9 +97,6 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <a href="https://www.facebook.com/fbuireu/" target="_blank" title="Facebook">
   <img src="https://img.shields.io/badge/facebook-%231877f2.svg?style=for-the-badge&logo=facebook&logoColor=ffffff" alt="Facebook" />
 </a>
-<a href="https://www.polywork.com/fbuireu" target="_blank" title="Polywork">
-  <img src="https://img.shields.io/badge/polywork-4a1ae6?style=for-the-badge&logo=polywork&logoColor=ffffff" alt="Polywork" />
-</a>
 
 ### Blogs
 <a href="https://app.daily.dev/buireu" target="_blank" title="daily.dev">
