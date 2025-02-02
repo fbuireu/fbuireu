@@ -9,14 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get Followers Change
-        id: followersChange
+        id: followers_change
         uses: Sorosliu1029/follower-change@v2
         with:
           myToken: ${{ secrets.FOLLOWERS_NOTIFIER_TOKEN }}
           notifyUnFollowEvent: true
       - name: Email Me
         uses: dawidd6/action-send-mail@v4
-        if: steps.followersChange.outputs.shouldNotify == 'true'
+        if: steps.followers_change.outputs.shouldNotify == 'true'
         with:
           server_address: ${{ vars.SMTP_SERVER }}
           server_port: ${{ vars.SMTP_PORT }}
