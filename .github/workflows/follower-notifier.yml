@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Get Followers Change
         id: followers_change
-        uses: Sorosliu1029/follower-change@v2.3
+        uses: Sorosliu1029/follower-change@v2.3.0
         with:
           myToken: ${{ secrets.FOLLOWERS_NOTIFIER_TOKEN }}
           notifyUnFollowEvent: true
