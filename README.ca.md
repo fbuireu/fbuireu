@@ -248,11 +248,11 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empès 1 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-2. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+1. ❗️ Ha obert el tema [#8](https://github.com/Sorosliu1029/follower-change/issues/8) a [Sorosliu1029/follower-change](https://github.com/Sorosliu1029/follower-change)<br>
+2. ⬆️ Ha empès 1 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 3. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 4. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-5. ⬆️ Ha empès 1 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+5. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
