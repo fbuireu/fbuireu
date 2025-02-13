@@ -25,4 +25,4 @@ jobs:
           subject: 👀🧑‍💻 GitHub Followers Change 🧑‍💻👀
           from: Follower Change Notifier (GitHub Action)
           to: ${{ vars.MAIL_USERNAME }}
-          html_body: file://${{ steps.followersChange.outputs.htmlFilePath }}
+          html_body: file://${{ steps.followers_change.outputs.htmlFilePath }}
