@@ -249,10 +249,10 @@
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha empès 1 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-2. 🎉 Ha fusionat una PR [#740](https://github.com/fbuireu/biancafiore/pull/740) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+2. 🎉 Ha fusionat una PR [#743](https://github.com/fbuireu/biancafiore/pull/743) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 3. ⬆️ Ha empès 1 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-4. 🎉 Ha fusionat una PR [#741](https://github.com/fbuireu/biancafiore/pull/741) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-5. ⬆️ Ha empès 1 commit(s) a [fbuireu/email-signature](https://github.com/fbuireu/email-signature)<br>
+4. 🎉 Ha fusionat una PR [#742](https://github.com/fbuireu/biancafiore/pull/742) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+5. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
