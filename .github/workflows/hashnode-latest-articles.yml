@@ -24,8 +24,7 @@ jobs:
           readme_path: ${{ matrix.readme }}
           comment_tag_name: HASHNODE-LATEST-ARTICLES
           max_post_count: 5
-          user_agent: 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0'
-          accept_header: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8'
+          user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36'
           retry_count: 1
           feed_list: ${{ vars.HASHNODE_RSS }}
           commit_message: 'docs: update ${{ matrix.readme }} with latest Hashnode articles'
