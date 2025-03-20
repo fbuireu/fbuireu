@@ -310,11 +310,11 @@
   <!--START_SECTION:waka-->
 
 ```txt
-TypeScript       14 hrs 45 mins  ████████████████░░░░░░░░░   63.59 %
-JavaScript       4 hrs 59 mins   █████▒░░░░░░░░░░░░░░░░░░░   21.50 %
-CSS              3 hrs 2 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   13.07 %
+TypeScript       15 hrs 24 mins  ████████████████▓░░░░░░░░   66.32 %
+JavaScript       4 hrs 57 mins   █████▒░░░░░░░░░░░░░░░░░░░   21.35 %
+CSS              2 hrs 29 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.76 %
 Prettier File    7 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.51 %
-JSON             5 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.38 %
+JSON             5 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.36 %
 ```
 
 <!--END_SECTION:waka-->
