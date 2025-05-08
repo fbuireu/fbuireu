@@ -252,7 +252,7 @@
 2. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 3. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 4. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-5. ⭐ Ha rimarcato [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)<br>
+5. ⬆️ Ha impulsato 1 commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
