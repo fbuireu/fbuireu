@@ -26,7 +26,6 @@ jobs:
         with:
           github_token: ${{ secrets.SNAKE_GRID_ANIMATION_TOKEN }}
           branch: main
-          force: true
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: ${{ vars.SNAKE_GRID_ANIMATION_TARGET_BRANCH }}
