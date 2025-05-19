@@ -11,7 +11,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  
+          fetch-depth: 0
       - name: Create Snake animation
         uses: Platane/snk@v3
         id: snake_grid_animation
@@ -26,11 +26,13 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
+          git pull origin main --no-rebase || true
           git add dist/
-          git commit -s -m "Update snake grid animation"
+          git commit -s -m "Update snake grid animation" || echo "No changes to commit"
           git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.SNAKE_GRID_ANIMATION_TOKEN }}
+
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: ${{ vars.SNAKE_GRID_ANIMATION_TARGET_BRANCH }}
