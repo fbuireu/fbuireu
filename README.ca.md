@@ -248,9 +248,9 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-2. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-3. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+1. ⬆️ Ha empès 1 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+2. 🎉 Ha fusionat una PR [#789](https://github.com/fbuireu/biancafiore/pull/789) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+3. ⬆️ Ha empès 1 commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 4. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 5. ⬆️ Ha empès 1 commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
