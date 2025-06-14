@@ -252,10 +252,10 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed 1 commit(s) to [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-2. 🎉 Merged PR [#800](https://github.com/fbuireu/biancafiore/pull/800) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-3. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-4. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+1. ⬆️ Pushed 1 commit(s) to [code-istvan/bw_astro_2024](https://github.com/code-istvan/bw_astro_2024)<br>
+2. ⬆️ Pushed 1 commit(s) to [code-istvan/bw_astro_2024](https://github.com/code-istvan/bw_astro_2024)<br>
+3. ⬆️ Pushed 1 commit(s) to [code-istvan/bw_astro_2024](https://github.com/code-istvan/bw_astro_2024)<br>
+4. ⬆️ Pushed 3 commit(s) to [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 5. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
