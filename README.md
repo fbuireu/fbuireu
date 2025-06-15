@@ -245,7 +245,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <!-- HASHNODE-LATEST-ARTICLES:END -->
 
 ### Stack Overflow
-[![Ferran Buireu's Stack Overflow Profile](https://github-readme-stackoverflow.vercel.app/?userID=5585371&theme=dark)](https://stackoverflow.com/users/5585371/ferran-buireu)
+[![Ferran Buireu's Stack Overflow Profile](https://github-stackoverflow-readme.vercel.app/?userId=5585371)](https://stackoverflow.com/users/5585371/ferran-buireu)
 
 -------
 
