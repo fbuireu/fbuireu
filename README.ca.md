@@ -241,7 +241,7 @@
 <!-- HASHNODE-LATEST-ARTICLES:END -->
 
 ### Stack Overflow
-[![El perfil d'Stack Overflow del Ferran Buireu](https://github-readme-stackoverflow.vercel.app/?userID=5585371&theme=dark)](https://stackoverflow.com/users/5585371/ferran-buireu)
+[![El perfil d'Stack Overflow del Ferran Buireu](https://github-stackoverflow-readme.vercel.app/?userId=5585371)](https://stackoverflow.com/users/5585371/ferran-buireu)
 
 -------
 
