@@ -248,10 +248,10 @@
 ## 👨🏻‍💻 Consulta mis estadísticas de GitHub
 ### Última actividad
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empujado 1 commit(s) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-2. 🎉 Ha fusionado una PR [#804](https://github.com/fbuireu/biancafiore/pull/804) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-3. ❌ Ha cerrado una PR [#64](https://github.com/code-istvan/bw_astro_2024/pull/64) en [code-istvan/bw_astro_2024](https://github.com/code-istvan/bw_astro_2024)<br>
-4. 💪 Ha abierto una PR [#64](https://github.com/code-istvan/bw_astro_2024/pull/64) en [code-istvan/bw_astro_2024](https://github.com/code-istvan/bw_astro_2024)<br>
+1. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+2. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+3. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+4. ⬆️ Ha empujado 1 commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 5. ⬆️ Ha empujado 1 commit(s) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 <!--RECENT_ACTIVITY:end-->
 
