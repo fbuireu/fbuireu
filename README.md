@@ -62,7 +62,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <table align="center">
     <tr>
       <td>
-        <a href="https://github.com/fbuireu/fbuireu/blob/main/assets/pdf/CV-English.pdf" download>
+        <a href="https://github.com/fbuireu/fbuireu/blob/main/assets/Ferran-Buireu-CV-English-F.pdf" download>
           Download my Resume
         </a>
       </td>
