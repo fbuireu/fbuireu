@@ -256,7 +256,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 2. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 3. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 4. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-5. ⬆️ Pushed 1 commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+5. ⬆️ Pushed 2 commit(s) to [fbuireu/fbuireu-cli](https://github.com/fbuireu/fbuireu-cli)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
