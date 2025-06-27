@@ -97,44 +97,11 @@ jobs:
           plugin_steam: yes
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam_user: '${{ vars.STEAM_ID }}'
-      - name: Create Pull Request
-        id: create-pr
-        uses: peter-evans/create-pull-request@v5
+      - name: Create and Auto-merge PR
+        uses: ./.github/actions/create-auto-merge-pr
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'docs: update GitHub metrics'
-          title: '🤖 [AUTOMATED] Update GitHub Metrics'
-          body: |
-            ## Automated GitHub Metrics Update
-            
-            This PR contains updated GitHub metrics assets generated automatically.
-            
-            **Generated on:** ${{ github.run_id }}
-            **Workflow:** ${{ github.workflow }}
-            **Triggered by:** ${{ github.event_name }}
-            
-            ---
-            *This PR was created automatically and will be auto-merged if all checks pass.*
-          branch: metrics-update-${{ github.run_number }}
-          delete-branch: true
-          labels: |
-            automated
-            metrics
-            documentation
-      - name: Auto-merge PR
-        if: steps.create-pr.outputs.pull-request-number
-        run: |
-          echo "Auto-merging PR #${{ steps.create-pr.outputs.pull-request-number }}"
-          gh pr merge ${{ steps.create-pr.outputs.pull-request-number }} --auto --squash --subject "docs: update GitHub metrics"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Report Status
-        if: always()
-        run: |
-          if [ "${{ steps.create-pr.outputs.pull-request-operation }}" = "created" ]; then
-            echo "✅ PR created and auto-merge enabled: #${{ steps.create-pr.outputs.pull-request-number }}"
-          elif [ "${{ steps.create-pr.outputs.pull-request-operation }}" = "updated" ]; then
-            echo "✅ Existing PR updated: #${{ steps.create-pr.outputs.pull-request-number }}"
-          else
-            echo "ℹ️ No changes detected, no PR needed"
-          fi
+          commit-message: 'docs: update GitHub metrics assets'
+          title: '🤖 [AUTOMATED] Update GitHub metrics assets'
+          branch: 'metrics-update-${{ github.run_number }}'
+          
