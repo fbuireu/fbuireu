@@ -7,6 +7,9 @@ jobs:
   build:
     name: Update GitHub Contribution Snake Grid
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,20 +25,10 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Configure Git and Push
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          git pull origin main --no-rebase || true
-          git add dist/
-          git commit -s -m "Update snake grid animation" || echo "No changes to commit"
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.SNAKE_GRID_ANIMATION_TOKEN }}
-
-      - uses: crazy-max/ghaction-github-pages@v4
+      - name: Create and auto-merge PR
+        uses: ./.github/actions/create-auto-merge-pr
         with:
-          target_branch: ${{ vars.SNAKE_GRID_ANIMATION_TARGET_BRANCH }}
-          build_dir: ${{ vars.SNAKE_GRID_ANIMATION_BUILD_DIR }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.SNAKE_GRID_ANIMATION_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'docs: update snake grid animation'
+          title: '🤖 [AUTOMATED] Update Snake Grid Animation'
+          branch: 'snake-animation-update-${{ github.run_number }}'
