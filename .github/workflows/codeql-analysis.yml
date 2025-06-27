@@ -1,0 +1,13 @@
+on:
+  push:
+    branches: [main, protected]
+  pull_request:
+    branches: [main]
+    paths-ignore:
+      - "assets/**"
+      - "dist/**"
+      - "**/*.svg"
+      - "**/*.png"
+      - "**/*.jpg"
+      - "**/*.jpeg"
+      - "**/*.gif"
