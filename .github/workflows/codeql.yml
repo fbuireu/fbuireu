@@ -1,7 +1,7 @@
 name: CodeQL
 on:
   push:
-    branches: [main]
+    branches: [main, protected]
   pull_request:
     branches: [main]
     paths-ignore:
@@ -25,15 +25,45 @@ jobs:
       matrix:
         language: ['javascript', 'typescript']
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-    - name: Initialize CodeQL
-      uses: github/codeql-action/init@v3
-      with:
-        languages: ${{ matrix.language }}
-    - name: Autobuild
-      uses: github/codeql-action/autobuild@v3
-    - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v3
-      with:
-        category: "/language:${{matrix.language}}"
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Check for relevant changes
+        id: changes
+        run: |
+          if [ "${{ github.event_name }}" == "push" ]; then
+            changed_files=$(git diff --name-only HEAD~1 HEAD)
+          else
+            changed_files=$(git diff --name-only origin/${{ github.base_ref }}...HEAD)
+          fi
+          
+          echo "Changed files:"
+          echo "$changed_files"
+          
+          relevant_files=$(echo "$changed_files" | grep -v -E '^(assets/|dist/|.*\.(svg|png|jpg|jpeg|gif)$)' || true)
+          
+          if [ -n "$relevant_files" ]; then
+            echo "has_relevant_changes=true" >> $GITHUB_OUTPUT
+            echo "Relevant changes found:"
+            echo "$relevant_files"
+          else
+            echo "has_relevant_changes=false" >> $GITHUB_OUTPUT
+            echo "No relevant changes found, skipping CodeQL analysis"
+          fi
+      - name: Initialize CodeQL
+        if: steps.changes.outputs.has_relevant_changes == 'true'
+        uses: github/codeql-action/init@v3
+        with:
+          languages: ${{ matrix.language }}
+      - name: Autobuild
+        if: steps.changes.outputs.has_relevant_changes == 'true'
+        uses: github/codeql-action/autobuild@v3
+      - name: Perform CodeQL Analysis
+        if: steps.changes.outputs.has_relevant_changes == 'true'
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: "/language:${{matrix.language}}"
+      - name: Skip message
+        if: steps.changes.outputs.has_relevant_changes == 'false'
+        run: echo "⏭️ Skipping CodeQL analysis - only assets/dist files changed"
