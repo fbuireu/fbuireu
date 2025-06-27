@@ -28,3 +28,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           CONFIG_FILE: ${{ matrix.config_file }}
+      - name: Create and auto-merge PR
+        uses: ./.github/actions/create-auto-merge-pr
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'docs: update GitHub activity'
+          title: '🤖 [AUTOMATED] Update GitHub Activity'
+          branch: 'github-activity-update-${{ github.run_number }}'
