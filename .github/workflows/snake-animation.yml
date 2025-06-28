@@ -32,3 +32,4 @@ jobs:
           commit-message: 'docs: update snake grid animation'
           title: '🤖 [AUTOMATED] Update Snake Grid Animation'
           branch: 'snake-animation-update-${{ github.run_number }}'
+          force-merge: 'true' 
