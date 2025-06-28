@@ -96,12 +96,4 @@ jobs:
           plugin_music_token: '${{ secrets.SPOTIFY_CLIENT_ID }}, ${{ secrets.SPOTIFY_CLIENT_SECRET }}, ${{ secrets.SPOTIFY_REFRESH_TOKEN }}'
           plugin_steam: yes
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
-          plugin_steam_user: '${{ vars.STEAM_ID }}'
-      - name: Create and Auto-merge PR
-        uses: ./.github/actions/create-auto-merge-pr
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'docs: update GitHub metrics assets'
-          title: '🤖 [AUTOMATED] Update GitHub metrics assets'
-          branch: 'metrics-update-${{ github.run_number }}'
-          
+          plugin_steam_user: '${{ vars.STEAM_ID }}'          
