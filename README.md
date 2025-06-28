@@ -314,11 +314,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <!--START_SECTION:waka-->
 
 ```txt
-TypeScript     8 hrs           ███████████████████▓░░░░░   78.31 %
-JavaScript     58 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.50 %
-JSON           49 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.02 %
-YAML           9 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.48 %
-Astro          6 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.13 %
+TypeScript     6 hrs 26 mins   █████████████████▒░░░░░░░   69.84 %
+JSON           48 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   08.76 %
+JavaScript     46 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.32 %
+Go             26 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.86 %
+Markdown       11 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.14 %
 ```
 
 <!--END_SECTION:waka-->
