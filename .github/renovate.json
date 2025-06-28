@@ -1,37 +1,51 @@
 {
-   "$schema":"https://docs.renovatebot.com/renovate-schema.json",
-   "extends":[
+   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+   "extends": [
       "config:recommended",
       ":dependencyDashboard",
       "customManagers:biomeVersions"
    ],
-   "labels":[
+   "labels": [
       "dependencies",
       "renovate",
       "bot"
    ],
-   "schedule":[
+   "schedule": [
       "every weekend"
    ],
-   "assigneesFromCodeOwners":true,
-   "reviewersFromCodeOwners":true,
-   "packageRules":[
+   "assigneesFromCodeOwners": true,
+   "reviewersFromCodeOwners": true,
+   "packageRules": [
       {
-         "matchPackagePatterns": ["*"],
          "automerge": true,
-         "automergeType": "pr"
+         "automergeType": "pr",
+         "matchPackageNames": [
+            "*"
+         ]
       },
       {
-         "matchUpdateTypes": ["patch"],
-         "addLabels": ["patch-update"]
+         "matchUpdateTypes": [
+            "patch"
+         ],
+         "addLabels": [
+            "patch-update"
+         ]
       },
       {
-         "matchUpdateTypes": ["minor"],
-         "addLabels": ["minor-update"]
+         "matchUpdateTypes": [
+            "minor"
+         ],
+         "addLabels": [
+            "minor-update"
+         ]
       },
       {
-         "matchUpdateTypes": ["major"],
-         "addLabels": ["major-update"],
+         "matchUpdateTypes": [
+            "major"
+         ],
+         "addLabels": [
+            "major-update"
+         ],
          "automerge": false
       }
    ]
