@@ -18,6 +18,10 @@ inputs:
     description: 'Branch name for the pull request'
     required: false
     default: 'auto-update-${{ github.run_number }}'
+  force-merge:
+    description: 'Force merge without waiting for checks (use with caution)'
+    required: false
+    default: 'false'
 outputs:
   pull-request-number:
     description: 'The number of the created pull request'
@@ -49,26 +53,93 @@ runs:
         branch: ${{ inputs.branch }}
         delete-branch: true
         base: main
-    - name: Auto-merge PR
+
+    - name: Check branch protection and requirements
       if: steps.create-pr.outputs.pull-request-number
       shell: bash
       run: |
-        echo "Auto-merging PR #${{ steps.create-pr.outputs.pull-request-number }}"
+        echo "🔍 Checking branch protection rules and PR status..."
+        
+        gh api repos/${{ github.repository }}/branches/main/protection --jq '.required_status_checks.contexts[]' 2>/dev/null || echo "No required status checks found"
+        
+        echo "📋 PR Status:"
+        gh pr view ${{ steps.create-pr.outputs.pull-request-number }} --json state,mergeable,statusCheckRollup
+        
+        echo "🔎 Status checks:"
+        gh pr checks ${{ steps.create-pr.outputs.pull-request-number }}
+      env:
+        GH_TOKEN: ${{ inputs.token }}
+
+    - name: Wait for checks and auto-merge
+      if: steps.create-pr.outputs.pull-request-number && inputs.force-merge == 'false'
+      shell: bash
+      run: |
+        echo "⏳ Enabling auto-merge and waiting for checks..."
         
         gh pr ready ${{ steps.create-pr.outputs.pull-request-number }} || true
         gh pr merge ${{ steps.create-pr.outputs.pull-request-number }} --auto --squash --subject "${{ inputs.commit-message }}"
         
-        echo "Auto-merge enabled. PR will merge automatically when all checks pass."
+        echo "✅ Auto-merge enabled. Waiting up to 5 minutes for checks to complete..."
+        
+        for i in {1..30}; do
+          sleep 10
+          
+          pr_state=$(gh pr view ${{ steps.create-pr.outputs.pull-request-number }} --json state --jq '.state')
+          if [ "$pr_state" = "MERGED" ]; then
+            echo "🎉 PR successfully auto-merged!"
+            exit 0
+          fi
+          
+          mergeable=$(gh pr view ${{ steps.create-pr.outputs.pull-request-number }} --json mergeable --jq '.mergeable')
+          echo "⏳ Attempt $i/30 - PR state: $pr_state, mergeable: $mergeable"
+          
+          if [ "$mergeable" = "MERGEABLE" ]; then
+            echo "✅ PR is mergeable, checks should complete soon..."
+          fi
+        done
+        
+        echo "⚠️ Timeout reached. PR may still auto-merge when checks complete."
       env:
         GH_TOKEN: ${{ inputs.token }}
+
+    - name: Force merge (if enabled)
+      if: steps.create-pr.outputs.pull-request-number && inputs.force-merge == 'true'
+      shell: bash
+      run: |
+        echo "⚠️ Force merging PR without waiting for checks..."
+        
+        gh pr ready ${{ steps.create-pr.outputs.pull-request-number }} || true
+        
+        if gh pr merge ${{ steps.create-pr.outputs.pull-request-number }} --squash --subject "${{ inputs.commit-message }}"; then
+          echo "✅ PR force-merged successfully!"
+        else
+          echo "❌ Force merge failed. Enabling auto-merge as fallback..."
+          gh pr merge ${{ steps.create-pr.outputs.pull-request-number }} --auto --squash --subject "${{ inputs.commit-message }}"
+        fi
+      env:
+        GH_TOKEN: ${{ inputs.token }}
+
     - name: Report Status
       if: always()
       shell: bash
       run: |
         if [ "${{ steps.create-pr.outputs.pull-request-operation }}" = "created" ]; then
-          echo "✅ PR created and auto-merge enabled: #${{ steps.create-pr.outputs.pull-request-number }}"
+          echo "✅ PR created: #${{ steps.create-pr.outputs.pull-request-number }}"
+          
+          # Final status check
+          if [ "${{ steps.create-pr.outputs.pull-request-number }}" != "" ]; then
+            pr_state=$(gh pr view ${{ steps.create-pr.outputs.pull-request-number }} --json state --jq '.state' 2>/dev/null || echo "unknown")
+            if [ "$pr_state" = "MERGED" ]; then
+              echo "🎉 Status: Successfully merged"
+            else
+              echo "⏳ Status: Auto-merge enabled, waiting for checks"
+              echo "🔗 View PR: ${{ github.server_url }}/${{ github.repository }}/pull/${{ steps.create-pr.outputs.pull-request-number }}"
+            fi
+          fi
         elif [ "${{ steps.create-pr.outputs.pull-request-operation }}" = "updated" ]; then
           echo "✅ Existing PR updated: #${{ steps.create-pr.outputs.pull-request-number }}"
         else
           echo "ℹ️ No changes detected, no PR needed"
         fi
+      env:
+        GH_TOKEN: ${{ inputs.token }}
