@@ -20,6 +20,19 @@
          "matchPackagePatterns": ["*"],
          "automerge": true,
          "automergeType": "pr"
+      },
+      {
+         "matchUpdateTypes": ["patch"],
+         "addLabels": ["patch-update"]
+      },
+      {
+         "matchUpdateTypes": ["minor"],
+         "addLabels": ["minor-update"]
+      },
+      {
+         "matchUpdateTypes": ["major"],
+         "addLabels": ["major-update"],
+         "automerge": false
       }
    ]
 }
