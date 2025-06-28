@@ -54,34 +54,69 @@ runs:
         delete-branch: true
         base: main
 
-    - name: Check branch protection and requirements
+    - name: Check PR status and requirements
       if: steps.create-pr.outputs.pull-request-number
       shell: bash
       run: |
-        echo "🔍 Checking branch protection rules and PR status..."
-        
-        gh api repos/${{ github.repository }}/branches/main/protection --jq '.required_status_checks.contexts[]' 2>/dev/null || echo "No required status checks found"
+        echo "🔍 Checking PR status..."
         
         echo "📋 PR Status:"
-        gh pr view ${{ steps.create-pr.outputs.pull-request-number }} --json state,mergeable,statusCheckRollup
+        pr_info=$(gh pr view ${{ steps.create-pr.outputs.pull-request-number }} --json state,mergeable,statusCheckRollup)
+        echo "$pr_info"
         
-        echo "🔎 Status checks:"
-        gh pr checks ${{ steps.create-pr.outputs.pull-request-number }}
+        checks_count=$(echo "$pr_info" | jq '.statusCheckRollup | length')
+        echo "🔎 Status checks count: $checks_count"
+        
+        if [ "$checks_count" -eq 0 ]; then
+          echo "✅ No status checks required - PR should be mergeable immediately"
+          echo "no_checks=true" >> $GITHUB_OUTPUT
+        else
+          echo "⏳ Status checks detected - will wait for completion"
+          echo "no_checks=false" >> $GITHUB_OUTPUT
+        fi
+      id: check-status
+      env:
+        GH_TOKEN: ${{ inputs.token }}
+
+    - name: Immediate merge (no checks required)
+      if: steps.create-pr.outputs.pull-request-number && steps.check-status.outputs.no_checks == 'true' && inputs.force-merge == 'false'
+      shell: bash
+      run: |
+        echo "🚀 No checks required - attempting immediate merge..."
+        
+        sleep 5
+        
+        gh pr ready ${{ steps.create-pr.outputs.pull-request-number }} || true
+        
+        if gh pr merge ${{ steps.create-pr.outputs.pull-request-number }} --squash --subject "${{ inputs.commit-message }}"; then
+          echo "✅ PR merged immediately!"
+        else
+          echo "⏳ Immediate merge failed, enabling auto-merge as fallback..."
+          gh pr merge ${{ steps.create-pr.outputs.pull-request-number }} --auto --squash --subject "${{ inputs.commit-message }}"
+          
+          sleep 10
+          pr_state=$(gh pr view ${{ steps.create-pr.outputs.pull-request-number }} --json state --jq '.state' 2>/dev/null || echo "unknown")
+          if [ "$pr_state" = "MERGED" ]; then
+            echo "✅ Auto-merge completed!"
+          else
+            echo "⏳ Auto-merge enabled, will complete when ready"
+          fi
+        fi
       env:
         GH_TOKEN: ${{ inputs.token }}
 
     - name: Wait for checks and auto-merge
-      if: steps.create-pr.outputs.pull-request-number && inputs.force-merge == 'false'
+      if: steps.create-pr.outputs.pull-request-number && steps.check-status.outputs.no_checks == 'false' && inputs.force-merge == 'false'
       shell: bash
       run: |
-        echo "⏳ Enabling auto-merge and waiting for checks..."
+        echo "⏳ Checks detected - enabling auto-merge and waiting..."
         
         gh pr ready ${{ steps.create-pr.outputs.pull-request-number }} || true
         gh pr merge ${{ steps.create-pr.outputs.pull-request-number }} --auto --squash --subject "${{ inputs.commit-message }}"
         
-        echo "✅ Auto-merge enabled. Waiting up to 5 minutes for checks to complete..."
+        echo "✅ Auto-merge enabled. Waiting up to 3 minutes for checks to complete..."
         
-        for i in {1..30}; do
+        for i in {1..18}; do
           sleep 10
           
           pr_state=$(gh pr view ${{ steps.create-pr.outputs.pull-request-number }} --json state --jq '.state')
@@ -90,12 +125,7 @@ runs:
             exit 0
           fi
           
-          mergeable=$(gh pr view ${{ steps.create-pr.outputs.pull-request-number }} --json mergeable --jq '.mergeable')
-          echo "⏳ Attempt $i/30 - PR state: $pr_state, mergeable: $mergeable"
-          
-          if [ "$mergeable" = "MERGEABLE" ]; then
-            echo "✅ PR is mergeable, checks should complete soon..."
-          fi
+          echo "⏳ Attempt $i/18 - PR state: $pr_state"
         done
         
         echo "⚠️ Timeout reached. PR may still auto-merge when checks complete."
@@ -126,14 +156,22 @@ runs:
         if [ "${{ steps.create-pr.outputs.pull-request-operation }}" = "created" ]; then
           echo "✅ PR created: #${{ steps.create-pr.outputs.pull-request-number }}"
           
-          # Final status check
           if [ "${{ steps.create-pr.outputs.pull-request-number }}" != "" ]; then
             pr_state=$(gh pr view ${{ steps.create-pr.outputs.pull-request-number }} --json state --jq '.state' 2>/dev/null || echo "unknown")
             if [ "$pr_state" = "MERGED" ]; then
-              echo "🎉 Status: Successfully merged"
+              echo "🎉 Status: Successfully merged!"
             else
-              echo "⏳ Status: Auto-merge enabled, waiting for checks"
+              echo "⏳ Status: Auto-merge enabled"
               echo "🔗 View PR: ${{ github.server_url }}/${{ github.repository }}/pull/${{ steps.create-pr.outputs.pull-request-number }}"
+              
+              mergeable=$(gh pr view ${{ steps.create-pr.outputs.pull-request-number }} --json mergeable --jq '.mergeable' 2>/dev/null || echo "unknown")
+              if [ "$mergeable" = "UNKNOWN" ]; then
+                echo "ℹ️ GitHub is still processing the PR - it may auto-merge shortly"
+              elif [ "$mergeable" = "MERGEABLE" ]; then
+                echo "✅ PR is mergeable - should auto-merge when conditions are met"
+              else
+                echo "⚠️ PR mergeable status: $mergeable"
+              fi
             fi
           fi
         elif [ "${{ steps.create-pr.outputs.pull-request-operation }}" = "updated" ]; then
