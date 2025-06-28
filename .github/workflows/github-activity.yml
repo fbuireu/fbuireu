@@ -3,9 +3,6 @@ on:
   schedule:
     - cron: 0 0 * * *
   workflow_dispatch:
-permissions:
-  contents: write
-  pull-requests: write
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
   cancel-in-progress: true
@@ -31,10 +28,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           CONFIG_FILE: ${{ matrix.config_file }}
-      - name: Create and auto-merge PR
-        uses: ./.github/actions/create-auto-merge-pr
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'docs: update GitHub activity'
-          title: '🤖 [AUTOMATED] Update GitHub Activity'
-          branch: 'github-activity-update-${{ github.run_number }}'
+          
