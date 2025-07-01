@@ -26,5 +26,5 @@ jobs:
           max_post_count: 5
           user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36'
           retry_count: 1
-          feed_list: ${{ vars.HASHNODE_RSS }}
+          feed_list: 'https://api.allorigins.win/get?url=${{ vars.HASHNODE_RSS }}'
           commit_message: 'docs: update ${{ matrix.readme }} with latest Hashnode articles'
