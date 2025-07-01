@@ -1,11 +1,14 @@
 name: Hashnode Latest Articles
+
 on:
   schedule:
-    - cron: 0 0 * * *
+    - cron: '0 0 * * *'
   workflow_dispatch:
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
   cancel-in-progress: true
+
 jobs:
   build:
     name: Update ${{ matrix.readme }}
@@ -20,40 +23,139 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
-      - name: Download RSS via proxy
+          node-version: '18'
+          
+      - name: Get Hashnode articles via API
         run: |
-          curl -s "https://api.allorigins.win/get?url=${{ vars.HASHNODE_RSS }}" | \
-          node -e "
-            let data = '';
-            process.stdin.on('data', chunk => data += chunk);
-            process.stdin.on('end', () => {
+          cat > get_hashnode.js << 'EOF'
+          const https = require('https');
+          const fs = require('fs');
+          
+          // Extraer username de la URL del RSS
+          const rssUrl = process.env.HASHNODE_RSS;
+          const username = rssUrl.match(/https:\/\/(.+?)\.hashnode\.dev/)?.[1];
+          
+          if (!username) {
+            console.error('Could not extract username from RSS URL');
+            process.exit(1);
+          }
+          
+          console.log(`Fetching articles for: ${username}`);
+          
+          const query = `
+          query GetUserArticles($username: String!) {
+            user(username: $username) {
+              publication {
+                title
+                posts(page: 0) {
+                  title
+                  brief
+                  slug
+                  dateAdded
+                  coverImage
+                }
+              }
+            }
+          }`;
+          
+          const variables = { username: username };
+          const data = JSON.stringify({ query, variables });
+          
+          const options = {
+            hostname: 'gql.hashnode.com',
+            port: 443,
+            path: '/',
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Content-Length': data.length,
+              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            }
+          };
+          
+          const req = https.request(options, (res) => {
+            let responseBody = '';
+            res.on('data', (chunk) => responseBody += chunk);
+            res.on('end', () => {
               try {
-                const json = JSON.parse(data);
-                console.log(json.contents);
-              } catch (e) {
-                console.error('Error parsing JSON:', e);
+                const result = JSON.parse(responseBody);
+                
+                if (result.errors) {
+                  console.error('GraphQL errors:', result.errors);
+                  process.exit(1);
+                }
+                
+                const posts = result.data?.user?.publication?.posts?.slice(0, 5) || [];
+                const publicationTitle = result.data?.user?.publication?.title || 'Hashnode Blog';
+                
+                console.log(`Found ${posts.length} articles`);
+                
+                // Generar RSS
+                let rss = `<?xml version="1.0" encoding="UTF-8"?>
+          <rss version="2.0">
+            <channel>
+              <title>${publicationTitle}</title>
+              <description>Latest articles from ${username}'s Hashnode blog</description>
+              <link>https://${username}.hashnode.dev</link>`;
+              
+                posts.forEach(post => {
+                  const cleanTitle = post.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                  const cleanBrief = (post.brief || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                  
+                  rss += `
+                <item>
+                  <title>${cleanTitle}</title>
+                  <description>${cleanBrief}</description>
+                  <link>https://${username}.hashnode.dev/${post.slug}</link>
+                  <pubDate>${new Date(post.dateAdded).toUTCString()}</pubDate>
+                </item>`;
+                });
+                
+                rss += `
+              </channel>
+            </rss>`;
+                
+                fs.writeFileSync(process.env.RSS_FILE, rss);
+                console.log(`RSS feed saved to ${process.env.RSS_FILE}`);
+                
+              } catch (error) {
+                console.error('Error parsing response:', error);
                 process.exit(1);
               }
             });
-          " > ${{ env.RSS_FILE }}
+          });
+          
+          req.on('error', (error) => {
+            console.error('Request error:', error);
+            process.exit(1);
+          });
+          
+          req.write(data);
+          req.end();
+          EOF
+          
+          # Ejecutar script
+          HASHNODE_RSS="${{ vars.HASHNODE_RSS }}" node get_hashnode.js
+          
       - name: Verify RSS file
         run: |
           if [ ! -s ${{ env.RSS_FILE }} ]; then
             echo "RSS file is empty or doesn't exist"
             exit 1
           fi
-          head -5 ${{ env.RSS_FILE }}
-      - name: Get Hashnode articles
+          echo "RSS file content preview:"
+          head -10 ${{ env.RSS_FILE }}
+          
+      - name: Update README with articles
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           readme_path: ${{ matrix.readme }}
           comment_tag_name: HASHNODE-LATEST-ARTICLES
           max_post_count: 5
           user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36'
-          retry_count: 3
           feed_list: './${{ env.RSS_FILE }}'
           commit_message: 'docs: update ${{ matrix.readme }} with latest Hashnode articles'
