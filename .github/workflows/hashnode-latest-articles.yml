@@ -1,20 +1,15 @@
 name: Hashnode Latest Articles
-
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: 0 0 * * *
   workflow_dispatch:
-
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
   cancel-in-progress: true
-
 jobs:
   build:
     name: Update ${{ matrix.readme }}
     runs-on: ubuntu-latest
-    env:
-      RSS_FILE: hashnode_feed.xml
     strategy:
       fail-fast: true
       max-parallel: 1
@@ -23,167 +18,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-          
-      - name: Get Hashnode articles via API
-        run: |
-          cat > get_hashnode.js << 'EOF'
-          const https = require('https');
-          const fs = require('fs');
-          
-          // Extraer username de la URL del RSS
-          const rssUrl = process.env.HASHNODE_RSS;
-          const hostname = rssUrl.match(/https:\/\/(.+?)\.hashnode\.dev/)?.[1];
-          
-          if (!hostname) {
-            console.error('Could not extract hostname from RSS URL');
-            process.exit(1);
-          }
-          
-          console.log(`Fetching articles for: ${hostname}.hashnode.dev`);
-          
-          const query = `
-          query GetPublicationPosts($host: String!) {
-            publication(host: $host) {
-              title
-              posts(first: 5) {
-                edges {
-                  node {
-                    title
-                    brief
-                    slug
-                    publishedAt
-                    url
-                  }
-                }
-              }
-            }
-          }`;
-          
-          const variables = { host: `${hostname}.hashnode.dev` };
-          const data = JSON.stringify({ query, variables });
-          
-          const options = {
-            hostname: 'gql.hashnode.com',
-            port: 443,
-            path: '/',
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-              'Content-Length': data.length,
-              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-            }
-          };
-          
-          const req = https.request(options, (res) => {
-            let responseBody = '';
-            res.on('data', (chunk) => responseBody += chunk);
-            res.on('end', () => {
-              try {
-                const result = JSON.parse(responseBody);
-                
-                if (result.errors) {
-                  console.error('GraphQL errors:', result.errors);
-                  process.exit(1);
-                }
-                
-                const posts = result.data?.publication?.posts?.edges?.map(edge => edge.node)?.slice(0, 5) || [];
-                const publicationTitle = result.data?.publication?.title || 'Hashnode Blog';
-                
-                console.log(`Found ${posts.length} articles`);
-                
-                // Generar RSS
-                let rss = `<?xml version="1.0" encoding="UTF-8"?>
-          <rss version="2.0">
-            <channel>
-              <title>${publicationTitle}</title>
-              <description>Latest articles from ${hostname}.hashnode.dev</description>
-              <link>https://${hostname}.hashnode.dev</link>`;
-              
-                posts.forEach(post => {
-                  // Limpiar título y descripción de caracteres problemáticos
-                  const cleanTitle = post.title || 'Untitled';
-                  
-                  let cleanBrief = post.brief || post.title || 'No description';
-                  // Remover LaTeX y caracteres problemáticos
-                  cleanBrief = cleanBrief
-                    .replace(/\$\$/g, '') // Remover LaTeX math notation
-                    .replace(/\$/g, '') // Remover símbolos de dólar
-                    .replace(/\n/g, ' ') // Reemplazar saltos de línea con espacios
-                    .replace(/\r/g, ' ') // Reemplazar returns con espacios
-                    .replace(/\t/g, ' ') // Reemplazar tabs con espacios
-                    .replace(/\s+/g, ' ') // Reemplazar múltiples espacios con uno solo
-                    .trim() // Remover espacios al inicio y final
-                    .substring(0, 200); // Limitar longitud
-                  
-                  // Si queda vacío después de la limpieza, usar el título
-                  if (!cleanBrief || cleanBrief.length < 10) {
-                    cleanBrief = cleanTitle;
-                  }
-                  
-                  // Asegurar que la fecha sea válida
-                  const pubDate = post.publishedAt ? new Date(post.publishedAt) : new Date();
-                  const formattedDate = pubDate.toUTCString();
-                  
-                  rss += `
-                <item>
-                  <title><![CDATA[${cleanTitle}]]></title>
-                  <description><![CDATA[${cleanBrief}]]></description>
-                  <link>${post.url}</link>
-                  <guid isPermaLink="true">${post.url}</guid>
-                  <pubDate>${formattedDate}</pubDate>
-                </item>`;
-                });
-                
-                rss += `
-              </channel>
-            </rss>`;
-                
-                fs.writeFileSync(process.env.RSS_FILE, rss);
-                console.log(`RSS feed saved to ${process.env.RSS_FILE}`);
-                
-              } catch (error) {
-                console.error('Error parsing response:', error);
-                process.exit(1);
-              }
-            });
-          });
-          
-          req.on('error', (error) => {
-            console.error('Request error:', error);
-            process.exit(1);
-          });
-          
-          req.write(data);
-          req.end();
-          EOF
-          
-          # Ejecutar script
-          HASHNODE_RSS="${{ vars.HASHNODE_RSS }}" node get_hashnode.js
-          
-      - name: Verify RSS file
-        run: |
-          if [ ! -s ${{ env.RSS_FILE }} ]; then
-            echo "RSS file is empty or doesn't exist"
-            exit 1
-          fi
-          echo "RSS file content preview:"
-          head -10 ${{ env.RSS_FILE }}
-          
-      - name: Update README with articles
+      - name: Get Hashnode articles
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           readme_path: ${{ matrix.readme }}
           comment_tag_name: HASHNODE-LATEST-ARTICLES
           max_post_count: 5
           user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36'
-          retry_count: 3
-          retry_wait_time: 5
-          disable_item_validation: true
-          disable_html_encoding: false
-          feed_list: './${{ env.RSS_FILE }}'
+          retry_count: 1
+          retry_wait_time: 15
+          feed_list: ${{ vars.HASHNODE_RSS }}
           commit_message: 'docs: update ${{ matrix.readme }} with latest Hashnode articles'
