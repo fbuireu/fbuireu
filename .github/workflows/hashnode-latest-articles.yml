@@ -105,14 +105,35 @@ jobs:
               <link>https://${hostname}.hashnode.dev</link>`;
               
                 posts.forEach(post => {
-                  const cleanTitle = post.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-                  const cleanBrief = (post.brief || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                  // Escape más robusto para XML
+                  const cleanTitle = post.title
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&#39;');
+                    
+                  let cleanBrief = (post.brief || '')
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&#39;')
+                    .replace(/\$\$/g, '') // Remover LaTeX math notation
+                    .replace(/\$/g, '') // Remover símbolos de dólar restantes
+                    .substring(0, 200); // Limitar longitud
+                  
+                  // Si no hay descripción, usar el título
+                  if (!cleanBrief) {
+                    cleanBrief = cleanTitle;
+                  }
                   
                   rss += `
                 <item>
-                  <title>${cleanTitle}</title>
-                  <description>${cleanBrief}</description>
+                  <title><![CDATA[${post.title}]]></title>
+                  <description><![CDATA[${post.brief || post.title}]]></description>
                   <link>${post.url}</link>
+                  <guid>${post.url}</guid>
                   <pubDate>${new Date(post.publishedAt).toUTCString()}</pubDate>
                 </item>`;
                 });
