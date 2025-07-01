@@ -37,40 +37,34 @@ jobs:
           
           // Extraer username de la URL del RSS
           const rssUrl = process.env.HASHNODE_RSS;
-          const username = rssUrl.match(/https:\/\/(.+?)\.hashnode\.dev/)?.[1];
+          const hostname = rssUrl.match(/https:\/\/(.+?)\.hashnode\.dev/)?.[1];
           
-          if (!username) {
-            console.error('Could not extract username from RSS URL');
+          if (!hostname) {
+            console.error('Could not extract hostname from RSS URL');
             process.exit(1);
           }
           
-          console.log(`Fetching articles for: ${username}`);
+          console.log(`Fetching articles for: ${hostname}.hashnode.dev`);
           
           const query = `
-          query GetUserArticles($username: String!) {
-            user(username: $username) {
-              publications(first: 1) {
+          query GetPublicationPosts($host: String!) {
+            publication(host: $host) {
+              title
+              posts(first: 5) {
                 edges {
                   node {
                     title
-                    posts(first: 5) {
-                      edges {
-                        node {
-                          title
-                          brief
-                          slug
-                          publishedAt
-                          coverImageURL
-                        }
-                      }
-                    }
+                    brief
+                    slug
+                    publishedAt
+                    url
                   }
                 }
               }
             }
           }`;
           
-          const variables = { username: username };
+          const variables = { host: `${hostname}.hashnode.dev` };
           const data = JSON.stringify({ query, variables });
           
           const options = {
@@ -97,8 +91,8 @@ jobs:
                   process.exit(1);
                 }
                 
-                const posts = result.data?.user?.publications?.edges?.[0]?.node?.posts?.edges?.map(edge => edge.node)?.slice(0, 5) || [];
-                const publicationTitle = result.data?.user?.publications?.edges?.[0]?.node?.title || 'Hashnode Blog';
+                const posts = result.data?.publication?.posts?.edges?.map(edge => edge.node)?.slice(0, 5) || [];
+                const publicationTitle = result.data?.publication?.title || 'Hashnode Blog';
                 
                 console.log(`Found ${posts.length} articles`);
                 
@@ -107,8 +101,8 @@ jobs:
           <rss version="2.0">
             <channel>
               <title>${publicationTitle}</title>
-              <description>Latest articles from ${username}'s Hashnode blog</description>
-              <link>https://${username}.hashnode.dev</link>`;
+              <description>Latest articles from ${hostname}.hashnode.dev</description>
+              <link>https://${hostname}.hashnode.dev</link>`;
               
                 posts.forEach(post => {
                   const cleanTitle = post.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -118,7 +112,7 @@ jobs:
                 <item>
                   <title>${cleanTitle}</title>
                   <description>${cleanBrief}</description>
-                  <link>https://${username}.hashnode.dev/${post.slug}</link>
+                  <link>${post.url}</link>
                   <pubDate>${new Date(post.publishedAt).toUTCString()}</pubDate>
                 </item>`;
                 });
