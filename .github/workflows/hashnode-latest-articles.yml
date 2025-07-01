@@ -49,14 +49,22 @@ jobs:
           const query = `
           query GetUserArticles($username: String!) {
             user(username: $username) {
-              publication {
-                title
-                posts(page: 0) {
-                  title
-                  brief
-                  slug
-                  dateAdded
-                  coverImage
+              publications(first: 1) {
+                edges {
+                  node {
+                    title
+                    posts(first: 5) {
+                      edges {
+                        node {
+                          title
+                          brief
+                          slug
+                          publishedAt
+                          coverImageURL
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -89,8 +97,8 @@ jobs:
                   process.exit(1);
                 }
                 
-                const posts = result.data?.user?.publication?.posts?.slice(0, 5) || [];
-                const publicationTitle = result.data?.user?.publication?.title || 'Hashnode Blog';
+                const posts = result.data?.user?.publications?.edges?.[0]?.node?.posts?.edges?.map(edge => edge.node)?.slice(0, 5) || [];
+                const publicationTitle = result.data?.user?.publications?.edges?.[0]?.node?.title || 'Hashnode Blog';
                 
                 console.log(`Found ${posts.length} articles`);
                 
@@ -111,7 +119,7 @@ jobs:
                   <title>${cleanTitle}</title>
                   <description>${cleanBrief}</description>
                   <link>https://${username}.hashnode.dev/${post.slug}</link>
-                  <pubDate>${new Date(post.dateAdded).toUTCString()}</pubDate>
+                  <pubDate>${new Date(post.publishedAt).toUTCString()}</pubDate>
                 </item>`;
                 });
                 
