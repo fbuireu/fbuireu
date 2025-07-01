@@ -105,36 +105,37 @@ jobs:
               <link>https://${hostname}.hashnode.dev</link>`;
               
                 posts.forEach(post => {
-                  // Escape más robusto para XML
-                  const cleanTitle = post.title
-                    .replace(/&/g, '&amp;')
-                    .replace(/</g, '&lt;')
-                    .replace(/>/g, '&gt;')
-                    .replace(/"/g, '&quot;')
-                    .replace(/'/g, '&#39;');
-                    
-                  let cleanBrief = (post.brief || '')
-                    .replace(/&/g, '&amp;')
-                    .replace(/</g, '&lt;')
-                    .replace(/>/g, '&gt;')
-                    .replace(/"/g, '&quot;')
-                    .replace(/'/g, '&#39;')
+                  // Limpiar título y descripción de caracteres problemáticos
+                  const cleanTitle = post.title || 'Untitled';
+                  
+                  let cleanBrief = post.brief || post.title || 'No description';
+                  // Remover LaTeX y caracteres problemáticos
+                  cleanBrief = cleanBrief
                     .replace(/\$\$/g, '') // Remover LaTeX math notation
-                    .replace(/\$/g, '') // Remover símbolos de dólar restantes
+                    .replace(/\$/g, '') // Remover símbolos de dólar
+                    .replace(/\n/g, ' ') // Reemplazar saltos de línea con espacios
+                    .replace(/\r/g, ' ') // Reemplazar returns con espacios
+                    .replace(/\t/g, ' ') // Reemplazar tabs con espacios
+                    .replace(/\s+/g, ' ') // Reemplazar múltiples espacios con uno solo
+                    .trim() // Remover espacios al inicio y final
                     .substring(0, 200); // Limitar longitud
                   
-                  // Si no hay descripción, usar el título
-                  if (!cleanBrief) {
+                  // Si queda vacío después de la limpieza, usar el título
+                  if (!cleanBrief || cleanBrief.length < 10) {
                     cleanBrief = cleanTitle;
                   }
                   
+                  // Asegurar que la fecha sea válida
+                  const pubDate = post.publishedAt ? new Date(post.publishedAt) : new Date();
+                  const formattedDate = pubDate.toUTCString();
+                  
                   rss += `
                 <item>
-                  <title><![CDATA[${post.title}]]></title>
-                  <description><![CDATA[${post.brief || post.title}]]></description>
+                  <title><![CDATA[${cleanTitle}]]></title>
+                  <description><![CDATA[${cleanBrief}]]></description>
                   <link>${post.url}</link>
-                  <guid>${post.url}</guid>
-                  <pubDate>${new Date(post.publishedAt).toUTCString()}</pubDate>
+                  <guid isPermaLink="true">${post.url}</guid>
+                  <pubDate>${formattedDate}</pubDate>
                 </item>`;
                 });
                 
@@ -180,5 +181,9 @@ jobs:
           comment_tag_name: HASHNODE-LATEST-ARTICLES
           max_post_count: 5
           user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36'
+          retry_count: 3
+          retry_wait_time: 5
+          disable_item_validation: true
+          disable_html_encoding: false
           feed_list: './${{ env.RSS_FILE }}'
           commit_message: 'docs: update ${{ matrix.readme }} with latest Hashnode articles'
