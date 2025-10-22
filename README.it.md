@@ -234,11 +234,9 @@
 <!-- MEDIUM-LATEST-ARTICLES:END -->
 
 ### Hashnode
-<!-- HASHNODE-LATEST-ARTICLES:START -->
 - [Floating Math Point: The Phantom Menace of Precision](https://ferranbuireu.hashnode.dev/floating-math-point)
 - [Crafting a custom Breadcrumb component in Astro:  Step-by-Step Guide](https://ferranbuireu.hashnode.dev/crafting-a-custom-breadcrumb-component-in-astro-step-by-step-guide)
 - [What is Redux? Do I need to use it?](https://ferranbuireu.hashnode.dev/what-is-redux-do-i-need-to-use-it)
-<!-- HASHNODE-LATEST-ARTICLES:END -->
 
 ### Stack Overflow
 [![Il profilo Stack Overflow di Ferran Buireu](https://github-stackoverflow-readme.vercel.app/?userId=5585371)](https://stackoverflow.com/users/5585371/ferran-buireu)
@@ -359,7 +357,6 @@ Se siete arrivati fin qui, meritate di incontrare ${\textcolor{purple}{\textnorm
 ## ⚠️ Debug
 [![GitHub Activity](https://github.com/fbuireu/fbuireu/actions/workflows/github-activity.yml/badge.svg?style=flat-square)](https://github.com/fbuireu/fbuireu/actions/workflows/github-activity.yml)
 [![Global Metrics](https://github.com/fbuireu/fbuireu/actions/workflows/global-metrics.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/global-metrics.yml)
-[![Hashnode Latest Articles](https://github.com/fbuireu/fbuireu/actions/workflows/hashnode-latest-articles.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/hashnode-latest-articles.yml)
 [![Medium Latest Articles](https://github.com/fbuireu/fbuireu/actions/workflows/medium-latest-articles.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/medium-latest-articles.yml)
 [![Snake Grid Animation](https://github.com/fbuireu/fbuireu/actions/workflows/snake-animation.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/snake-animation.yml)
 [![Wakatime Stats](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml)
