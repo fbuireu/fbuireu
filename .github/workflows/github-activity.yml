@@ -25,10 +25,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.PAT_ADMIN_TOKEN }} 
       - name: Run Recent Activity 
         uses: Readme-Workflows/recent-activity@v2.4.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_ADMIN_TOKEN }} 
         with:
           CONFIG_FILE: ${{ matrix.config_file }}
-          
