@@ -246,10 +246,10 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. 💬 Ha comentat a [#962](https://github.com/opennextjs/opennextjs-cloudflare/issues/962#issuecomment-3451428645) a [opennextjs/opennextjs-cloudflare](https://github.com/opennextjs/opennextjs-cloudflare)<br>
-2. 💪 Ha obert una PR [#965](undefined) a [opennextjs/opennextjs-cloudflare](https://github.com/opennextjs/opennextjs-cloudflare)<br>
-3. 🔱 Ha bifurcat [fbuireu/opennextjs-cloudflare](https://github.com/fbuireu/opennextjs-cloudflare) des de [fbuireu/opennextjs-cloudflare](https://github.com/fbuireu/opennextjs-cloudflare)<br>
-4. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+1. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+2. 💬 Ha comentat a [#962](https://github.com/opennextjs/opennextjs-cloudflare/issues/962#issuecomment-3451428645) a [opennextjs/opennextjs-cloudflare](https://github.com/opennextjs/opennextjs-cloudflare)<br>
+3. 💪 Ha obert una PR [#965](undefined) a [opennextjs/opennextjs-cloudflare](https://github.com/opennextjs/opennextjs-cloudflare)<br>
+4. 🔱 Ha bifurcat [fbuireu/opennextjs-cloudflare](https://github.com/fbuireu/opennextjs-cloudflare) des de [fbuireu/opennextjs-cloudflare](https://github.com/fbuireu/opennextjs-cloudflare)<br>
 5. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
