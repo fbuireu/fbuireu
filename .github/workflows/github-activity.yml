@@ -13,26 +13,33 @@ jobs:
   build:
     name: Update README files
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: true
-      max-parallel: 1
-      matrix:
-        config_file:
-          - ./.github/config/github-activity/en.config.yml
-          - ./.github/config/github-activity/ca.config.yml
-          - ./.github/config/github-activity/it.config.yml
-          - ./.github/config/github-activity/es.config.yml
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
-      
-      - name: Run Recent Activity 
+      - name: Run Recent Activity (EN)
         uses: Readme-Workflows/recent-activity@v2.4.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          CONFIG_FILE: ${{ matrix.config_file }}
-      
+          CONFIG_FILE: ./.github/config/github-activity/en.config.yml
+      - name: Run Recent Activity (CA)
+        uses: Readme-Workflows/recent-activity@v2.4.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          CONFIG_FILE: ./.github/config/github-activity/ca.config.yml
+      - name: Run Recent Activity (IT)
+        uses: Readme-Workflows/recent-activity@v2.4.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          CONFIG_FILE: ./.github/config/github-activity/it.config.yml
+      - name: Run Recent Activity (ES)
+        uses: Readme-Workflows/recent-activity@v2.4.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          CONFIG_FILE: ./.github/config/github-activity/es.config.yml
       - name: Create and auto-merge PR
         uses: ./.github/actions/create-auto-merge-pr
         with:
