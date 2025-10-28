@@ -247,9 +247,9 @@
 ### Última actividad
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha empujado undefined commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-2. 💬 Ha comentado a [#962](https://github.com/opennextjs/opennextjs-cloudflare/issues/962#issuecomment-3451428645) en [opennextjs/opennextjs-cloudflare](https://github.com/opennextjs/opennextjs-cloudflare)<br>
-3. 💪 Ha abierto una PR [#965](undefined) en [opennextjs/opennextjs-cloudflare](https://github.com/opennextjs/opennextjs-cloudflare)<br>
-4. 🔱 Ha bifurcado [fbuireu/opennextjs-cloudflare](https://github.com/fbuireu/opennextjs-cloudflare) desde [fbuireu/opennextjs-cloudflare](https://github.com/fbuireu/opennextjs-cloudflare)<br>
+2. 💪 Ha abierto una PR [#167](undefined) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+3. ⬆️ Ha empujado undefined commit(s) en [fbuireu/opennextjs-cloudflare](https://github.com/fbuireu/opennextjs-cloudflare)<br>
+4. ⬆️ Ha empujado undefined commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 5. ⬆️ Ha empujado undefined commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
