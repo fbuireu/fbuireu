@@ -16,30 +16,32 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.PAT_ADMIN_TOKEN }} 
       - name: Run Recent Activity (EN)
         uses: Readme-Workflows/recent-activity@v2.4.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_ADMIN_TOKEN }} 
         with:
           CONFIG_FILE: ./.github/config/github-activity/en.config.yml
       - name: Run Recent Activity (CA)
         uses: Readme-Workflows/recent-activity@v2.4.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_ADMIN_TOKEN }} 
         with:
           CONFIG_FILE: ./.github/config/github-activity/ca.config.yml
       - name: Run Recent Activity (IT)
         uses: Readme-Workflows/recent-activity@v2.4.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_ADMIN_TOKEN }} 
         with:
-          CONFIG_FILE: ./.github/config/github-activity/it.config.yml
+          CONFIG_FILE: ./.github/config/github-activity/it.config.yml      
       - name: Run Recent Activity (ES)
         uses: Readme-Workflows/recent-activity@v2.4.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_ADMIN_TOKEN }} 
         with:
-          CONFIG_FILE: ./.github/config/github-activity/es.config.yml
+          CONFIG_FILE: ./.github/config/github-activity/es.config.yml 
       - name: Create and auto-merge PR
         uses: ./.github/actions/create-auto-merge-pr
         with:
