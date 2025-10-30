@@ -151,4 +151,20 @@ runs:
             exit 0
           fi
           
-          if gh pr merge ${PR_NUMBER} --ad
+          IS_DRAFT=$(gh pr view ${PR_NUMBER} --json isDraft --jq '.isDraft' 2>/dev/null || echo "false")
+          if [ "$IS_DRAFT" = "true" ]; then
+            gh pr ready ${PR_NUMBER} 2>/dev/null || true
+            sleep 2
+          fi
+          
+          if gh pr merge ${PR_NUMBER} --admin --squash --subject "${{ inputs.commit-message }}" 2>&1; then
+            echo "✅ PR force-merged successfully!"
+            exit 0
+          else
+            sleep $RETRY_DELAY
+          fi
+        done
+        
+        exit 1
+      env:
+        GH_TOKEN: ${{ inputs.token }}
