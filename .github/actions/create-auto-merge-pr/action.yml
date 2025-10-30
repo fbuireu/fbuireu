@@ -33,15 +33,44 @@ inputs:
 outputs:
   pull-request-number:
     description: 'The number of the created pull request'
-    value: ${{ steps.create-pr.outputs.pull-request-number }}
+    value: ${{ steps.create-pr.outputs.pull-request-number || steps.retry-pr.outputs.pull-request-number }}
   pull-request-operation:
     description: 'The operation performed (created, updated, or none)'
-    value: ${{ steps.create-pr.outputs.pull-request-operation }}
+    value: ${{ steps.create-pr.outputs.pull-request-operation || steps.retry-pr.outputs.pull-request-operation }}
 runs:
   using: 'composite'
   steps:
     - name: Create Pull Request
       id: create-pr
+      uses: peter-evans/create-pull-request@v7
+      continue-on-error: true
+      with:
+        token: ${{ inputs.token }}
+        commit-message: ${{ inputs.commit-message }}
+        title: ${{ inputs.title }}
+        body: |
+          ## Automated Repository Update
+          
+          This PR contains updated assets generated automatically.
+          
+          **Generated on:** ${{ github.run_id }}
+          **Workflow:** ${{ github.workflow }}
+          **Triggered by:** ${{ github.event_name }}
+          
+          ---
+          *This PR was created automatically and will be auto-merged if all checks pass.*
+        branch: ${{ inputs.branch }}
+        delete-branch: true
+        base: main
+
+    - name: Wait before retry
+      if: steps.create-pr.outcome == 'failure'
+      shell: bash
+      run: sleep 45
+
+    - name: Retry Create Pull Request
+      id: retry-pr
+      if: steps.create-pr.outcome == 'failure'
       uses: peter-evans/create-pull-request@v7
       with:
         token: ${{ inputs.token }}
@@ -62,139 +91,64 @@ runs:
         delete-branch: true
         base: main
 
-    - name: Wait for PR to be ready
-      if: steps.create-pr.outputs.pull-request-number
+    - name: Set PR vars
       shell: bash
       run: |
-        echo "⏳ Waiting for PR to be fully processed..."
-        sleep 5
+        if [ -n "${{ steps.create-pr.outputs.pull-request-number }}" ]; then
+          echo "PR_NUM=${{ steps.create-pr.outputs.pull-request-number }}" >> $GITHUB_ENV
+        else
+          echo "PR_NUM=${{ steps.retry-pr.outputs.pull-request-number }}" >> $GITHUB_ENV
+        fi
+
+    - name: Wait for PR to be ready
+      if: env.PR_NUM != ''
+      shell: bash
+      run: sleep 5
       env:
         GH_TOKEN: ${{ inputs.token }}
 
     - name: Auto-merge PR
-      if: steps.create-pr.outputs.pull-request-number && inputs.force-merge == 'false'
+      if: env.PR_NUM != '' && inputs.force-merge == 'false'
       shell: bash
       run: |
-        PR_NUMBER="${{ steps.create-pr.outputs.pull-request-number }}"
+        PR_NUMBER="${{ env.PR_NUM }}"
         MAX_RETRIES=${{ inputs.max-retries }}
         RETRY_DELAY=${{ inputs.retry-delay }}
         
-        echo "🚀 Setting up auto-merge for PR #${PR_NUMBER}..."
-        
         for i in $(seq 1 $MAX_RETRIES); do
-          echo "Attempt $i of $MAX_RETRIES"
-          
-          # Verificar que la PR existe y obtener su estado
           PR_STATE=$(gh pr view ${PR_NUMBER} --json state --jq '.state' 2>/dev/null || echo "")
-          
-          if [ -z "$PR_STATE" ]; then
-            echo "⚠️ PR not found yet, waiting..."
-            sleep $RETRY_DELAY
-            continue
-          fi
           
           if [ "$PR_STATE" = "MERGED" ]; then
             echo "✅ PR is already merged!"
             exit 0
           fi
           
-          # Marcar como ready si es draft
-          IS_DRAFT=$(gh pr view ${PR_NUMBER} --json isDraft --jq '.isDraft' 2>/dev/null || echo "false")
-          if [ "$IS_DRAFT" = "true" ]; then
-            echo "📝 Marking PR as ready..."
-            gh pr ready ${PR_NUMBER} 2>/dev/null || true
-            sleep 2
-          fi
-          
-          # Intentar habilitar auto-merge
           if gh pr merge ${PR_NUMBER} --auto --squash --subject "${{ inputs.commit-message }}" 2>&1; then
             echo "✅ Auto-merge enabled successfully!"
             exit 0
           else
-            echo "⚠️ Failed to enable auto-merge, retrying in ${RETRY_DELAY}s..."
             sleep $RETRY_DELAY
           fi
         done
         
-        echo "❌ Failed to enable auto-merge after $MAX_RETRIES attempts"
-        echo "🔗 Please check PR manually: ${{ github.server_url }}/${{ github.repository }}/pull/${PR_NUMBER}"
         exit 1
       env:
         GH_TOKEN: ${{ inputs.token }}
 
     - name: Force merge with admin privileges
-      if: steps.create-pr.outputs.pull-request-number && inputs.force-merge == 'true'
+      if: env.PR_NUM != '' && inputs.force-merge == 'true'
       shell: bash
       run: |
-        PR_NUMBER="${{ steps.create-pr.outputs.pull-request-number }}"
+        PR_NUMBER="${{ env.PR_NUM }}"
         MAX_RETRIES=${{ inputs.max-retries }}
         RETRY_DELAY=${{ inputs.retry-delay }}
         
-        echo "⚠️ Force merging PR #${PR_NUMBER} with admin privileges..."
-        
         for i in $(seq 1 $MAX_RETRIES); do
-          echo "Attempt $i of $MAX_RETRIES"
-          
-          # Verificar que la PR existe
           PR_STATE=$(gh pr view ${PR_NUMBER} --json state --jq '.state' 2>/dev/null || echo "")
-          
-          if [ -z "$PR_STATE" ]; then
-            echo "⚠️ PR not found yet, waiting..."
-            sleep $RETRY_DELAY
-            continue
-          fi
           
           if [ "$PR_STATE" = "MERGED" ]; then
             echo "✅ PR is already merged!"
             exit 0
           fi
           
-          # Marcar como ready si es draft
-          IS_DRAFT=$(gh pr view ${PR_NUMBER} --json isDraft --jq '.isDraft' 2>/dev/null || echo "false")
-          if [ "$IS_DRAFT" = "true" ]; then
-            echo "📝 Marking PR as ready..."
-            gh pr ready ${PR_NUMBER} 2>/dev/null || true
-            sleep 2
-          fi
-          
-          # Intentar force merge
-          if gh pr merge ${PR_NUMBER} --admin --squash --subject "${{ inputs.commit-message }}" 2>&1; then
-            echo "✅ PR force-merged successfully with admin privileges!"
-            exit 0
-          else
-            echo "⚠️ Failed to force merge, retrying in ${RETRY_DELAY}s..."
-            sleep $RETRY_DELAY
-          fi
-        done
-        
-        echo "❌ Failed to merge PR after $MAX_RETRIES attempts"
-        echo "🔗 Please check PR manually: ${{ github.server_url }}/${{ github.repository }}/pull/${PR_NUMBER}"
-        exit 1
-      env:
-        GH_TOKEN: ${{ inputs.token }}
-
-    - name: Report Status
-      if: always()
-      shell: bash
-      run: |
-        if [ "${{ steps.create-pr.outputs.pull-request-operation }}" = "created" ]; then
-          echo "✅ PR created: #${{ steps.create-pr.outputs.pull-request-number }}"
-          
-          if [ "${{ steps.create-pr.outputs.pull-request-number }}" != "" ]; then
-            pr_state=$(gh pr view ${{ steps.create-pr.outputs.pull-request-number }} --json state --jq '.state' 2>/dev/null || echo "unknown")
-            if [ "$pr_state" = "MERGED" ]; then
-              echo "🎉 Status: Successfully merged!"
-            elif [ "$pr_state" = "OPEN" ]; then
-              echo "⏳ Status: Auto-merge enabled, waiting for checks"
-              echo "🔗 View PR: ${{ github.server_url }}/${{ github.repository }}/pull/${{ steps.create-pr.outputs.pull-request-number }}"
-            else
-              echo "ℹ️ Status: $pr_state"
-            fi
-          fi
-        elif [ "${{ steps.create-pr.outputs.pull-request-operation }}" = "updated" ]; then
-          echo "✅ Existing PR updated: #${{ steps.create-pr.outputs.pull-request-number }}"
-        else
-          echo "ℹ️ No changes detected, no PR needed"
-        fi
-      env:
-        GH_TOKEN: ${{ inputs.token }}
+          if gh pr merge ${PR_NUMBER} --ad
