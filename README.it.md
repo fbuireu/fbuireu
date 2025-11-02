@@ -246,11 +246,11 @@
 ## 👨🏻‍💻 Controlla le mie statistiche su GitHub
 ### Ultima attività
 <!--RECENT_ACTIVITY:start-->
-1. 💬 Ha commentato [#962](https://github.com/opennextjs/opennextjs-cloudflare/issues/962#issuecomment-3472233522) in [opennextjs/opennextjs-cloudflare](https://github.com/opennextjs/opennextjs-cloudflare)<br>
-2. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-3. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+1. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/email-signature](https://github.com/fbuireu/email-signature)<br>
+2. 👍 Ha approvato [#15](https://github.com/fbuireu/email-signature/pull/15#pullrequestreview-3406858145) in [fbuireu/email-signature](https://github.com/fbuireu/email-signature)<br>
+3. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/fbuireu-cli](https://github.com/fbuireu/fbuireu-cli)<br>
 4. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-5. 💪 Ha aperto il PR [#172](undefined) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+5. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
