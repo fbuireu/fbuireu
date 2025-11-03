@@ -246,10 +246,10 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empès undefined commit(s) a [fbuireu/email-signature](https://github.com/fbuireu/email-signature)<br>
-2. 👍 Ha aprovat [#15](https://github.com/fbuireu/email-signature/pull/15#pullrequestreview-3406858145) a [fbuireu/email-signature](https://github.com/fbuireu/email-signature)<br>
-3. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu-cli](https://github.com/fbuireu/fbuireu-cli)<br>
-4. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+1. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+2. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+3. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+4. 💪 Ha obert una PR [#174](undefined) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 5. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
