@@ -247,9 +247,9 @@
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-2. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+2. 💪 Ha obert una PR [#175](undefined) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 3. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-4. 💪 Ha obert una PR [#174](undefined) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+4. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 5. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
