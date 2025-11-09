@@ -251,8 +251,8 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Pushed undefined commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-2. 💪 Opened PR [#179](undefined) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-3. ⬆️ Pushed undefined commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+2. ⬆️ Pushed undefined commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+3. 💪 Opened PR [#180](undefined) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 4. ⬆️ Pushed undefined commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 5. ⬆️ Pushed undefined commit(s) to [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
