@@ -246,11 +246,11 @@
 ## 👨🏻‍💻 Controlla le mie statistiche su GitHub
 ### Ultima attività
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+1. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
 2. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-3. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-4. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-5. 💪 Ha aperto il PR [#207](undefined) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+3. 💬 Ha commentato [#144](https://github.com/fbuireu/forever-pto/pull/144#issuecomment-3615723310) in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+4. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+5. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
