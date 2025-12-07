@@ -246,11 +246,11 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empès undefined commit(s) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-2. ⬆️ Ha empès undefined commit(s) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-3. 💬 Ha comentat a [#144](https://github.com/fbuireu/forever-pto/pull/144#issuecomment-3615723310) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-4. ⬆️ Ha empès undefined commit(s) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-5. ⬆️ Ha empès undefined commit(s) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+1. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+2. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+3. 💪 Ha obert una PR [#209](undefined) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+4. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+5. ⬆️ Ha empès undefined commit(s) a [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
