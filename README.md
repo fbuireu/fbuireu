@@ -260,11 +260,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <details>
   <summary><strong>Top repositories</strong></summary>
   <a href="https://github.com/fbuireu/fbuireu" target="__blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=fbuireu&theme=onedark&hide_border=true"
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=fbuireu&repo=fbuireu&theme=onedark&hide_border=true"
          alt="fbuireu" />    
   </a>
   <a href="https://github.com/fbuireu/biancafiore" target="__blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=fbuireu&repo=biancafiore&theme=onedark&hide_border=true"
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=fbuireu&repo=biancafiore&theme=onedark&hide_border=true"
          alt="biancafiore" />
   </a>
 </details>
@@ -272,15 +272,15 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <details>
   <summary><strong>Top Contributions & Streak</strong></summary>
   <a href="https://github.com/withastro/docs/pull/9188" target="__blank">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=withastro&repo=docs&theme=onedark&hide_border=true"
+  <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=withastro&repo=docs&theme=onedark&hide_border=true"
        alt="Astro" />
   </a>
   <a href="https://github.com/gatsbyjs/gatsby/pull/33261" target="__blank">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gatsbyjs&repo=gatsby&theme=onedark&hide_border=true"
+  <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=gatsbyjs&repo=gatsby&theme=onedark&hide_border=true"
        alt="Gatsby" />
   </a>
   <a href="https://github.com/netlify/netlify-cms/pull/3412" target="__blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=netlify&repo=netlify-cms&theme=onedark&hide_border=true"
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=netlify&repo=netlify-cms&theme=onedark&hide_border=true"
          alt="Netlify CMS" />
   </a>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=fbuireu&theme=github&bg_color=282c34&line=c3a875&point=d77077&hide_border=true"
@@ -291,9 +291,9 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
 <details>
   <summary><strong>Languages & Stats</strong></summary>
-  <img src="https://github-readme-stats.vercel.app/api?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
        alt="Ferran Buireu's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
        alt="Ferran Buireu's Top GitHub Languages" />
 </details>
 
@@ -324,7 +324,7 @@ Markdown       4 mins          ▒░░░░░░░░░░░░░░░�
 
 <details>
   <summary><strong>Overall Languages</strong></summary>
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=fbuireu&theme=onedark&layout=compact&hide_border=true"
+  <img src="https://github-readme-stats-fast.vercel.app/api/wakatime?username=fbuireu&theme=onedark&layout=compact&hide_border=true"
        alt="Wakatime Overall Languages" />
 </details>   
 
