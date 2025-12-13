@@ -42,7 +42,7 @@ runs:
   steps:
     - name: Create Pull Request
       id: create-pr
-      uses: peter-evans/create-pull-request@v7
+      uses: peter-evans/create-pull-request@v8
       continue-on-error: true
       with:
         token: ${{ inputs.token }}
@@ -71,7 +71,7 @@ runs:
     - name: Retry Create Pull Request
       id: retry-pr
       if: steps.create-pr.outcome == 'failure'
-      uses: peter-evans/create-pull-request@v7
+      uses: peter-evans/create-pull-request@v8
       with:
         token: ${{ inputs.token }}
         commit-message: ${{ inputs.commit-message }}
