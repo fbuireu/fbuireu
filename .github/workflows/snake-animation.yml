@@ -30,7 +30,7 @@ jobs:
       - name: Create and auto-merge PR
         uses: ./.github/actions/create-auto-merge-pr
         with:
-          token: ${{ secrets.PAT_ADMIN_TOKEN }}
+          token: ${{ secrets.PAT }}
           commit-message: 'docs: update snake grid animation'
           title: '🤖 [AUTOMATED] Update Snake Grid Animation'
           branch: 'snake-animation-update-${{ github.run_number }}'
