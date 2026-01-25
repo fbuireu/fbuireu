@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-          token: ${{ secrets.PAT_ADMIN_TOKEN }}
+          token: ${{ secrets.PAT }}
       
       - name: Create Snake animation
         uses: Platane/snk@v3
