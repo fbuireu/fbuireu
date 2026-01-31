@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  pull-requests: write
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
   cancel-in-progress: true
@@ -20,6 +21,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.PAT }}
       - name: Get Medium articles
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
@@ -29,3 +32,12 @@ jobs:
           feed_list: ${{ vars.MEDIUM_RSS }}
           commit_message: 'docs: update ${{ matrix.readme }} with latest Medium articles'
           user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+          gh_token: ${{ secrets.PAT }}
+      - name: Create and auto-merge PR
+        uses: ./.github/actions/create-auto-merge-pr
+        with:
+          token: ${{ secrets.PAT }}
+          commit-message: 'docs: update ${{ matrix.readme }} with latest Medium articles'
+          title: '🤖 [AUTOMATED] Update Medium Articles - ${{ matrix.readme }}'
+          branch: 'medium-articles-${{ matrix.readme }}-${{ github.run_number }}'
+          force-merge: 'true'
