@@ -1,0 +1,32 @@
+name: Track Stars
+on:
+  schedule:
+    - cron: 0 0 * * 0
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  track-stars:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Track star changes
+        id: tracker
+        uses: fbuireu/github-star-tracker@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          locale: en
+          include-charts: true
+      - name: Send email report
+        #if: steps.tracker.outputs.stars-changed == 'true'
+        uses: dawidd6/action-send-mail@v9
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: 'Star Tracker: ${{ steps.tracker.outputs.total-stars }} estrellas'
+          html_body: ${{ steps.tracker.outputs.report-html }}
+          to: ${{ secrets.EMAIL_TO }}
+          from: GitHub Star Tracker
