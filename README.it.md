@@ -361,3 +361,4 @@ Se siete arrivati fin qui, meritate di incontrare ${\textcolor{purple}{\textnorm
 [![Snake Grid Animation](https://github.com/fbuireu/fbuireu/actions/workflows/snake-animation.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/snake-animation.yml)
 [![Wakatime Stats](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml)
 [![Follower Notifier](https://github.com/fbuireu/fbuireu/actions/workflows/follower-notifier.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/follower-notifier.yml)
+[![Track GitHub Stars](https://github.com/fbuireu/fbuireu/actions/workflows/github-stars-tracker.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/github-stars-tracker.yml)
