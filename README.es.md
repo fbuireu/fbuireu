@@ -360,4 +360,5 @@ Si has llegado hasta aquí mereces conocer a ${\textcolor{purple}{\textnormal{Qw
 [![Medium Latest Articles](https://github.com/fbuireu/fbuireu/actions/workflows/medium-latest-articles.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/medium-latest-articles.yml)
 [![Snake Grid Animation](https://github.com/fbuireu/fbuireu/actions/workflows/snake-animation.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/snake-animation.yml)
 [![Wakatime Stats](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml)
+[![Track GitHub Stars](https://github.com/fbuireu/fbuireu/actions/workflows/github-stars-tracker.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/github-stars-tracker.yml)
 [![Follower Notifier](https://github.com/fbuireu/fbuireu/actions/workflows/follower-notifier.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/follower-notifier.yml)
