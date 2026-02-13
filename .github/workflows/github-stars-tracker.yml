@@ -19,7 +19,7 @@ jobs:
           locale: en
           include-charts: true
       - name: Send email report
-        #if: steps.tracker.outputs.stars-changed == 'true'
+        if: steps.tracker.outputs.stars-changed == 'true'
         uses: dawidd6/action-send-mail@v9
         with:
           server_address: ${{ vars.SMTP_SERVER }}
