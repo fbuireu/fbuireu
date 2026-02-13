@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v6
       - name: Track star changes
         id: tracker
-        uses: fbuireu/github-star-tracker@v1
+        uses: fbuireu/github-star-tracker@v1.0.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           locale: en
