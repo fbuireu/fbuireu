@@ -22,11 +22,11 @@ jobs:
         #if: steps.tracker.outputs.stars-changed == 'true'
         uses: dawidd6/action-send-mail@v9
         with:
-          server_address: smtp.gmail.com
-          server_port: 465
+          server_address: ${{ vars.SMTP_SERVER }}
+          server_port: ${{ vars.SMTP_PORT }}
           username: ${{ vars.MAIL_USERNAME }} 
           password: ${{ secrets.MAIL_PASSWORD }} 
-          subject: 'Star Tracker: ${{ steps.tracker.outputs.total-stars }} stars'
+          subject: 'Star Tracker: ${{ steps.tracker.outputs.total-stars }} stars (GitHub Action)'
           html_body: ${{ steps.tracker.outputs.report-html }}
           to: ${{ vars.MAIL_USERNAME }} 
           from: GitHub Star Tracker
