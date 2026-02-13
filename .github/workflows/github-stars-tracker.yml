@@ -13,13 +13,13 @@ jobs:
         uses: actions/checkout@v6
       - name: Track star changes
         id: tracker
-        uses: fbuireu/github-star-tracker@v1.0.1
+        uses: fbuireu/github-star-tracker@v1
         with:
           github-token: ${{ secrets.PAT }}
           locale: en
           include-charts: true
       - name: Send email report
-        if: steps.tracker.outputs.stars-changed == 'true'
+        #if: steps.tracker.outputs.stars-changed == 'true'
         uses: dawidd6/action-send-mail@v9
         with:
           server_address: ${{ vars.SMTP_SERVER }}
