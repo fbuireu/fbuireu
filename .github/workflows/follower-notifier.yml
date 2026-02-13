@@ -16,7 +16,7 @@ jobs:
           notifyUnFollowEvent: true
       - name: Email Me
         uses: dawidd6/action-send-mail@v9
-        if: steps.followers_change.outputs.shouldNotify == 'true'
+       # if: steps.followers_change.outputs.shouldNotify == 'true'
         with:
           server_address: ${{ vars.SMTP_SERVER }}
           server_port: ${{ vars.SMTP_PORT }}
