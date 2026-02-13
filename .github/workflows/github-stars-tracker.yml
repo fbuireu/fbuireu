@@ -1,4 +1,4 @@
-name: Track Stars
+name: Track GitHub Stars
 on:
   schedule:
     - cron: 0 0 * * 0
