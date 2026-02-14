@@ -18,6 +18,11 @@ jobs:
           github-token: ${{ secrets.PAT }}
           locale: en
           include-charts: true
+          visibility: public         
+          include-forks: false       
+          include-archived: false    
+          track-stargazers: true      
+          notification-threshold: auto          
       - name: Send email report
         if: steps.tracker.outputs.stars-changed == 'true'
         uses: dawidd6/action-send-mail@v9
