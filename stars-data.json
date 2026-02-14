@@ -461,6 +461,163 @@
           "stars": 0
         }
       ]
+    },
+    {
+      "timestamp": "2026-02-14T21:04:46.805Z",
+      "totalStars": 36239,
+      "repos": [
+        {
+          "fullName": "Almopt/copy-dash",
+          "name": "copy-dash",
+          "owner": "Almopt",
+          "stars": 0
+        },
+        {
+          "fullName": "Almopt/copy-dashhh",
+          "name": "copy-dashhh",
+          "owner": "Almopt",
+          "stars": 0
+        },
+        {
+          "fullName": "code-istvan/bw",
+          "name": "bw",
+          "owner": "code-istvan",
+          "stars": 1
+        },
+        {
+          "fullName": "code-istvan/bw_astro_2024",
+          "name": "bw_astro_2024",
+          "owner": "code-istvan",
+          "stars": 0
+        },
+        {
+          "fullName": "commitvault/commit-vault-api",
+          "name": "commit-vault-api",
+          "owner": "commitvault",
+          "stars": 0
+        },
+        {
+          "fullName": "commitvault/commit-vault-fe",
+          "name": "commit-vault-fe",
+          "owner": "commitvault",
+          "stars": 0
+        },
+        {
+          "fullName": "commitvault/commitment-updater",
+          "name": "commitment-updater",
+          "owner": "commitvault",
+          "stars": 0
+        },
+        {
+          "fullName": "darioajmu/ohana_store",
+          "name": "ohana_store",
+          "owner": "darioajmu",
+          "stars": 1
+        },
+        {
+          "fullName": "devilylee/frontend",
+          "name": "frontend",
+          "owner": "devilylee",
+          "stars": 0
+        },
+        {
+          "fullName": "EpicGames/ARTv2",
+          "name": "ARTv2",
+          "owner": "EpicGames",
+          "stars": 242
+        },
+        {
+          "fullName": "EpicGames/Shave-And-A-Haircut",
+          "name": "Shave-And-A-Haircut",
+          "owner": "EpicGames",
+          "stars": 179
+        },
+        {
+          "fullName": "EpicGames/UGCExample",
+          "name": "UGCExample",
+          "owner": "EpicGames",
+          "stars": 409
+        },
+        {
+          "fullName": "EpicGames/UnrealEngine",
+          "name": "UnrealEngine",
+          "owner": "EpicGames",
+          "stars": 32770
+        },
+        {
+          "fullName": "EpicGames/UnrealTournament",
+          "name": "UnrealTournament",
+          "owner": "EpicGames",
+          "stars": 2429
+        },
+        {
+          "fullName": "EpicGames/zen",
+          "name": "zen",
+          "owner": "EpicGames",
+          "stars": 193
+        },
+        {
+          "fullName": "fbuireu/biancafiore",
+          "name": "biancafiore",
+          "owner": "fbuireu",
+          "stars": 7
+        },
+        {
+          "fullName": "fbuireu/curriculum-vitae",
+          "name": "curriculum-vitae",
+          "owner": "fbuireu",
+          "stars": 1
+        },
+        {
+          "fullName": "fbuireu/email-signature",
+          "name": "email-signature",
+          "owner": "fbuireu",
+          "stars": 0
+        },
+        {
+          "fullName": "fbuireu/fbuireu",
+          "name": "fbuireu",
+          "owner": "fbuireu",
+          "stars": 5
+        },
+        {
+          "fullName": "fbuireu/fbuireu-cli",
+          "name": "fbuireu-cli",
+          "owner": "fbuireu",
+          "stars": 1
+        },
+        {
+          "fullName": "fbuireu/forever-pto",
+          "name": "forever-pto",
+          "owner": "fbuireu",
+          "stars": 0
+        },
+        {
+          "fullName": "fbuireu/github-star-tracker",
+          "name": "github-star-tracker",
+          "owner": "fbuireu",
+          "stars": 1
+        },
+        {
+          "fullName": "fbuireu/hashnode-articles-backup",
+          "name": "hashnode-articles-backup",
+          "owner": "fbuireu",
+          "stars": 0
+        },
+        {
+          "fullName": "lilyhyojeonglee/code-review",
+          "name": "code-review",
+          "owner": "lilyhyojeonglee",
+          "stars": 0
+        },
+        {
+          "fullName": "xing-e-recruiting-code-challenges/test_search-form-challenge_fbuireu_2022-05-13",
+          "name": "test_search-form-challenge_fbuireu_2022-05-13",
+          "owner": "xing-e-recruiting-code-challenges",
+          "stars": 0
+        }
+      ]
     }
-  ]
+  ],
+  "starsAtLastNotification": 36239
 }
