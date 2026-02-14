@@ -50,7 +50,7 @@
 🔭 **I’m currently working on**: got 99 projects but finishing them ain't one (for real though, I love starting stuff from
 scratch and fresh ideas).
 
-🌱 **I’m currently learning**: cool stuff as always, right now I'm obsessed with **TypeScript**, **GenAI** and **MCPs**.
+🌱 **I’m currently learning**: cool stuff as always, right now I'm obsessed with **TypeScript**, **agentic development** and **MCPs**.
 
 👯 **I’m looking to collaborate on**: open-source projects, shared knowledge and the core of any amazing frameworks.
 
