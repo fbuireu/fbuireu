@@ -47,7 +47,7 @@
 
 🔭 **Actualment estic treballant en**: 99 projectes, però acabar-los no n'és un (de veritat, m'encanta començar coses des de zero i tenir idees fresques).
 
-🌱 **Actualment estic aprenent**: coses interessants com sempre, en aquest moment estic obsessionat amb **TypeScript**, **IA generativa** i **MCPs**.
+🌱 **Actualment estic aprenent**: coses interessants com sempre, en aquest moment estic obsessionat amb **TypeScript**, **desenvolupament amb agents d'IA** i **MCPs**.
 
 👯 **Estic buscant col·laborar en**: projectes de codi obert, coneixement compartit i l'ànima de qualsevol llibreria impressionant.
 
