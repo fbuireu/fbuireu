@@ -47,7 +47,7 @@
 
 🔭 **Actualmente estoy trabajando en**: 99 proyectos, pero terminarlos no es uno de ellos (en serio, me encanta comenzar cosas desde cero y tener ideas frescas).
 
-🌱 **Actualmente estoy aprendiendo**: cosas interesantes como siempre, en este momento estoy obsesionado con **TypeScript**, **IA generativa** y **MCPs**.
+🌱 **Actualmente estoy aprendiendo**: cosas interesantes como siempre, en este momento estoy obsesionado con **TypeScript**, **desarrollo mediante agentes de IA** y **MCPs**.
 
 👯 **Estoy buscando colaborar en**: proyectos de código abierto, conocimiento compartido y el núcleo de cualquier framework increíble.
 
