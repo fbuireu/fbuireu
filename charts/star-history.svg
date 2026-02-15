@@ -8,8 +8,8 @@
       to { opacity: 1; }
     }
     .data-line {
-      stroke-dasharray: 1659;
-      stroke-dashoffset: 1659;
+      stroke-dasharray: 1680;
+      stroke-dashoffset: 1680;
       animation: drawLine 2s ease-out forwards;
     }
     .data-point {
@@ -47,27 +47,29 @@
   </g>
   <g class="x-axis">
     <text x="60" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 13</text>
-    <text x="148.75" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 13</text>
-    <text x="237.5" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 13</text>
-    <text x="326.25" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 13</text>
-    <text x="415" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 13</text>
-    <text x="503.75" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 13</text>
-    <text x="592.5" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 13</text>
-    <text x="681.25" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 14</text>
+    <text x="138.88888888888889" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 13</text>
+    <text x="217.77777777777777" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 13</text>
+    <text x="296.66666666666663" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 13</text>
+    <text x="375.55555555555554" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 13</text>
+    <text x="454.44444444444446" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 13</text>
+    <text x="533.3333333333333" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 13</text>
+    <text x="612.2222222222223" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 14</text>
+    <text x="691.1111111111111" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 14</text>
     <text x="770" y="370" text-anchor="middle" fill="#6a737d" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb 14</text>
   </g>
   <line x1="60" y1="50" x2="60" y2="350" stroke="#6a737d" stroke-width="1" />
   <line x1="60" y1="350" x2="770" y2="350" stroke="#6a737d" stroke-width="1" />
-  <path d="M60,349.8795845667553 C71.83333333333333,349.8795845667553 125.08333333333333,349.8795845667553 148.75,349.8795845667553 C172.41666666666666,349.8795845667553 213.83333333333334,349.8795845667553 237.5,349.8795845667553 C261.1666666666667,349.8795845667553 302.5833333333333,349.8795845667553 326.25,349.8795845667553 C349.9166666666667,349.8795845667553 391.3333333333333,349.8795845667553 415,349.8795845667553 C438.6666666666667,349.8795845667553 480.0833333333333,349.8795845667553 503.75,349.8795845667553 C527.4166666666666,349.8795845667553 568.8333333333334,386.2279865536099 592.5,349.8795845667553 C616.1666666666666,313.53118257990064 657.5833333333334,77.26656966534546 681.25,77.26656966534546 C704.9166666666666,77.26656966534546 758.1666666666666,313.53118257990064 770,349.8795845667553" fill="none" stroke="#dfb317" stroke-width="2.5" class="data-line" />
+  <path d="M60,349.8795845667553 C70.51851851851852,349.8795845667553 117.85185185185185,349.8795845667553 138.88888888888889,349.8795845667553 C159.92592592592592,349.8795845667553 196.74074074074073,349.8795845667553 217.77777777777777,349.8795845667553 C238.8148148148148,349.8795845667553 275.62962962962956,349.8795845667553 296.66666666666663,349.8795845667553 C317.7037037037037,349.8795845667553 354.5185185185185,349.8795845667553 375.55555555555554,349.8795845667553 C396.5925925925926,349.8795845667553 433.40740740740745,349.8795845667553 454.44444444444446,349.8795845667553 C475.48148148148147,349.8795845667553 512.2962962962962,386.2279865536099 533.3333333333333,349.8795845667553 C554.3703703703703,313.53118257990064 591.1851851851852,77.26656966534546 612.2222222222223,77.26656966534546 C633.2592592592594,77.26656966534546 670.074074074074,313.53118257990064 691.1111111111111,349.8795845667553 C712.1481481481482,386.2279865536099 759.4814814814815,349.8795845667553 770,349.8795845667553" fill="none" stroke="#dfb317" stroke-width="2.5" class="data-line" />
   <g class="points">
     <circle cx="60" cy="349.8795845667553" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.50s" />
-    <circle cx="148.75" cy="349.8795845667553" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.55s" />
-    <circle cx="237.5" cy="349.8795845667553" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.60s" />
-    <circle cx="326.25" cy="349.8795845667553" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.65s" />
-    <circle cx="415" cy="349.8795845667553" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.70s" />
-    <circle cx="503.75" cy="349.8795845667553" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.75s" />
-    <circle cx="592.5" cy="349.8795845667553" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.80s" />
-    <circle cx="681.25" cy="77.26656966534546" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.85s" />
-    <circle cx="770" cy="349.8795845667553" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.90s" />
+    <circle cx="138.88888888888889" cy="349.8795845667553" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.55s" />
+    <circle cx="217.77777777777777" cy="349.8795845667553" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.60s" />
+    <circle cx="296.66666666666663" cy="349.8795845667553" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.65s" />
+    <circle cx="375.55555555555554" cy="349.8795845667553" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.70s" />
+    <circle cx="454.44444444444446" cy="349.8795845667553" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.75s" />
+    <circle cx="533.3333333333333" cy="349.8795845667553" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.80s" />
+    <circle cx="612.2222222222223" cy="77.26656966534546" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.85s" />
+    <circle cx="691.1111111111111" cy="349.8795845667553" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.90s" />
+    <circle cx="770" cy="349.8795845667553" r="4" fill="#dfb317" class="data-point" style="animation-delay: 1.95s" />
   </g>
 </svg>
