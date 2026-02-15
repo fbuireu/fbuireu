@@ -18,7 +18,7 @@ jobs:
           github-token: ${{ secrets.PAT }}
           locale: en
           include-charts: true
-          visibility: public         
+          visibility: owned         
           include-forks: false       
           include-archived: false    
           track-stargazers: true      
