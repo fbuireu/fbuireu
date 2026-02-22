@@ -24,6 +24,8 @@
     "Good4lien"
   ],
   "fbuireu/forever-pto": [],
-  "fbuireu/github-star-tracker": [],
+  "fbuireu/github-star-tracker": [
+    "fbuireu"
+  ],
   "fbuireu/hashnode-articles-backup": []
 }
