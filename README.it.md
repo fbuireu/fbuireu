@@ -247,10 +247,10 @@
 ### Ultima attività
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-2. 💬 Ha commentato [#1056](https://github.com/opennextjs/opennextjs-cloudflare/issues/1056#issuecomment-4003138241) in [opennextjs/opennextjs-cloudflare](https://github.com/opennextjs/opennextjs-cloudflare)<br>
-3. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-4. 👍 Ha approvato [#1028](https://github.com/fbuireu/biancafiore/pull/1028#pullrequestreview-3892895518) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-5. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+2. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+3. 👍 Ha approvato [#17](https://github.com/fbuireu/github-star-tracker/pull/17#pullrequestreview-3947426927) in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+4. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+5. 👍 Ha approvato [#1029](https://github.com/fbuireu/biancafiore/pull/1029#pullrequestreview-3937774557) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
