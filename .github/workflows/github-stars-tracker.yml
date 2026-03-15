@@ -25,7 +25,7 @@ jobs:
           notification-threshold: auto          
       - name: Send email report
         if: steps.tracker.outputs.stars-changed == 'true'
-        uses: dawidd6/action-send-mail@v11
+        uses: dawidd6/action-send-mail@v15
         with:
           server_address: ${{ vars.SMTP_SERVER }}
           server_port: ${{ vars.SMTP_PORT }}
