@@ -15,14 +15,15 @@ jobs:
           myToken: ${{ secrets.FOLLOWERS_NOTIFIER_TOKEN }}
           notifyUnFollowEvent: true
       - name: Email Me
-        uses: dawidd6/action-send-mail@v15
+        uses: dawidd6/action-send-mail@v16
         if: steps.followers_change.outputs.shouldNotify == 'true'
         with:
           server_address: ${{ vars.SMTP_SERVER }}
           server_port: ${{ vars.SMTP_PORT }}
-          username: ${{ vars.MAIL_USERNAME }} 
-          password: ${{ secrets.MAIL_PASSWORD }} 
+          secure: true
+          username: ${{ vars.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
           subject: 👀🧑‍💻 GitHub Followers Change 🧑‍💻👀
-          from: Follower Change Notifier (GitHub Action)
+          from: Follower Change Notifier <${{ vars.MAIL_USERNAME }}>
           to: ${{ vars.MAIL_USERNAME }}
           html_body: file://${{ steps.followers_change.outputs.htmlFilePath }}
