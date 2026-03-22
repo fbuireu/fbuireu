@@ -227,11 +227,9 @@
 ## 📝 A veces comparto mis delirios de desarrollador en:
 
 ### Medium
-<!-- MEDIUM-LATEST-ARTICLES:START -->
 - [Floating Math Point: The Phantom Menace of Precision](https://fbuireu.medium.com/floating-math-point-the-phantom-menace-of-precision-cda818fe0ba7?source=rss-152ec07c2b6d------2)
 - [What is point-free programming?](https://fbuireu.medium.com/what-is-point-free-programming-99db1e373763?source=rss-152ec07c2b6d------2)
 - [Closures and currying](https://fbuireu.medium.com/closures-and-currying-9774676d33fa?source=rss-152ec07c2b6d------2)
-<!-- MEDIUM-LATEST-ARTICLES:END -->
 
 ### Hashnode
 - [Floating Math Point: The Phantom Menace of Precision](https://ferranbuireu.hashnode.dev/floating-math-point)
