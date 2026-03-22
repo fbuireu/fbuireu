@@ -247,10 +247,10 @@
 ### Ultima attività
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-2. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-3. 👍 Ha approvato [#17](https://github.com/fbuireu/github-star-tracker/pull/17#pullrequestreview-3947426927) in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+2. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+3. 👍 Ha approvato [#1042](https://github.com/fbuireu/biancafiore/pull/1042#pullrequestreview-3985805711) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 4. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-5. 👍 Ha approvato [#1029](https://github.com/fbuireu/biancafiore/pull/1029#pullrequestreview-3937774557) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+5. ⭐ Ha rimarcato [voidzero-dev/vite-plus](https://github.com/voidzero-dev/vite-plus)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
