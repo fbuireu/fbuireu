@@ -246,11 +246,11 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empès undefined commit(s) a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-2. 👍 Ha aprovat [#17](https://github.com/fbuireu/github-star-tracker/pull/17#pullrequestreview-3947426927) a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+1. ⬆️ Ha empès undefined commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+2. 👍 Ha aprovat [#1042](https://github.com/fbuireu/biancafiore/pull/1042#pullrequestreview-3985805711) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 3. ⬆️ Ha empès undefined commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-4. 👍 Ha aprovat [#1029](https://github.com/fbuireu/biancafiore/pull/1029#pullrequestreview-3937774557) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-5. ⬆️ Ha empès undefined commit(s) a [fbuireu/email-signature](https://github.com/fbuireu/email-signature)<br>
+4. ⭐ Ha destacat [voidzero-dev/vite-plus](https://github.com/voidzero-dev/vite-plus)<br>
+5. ⬆️ Ha empès undefined commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
