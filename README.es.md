@@ -247,8 +247,8 @@
 1. ⬆️ Ha empujado undefined commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 2. ⬆️ Ha empujado undefined commit(s) en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 3. ⬆️ Ha empujado undefined commit(s) en [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-4. 👍 Ha aprobado [#250](https://github.com/fbuireu/forever-pto/pull/250#pullrequestreview-4021705312) en [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-5. ⬆️ Ha empujado undefined commit(s) en [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+4. ⬆️ Ha empujado undefined commit(s) en [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+5. ⬆️ Ha empujado undefined commit(s) en [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
