@@ -245,10 +245,10 @@
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha empès undefined commit(s) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-2. 👍 Ha aprovat [#250](https://github.com/fbuireu/forever-pto/pull/250#pullrequestreview-4021705312) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-3. ⬆️ Ha empès undefined commit(s) a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-4. 👍 Ha aprovat [#28](https://github.com/fbuireu/github-star-tracker/pull/28#pullrequestreview-4018754292) a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-5. ⬆️ Ha empès undefined commit(s) a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+2. ⬆️ Ha empès undefined commit(s) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+3. ⬆️ Ha empès undefined commit(s) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+4. ⬆️ Ha empès undefined commit(s) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+5. ⬆️ Ha empès undefined commit(s) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
