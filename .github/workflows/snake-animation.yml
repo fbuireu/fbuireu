@@ -12,13 +12,14 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
         with:
           fetch-depth: 0
           token: ${{ secrets.PAT }}
+          persist-credentials: false
       
       - name: Create Snake animation
-        uses: Platane/snk@v3
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         id: snake_grid_animation
         with:
           github_user_name: ${{ github.repository_owner }}

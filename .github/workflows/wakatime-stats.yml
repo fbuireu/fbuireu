@@ -20,11 +20,12 @@ jobs:
         readme: [README.md, README.ca.md, README.es.md, README.it.md]
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
         with:
           token: ${{ secrets.PAT }}
+          persist-credentials: false
       - name: Fetch Wakatime stats
-        uses: athul/waka-readme@master
+        uses: athul/waka-readme@370590ad8da8f54282ed92aa42b7c25ecbd5a9a6 # master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_TOKEN }}
           TARGET_PATH: ${{ matrix.readme }}

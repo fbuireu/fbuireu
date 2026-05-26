@@ -15,29 +15,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
         with:
-          token: ${{ secrets.PAT }} 
+          token: ${{ secrets.PAT }}
+          persist-credentials: false 
       - name: Run Recent Activity (EN)
-        uses: Readme-Workflows/recent-activity@v2.4.1
+        uses: Readme-Workflows/recent-activity@aa0d01a1f4efdb8595986788eccbfdd430c73b8b # v2.4.1
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }} 
         with:
           CONFIG_FILE: ./.github/config/github-activity/en.config.yml
       - name: Run Recent Activity (CA)
-        uses: Readme-Workflows/recent-activity@v2.4.1
+        uses: Readme-Workflows/recent-activity@aa0d01a1f4efdb8595986788eccbfdd430c73b8b # v2.4.1
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }} 
         with:
           CONFIG_FILE: ./.github/config/github-activity/ca.config.yml
       - name: Run Recent Activity (IT)
-        uses: Readme-Workflows/recent-activity@v2.4.1
+        uses: Readme-Workflows/recent-activity@aa0d01a1f4efdb8595986788eccbfdd430c73b8b # v2.4.1
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }} 
         with:
           CONFIG_FILE: ./.github/config/github-activity/it.config.yml      
       - name: Run Recent Activity (ES)
-        uses: Readme-Workflows/recent-activity@v2.4.1
+        uses: Readme-Workflows/recent-activity@aa0d01a1f4efdb8595986788eccbfdd430c73b8b # v2.4.1
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }} 
         with:

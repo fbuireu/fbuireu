@@ -3,6 +3,7 @@ on:
   schedule:
     - cron: 0 0 * * 0
   workflow_dispatch:
+permissions: {}
 jobs:
   build:
     name: Followers Notifier
@@ -10,12 +11,12 @@ jobs:
     steps:
       - name: Get Followers Change
         id: followers_change
-        uses: Sorosliu1029/follower-change@v2.3.0
+        uses: Sorosliu1029/follower-change@e86fa186d8680c55cbb048d3a9d8dcb8df5b4192 # v2.3.0
         with:
           myToken: ${{ secrets.FOLLOWERS_NOTIFIER_TOKEN }}
           notifyUnFollowEvent: true
       - name: Email Me
-        uses: dawidd6/action-send-mail@v17
+        uses: dawidd6/action-send-mail@42942bc2f8fba4e611b459a018967a6a7c78c68c # v17
         if: steps.followers_change.outputs.shouldNotify == 'true'
         with:
           server_address: ${{ vars.SMTP_SERVER }}

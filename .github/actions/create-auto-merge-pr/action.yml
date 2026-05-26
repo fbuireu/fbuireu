@@ -42,7 +42,7 @@ runs:
   steps:
     - name: Create Pull Request
       id: create-pr
-      uses: peter-evans/create-pull-request@v8
+      uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8
       continue-on-error: true
       with:
         token: ${{ inputs.token }}
@@ -71,7 +71,7 @@ runs:
     - name: Retry Create Pull Request
       id: retry-pr
       if: steps.create-pr.outcome == 'failure'
-      uses: peter-evans/create-pull-request@v8
+      uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8
       with:
         token: ${{ inputs.token }}
         commit-message: ${{ inputs.commit-message }}
@@ -92,79 +92,91 @@ runs:
         base: main
 
     - name: Set PR vars
+      id: set-pr-vars
       shell: bash
       run: |
-        if [ -n "${{ steps.create-pr.outputs.pull-request-number }}" ]; then
-          echo "PR_NUM=${{ steps.create-pr.outputs.pull-request-number }}" >> $GITHUB_ENV
+        if [ -n "${STEPS_CREATE_PR_OUTPUTS_PULL_REQUEST_NUMBER}" ]; then
+          echo "PR_NUM=${STEPS_CREATE_PR_OUTPUTS_PULL_REQUEST_NUMBER}" >> "$GITHUB_OUTPUT"
         else
-          echo "PR_NUM=${{ steps.retry-pr.outputs.pull-request-number }}" >> $GITHUB_ENV
+          echo "PR_NUM=${STEPS_RETRY_PR_OUTPUTS_PULL_REQUEST_NUMBER}" >> "$GITHUB_OUTPUT"
         fi
+      env:
+        STEPS_CREATE_PR_OUTPUTS_PULL_REQUEST_NUMBER: ${{ steps.create-pr.outputs.pull-request-number }}
+        STEPS_RETRY_PR_OUTPUTS_PULL_REQUEST_NUMBER: ${{ steps.retry-pr.outputs.pull-request-number }}
 
     - name: Wait for PR to be ready
-      if: env.PR_NUM != ''
+      if: steps.set-pr-vars.outputs.PR_NUM != ''
       shell: bash
       run: sleep 5
       env:
         GH_TOKEN: ${{ inputs.token }}
 
     - name: Auto-merge PR
-      if: env.PR_NUM != '' && inputs.force-merge == 'false'
+      if: steps.set-pr-vars.outputs.PR_NUM != '' && inputs.force-merge == 'false'
       shell: bash
       run: |
-        PR_NUMBER="${{ env.PR_NUM }}"
-        MAX_RETRIES=${{ inputs.max-retries }}
-        RETRY_DELAY=${{ inputs.retry-delay }}
-        
+        PR_NUMBER="${PR_NUM}"
+        MAX_RETRIES=${INPUTS_MAX_RETRIES}
+        RETRY_DELAY=${INPUTS_RETRY_DELAY}
+
         for i in $(seq 1 $MAX_RETRIES); do
           PR_STATE=$(gh pr view ${PR_NUMBER} --json state --jq '.state' 2>/dev/null || echo "")
-          
+
           if [ "$PR_STATE" = "MERGED" ]; then
             echo "✅ PR is already merged!"
             exit 0
           fi
-          
-          if gh pr merge ${PR_NUMBER} --auto --squash --subject "${{ inputs.commit-message }}" 2>&1; then
+
+          if gh pr merge ${PR_NUMBER} --auto --squash --subject "${INPUTS_COMMIT_MESSAGE}" 2>&1; then
             echo "✅ Auto-merge enabled successfully!"
             exit 0
           else
             sleep $RETRY_DELAY
           fi
         done
-        
+
         exit 1
       env:
         GH_TOKEN: ${{ inputs.token }}
+        PR_NUM: ${{ steps.set-pr-vars.outputs.PR_NUM }}
+        INPUTS_MAX_RETRIES: ${{ inputs.max-retries }}
+        INPUTS_RETRY_DELAY: ${{ inputs.retry-delay }}
+        INPUTS_COMMIT_MESSAGE: ${{ inputs.commit-message }}
 
     - name: Force merge with admin privileges
-      if: env.PR_NUM != '' && inputs.force-merge == 'true'
+      if: steps.set-pr-vars.outputs.PR_NUM != '' && inputs.force-merge == 'true'
       shell: bash
       run: |
-        PR_NUMBER="${{ env.PR_NUM }}"
-        MAX_RETRIES=${{ inputs.max-retries }}
-        RETRY_DELAY=${{ inputs.retry-delay }}
-        
+        PR_NUMBER="${PR_NUM}"
+        MAX_RETRIES=${INPUTS_MAX_RETRIES}
+        RETRY_DELAY=${INPUTS_RETRY_DELAY}
+
         for i in $(seq 1 $MAX_RETRIES); do
           PR_STATE=$(gh pr view ${PR_NUMBER} --json state --jq '.state' 2>/dev/null || echo "")
-          
+
           if [ "$PR_STATE" = "MERGED" ]; then
             echo "✅ PR is already merged!"
             exit 0
           fi
-          
+
           IS_DRAFT=$(gh pr view ${PR_NUMBER} --json isDraft --jq '.isDraft' 2>/dev/null || echo "false")
           if [ "$IS_DRAFT" = "true" ]; then
             gh pr ready ${PR_NUMBER} 2>/dev/null || true
             sleep 2
           fi
-          
-          if gh pr merge ${PR_NUMBER} --admin --squash --subject "${{ inputs.commit-message }}" 2>&1; then
+
+          if gh pr merge ${PR_NUMBER} --admin --squash --subject "${INPUTS_COMMIT_MESSAGE}" 2>&1; then
             echo "✅ PR force-merged successfully!"
             exit 0
           else
             sleep $RETRY_DELAY
           fi
         done
-        
+
         exit 1
       env:
         GH_TOKEN: ${{ inputs.token }}
+        PR_NUM: ${{ steps.set-pr-vars.outputs.PR_NUM }}
+        INPUTS_MAX_RETRIES: ${{ inputs.max-retries }}
+        INPUTS_RETRY_DELAY: ${{ inputs.retry-delay }}
+        INPUTS_COMMIT_MESSAGE: ${{ inputs.commit-message }}

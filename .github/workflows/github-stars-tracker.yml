@@ -10,10 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        with:
+          persist-credentials: false
       - name: Track star changes
         id: tracker
-        uses: fbuireu/github-star-tracker@v1
+        uses: fbuireu/github-star-tracker@d8bbc5006ff15fabf117564495508bb935144592 # v1
         with:
           github-token: ${{ secrets.PAT }}
           locale: en
@@ -25,7 +27,7 @@ jobs:
           notification-threshold: auto
       - name: Send email report
         if: steps.tracker.outputs.stars-changed == 'true'
-        uses: dawidd6/action-send-mail@v17
+        uses: dawidd6/action-send-mail@42942bc2f8fba4e611b459a018967a6a7c78c68c # v17
         with:
           server_address: ${{ vars.SMTP_SERVER }}
           server_port: ${{ vars.SMTP_PORT }}
