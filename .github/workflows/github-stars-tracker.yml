@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
-          persist-credentials: false
+          token: ${{ secrets.PAT }}
       - name: Track star changes
         id: tracker
         uses: fbuireu/github-star-tracker@3c16394edea2f1117e87dd8a2ec716b18d84a1ac # v1.8.5
