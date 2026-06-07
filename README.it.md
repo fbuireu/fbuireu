@@ -245,10 +245,10 @@
 ### Ultima attività
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-2. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+2. ✌️ Ha publicato [v1.5.6](https://github.com/fbuireu/biancafiore/releases/tag/v1.5.6) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 3. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 4. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-5. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+5. ✌️ Ha publicato [web-v1.9.5](https://github.com/fbuireu/contribKit/releases/tag/web-v1.9.5) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
