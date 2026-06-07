@@ -244,11 +244,11 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empès undefined commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+1. ✌️ Ha publicat [v1.5.6](https://github.com/fbuireu/biancafiore/releases/tag/v1.5.6) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 2. ⬆️ Ha empès undefined commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 3. ⬆️ Ha empès undefined commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-4. ⬆️ Ha empès undefined commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-5. ⬆️ Ha empès undefined commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+4. ✌️ Ha publicat [web-v1.9.5](https://github.com/fbuireu/contribKit/releases/tag/web-v1.9.5) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+5. ⬆️ Ha empès undefined commit(s) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
