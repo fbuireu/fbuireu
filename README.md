@@ -248,11 +248,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. ✌️ Released [v1.5.6](https://github.com/fbuireu/biancafiore/releases/tag/v1.5.6) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-2. ⬆️ Pushed undefined commit(s) to [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-3. ⬆️ Pushed undefined commit(s) to [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-4. ✌️ Released [web-v1.9.5](https://github.com/fbuireu/contribKit/releases/tag/web-v1.9.5) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
-5. ⬆️ Pushed undefined commit(s) to [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+1. ⬆️ Pushed undefined commit(s) to [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+2. ⬆️ Pushed undefined commit(s) to [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+3. 📖 Created new wiki page [Git-Hooks](https://github.com/fbuireu/contribKit/wiki/Git-Hooks) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+4. 📖 Created new wiki page [API-Reference](https://github.com/fbuireu/contribKit/wiki/API-Reference) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+5. 📖 Created new wiki page [Architecture](https://github.com/fbuireu/contribKit/wiki/Architecture) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
