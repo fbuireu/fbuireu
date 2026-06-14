@@ -244,11 +244,11 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. ✌️ Ha publicat [v1.5.6](https://github.com/fbuireu/biancafiore/releases/tag/v1.5.6) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-2. ⬆️ Ha empès undefined commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-3. ⬆️ Ha empès undefined commit(s) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-4. ✌️ Ha publicat [web-v1.9.5](https://github.com/fbuireu/contribKit/releases/tag/web-v1.9.5) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
-5. ⬆️ Ha empès undefined commit(s) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+1. ⬆️ Ha empès undefined commit(s) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+2. ⬆️ Ha empès undefined commit(s) a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+3. 📖 Ha creat una nova wiki [Git-Hooks](https://github.com/fbuireu/contribKit/wiki/Git-Hooks) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+4. 📖 Ha creat una nova wiki [API-Reference](https://github.com/fbuireu/contribKit/wiki/API-Reference) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+5. 📖 Ha creat una nova wiki [Architecture](https://github.com/fbuireu/contribKit/wiki/Architecture) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
