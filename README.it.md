@@ -245,10 +245,10 @@
 ### Ultima attività
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-2. ✌️ Ha publicato [v1.5.6](https://github.com/fbuireu/biancafiore/releases/tag/v1.5.6) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-3. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-4. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-5. ✌️ Ha publicato [web-v1.9.5](https://github.com/fbuireu/contribKit/releases/tag/web-v1.9.5) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+2. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+3. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+4. 📖 Ha creato una nuova pagina wiki [Git-Hooks](https://github.com/fbuireu/contribKit/wiki/Git-Hooks) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+5. 📖 Ha creato una nuova pagina wiki [API-Reference](https://github.com/fbuireu/contribKit/wiki/API-Reference) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
