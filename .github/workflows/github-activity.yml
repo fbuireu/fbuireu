@@ -18,6 +18,7 @@ jobs:
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
         with:
           token: ${{ secrets.PAT }}
+          persist-credentials: false
       - name: Run Recent Activity (EN)
         uses: Readme-Workflows/recent-activity@aa0d01a1f4efdb8595986788eccbfdd430c73b8b # v2.4.1
         env:
