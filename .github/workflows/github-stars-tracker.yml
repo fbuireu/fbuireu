@@ -7,13 +7,14 @@ permissions:
   contents: write
 jobs:
   track-stars:
+    name: Track GitHub Stars
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
         with:
           token: ${{ secrets.PAT }}
-          persist-credentials: false
+          persist-credentials: true
       - name: Track star changes
         id: tracker
         uses: fbuireu/github-star-tracker@3c16394edea2f1117e87dd8a2ec716b18d84a1ac # v1.8.5
