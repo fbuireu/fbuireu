@@ -24,7 +24,8 @@ jobs:
           filename: assets/images/svg/github-metrics.*
           committer_token: ${{ secrets.PAT }}
           committer_message: 'docs: update ${filename}'
-          committer_branch: metrics-update-${{ github.run_number }}
+          committer_branch: main
+          output_action: pull-request-squash
           committer_gist: ""
           dryrun: no
           template: classic
@@ -103,13 +104,3 @@ jobs:
           plugin_steam: yes
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam_user: '${{ vars.STEAM_ID }}'
-      - name: Create and auto-merge PR
-        uses: ./.github/actions/create-auto-merge-pr
-        with:
-          token: ${{ secrets.PAT }}
-          commit-message: 'docs: update GitHub metrics assets'
-          title: '🤖 [AUTOMATED] Update GitHub Metrics'
-          branch: 'metrics-update-${{ github.run_number }}'
-          force-merge: 'true'
-          max-retries: '5'
-          retry-delay: '15'
