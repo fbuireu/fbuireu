@@ -355,7 +355,6 @@ Si has arrivat fins aquí mereixes conèixer al ${\textcolor{purple}{\textnormal
 ## ⚠️ Depuració
 [![GitHub Activity](https://github.com/fbuireu/fbuireu/actions/workflows/github-activity.yml/badge.svg?style=flat-square)](https://github.com/fbuireu/fbuireu/actions/workflows/github-activity.yml)
 [![Global Metrics](https://github.com/fbuireu/fbuireu/actions/workflows/global-metrics.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/global-metrics.yml)
-[![Medium Latest Articles](https://github.com/fbuireu/fbuireu/actions/workflows/medium-latest-articles.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/medium-latest-articles.yml)
 [![Snake Grid Animation](https://github.com/fbuireu/fbuireu/actions/workflows/snake-animation.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/snake-animation.yml)
 [![Wakatime Stats](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml)
 [![Follower Notifier](https://github.com/fbuireu/fbuireu/actions/workflows/follower-notifier.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/follower-notifier.yml)
