@@ -1,8 +1,8 @@
 # Star Tracker Report
 
-**2026-06-14** | Total: **15 stars** | Change: **0**
+**2026-07-05** | Total: **18 stars** | Change: **+3**
 
-> Compared to snapshot from 2026-06-07
+> Compared to snapshot from 2026-06-14
 
 ## 📈 Star Trend
 
@@ -23,14 +23,6 @@
 
 ![fbuireu/fbuireu](./charts/fbuireu-fbuireu.svg)
 
-#### fbuireu/curriculum-vitae
-
-![fbuireu/curriculum-vitae](./charts/fbuireu-curriculum-vitae.svg)
-
-#### fbuireu/fbuireu-cli
-
-![fbuireu/fbuireu-cli](./charts/fbuireu-fbuireu-cli.svg)
-
 #### fbuireu/github-star-tracker
 
 ![fbuireu/github-star-tracker](./charts/fbuireu-github-star-tracker.svg)
@@ -38,6 +30,14 @@
 #### fbuireu/contribKit
 
 ![fbuireu/contribKit](./charts/fbuireu-contribKit.svg)
+
+#### fbuireu/curriculum-vitae
+
+![fbuireu/curriculum-vitae](./charts/fbuireu-curriculum-vitae.svg)
+
+#### fbuireu/fbuireu-cli
+
+![fbuireu/fbuireu-cli](./charts/fbuireu-fbuireu-cli.svg)
 
 #### fbuireu/email-signature
 
@@ -61,20 +61,47 @@
 
 | Repositories | Stars | Change | Trend |
 |:-----------|------:|-------:|:-----:|
-| [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore) | 7 | 0 | ➖ |
+| [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore) | 8 | +1 | ⬆️ |
 | [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu) | 5 | 0 | ➖ |
+| [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker) | 2 | +1 | ⬆️ |
+| [fbuireu/contribKit](https://github.com/fbuireu/contribKit) | 1 | +1 | ⬆️ |
 | [fbuireu/curriculum-vitae](https://github.com/fbuireu/curriculum-vitae) | 1 | 0 | ➖ |
 | [fbuireu/fbuireu-cli](https://github.com/fbuireu/fbuireu-cli) | 1 | 0 | ➖ |
-| [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker) | 1 | 0 | ➖ |
-| [fbuireu/contribKit](https://github.com/fbuireu/contribKit) | 0 | 0 | ➖ |
 | [fbuireu/email-signature](https://github.com/fbuireu/email-signature) | 0 | 0 | ➖ |
 | [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto) | 0 | 0 | ➖ |
 | [fbuireu/hashnode-articles-backup](https://github.com/fbuireu/hashnode-articles-backup) | 0 | 0 | ➖ |
 | [fbuireu/syncropharma](https://github.com/fbuireu/syncropharma) | 0 | 0 | ➖ |
 
+## Summary
+
+- **Stars gained:** 3
+- **Stars lost:** 0
+- **Net change:** +3
+
 ## 👤 New Stargazers
 
-No new stargazers since last run
+3 new stargazers since last run
+
+<details>
+<summary>fbuireu/biancafiore (1 new)</summary>
+
+- <img src="https://avatars.githubusercontent.com/u/191413797?v=4" width="20" height="20" style="border-radius:50%;vertical-align:middle;"> [semihkececioglu](https://github.com/semihkececioglu): starred on 2026-06-14
+
+</details>
+
+<details>
+<summary>fbuireu/contribKit (1 new)</summary>
+
+- <img src="https://avatars.githubusercontent.com/u/282718341?v=4" width="20" height="20" style="border-radius:50%;vertical-align:middle;"> [Kto0-to](https://github.com/Kto0-to): starred on 2026-06-21
+
+</details>
+
+<details>
+<summary>fbuireu/github-star-tracker (1 new)</summary>
+
+- <img src="https://avatars.githubusercontent.com/u/5763256?v=4" width="20" height="20" style="border-radius:50%;vertical-align:middle;"> [kroese](https://github.com/kroese): starred on 2026-06-23
+
+</details>
 
 ## 🔮 Growth Forecast
 
@@ -82,8 +109,8 @@ No new stargazers since last run
 
 | Method | Week 1 | Week 2 | Week 3 | Week 4 |
 |:---|---:|---:|---:|---:|
-| Linear Regression | 0 | 0 | 0 | 0 |
-| Weighted Moving Average | 0 | 0 | 0 | 0 |
+| Linear Regression | 16 | 17 | 18 | 18 |
+| Weighted Moving Average | 19 | 20 | 20 | 21 |
 
 ![Growth Forecast](./charts/forecast.svg)
 
@@ -96,8 +123,8 @@ No new stargazers since last run
 
 | Method | Week 1 | Week 2 | Week 3 | Week 4 |
 |:---|---:|---:|---:|---:|
-| Linear Regression | 7 | 7 | 7 | 7 |
-| Weighted Moving Average | 7 | 7 | 7 | 7 |
+| Linear Regression | 8 | 8 | 8 | 8 |
+| Weighted Moving Average | 8 | 9 | 9 | 9 |
 
 </details>
 
@@ -108,8 +135,32 @@ No new stargazers since last run
 
 | Method | Week 1 | Week 2 | Week 3 | Week 4 |
 |:---|---:|---:|---:|---:|
-| Linear Regression | 5 | 5 | 5 | 5 |
-| Weighted Moving Average | 5 | 5 | 5 | 5 |
+| Linear Regression | 6 | 6 | 6 | 6 |
+| Weighted Moving Average | 5 | 5 | 6 | 6 |
+
+</details>
+
+<details>
+<summary>fbuireu/github-star-tracker</summary>
+
+**fbuireu/github-star-tracker**
+
+| Method | Week 1 | Week 2 | Week 3 | Week 4 |
+|:---|---:|---:|---:|---:|
+| Linear Regression | 0 | 0 | 0 | 0 |
+| Weighted Moving Average | 2 | 2 | 2 | 3 |
+
+</details>
+
+<details>
+<summary>fbuireu/contribKit</summary>
+
+**fbuireu/contribKit**
+
+| Method | Week 1 | Week 2 | Week 3 | Week 4 |
+|:---|---:|---:|---:|---:|
+| Linear Regression | 0 | 0 | 0 | 0 |
+| Weighted Moving Average | 1 | 1 | 1 | 1 |
 
 </details>
 
@@ -134,30 +185,6 @@ No new stargazers since last run
 |:---|---:|---:|---:|---:|
 | Linear Regression | 1 | 1 | 1 | 1 |
 | Weighted Moving Average | 1 | 1 | 1 | 1 |
-
-</details>
-
-<details>
-<summary>fbuireu/github-star-tracker</summary>
-
-**fbuireu/github-star-tracker**
-
-| Method | Week 1 | Week 2 | Week 3 | Week 4 |
-|:---|---:|---:|---:|---:|
-| Linear Regression | 1 | 1 | 0 | 0 |
-| Weighted Moving Average | 1 | 1 | 1 | 1 |
-
-</details>
-
-<details>
-<summary>fbuireu/contribKit</summary>
-
-**fbuireu/contribKit**
-
-| Method | Week 1 | Week 2 | Week 3 | Week 4 |
-|:---|---:|---:|---:|---:|
-| Linear Regression | 0 | 0 | 0 | 0 |
-| Weighted Moving Average | 0 | 0 | 0 | 0 |
 
 </details>
 
@@ -210,7 +237,7 @@ No new stargazers since last run
 </details>
 
 ---
-*Generated by [GitHub Star Tracker](https://github.com/fbuireu/github-star-tracker) on 2026-06-14T03:39:31.898Z*
+*Generated by [GitHub Star Tracker](https://github.com/fbuireu/github-star-tracker) on 2026-07-05T02:44:12.629Z*
 <div align="center">
 
 *Made with 🤘 by [Ferran Buireu](https://github.com/fbuireu)*
