@@ -179,22 +179,25 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <img src="https://img.shields.io/badge/unsplash-000000?style=for-the-badge&logo=unsplash&logoColor=ffffff" alt="Unsplash" />
 </a>
 <a href="https://www.shutterstock.com/g/Ferran+Buireu?rid=402408087" target="_blank" title="Shutterstock">
-  <img src="https://img.shields.io/badge/shutterstock-ee2b24?style=for-the-badge" alt="Shutterstock" />
+  <img src="https://img.shields.io/badge/shutterstock-ee2b24?style=for-the-badge&logo=shutterstock&logoColor=ffffff" alt="Shutterstock" />
 </a>
 <a href="https://stock.adobe.com/es/contributor/211636808/Ferran%20Buireu" target="_blank" title="Adobe Stock">
-  <img src="https://img.shields.io/badge/adobe%20stock-ff0000?style=for-the-badge" alt="Adobe Stock" />
+  <img src="https://img.shields.io/badge/adobe%20stock-ff0000?style=for-the-badge&logo=adobe&logoColor=ffffff" alt="Adobe Stock" />
+</a>  
+<a href="https://www.istockphoto.com/en/portfolio/fbuireu" target="_blank" title="Getty Images">
+  <img src="https://img.shields.io/badge/gettyimages-000000?style=for-the-badge&logo=gettyimages&logoColor=ffffff" alt="Getty Images" />
 </a>  
 <a href="https://500px.com/p/fbuireu?view=photos" target="_blank" title="500px">
   <img src="https://img.shields.io/badge/500px-434343?style=for-the-badge&logo=500px&logoColor=ffffff" alt="500px" />
 </a>
 <a href="https://www.cavanimages.com/contributor/27021/ferran-buireu" target="_blank" title="Cavan Images">
-  <img src="https://img.shields.io/badge/cavan-000000?style=for-the-badge" alt="Cavan Images" />
+  <img src="https://img.shields.io/badge/cavan-000000?style=for-the-badge&logo=cavanimages&logoColor=ffffff" alt="Cavan Images" />
 </a>
 <a href="https://www.pond5.com/artist/fbuireu" target="_blank" title="Pond5">
   <img src="https://img.shields.io/badge/pond5-ffffff?style=for-the-badge&logo=pond5&logoColor=000000" alt="Pond5" />
 </a>  
 <a href="https://es.123rf.com/profile_fbuireu" target="_blank" title="123RF">
-  <img src="https://img.shields.io/badge/123rf-fed032?style=for-the-badge" alt="123RF" />
+  <img src="https://img.shields.io/badge/123rf-fed032?style=for-the-badge&logo=123rf&logoColor=ffffff" alt="123RF" />
 </a>  
 <a href="https://www.alamy.com/stock-photo/?cid=4TFVALX8FABYJ34F9VBAT72HXA6UAMQ79MUYFQH6VEEF5SR65MDFQRV3KTKUKJW7&sortBy=relevant" target="_blank" title="Alamy">
   <img src="https://img.shields.io/badge/alamy-00ff7b?style=for-the-badge&logo=alamy&logoColor=ffffff" alt="Alamy" />
