@@ -14,7 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: false
       - name: Use Lowlighter Metrics
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
@@ -22,7 +22,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: fbuireu
           filename: assets/images/svg/github-metrics.*
-          committer_token: ${{ secrets.PAT }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_message: 'docs: update ${filename}'
           committer_branch: main
           output_action: pull-request-squash
@@ -33,6 +33,8 @@ jobs:
           config_timezone: Europe/Madrid
           config_twemoji: yes
           config_animations: yes
+          plugins_errors_fatal: no
+          delay: 30
           plugin_achievements: yes
           plugin_achievements_secrets: yes
           plugin_activity: yes
@@ -59,12 +61,8 @@ jobs:
           plugin_languages_indepth: yes
           plugin_people: yes
           plugin_stackoverflow: yes
-          plugin_stackoverflow_user: ${{ vars.STACKOVERFLOW_ID }} 
+          plugin_stackoverflow_user: ${{ vars.STACKOVERFLOW_ID }}
           repositories_forks: yes
-          plugin_contributors: yes
-          plugin_licenses: yes
-          plugin_licenses_ratio: yes
-          plugin_licenses_setup: npm ci
           plugin_reactions: yes
           plugin_reactions_days: 14
           plugin_reactions_details: count, percentage
@@ -73,7 +71,6 @@ jobs:
           plugin_habits_charts: yes
           plugin_habits_charts_type: graph
           plugin_habits_trim: yes
-          plugin_contributors_contributions: yes
           plugin_stargazers: yes
           plugin_stargazers_charts: yes
           plugin_stargazers_charts_type: graph

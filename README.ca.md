@@ -68,7 +68,7 @@
 ## 📨 Com contactar amb mi
 ### Informació personal
 <a href="https://ferranbuireu.dev" target="_blank" title="Web personal">
-  <img src="https://img.shields.io/badge/personal%20Website-1b1d1d?style=for-the-badge&logo=globe&logoColor=ffffff" alt="ferranbuireu.dev">
+  <img src="https://img.shields.io/badge/personal%20Website-1b1d1d?style=for-the-badge" alt="ferranbuireu.dev">
 </a>
 <a href="mailto:fbuireu@gmail.com" target="_blank" title="Gmail">
   <img src="https://img.shields.io/badge/gmail-d14836?style=for-the-badge&logo=gmail&logoColor=ffffff" alt="Gmail" />
@@ -76,7 +76,7 @@
 
 ### Xarxes Socials
 <a href="https://www.linkedin.com/in/ferran-buireu/" target="_blank" title="LinkedIn">
-  <img src="https://img.shields.io/badge/linkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=ffffff" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/linkedIn-0077b5?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGlua2VkSW48L3RpdGxlPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg==" alt="LinkedIn" />
 </a>
 <a href="https://bsky.app/profile/fbuireu.bsky.social" target="_blank" title="Bluesky">
   <img src="https://img.shields.io/badge/bluesky-208bfe?style=for-the-badge&logo=bluesky&logoColor=ffffff" alt="Bluesky" />
@@ -125,7 +125,7 @@
   <img src="https://img.shields.io/badge/goodreads-e6e4ce?style=for-the-badge&logo=goodreads&logoColor=372213" alt="Goodreads" />
 </a>
 <a href="https://codepen.io/fbuireu" target="_blank" title="CodePen">
-  <img src="https://img.shields.io/badge/codepen-1e1f26?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen" />
+  <img src="https://img.shields.io/badge/codepen-1e1f26?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+Q29kZVBlbjwvdGl0bGU+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTE4LjE0NCAxMy4wNjd2LTIuMTM0TDE2LjU1IDEyem0xLjI3NiAxLjE5NGEuNjI4LjYyOCAwIDAxLS4wMDYuMDgzbC0uMDA1LjAyOC0uMDExLjA1My0uMDEuMDMxYy0uMDA1LjAxNi0uMDEuMDMxLS4wMTcuMDQ3bC0uMDE0LjAzYS43OC43OCAwIDAxLS4wMjEuMDQzbC0uMDE5LjAzYS41Ny41NyAwIDAxLS4wOC4xbC0uMDI2LjAyNWEuNjAyLjYwMiAwIDAxLS4wMzYuMDNsLS4wMjkuMDIyLS4wMS4wMDgtNi43ODIgNC41MjJhLjYzNy42MzcgMCAwMS0uNzA4IDBMNC44NjQgMTQuNzlsLS4wMS0uMDA4YS41OTkuNTk5IDAgMDEtLjA2NS0uMDUybC0uMDI2LS4wMjUtLjAzMi0uMDM0LS4wMjEtLjAyOGEuNTg4LjU4OCAwIDAxLS4wNjctLjExbC0uMDE0LS4wMzFhLjY0NC42NDQgMCAwMS0uMDE3LS4wNDdsLS4wMS0uMDNjLS4wMDQtLjAxOC0uMDA4LS4wMzYtLjAxLS4wNTRsLS4wMDYtLjAyOGEuNjI4LjYyOCAwIDAxLS4wMDYtLjA4M1Y5LjczOWMwLS4wMjguMDAyLS4wNTUuMDA2LS4wODNsLjAwNS0uMDI3LjAxMS0uMDU0LjAxLS4wM2EuNTc0LjU3NCAwIDAxLjEyLS4yMTdsLjAzMS0uMDM0LjAyNi0uMDI1YS42Mi42MiAwIDAxLjA2NS0uMDUybC4wMS0uMDA4IDYuNzgyLTQuNTIxYS42MzguNjM4IDAgMDEuNzA4IDBsNi43ODIgNC41MjEuMDEuMDA4LjAzLjAyMi4wMzUuMDNjLjAxLjAwOC4wMTcuMDE2LjAyNi4wMjVhLjU0NS41NDUgMCAwMS4wOC4xbC4wMTkuMDNhLjYzMy42MzMgMCAwMS4wMjEuMDQzbC4wMTQuMDNjLjAwNy4wMTYuMDEyLjAzMi4wMTcuMDQ3bC4wMS4wMzFjLjAwNC4wMTguMDA4LjAzNi4wMS4wNTRsLjAwNi4wMjdhLjYxOS42MTkgMCAwMS4wMDYuMDgzek0xMiAwQzUuMzczIDAgMCA1LjM3MiAwIDEyIDAgMTguNjI3IDUuMzczIDI0IDEyIDI0YzYuNjI4IDAgMTItNS4zNzIgMTItMTIgMC02LjYyNy01LjM3Mi0xMi0xMi0xMm0wIDEwLjQ5Mkw5Ljc0NSAxMiAxMiAxMy41MSAxNC4yNTUgMTJ6bS42MzggNC4xMjR2Mi45NzVsNC45OTYtMy4zMy0yLjIzMi0xLjQ5M3ptLTYuMjcyLS4zNTZsNC45OTYgMy4zM3YtMi45NzRsLTIuNzY0LTEuODQ5em0xMS4yNjgtNC41MmwtNC45OTYtMy4zM3YyLjk3NGwyLjc2NCAxLjg1em0tNi4yNzItLjM1NlY2LjQxTDYuMzY2IDkuNzRsMi4yMzIgMS40OTN6bS01LjUwNiAxLjU0OXYyLjEzNEw3LjQ1IDEyWiIvPjwvc3ZnPg==" alt="CodePen" />
 </a>
 <a href="https://codesandbox.io/u/fbuireu" target="_blank" title="CodeSandbox">
   <img src="https://img.shields.io/badge/codesandbox-040404?style=for-the-badge&logo=codesandbox&logoColor=DBDBDB" alt="CodeSandbox" />
@@ -158,14 +158,11 @@
 </a>
 
 ### Vols ajuda personalitzada? També em pots trobar a:
-<a href="https://www.codementor.io/@fbuireu" target="_blank" title="Codementor">
-  <img src="https://img.shields.io/badge/codementor-003648?style=for-the-badge&logo=Codementor&logoColor=ffffff" alt="Codementor" />
-</a>
-<a href="https://mentor.sh/mentors/fbuireu" target="_blank" title="Mentor.sh">
-  <img src="https://img.shields.io/badge/mentor.sh-8226ff?style=for-the-badge&logo=Mentor.sh&logoColor=ffffff" alt="Mentor.sh" />
-</a>
 <a href="https://mentorcruise.com/mentor/ferranbuireu/" target="_blank" title="MentorCruise">
   <img src="https://img.shields.io/badge/mentorcruise-05b197?style=for-the-badge&logo=mentorcruise&logoColor=ffffff" alt="MentorCruise" />
+</a>
+<a href="https://www.codementor.io/@fbuireu" target="_blank" title="Codementor">
+  <img src="https://img.shields.io/badge/codementor-003648?style=for-the-badge&logo=Codementor&logoColor=ffffff" alt="Codementor" />
 </a>
 
 ### Els meus templates de <a href="https://affiliate.notion.so/rqsl2ll719u1" target="_blank">Notion</a>:
@@ -178,37 +175,28 @@
   <img src="https://img.shields.io/badge/unsplash-000000?style=for-the-badge&logo=unsplash&logoColor=ffffff" alt="Unsplash" />
 </a>
 <a href="https://www.shutterstock.com/g/Ferran+Buireu?rid=402408087" target="_blank" title="Shutterstock">
-  <img src="https://img.shields.io/badge/shutterstock-ee2b24?style=for-the-badge&logo=shutterstock&logoColor=ffffff" alt="Shutterstock" />
+  <img src="https://img.shields.io/badge/shutterstock-ee2b24?style=for-the-badge" alt="Shutterstock" />
 </a>
 <a href="https://stock.adobe.com/es/contributor/211636808/Ferran%20Buireu" target="_blank" title="Adobe Stock">
-  <img src="https://img.shields.io/badge/adobe%20stock-ff0000?style=for-the-badge&logo=adobe&logoColor=ffffff" alt="Adobe Stock" />
+  <img src="https://img.shields.io/badge/adobe%20stock-ff0000?style=for-the-badge" alt="Adobe Stock" />
 </a>  
-<a href="https://www.istockphoto.com/en/portfolio/fbuireu" target="_blank" title="Getty Images">
-  <img src="https://img.shields.io/badge/gettyimages-000000?style=for-the-badge&logo=gettyimages&logoColor=ffffff" alt="Getty Images" />
-</a>  
-<a href="https://www.freepik.com/author/fbuireu" target="_blank" title="Freepik">
-  <img src="https://img.shields.io/badge/freepik-1273eb?style=for-the-badge&logo=freepik&logoColor=ffffff" alt="Getty Images" />
-</a>  
-<a href="https://www.eyeem.com/u/fbuireu" target="_blank" title="EyeEm">
-  <img src="https://img.shields.io/badge/eyeem-000000?style=for-the-badge&logo=eyeem&logoColor=ffffff" alt="EyeEm" />
-</a>
 <a href="https://500px.com/p/fbuireu?view=photos" target="_blank" title="500px">
   <img src="https://img.shields.io/badge/500px-434343?style=for-the-badge&logo=500px&logoColor=ffffff" alt="500px" />
 </a>
 <a href="https://www.cavanimages.com/contributor/27021/ferran-buireu" target="_blank" title="Cavan Images">
-  <img src="https://img.shields.io/badge/cavan-000000?style=for-the-badge&logo=cavana&logoColor=ffffff" alt="Cavan Images" />
+  <img src="https://img.shields.io/badge/cavan-000000?style=for-the-badge" alt="Cavan Images" />
 </a>
 <a href="https://www.pond5.com/artist/fbuireu" target="_blank" title="Pond5">
-  <img src="https://img.shields.io/badge/pond5-ffffff?style=for-the-badge&logo=cavana&logoColor=000000" alt="Pond5" />
+  <img src="https://img.shields.io/badge/pond5-ffffff?style=for-the-badge&logo=pond5&logoColor=000000" alt="Pond5" />
 </a>  
 <a href="https://es.123rf.com/profile_fbuireu" target="_blank" title="123RF">
-  <img src="https://img.shields.io/badge/123rf-fed032?style=for-the-badge&logo=123rf&logoColor=ffffff" alt="123RF" />
+  <img src="https://img.shields.io/badge/123rf-fed032?style=for-the-badge" alt="123RF" />
 </a>  
-<a href="https://www.alamy.com/stock-photo/?comp=1&mode=0&name=Ferran+Buireu&sortBy=relevant" target="_blank" title="Alamy">
-  <img src="https://img.shields.io/badge/alamy-00ff7b?style=for-the-badge&logo=123rf&logoColor=ffffff" alt="Alamy" />
+<a href="https://www.alamy.com/stock-photo/?cid=4TFVALX8FABYJ34F9VBAT72HXA6UAMQ79MUYFQH6VEEF5SR65MDFQRV3KTKUKJW7&sortBy=relevant" target="_blank" title="Alamy">
+  <img src="https://img.shields.io/badge/alamy-00ff7b?style=for-the-badge&logo=alamy&logoColor=ffffff" alt="Alamy" />
 </a>  
 <a href="https://es.dreamstime.com/fbuireu_info" target="_blank" title="Dreamstime">
-  <img src="https://img.shields.io/badge/dreamstime-d9086e?style=for-the-badge&logo=123rf&logoColor=ffffff" alt="Dreamstime" />
+  <img src="https://img.shields.io/badge/dreamstime-d9086e?style=for-the-badge&logo=dreamstime&logoColor=ffffff" alt="Dreamstime" />
 </a>
 
 ###  ̶ ̶R̶e̶o̶m̶p̶l̶e̶'̶m̶ ̶l̶a̶ ̶c̶e̶r̶v̶e̶s̶a̶ i rehidrata'm a:
