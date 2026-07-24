@@ -101,16 +101,3 @@ jobs:
           plugin_steam: yes
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam_user: '${{ vars.STEAM_ID }}'
-      - name: Delete merged metrics branches
-        if: always()
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GH_REPO: ${{ github.repository }}
-        run: |
-          gh api "repos/$GH_REPO/git/matching-refs/heads/metrics-run-" --jq '.[].ref | sub("^refs/heads/"; "")' |
-            while read -r branch; do
-              if [ "$(gh pr list --head "$branch" --state open --json number --jq 'length')" = "0" ]; then
-                gh api -X DELETE "repos/$GH_REPO/git/refs/heads/$branch"
-                echo "Deleted $branch"
-              fi
-            done
