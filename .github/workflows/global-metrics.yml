@@ -101,8 +101,6 @@ jobs:
           plugin_steam: yes
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam_user: '${{ vars.STEAM_ID }}'
-      # On success the merged PR's branch is removed by the repo's auto-delete setting;
-      # a failed run leaves its metrics-run-* branch behind with no PR, so clean those up.
       - name: Delete orphaned metrics branches
         if: failure()
         env:
