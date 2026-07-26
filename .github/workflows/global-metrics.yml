@@ -16,8 +16,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: false
-      - name: Use Lowlighter Metrics
-        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+      - name: Use Metrics
+        uses: gh-metrics/metrics@491b81a96df4b70e14a356a2f90e38c2e84e2b84 # master (v3.35.0-beta)
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: fbuireu
@@ -81,9 +81,6 @@ jobs:
           plugin_topics_mode: starred, mastered
           plugin_traffic: yes
           plugin_gists: yes
-          plugin_projects: yes
-          plugin_projects_descriptions: yes
-          plugin_projects_repositories: fbuireu/projects/1
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_skyline: yes

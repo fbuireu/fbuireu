@@ -1,9 +1,8 @@
 settings:
   commit_msg: "docs: update README.es.md with latest GitHub activity"
   readme_file: "./README.es.md"
-  whitelisted_events: [comments, create_repo, fork, issues, member, pr, push, release, review, star, wiki]
-date:
-  timezone: "Europe/Madrid"
+  date:
+    timezone: "Europe/Madrid"
 messages:
   comments: "💬 Ha comentado a {ID} en {REPO}"
   issue_opened: "❗️ Ha abierto el tema {ID} en {REPO}"
