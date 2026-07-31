@@ -228,7 +228,7 @@
 - [What is Redux? Do I need to use it?](https://ferranbuireu.hashnode.dev/what-is-redux-do-i-need-to-use-it)
 
 ### Stack Overflow
-[![Il profilo Stack Overflow di Ferran Buireu](https://github-stackoverflow-readme.vercel.app/?userId=5585371)](https://stackoverflow.com/users/5585371/ferran-buireu)
+[![Il profilo Stack Overflow di Ferran Buireu](https://github-readme-stackoverflow.vercel.app/?userID=5585371)](https://stackoverflow.com/users/5585371/ferran-buireu)
 
 -------
 
