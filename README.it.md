@@ -235,9 +235,9 @@
 ## 👨🏻‍💻 Controlla le mie statistiche su GitHub
 ### Ultima attività
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-2. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
-3. ⬆️ Ha impulsato undefined commit(s) in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+1. ⬆️ Ha impulsato modifiche in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+2. ⬆️ Ha impulsato modifiche in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+3. ⬆️ Ha impulsato modifiche in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
 4. 📖 Ha creato una nuova pagina wiki [Git-Hooks](https://github.com/fbuireu/contribKit/wiki/Git-Hooks) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
 5. 📖 Ha creato una nuova pagina wiki [API-Reference](https://github.com/fbuireu/contribKit/wiki/API-Reference) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
 <!--RECENT_ACTIVITY:end-->
@@ -284,7 +284,7 @@
 
 <details>
   <summary><strong>Trofei</strong></summary>
-  <img src="https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark&no-frame=true"
+  <img src="https://github-profile-trophy.vercel.app/?username=fbuireu&theme=onedark&no-frame=true"
        alt="Trofei di Ferran Buireu" />
 </details>    
 
@@ -325,9 +325,9 @@ JavaScript       1 hr 15 mins          █▒░░░░░░░░░░░�
 Se siete arrivati fin qui, meritate di incontrare ${\textcolor{purple}{\textnormal{Qwerty}}}$, il mio collaboratore serpente. Nutrito quotidianamente (quasi):
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcSet="https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcSet="https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-grid-snake-dark.svg" />
-  <img alt="Qwerty, the contribution snake" src="https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fbuireu/fbuireu/main/dist/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fbuireu/fbuireu/main/dist/github-contribution-grid-snake.svg" />
+  <img alt="Qwerty, the contribution snake" src="https://raw.githubusercontent.com/fbuireu/fbuireu/main/dist/github-contribution-grid-snake.svg" />
 </picture>
 
 <details>

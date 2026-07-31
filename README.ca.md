@@ -235,8 +235,8 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empès undefined commit(s) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
-2. ⬆️ Ha empès undefined commit(s) a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+1. ⬆️ Ha empès canvis a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+2. ⬆️ Ha empès canvis a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
 3. 📖 Ha creat una nova wiki [Git-Hooks](https://github.com/fbuireu/contribKit/wiki/Git-Hooks) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
 4. 📖 Ha creat una nova wiki [API-Reference](https://github.com/fbuireu/contribKit/wiki/API-Reference) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
 5. 📖 Ha creat una nova wiki [Architecture](https://github.com/fbuireu/contribKit/wiki/Architecture) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
@@ -284,7 +284,7 @@
 
 <details>
   <summary><strong>Trofeos</strong></summary>
-  <img src="https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark&no-frame=true"
+  <img src="https://github-profile-trophy.vercel.app/?username=fbuireu&theme=onedark&no-frame=true"
        alt="Els trofeus del Ferran Buireu" />
 </details>    
 
@@ -325,9 +325,9 @@ JavaScript       1 hr 15 mins          █▒░░░░░░░░░░░�
 Si has arrivat fins aquí mereixes conèixer al ${\textcolor{purple}{\textnormal{Qwerty}}}$, la meva serp col·laboradora. Alimentada a diari (gairebé):
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcSet="https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcSet="https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-grid-snake-dark.svg" />
-  <img alt="Qwerty, the contribution snake" src="https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fbuireu/fbuireu/main/dist/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fbuireu/fbuireu/main/dist/github-contribution-grid-snake.svg" />
+  <img alt="Qwerty, the contribution snake" src="https://raw.githubusercontent.com/fbuireu/fbuireu/main/dist/github-contribution-grid-snake.svg" />
 </picture>
 
 <details>

@@ -3,3 +3,5 @@ settings:
   readme_file: "./README.md"
   date:
     timezone: "Europe/Madrid"
+messages:
+  push: "⬆️ Pushed commits to {REPO}"

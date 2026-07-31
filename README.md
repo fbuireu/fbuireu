@@ -239,8 +239,8 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed undefined commit(s) to [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
-2. ⬆️ Pushed undefined commit(s) to [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+1. ⬆️ Pushed commits to [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+2. ⬆️ Pushed commits to [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
 3. 📖 Created new wiki page [Git-Hooks](https://github.com/fbuireu/contribKit/wiki/Git-Hooks) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
 4. 📖 Created new wiki page [API-Reference](https://github.com/fbuireu/contribKit/wiki/API-Reference) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
 5. 📖 Created new wiki page [Architecture](https://github.com/fbuireu/contribKit/wiki/Architecture) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
@@ -288,7 +288,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
 <details>
   <summary><strong>Trophies</strong></summary>
-  <img src="https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark&no-frame=true"
+  <img src="https://github-profile-trophy.vercel.app/?username=fbuireu&theme=onedark&no-frame=true"
        alt="Ferran Buireu's Trophies" />
 </details>    
 
@@ -329,9 +329,9 @@ JavaScript       1 hr 15 mins          █▒░░░░░░░░░░░�
 If you've reached this point, you deserve to meet ${\textcolor{purple}{\textnormal{Qwerty}}}$, my contribution snake. Fed daily (almost):
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcSet="https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcSet="https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-grid-snake-dark.svg" />
-  <img alt="Qwerty, the contribution snake" src="https://raw.githubusercontent.com/fbuireu/fbuireu/snake-grid-animation/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fbuireu/fbuireu/main/dist/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fbuireu/fbuireu/main/dist/github-contribution-grid-snake.svg" />
+  <img alt="Qwerty, the contribution snake" src="https://raw.githubusercontent.com/fbuireu/fbuireu/main/dist/github-contribution-grid-snake.svg" />
 </picture>
 
 <details>
