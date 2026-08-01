@@ -113,70 +113,45 @@ runs:
 
     - name: Auto-merge PR
       if: steps.set-pr-vars.outputs.PR_NUM != '' && inputs.force-merge == 'false'
-      shell: bash
-      run: |
-        PR_NUMBER="${PR_NUM}"
-        MAX_RETRIES=${INPUTS_MAX_RETRIES}
-        RETRY_DELAY=${INPUTS_RETRY_DELAY}
-
-        for i in $(seq 1 $MAX_RETRIES); do
-          PR_STATE=$(gh pr view ${PR_NUMBER} --json state --jq '.state' 2>/dev/null || echo "")
-
+      uses: nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60 # v4.0.0
+      env:
+        GH_TOKEN: ${{ inputs.token }}
+        PR_NUM: ${{ steps.set-pr-vars.outputs.PR_NUM }}
+        INPUTS_COMMIT_MESSAGE: ${{ inputs.commit-message }}
+      with:
+        timeout_minutes: 2
+        max_attempts: ${{ inputs.max-retries }}
+        retry_wait_seconds: ${{ inputs.retry-delay }}
+        shell: bash
+        command: |
+          PR_STATE=$(gh pr view "$PR_NUM" --json state --jq '.state' 2>/dev/null || echo "")
           if [ "$PR_STATE" = "MERGED" ]; then
             echo "✅ PR is already merged!"
             exit 0
           fi
-
-          if gh pr merge ${PR_NUMBER} --auto --squash --subject "${INPUTS_COMMIT_MESSAGE}" 2>&1; then
-            echo "✅ Auto-merge enabled successfully!"
-            exit 0
-          else
-            sleep $RETRY_DELAY
-          fi
-        done
-
-        exit 1
-      env:
-        GH_TOKEN: ${{ inputs.token }}
-        PR_NUM: ${{ steps.set-pr-vars.outputs.PR_NUM }}
-        INPUTS_MAX_RETRIES: ${{ inputs.max-retries }}
-        INPUTS_RETRY_DELAY: ${{ inputs.retry-delay }}
-        INPUTS_COMMIT_MESSAGE: ${{ inputs.commit-message }}
+          gh pr merge "$PR_NUM" --auto --squash --subject "$INPUTS_COMMIT_MESSAGE"
 
     - name: Force merge with admin privileges
       if: steps.set-pr-vars.outputs.PR_NUM != '' && inputs.force-merge == 'true'
-      shell: bash
-      run: |
-        PR_NUMBER="${PR_NUM}"
-        MAX_RETRIES=${INPUTS_MAX_RETRIES}
-        RETRY_DELAY=${INPUTS_RETRY_DELAY}
-
-        for i in $(seq 1 $MAX_RETRIES); do
-          PR_STATE=$(gh pr view ${PR_NUMBER} --json state --jq '.state' 2>/dev/null || echo "")
-
+      uses: nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60 # v4.0.0
+      env:
+        GH_TOKEN: ${{ inputs.token }}
+        PR_NUM: ${{ steps.set-pr-vars.outputs.PR_NUM }}
+        INPUTS_COMMIT_MESSAGE: ${{ inputs.commit-message }}
+      with:
+        timeout_minutes: 2
+        max_attempts: ${{ inputs.max-retries }}
+        retry_wait_seconds: ${{ inputs.retry-delay }}
+        shell: bash
+        command: |
+          PR_STATE=$(gh pr view "$PR_NUM" --json state --jq '.state' 2>/dev/null || echo "")
           if [ "$PR_STATE" = "MERGED" ]; then
             echo "✅ PR is already merged!"
             exit 0
           fi
-
-          IS_DRAFT=$(gh pr view ${PR_NUMBER} --json isDraft --jq '.isDraft' 2>/dev/null || echo "false")
+          IS_DRAFT=$(gh pr view "$PR_NUM" --json isDraft --jq '.isDraft' 2>/dev/null || echo "false")
           if [ "$IS_DRAFT" = "true" ]; then
-            gh pr ready ${PR_NUMBER} 2>/dev/null || true
+            gh pr ready "$PR_NUM" 2>/dev/null || true
             sleep 2
           fi
-
-          if gh pr merge ${PR_NUMBER} --admin --squash --subject "${INPUTS_COMMIT_MESSAGE}" 2>&1; then
-            echo "✅ PR force-merged successfully!"
-            exit 0
-          else
-            sleep $RETRY_DELAY
-          fi
-        done
-
-        exit 1
-      env:
-        GH_TOKEN: ${{ inputs.token }}
-        PR_NUM: ${{ steps.set-pr-vars.outputs.PR_NUM }}
-        INPUTS_MAX_RETRIES: ${{ inputs.max-retries }}
-        INPUTS_RETRY_DELAY: ${{ inputs.retry-delay }}
-        INPUTS_COMMIT_MESSAGE: ${{ inputs.commit-message }}
+          gh pr merge "$PR_NUM" --admin --squash --subject "$INPUTS_COMMIT_MESSAGE"
