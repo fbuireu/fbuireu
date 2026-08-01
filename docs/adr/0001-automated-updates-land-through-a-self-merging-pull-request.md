@@ -22,7 +22,7 @@ Every Refresh that writes to `main` routes through `.github/actions/create-auto-
 
 ## Consequences
 
-- **The pull request is a record, not a gate.** It is opened and merged by the same job seconds apart, and a Force Merge walks straight past any required check. Anyone who adds branch protection to `main` expecting it to hold the Refreshes back will be disappointed — see ADR 0003, where the checks that do matter run on `pull_request` and therefore on Bot Updates, not on these.
+- **The pull request is a record, not a gate.** It is opened and merged by the same job seconds apart, and a Force Merge walks straight past any required check. Anyone who adds branch protection to `main` expecting it to hold the Refreshes back will be disappointed — see [ADR 0003](./0003-third-party-actions-are-pinned-to-commit-shas.md), where the checks that do matter run on `pull_request` and therefore on Bot Updates, not on these.
 - **`main`'s history is mostly automated squashes**, one per Refresh per week, each titled from the caller's `commit-message`.
 - **Admin merge needs the Owner Token** ([ADR 0002](./0002-workflows-act-as-the-owner.md)). With GitHub's own workflow identity the merge step fails, not the PR step, so the failure surfaces late and looks like a merge conflict.
 - **`global-metrics.yml` carries its own cleanup** because its exception has a failure mode the composite action does not: a failed run strands a `metrics-run-*` branch, and the workflow deletes orphaned ones in an `if: failure()` step.
