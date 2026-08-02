@@ -37,10 +37,6 @@
     <text x="52" y="354" text-anchor="end" class="chart-muted" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">0</text>
     <line x1="60" y1="200" x2="770" y2="200" class="chart-grid" stroke-opacity="0.3" />
     <text x="52" y="204" text-anchor="end" class="chart-muted" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">1</text>
-    <line x1="60" y1="200" x2="770" y2="200" class="chart-grid" stroke-opacity="0.3" />
-    <text x="52" y="204" text-anchor="end" class="chart-muted" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">1</text>
-    <line x1="60" y1="50" x2="770" y2="50" class="chart-grid" stroke-opacity="0.3" />
-    <text x="52" y="54" text-anchor="end" class="chart-muted" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">2</text>
     <line x1="60" y1="50" x2="770" y2="50" class="chart-grid" stroke-opacity="0.3" />
     <text x="52" y="54" text-anchor="end" class="chart-muted" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">2</text>
   </g>
@@ -49,7 +45,7 @@
   </g>
   <g class="x-axis">
     <text x="60" y="370" text-anchor="middle" class="chart-muted" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">2023</text>
-    <text x="255.86206896551724" y="370" text-anchor="middle" class="chart-muted" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">2024</text>
+    <text x="231.3793103448276" y="370" text-anchor="middle" class="chart-muted" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">2024</text>
     <text x="451.7241379310345" y="370" text-anchor="middle" class="chart-muted" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">2025</text>
     <text x="672.0689655172414" y="370" text-anchor="middle" class="chart-muted" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">2026</text>
   </g>
