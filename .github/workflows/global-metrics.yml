@@ -25,7 +25,7 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_message: 'docs: update ${filename}'
           committer_branch: main
-          output_action: pull-request-squash
+          output_action: pull-request
           committer_gist: ""
           dryrun: no
           template: classic
@@ -98,12 +98,37 @@ jobs:
           plugin_steam: yes
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam_user: '${{ vars.STEAM_ID }}'
-      - name: Delete orphaned metrics branches
+      - name: Force merge metrics pull request
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}
+          GH_REPO: ${{ github.repository }}
+          HEAD_BRANCH: metrics-run-${{ github.run_id }}
+          SUBJECT: 'docs: update assets/images/svg/github-metrics.svg'
+        run: |
+          PR_NUM=$(gh pr list --head "$HEAD_BRANCH" --state open --json number --jq '.[0].number')
+          if [ -z "$PR_NUM" ]; then
+            echo "No pull request opened for $HEAD_BRANCH"
+            exit 0
+          fi
+          for attempt in 1 2 3; do
+            if gh pr merge "$PR_NUM" --admin --squash --delete-branch --subject "$SUBJECT"; then
+              exit 0
+            fi
+            sleep 15
+          done
+          exit 1
+      - name: Clean up orphaned metrics pull requests and branches
         if: failure()
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
+          HEAD_BRANCH: metrics-run-${{ github.run_id }}
         run: |
+          gh pr list --head "$HEAD_BRANCH" --state open --json number --jq '.[].number' |
+            while read -r pr; do
+              gh pr close "$pr" --delete-branch
+              echo "Closed #$pr"
+            done
           gh api "repos/$GH_REPO/git/matching-refs/heads/metrics-run-" --jq '.[].ref | sub("^refs/heads/"; "")' |
             while read -r branch; do
               if [ "$(gh pr list --head "$branch" --state open --json number --jq 'length')" = "0" ]; then
