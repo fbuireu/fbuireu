@@ -99,24 +99,29 @@ jobs:
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam_user: '${{ vars.STEAM_ID }}'
       - name: Force merge metrics pull request
+        uses: nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60 # v4.0.0
         env:
           GH_TOKEN: ${{ secrets.PAT }}
           GH_REPO: ${{ github.repository }}
           HEAD_BRANCH: metrics-run-${{ github.run_id }}
           SUBJECT: 'docs: update assets/images/svg/github-metrics.svg'
-        run: |
-          PR_NUM=$(gh pr list --head "$HEAD_BRANCH" --state open --json number --jq '.[0].number')
-          if [ -z "$PR_NUM" ]; then
-            echo "No pull request opened for $HEAD_BRANCH"
-            exit 0
-          fi
-          for attempt in 1 2 3; do
-            if gh pr merge "$PR_NUM" --admin --squash --delete-branch --subject "$SUBJECT"; then
+        with:
+          timeout_minutes: 2
+          max_attempts: 3
+          retry_wait_seconds: 10
+          shell: bash
+          command: |
+            PR_NUM=$(gh pr list --head "$HEAD_BRANCH" --state all --json number --jq '.[0].number')
+            if [ -z "$PR_NUM" ]; then
+              echo "No pull request opened for $HEAD_BRANCH"
               exit 0
             fi
-            sleep 15
-          done
-          exit 1
+            PR_STATE=$(gh pr view "$PR_NUM" --json state --jq '.state' 2>/dev/null || echo "")
+            if [ "$PR_STATE" = "MERGED" ]; then
+              echo "Pull request #$PR_NUM is already merged"
+              exit 0
+            fi
+            gh pr merge "$PR_NUM" --admin --squash --delete-branch --subject "$SUBJECT"
       - name: Clean up orphaned metrics pull requests and branches
         if: failure()
         env:

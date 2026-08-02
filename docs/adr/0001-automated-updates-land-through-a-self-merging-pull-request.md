@@ -18,7 +18,7 @@ A Refresh has to get regenerated content onto `main`. The obvious route is the o
 
 Every Refresh that writes to `main` routes through `.github/actions/create-auto-merge-pr`. The composite action opens an Automated Update with `peter-evans/create-pull-request`, waits and retries once if creation raced another Refresh, then merges it — `gh pr merge --auto` normally, `gh pr merge --admin` when `force-merge` is `'true'`, which is what all three callers pass. Branch names carry `github.run_number` so two Refreshes cannot collide on one branch.
 
-`global-metrics.yml` is the deliberate exception: the metrics action owns its own commit step, so it is told `output_action: pull-request` and produces its Automated Update itself. It stops there — the Force Merge is a separate step in the workflow, running `gh pr merge --admin` with the Owner Token against the head branch the metrics action names after `github.run_id`.
+`global-metrics.yml` is the deliberate exception: the metrics action owns its own commit step, so it is told `output_action: pull-request` and produces its Automated Update itself. It stops there — the Force Merge is a separate step in the workflow, running `gh pr merge --admin` with the Owner Token against the head branch the metrics action names after `github.run_id`, wrapped in the same `nick-fields/retry` the composite action uses.
 
 ## Consequences
 
