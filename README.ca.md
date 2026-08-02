@@ -235,11 +235,11 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empès canvis a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
-2. ⬆️ Ha empès canvis a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-3. 📖 Ha creat una nova wiki [Git-Hooks](https://github.com/fbuireu/contribKit/wiki/Git-Hooks) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
-4. 📖 Ha creat una nova wiki [API-Reference](https://github.com/fbuireu/contribKit/wiki/API-Reference) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
-5. 📖 Ha creat una nova wiki [Architecture](https://github.com/fbuireu/contribKit/wiki/Architecture) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+1. 💬 Ha comentat a [#1153](https://github.com/fbuireu/biancafiore/pull/1153#issuecomment-5153801361) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+2. 💬 Ha comentat a [#1154](https://github.com/fbuireu/biancafiore/pull/1154#issuecomment-5153801186) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+3. ✌️ Ha publicat [v1.19.7](https://github.com/fbuireu/biancafiore/releases/tag/v1.19.7) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+4. ⬆️ Ha empès canvis a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+5. 👍 Ha aprovat [#1154](https://github.com/fbuireu/biancafiore/pull/1154#pullrequestreview-4835945247) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
