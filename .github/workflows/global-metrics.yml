@@ -85,6 +85,13 @@ jobs:
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_skyline: yes
           plugin_skyline_frames: 120
+          plugin_skyline_settings: |
+            {
+              "url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}",
+              "ready": "[...document.querySelectorAll('.display-info span')].map(span => span.innerText).includes('${login}')",
+              "wait": 4,
+              "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
+            }
           plugin_leetcode: yes
           plugin_leetcode_user: ${{ vars.LEETCODE_USER }}
           plugin_sponsorships: yes
