@@ -235,11 +235,11 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. 💬 Ha comentat a [#1153](https://github.com/fbuireu/biancafiore/pull/1153#issuecomment-5153801361) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-2. 💬 Ha comentat a [#1154](https://github.com/fbuireu/biancafiore/pull/1154#issuecomment-5153801186) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-3. ✌️ Ha publicat [v1.19.7](https://github.com/fbuireu/biancafiore/releases/tag/v1.19.7) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-4. ⬆️ Ha empès canvis a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-5. 👍 Ha aprovat [#1154](https://github.com/fbuireu/biancafiore/pull/1154#pullrequestreview-4835945247) a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+1. ⬆️ Ha empès canvis a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+2. ⬆️ Ha empès canvis a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+3. ⬆️ Ha empès canvis a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+4. ⬆️ Ha empès canvis a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+5. ✌️ Ha publicat [v1.7.2](https://github.com/fbuireu/forever-pto/releases/tag/v1.7.2) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
