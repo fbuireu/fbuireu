@@ -236,10 +236,10 @@
 ### Ultima attività
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha impulsato modifiche in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-2. 💬 Ha commentato [#1153](https://github.com/fbuireu/biancafiore/pull/1153#issuecomment-5153801361) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-3. 💬 Ha commentato [#1154](https://github.com/fbuireu/biancafiore/pull/1154#issuecomment-5153801186) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-4. ✌️ Ha publicato [v1.19.7](https://github.com/fbuireu/biancafiore/releases/tag/v1.19.7) in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-5. ⬆️ Ha impulsato modifiche in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+2. ⬆️ Ha impulsato modifiche in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+3. ⬆️ Ha impulsato modifiche in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+4. ⬆️ Ha impulsato modifiche in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+5. ⬆️ Ha impulsato modifiche in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
