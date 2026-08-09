@@ -47,7 +47,7 @@
     <text x="60" y="370" text-anchor="middle" class="chart-muted" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">2023</text>
     <text x="231.3793103448276" y="370" text-anchor="middle" class="chart-muted" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">2024</text>
     <text x="451.7241379310345" y="370" text-anchor="middle" class="chart-muted" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">2025</text>
-    <text x="672.0689655172414" y="370" text-anchor="middle" class="chart-muted" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">2026</text>
+    <text x="647.5862068965517" y="370" text-anchor="middle" class="chart-muted" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">2026</text>
   </g>
   <line x1="60" y1="50" x2="60" y2="350" class="chart-axis" stroke-width="1" />
   <line x1="60" y1="350" x2="770" y2="350" class="chart-axis" stroke-width="1" />
