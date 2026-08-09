@@ -237,9 +237,9 @@
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha empujado cambios en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
 2. ⬆️ Ha empujado cambios en [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-3. 💬 Ha comentado a [#1153](https://github.com/fbuireu/biancafiore/pull/1153#issuecomment-5153801361) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-4. 💬 Ha comentado a [#1154](https://github.com/fbuireu/biancafiore/pull/1154#issuecomment-5153801186) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-5. ✌️ Ha publicado [v1.19.7](https://github.com/fbuireu/biancafiore/releases/tag/v1.19.7) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+3. ⬆️ Ha empujado cambios en [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+4. ⬆️ Ha empujado cambios en [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+5. ⬆️ Ha empujado cambios en [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
