@@ -84,7 +84,7 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_skyline: yes
-          plugin_skyline_frames: 120
+          plugin_skyline_frames: 60
           plugin_skyline_settings: |
             {
               "url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}",
