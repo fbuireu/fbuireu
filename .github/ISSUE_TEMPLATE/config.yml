@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: The rendered profile
+    url: https://github.com/fbuireu
+    about: See the profile this repository produces
+  - name: Security Policy
+    url: https://github.com/fbuireu/fbuireu/security/policy
+    about: Report workflow or link security problems privately

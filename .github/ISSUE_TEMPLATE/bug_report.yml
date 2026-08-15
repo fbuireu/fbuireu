@@ -1,0 +1,48 @@
+name: Bug Report
+description: Report a typo, a broken link, a translation mistake, or a workflow that misbehaves
+title: '[Bug]: '
+labels: ['bug', 'triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report! If what you found involves the workflows' secrets or a link that could harm someone, please use the Security Policy (linked when you chose a template) instead of a public issue.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem?
+      options:
+        - Typo or wording
+        - Broken link or image
+        - Translation mistake
+        - A Generated Region looks wrong or stale
+        - Workflow failure
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Which Edition?
+      description: The profile exists in four languages
+      options:
+        - English (README.md)
+        - Catalan (README.ca.md)
+        - Spanish (README.es.md)
+        - Italian (README.it.md)
+        - Several / all
+        - Not applicable
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is wrong, and where?
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Screenshots or links help
