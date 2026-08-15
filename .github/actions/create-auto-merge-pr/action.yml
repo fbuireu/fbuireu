@@ -1,5 +1,5 @@
-name: 'Create and Auto-merge PR'
-description: 'Creates a pull request and automatically merges it if successful'
+name: Create and auto-merge PR
+description: Opens a pull request and merges it automatically once checks pass
 author: 'fbuireu'
 inputs:
   token:
@@ -40,7 +40,7 @@ outputs:
 runs:
   using: 'composite'
   steps:
-    - name: Create Pull Request
+    - name: Create pull request
       id: create-pr
       uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
       continue-on-error: true
@@ -68,7 +68,7 @@ runs:
       shell: bash
       run: sleep 45
 
-    - name: Retry Create Pull Request
+    - name: Retry create pull request
       id: retry-pr
       if: steps.create-pr.outcome == 'failure'
       uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1

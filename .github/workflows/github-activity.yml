@@ -14,30 +14,30 @@ jobs:
     name: Update README files
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           token: ${{ secrets.PAT }}
           persist-credentials: true
-      - name: Run Recent Activity (EN)
+      - name: Run recent activity (EN)
         uses: Readme-Workflows/recent-activity@2750d2b82f226b7327039aa8c3ff96748396ef80 # main (2026-06-08): removes dead glitch.me telemetry; no tag released yet
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }} 
         with:
           CONFIG_FILE: ./.github/config/github-activity/en.config.yml
-      - name: Run Recent Activity (CA)
+      - name: Run recent activity (CA)
         uses: Readme-Workflows/recent-activity@2750d2b82f226b7327039aa8c3ff96748396ef80 # main (2026-06-08): removes dead glitch.me telemetry; no tag released yet
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }} 
         with:
           CONFIG_FILE: ./.github/config/github-activity/ca.config.yml
-      - name: Run Recent Activity (IT)
+      - name: Run recent activity (IT)
         uses: Readme-Workflows/recent-activity@2750d2b82f226b7327039aa8c3ff96748396ef80 # main (2026-06-08): removes dead glitch.me telemetry; no tag released yet
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }} 
         with:
           CONFIG_FILE: ./.github/config/github-activity/it.config.yml      
-      - name: Run Recent Activity (ES)
+      - name: Run recent activity (ES)
         uses: Readme-Workflows/recent-activity@2750d2b82f226b7327039aa8c3ff96748396ef80 # main (2026-06-08): removes dead glitch.me telemetry; no tag released yet
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }} 

@@ -9,13 +9,13 @@ jobs:
     name: Followers Notifier
     runs-on: ubuntu-latest
     steps:
-      - name: Get Followers Change
+      - name: Get followers change
         id: followers_change
         uses: Sorosliu1029/follower-change@e86fa186d8680c55cbb048d3a9d8dcb8df5b4192 # v2.3.0
         with:
           myToken: ${{ secrets.FOLLOWERS_NOTIFIER_TOKEN }}
           notifyUnFollowEvent: true
-      - name: Email Me
+      - name: Email me
         uses: dawidd6/action-send-mail@94de994a9f6fffee200243214e17002e2920bb59 # v18
         if: steps.followers_change.outputs.shouldNotify == 'true'
         with:
