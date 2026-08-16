@@ -20,13 +20,8 @@ jobs:
         uses: fbuireu/github-star-tracker@9aa9eaf6738992cc2e2616c7f79cd62259269e9c # v1.25.0
         with:
           github-token: ${{ secrets.PAT }}
-          locale: en
-          include-charts: true
-          visibility: owned
-          include-forks: false
-          include-archived: false
-          track-stargazers: true
-          notification-threshold: auto
+          visibility: public
+          exclude-repos: 'fbuireu/curriculum-vitae, fbuireu/email-signature, fbuireu/hashnode-articles-backup'
       - name: Send email report
         if: steps.tracker.outputs.stars-changed == 'true'
         uses: dawidd6/action-send-mail@94de994a9f6fffee200243214e17002e2920bb59 # v18
