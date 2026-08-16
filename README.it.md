@@ -236,10 +236,10 @@
 ### Ultima attività
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Ha impulsato modifiche in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-2. ⬆️ Ha impulsato modifiche in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-3. ⬆️ Ha impulsato modifiche in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-4. ⬆️ Ha impulsato modifiche in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-5. ⬆️ Ha impulsato modifiche in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+2. 💬 Ha commentato [#117](https://github.com/fbuireu/contribKit/pull/117#issuecomment-5304473554) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+3. ✌️ Ha publicato [web-v1.12.5](https://github.com/fbuireu/contribKit/releases/tag/web-v1.12.5) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+4. ⬆️ Ha impulsato modifiche in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+5. 👍 Ha approvato [#118](https://github.com/fbuireu/contribKit/pull/118#pullrequestreview-4944818030) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
