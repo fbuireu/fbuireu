@@ -235,11 +235,11 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empès canvis a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-2. ⬆️ Ha empès canvis a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-3. ⬆️ Ha empès canvis a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-4. ⬆️ Ha empès canvis a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-5. ✌️ Ha publicat [v1.7.2](https://github.com/fbuireu/forever-pto/releases/tag/v1.7.2) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+1. 💬 Ha comentat a [#117](https://github.com/fbuireu/contribKit/pull/117#issuecomment-5304473554) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+2. ✌️ Ha publicat [web-v1.12.5](https://github.com/fbuireu/contribKit/releases/tag/web-v1.12.5) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+3. ⬆️ Ha empès canvis a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+4. 👍 Ha aprovat [#118](https://github.com/fbuireu/contribKit/pull/118#pullrequestreview-4944818030) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+5. 👍 Ha aprovat [#350](https://github.com/fbuireu/forever-pto/pull/350#pullrequestreview-4944764710) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
