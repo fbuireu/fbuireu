@@ -16,8 +16,8 @@ By participating you are expected to uphold the
 
 ## The two things to know before editing
 
-1. **The profile exists in four Editions**: `README.md` (English, the one
-   GitHub renders), `README.ca.md`, `README.es.md` and `README.it.md`. Each is
+1. **The profile exists in four Editions**: [`README.md`](./README.md) (English, the one
+   GitHub renders), [`README.ca.md`](./README.ca.md), [`README.es.md`](./README.es.md) and [`README.it.md`](./README.it.md). Each is
    a whole document, deliberately not generated from a shared source. A text
    fix in one Edition almost always needs the same fix in the other three; a
    translation fix needs only its own.

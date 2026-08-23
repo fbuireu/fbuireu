@@ -14,7 +14,7 @@ Pinning to tags is what almost every profile repository does, reads better, and 
 
 ## Decision
 
-Every `uses:` names a full commit SHA, with the human-readable version in a trailing comment. Renovate maintains both (`pinDigests: true` and `rangeStrategy: pin` in `.github/renovate.json`), and pin, patch and minor Bot Updates merge themselves while major ones wait for the Owner. `zizmor.yml` runs on every push to `main` and every pull request and reports into code scanning, so a regression is caught on the Bot Update that introduces it.
+Every `uses:` names a full commit SHA, with the human-readable version in a trailing comment. Renovate maintains both (`pinDigests: true` and `rangeStrategy: pin` in [`.github/renovate.json`](../../.github/renovate.json)), and pin, patch and minor Bot Updates merge themselves while major ones wait for the Owner. [`zizmor.yml`](../../.github/workflows/zizmor.yml) runs on every push to `main` and every pull request and reports into code scanning, so a regression is caught on the Bot Update that introduces it.
 
 Two pins deliberately reference a branch commit rather than a release, and the comment says why rather than leaving a reader to guess: `Readme-Workflows/recent-activity` (the commit that removes dead glitch.me telemetry is unreleased) and `athul/waka-readme` (master).
 
@@ -23,4 +23,4 @@ Two pins deliberately reference a branch commit rather than a release, and the c
 - **The trailing comment is the only readable version anywhere.** Renovate rewrites it with the SHA; editing one by hand desynchronises the two and nothing checks it.
 - **The two branch pins never advance on their own.** Renovate has no release to compare against, so they stay where they are until someone looks, which is the point, but it means "pinned" here also means "frozen".
 - **A major Bot Update blocks a Refresh silently.** It sits open, labelled `major-update,review-required`, while the workflow keeps running the old SHA quite happily. Nothing escalates.
-- **`zizmor` is not advisory.** It is the only automated check here with anything to inspect (`dependency-review.yml` runs on every pull request too, but there is no manifest in this repository for it to review), and it is why `persist-credentials: false` appears on the checkouts that do not need credentials.
+- **`zizmor` is not advisory.** It is the only automated check here with anything to inspect ([`dependency-review.yml`](../../.github/workflows/dependency-review.yml) runs on every pull request too, but there is no manifest in this repository for it to review), and it is why `persist-credentials: false` appears on the checkouts that do not need credentials.

@@ -13,7 +13,7 @@ One complete language rendering of the Profile README. There are four (English, 
 _Avoid_: translation, locale file, variant, version
 
 **Canonical Edition**:
-The English `README.md`. It is the only Edition GitHub will ever render on the profile itself; the other three are reachable only by a reader who follows the Language Table.
+The English [`README.md`](./README.md). It is the only Edition GitHub will ever render on the profile itself; the other three are reachable only by a reader who follows the Language Table.
 _Avoid_: default readme, main readme, source of truth
 
 **Language Table**:
