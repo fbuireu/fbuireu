@@ -354,3 +354,9 @@ If you've reached this point, you deserve to meet ${\textcolor{purple}{\textnorm
 [![Wakatime Stats](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml)
 [![Follower Notifier](https://github.com/fbuireu/fbuireu/actions/workflows/follower-notifier.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/follower-notifier.yml)
 [![GitHub Star Tracker](https://github.com/fbuireu/fbuireu/actions/workflows/github-stars-tracker.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/github-stars-tracker.yml)
+
+-------
+
+## ⚖️ License
+
+The content of this profile is [MIT](./LICENSE) © Ferran Buireu. The third-party marks in `assets/` belong to their owners.

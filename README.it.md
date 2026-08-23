@@ -350,3 +350,9 @@ Se siete arrivati fin qui, meritate di incontrare ${\textcolor{purple}{\textnorm
 [![Wakatime Stats](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml)
 [![Follower Notifier](https://github.com/fbuireu/fbuireu/actions/workflows/follower-notifier.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/follower-notifier.yml)
 [![GitHub Star Tracker](https://github.com/fbuireu/fbuireu/actions/workflows/github-stars-tracker.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/github-stars-tracker.yml)
+
+-------
+
+## ⚖️ Licenza
+
+Il contenuto di questo profilo è [MIT](./LICENSE) © Ferran Buireu. I marchi di terze parti in `assets/` appartengono ai rispettivi proprietari.
