@@ -43,7 +43,7 @@ All five content workflows share one cron, `0 0 * * 0` (Sunday 00:00 UTC), and a
 
 Four maintenance workflows run on events rather than the clock: [`dependabot-auto-merge.yml`](./.github/workflows/dependabot-auto-merge.yml) and [`renovate-auto-approve.yml`](./.github/workflows/renovate-auto-approve.yml) handle Bot Updates, [`dependency-review.yml`](./.github/workflows/dependency-review.yml) runs on PRs to `main`, and [`zizmor.yml`](./.github/workflows/zizmor.yml) audits the workflows themselves ([ADR 0003](./docs/adr/0003-third-party-actions-are-pinned-to-commit-shas.md)).
 
-`.github/actions/create-auto-merge-pr` is the only first-party automation in the repository. Three Refreshes call it (`github-activity.yml`, `wakatime-stats.yml` and `snake-animation.yml`), and all three pass `force-merge: 'true'`. Read [ADR 0001](./docs/adr/0001-automated-updates-land-through-a-self-merging-pull-request.md) before changing anything in it.
+[`.github/actions/create-auto-merge-pr`](./.github/actions/create-auto-merge-pr) is the only first-party automation in the repository. Three Refreshes call it (`github-activity.yml`, `wakatime-stats.yml` and `snake-animation.yml`), and all three pass `force-merge: 'true'`. Read [ADR 0001](./docs/adr/0001-automated-updates-land-through-a-self-merging-pull-request.md) before changing anything in it.
 
 ## Branches
 

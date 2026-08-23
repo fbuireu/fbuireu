@@ -17,10 +17,10 @@ The tidy option is one source document plus a translation table, rendered into f
 Each Edition is a complete, hand-written document carrying its own Generated Regions. Automation fans out over the four files rather than over one source:
 
 - [`wakatime-stats.yml`](../../.github/workflows/wakatime-stats.yml) runs a matrix over `README.md`, [`README.ca.md`](../../README.ca.md), [`README.es.md`](../../README.es.md), [`README.it.md`](../../README.it.md), with `max-parallel: 1` so four Automated Updates do not race each other onto `main`.
-- [`github-activity.yml`](../../.github/workflows/github-activity.yml) invokes the same action four times, once per config under `.github/config/github-activity/`. Those configs are also where the per-locale wording of activity lines lives, and [`en.config.yml`](../../.github/config/github-activity/en.config.yml) carries no `messages:` block because English is the action's default.
+- [`github-activity.yml`](../../.github/workflows/github-activity.yml) invokes the same action four times, once per config under [`.github/config/github-activity/`](../../.github/config/github-activity). Those configs are also where the per-locale wording of activity lines lives, and [`en.config.yml`](../../.github/config/github-activity/en.config.yml) carries no `messages:` block because English is the action's default.
 
 ## Consequences
 
 - **An Authored Region edited in one Edition is wrong in the other three** until someone copies it across, and nothing detects the drift. This is the whole cost of the decision, and it is paid on every content edit, not on every Refresh.
-- **Adding a fifth language is five edits**, none of them optional: a new `README.xx.md`, a new activity config, a new entry in the WakaTime matrix, a new row in the Language Table (in all five Editions), and a flag under `assets/images/png/flags/`.
+- **Adding a fifth language is five edits**, none of them optional: a new `README.xx.md`, a new activity config, a new entry in the WakaTime matrix, a new row in the Language Table (in all five Editions), and a flag under [`assets/images/png/flags/`](../../assets/images/png/flags).
 - **The Generated Regions must exist in every Edition with identical markers**, because the workflows address them by marker, not by position. An Edition missing `<!--RECENT_ACTIVITY:start-->` is skipped in silence.
