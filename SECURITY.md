@@ -25,10 +25,11 @@ still worth a private report:
 2. Click "Report a vulnerability"
 3. Fill in the details
 
-### Alternative: Email
+### If private reporting is unavailable
 
-Send an email to **fbuireu@gmail.com** with what you found, where, and how to
-reproduce it.
+Private reporting is open to any GitHub account. If it is not available to you, open an issue asking me to get
+in touch and **say nothing about the finding in it**: the details belong in the private thread, not in a public
+issue.
 
 ### What to Expect
 
