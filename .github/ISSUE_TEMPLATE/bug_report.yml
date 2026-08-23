@@ -2,6 +2,7 @@ name: Bug Report
 description: Report a typo, a broken link, a translation mistake, or a workflow that misbehaves
 title: '[Bug]: '
 labels: ['bug', 'triage']
+assignees: ['fbuireu']
 body:
   - type: markdown
     attributes:
