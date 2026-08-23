@@ -1,6 +1,6 @@
 # Profile
 
-The domain of a GitHub profile that keeps itself current: what the profile says about its Owner, in which languages, and by which route each part of it arrives. Everything here is about the surfaces a reader sees and the provenance of what sits on them — not about the actions, tokens or YAML that fetch it.
+The domain of a GitHub profile that keeps itself current: what the profile says about its Owner, in which languages, and by which route each part of it arrives. Everything here is about the surfaces a reader sees and the provenance of what sits on them, not about the actions, tokens or YAML that fetch it.
 
 ## Surfaces
 
@@ -9,7 +9,7 @@ The document GitHub renders on `github.com/fbuireu` because this repository's na
 _Avoid_: readme, landing page, homepage, bio
 
 **Edition**:
-One complete language rendering of the Profile README. There are four — English, Catalan, Spanish, Italian — and each is a whole document rather than a fragment: an Edition that falls behind is wrong on its own, not partially translated.
+One complete language rendering of the Profile README. There are four (English, Catalan, Spanish, Italian), and each is a whole document rather than a fragment: an Edition that falls behind is wrong on its own, not partially translated.
 _Avoid_: translation, locale file, variant, version
 
 **Canonical Edition**:
@@ -27,11 +27,11 @@ A span inside an Edition delimited by a pair of HTML comment markers, whose cont
 _Avoid_: placeholder, slot, injected block, template
 
 **Authored Region**:
-Everything in an Edition outside a Generated Region — the links, the prose, the jokes, the Language Table. It changes only when a human changes it, and a Refresh is expected to leave it byte-identical.
+Everything in an Edition outside a Generated Region: the links, the prose, the jokes, the Language Table. It changes only when a human changes it, and a Refresh is expected to leave it byte-identical.
 _Avoid_: static content, manual section, hardcoded
 
 **Artefact**:
-A file produced by a Refresh and committed to this repository — an SVG, a badge, a CSV. Because it is served from a URL under this repository, it keeps working for exactly as long as the file does.
+A file produced by a Refresh and committed to this repository: an SVG, a badge, a CSV. Because it is served from a URL under this repository, it keeps working for exactly as long as the file does.
 _Avoid_: asset, output, build product, generated file
 
 **Embed**:
@@ -39,7 +39,7 @@ A third-party image URL written into an Edition and resolved by the reader's bro
 _Avoid_: badge, widget, external image, remote asset
 
 **Artefact Branch**:
-A branch holding Artefacts and nothing else, unrelated to the history on `main` and written by a single Refresh. Only the star tracker keeps one today; the snake and the metrics SVG are Artefacts committed to `main` and quoted from there. Wherever an Artefact is quoted from, that path is a public interface — moving it breaks every Edition, and breaks them silently.
+A branch holding Artefacts and nothing else, unrelated to the history on `main` and written by a single Refresh. Only the star tracker keeps one today; the snake and the metrics SVG are Artefacts committed to `main` and quoted from there. Wherever an Artefact is quoted from, that path is a public interface: moving it breaks every Edition, and breaks them silently.
 _Avoid_: data branch, output branch, orphan branch, gh-pages
 
 **Refresh**:
@@ -57,11 +57,11 @@ Merging an Automated Update with the Owner's administrative privileges instead o
 _Avoid_: admin merge, bypass, skip checks, override
 
 **Bot Update**:
-A pull request opened by a dependency bot rather than by a Refresh. It carries no profile content — only version bumps to the third-party actions the Refreshes depend on, whether routine or prompted by a security advisory.
+A pull request opened by a dependency bot rather than by a Refresh. It carries no profile content, only version bumps to the third-party actions the Refreshes depend on, whether routine or prompted by a security advisory.
 _Avoid_: dependency PR, renovate PR, dependabot PR
 
 **Update Type**:
-The severity a Bot Update is classified as — pin, patch, minor, major, or lock maintenance — and the sole input to whether it merges by itself or waits for the Owner.
+The severity a Bot Update is classified as (pin, patch, minor, major, or lock maintenance), and the sole input to whether it merges by itself or waits for the Owner.
 _Avoid_: semver bump, risk level, category
 
 ## Identity
@@ -75,7 +75,7 @@ The credential that lets a Refresh act as the Owner instead of as GitHub's own w
 _Avoid_: PAT, GITHUB_TOKEN, secret, credential
 
 **Integration Token**:
-A credential scoped to one external service a Refresh reads from — the time tracker, the music service, the map provider. Each names its own service and grants nothing on GitHub.
+A credential scoped to one external service a Refresh reads from: the time tracker, the music service, the map provider. Each names its own service and grants nothing on GitHub.
 _Avoid_: API key, third-party secret, service token
 
 **Pinned Action**:
@@ -85,5 +85,5 @@ _Avoid_: locked action, versioned action, dependency
 ## Notifications
 
 **Notification**:
-An email sent to the Owner when something the Profile watches has moved — a follower gained or lost, a star count changed. It reports; it never writes to an Edition.
+An email sent to the Owner when something the Profile watches has moved: a follower gained or lost, a star count changed. It reports; it never writes to an Edition.
 _Avoid_: alert, digest, report, ping

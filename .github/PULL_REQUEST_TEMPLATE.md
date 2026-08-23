@@ -17,7 +17,7 @@
 <!-- Please check all that apply using "x" -->
 
 - [ ] A text fix touches **every Edition** it appears in (`README.md`, `README.ca.md`, `README.es.md`, `README.it.md`); a translation fix touches only its own
-- [ ] I did not edit inside a Generated Region's markers — that content is machine-written and would be overwritten within a week
+- [ ] I did not edit inside a Generated Region's markers, since that content is machine-written and would be overwritten within a week
 - [ ] A workflow change keeps its `permissions` block as narrow as before
 - [ ] I updated `CONTEXT.md`, `CLAUDE.md` or the ADRs if my change affects them, in this same PR
 

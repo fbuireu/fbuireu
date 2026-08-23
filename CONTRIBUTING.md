@@ -1,6 +1,6 @@
 # Contributing to fbuireu/fbuireu
 
-A caveat up front: this is one person's GitHub profile — the README rendered
+A caveat up front: this is one person's GitHub profile, the README rendered
 at [github.com/fbuireu](https://github.com/fbuireu) and the automation that
 keeps it current. It is personal by definition, so the contributions that fit
 are small: a typo, a broken translation, a dead link, a workflow that stopped
@@ -16,15 +16,15 @@ By participating you are expected to uphold the
 
 ## The two things to know before editing
 
-1. **The profile exists in four Editions** — `README.md` (English, the one
+1. **The profile exists in four Editions**: `README.md` (English, the one
    GitHub renders), `README.ca.md`, `README.es.md` and `README.it.md`. Each is
    a whole document, deliberately not generated from a shared source. A text
    fix in one Edition almost always needs the same fix in the other three; a
    translation fix needs only its own.
 
 2. **Parts of every Edition are machine-written.** The Generated Regions
-   between markers are rewritten on a weekly schedule by GitHub Actions — do
-   not edit inside the markers, your change will be overwritten within a week.
+   between markers are rewritten on a weekly schedule by GitHub Actions. Do
+   not edit inside the markers: your change will be overwritten within a week.
    The marker spelling differs between regions on purpose; do not normalise it.
 
 There is nothing to install and nothing to build: the tree is markdown, images
