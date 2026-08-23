@@ -14,17 +14,17 @@ Four Editions, each a whole document ([ADR 0004](./docs/adr/0004-each-locale-is-
 
 | File | Locale | Rendered by GitHub on the profile |
 | --- | --- | --- |
-| `README.md` | English (Canonical) | yes |
-| `README.ca.md` | Catalan | no |
-| `README.es.md` | Spanish | no |
-| `README.it.md` | Italian | no |
+| [`README.md`](./README.md) | English (Canonical) | yes |
+| [`README.ca.md`](./README.ca.md) | Catalan | no |
+| [`README.es.md`](./README.es.md) | Spanish | no |
+| [`README.it.md`](./README.it.md) | Italian | no |
 
 Each carries the same two Generated Regions, addressed by marker rather than by position. The marker spelling belongs to the tool that writes it, which is why the two do not match each other. Do not "normalise" them:
 
 | Region | Markers | Written by |
 | --- | --- | --- |
-| Recent activity | `<!--RECENT_ACTIVITY:start-->` … `<!--RECENT_ACTIVITY:end-->` | `github-activity.yml` |
-| WakaTime weekly | `<!--START_SECTION:waka-->` … `<!--END_SECTION:waka-->` | `wakatime-stats.yml` |
+| Recent activity | `<!--RECENT_ACTIVITY:start-->` … `<!--RECENT_ACTIVITY:end-->` | [`github-activity.yml`](./.github/workflows/github-activity.yml) |
+| WakaTime weekly | `<!--START_SECTION:waka-->` … `<!--END_SECTION:waka-->` | [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml) |
 
 Everything else in an Edition is an Authored Region and is expected to survive a Refresh byte-identical. Most of what looks generated in an Edition is not: the shields.io badges, the stats cards, the streak, the activity graph and the Spotify strip are Embeds, resolved live from somebody else's server when a reader opens the profile. Nothing here fetches or stores them, and nothing here notices when one dies.
 
@@ -36,12 +36,12 @@ All five content workflows share one cron, `0 0 * * 0` (Sunday 00:00 UTC), and a
 | --- | --- | --- |
 | `github-activity.yml` | the activity region in all four Editions | `main`, one Automated Update |
 | `wakatime-stats.yml` | the WakaTime region, matrix over the four Editions, `max-parallel: 1` | `main`, one Automated Update per Edition |
-| `snake-animation.yml` | `dist/github-contribution-grid-snake.svg` and `-dark.svg` | `main`, one Automated Update |
-| `global-metrics.yml` | `assets/images/svg/github-metrics.svg` | `main`, its own PR, force-merged by a step of its own, the exception in [ADR 0001](./docs/adr/0001-automated-updates-land-through-a-self-merging-pull-request.md) |
-| `github-stars-tracker.yml` | star data, charts, badge | `star-tracker-data` branch, plus an email when the count moved |
-| `follower-notifier.yml` | nothing | email only |
+| [`snake-animation.yml`](./.github/workflows/snake-animation.yml) | [`dist/github-contribution-grid-snake.svg`](./dist/github-contribution-grid-snake.svg) and `-dark.svg` | `main`, one Automated Update |
+| [`global-metrics.yml`](./.github/workflows/global-metrics.yml) | [`assets/images/svg/github-metrics.svg`](./assets/images/svg/github-metrics.svg) | `main`, its own PR, force-merged by a step of its own, the exception in [ADR 0001](./docs/adr/0001-automated-updates-land-through-a-self-merging-pull-request.md) |
+| [`github-stars-tracker.yml`](./.github/workflows/github-stars-tracker.yml) | star data, charts, badge | `star-tracker-data` branch, plus an email when the count moved |
+| [`follower-notifier.yml`](./.github/workflows/follower-notifier.yml) | nothing | email only |
 
-Four maintenance workflows run on events rather than the clock: `dependabot-auto-merge.yml` and `renovate-auto-approve.yml` handle Bot Updates, `dependency-review.yml` runs on PRs to `main`, and `zizmor.yml` audits the workflows themselves ([ADR 0003](./docs/adr/0003-third-party-actions-are-pinned-to-commit-shas.md)).
+Four maintenance workflows run on events rather than the clock: [`dependabot-auto-merge.yml`](./.github/workflows/dependabot-auto-merge.yml) and [`renovate-auto-approve.yml`](./.github/workflows/renovate-auto-approve.yml) handle Bot Updates, [`dependency-review.yml`](./.github/workflows/dependency-review.yml) runs on PRs to `main`, and [`zizmor.yml`](./.github/workflows/zizmor.yml) audits the workflows themselves ([ADR 0003](./docs/adr/0003-third-party-actions-are-pinned-to-commit-shas.md)).
 
 `.github/actions/create-auto-merge-pr` is the only first-party automation in the repository. Three Refreshes call it (`github-activity.yml`, `wakatime-stats.yml` and `snake-animation.yml`), and all three pass `force-merge: 'true'`. Read [ADR 0001](./docs/adr/0001-automated-updates-land-through-a-self-merging-pull-request.md) before changing anything in it.
 
@@ -88,8 +88,8 @@ Propose an ADR in [`docs/adr/`](./docs/adr/) when a decision is **hard to revers
 
 ## Gotchas
 
-- **`log.js` is not code.** Two lines of `console.log` whose comment says it exists to keep GitHub's CodeQL language detection happy. Nothing imports it, nothing runs it, and deleting it is the obvious tidy-up, but CodeQL is live on this repository through GitHub's default setup rather than a workflow in the tree, and its `javascript-typescript` analysis reports on every pull request. That is very likely the thing `log.js` is propping up, so leave it: it is cheap to keep and its absence would be silent.
-- **Dependabot and Renovate are both wired up, and they are not doing the same job.** Renovate is the way in for version updates: `renovate.json` classifies Bot Updates, pins digests and auto-merges pin/patch/minor. Dependabot is deliberately left with **no `dependabot.yml`**, and that absence is the configuration, because without it GitHub opens Dependabot pull requests for security advisories only, and `dependabot-auto-merge.yml` exists to land those fast. Renovate watches advisories too (`:enableVulnerabilityAlerts`, `osvVulnerabilityAlerts`); the overlap is wanted, since two advisory sources catch more than either alone.
+- **[`log.js`](./log.js) is not code.** Two lines of `console.log` whose comment says it exists to keep GitHub's CodeQL language detection happy. Nothing imports it, nothing runs it, and deleting it is the obvious tidy-up, but CodeQL is live on this repository through GitHub's default setup rather than a workflow in the tree, and its `javascript-typescript` analysis reports on every pull request. That is very likely the thing `log.js` is propping up, so leave it: it is cheap to keep and its absence would be silent.
+- **Dependabot and Renovate are both wired up, and they are not doing the same job.** Renovate is the way in for version updates: [`renovate.json`](./.github/renovate.json) classifies Bot Updates, pins digests and auto-merges pin/patch/minor. Dependabot is deliberately left with **no `dependabot.yml`**, and that absence is the configuration, because without it GitHub opens Dependabot pull requests for security advisories only, and `dependabot-auto-merge.yml` exists to land those fast. Renovate watches advisories too (`:enableVulnerabilityAlerts`, `osvVulnerabilityAlerts`); the overlap is wanted, since two advisory sources catch more than either alone.
 
   Two ways to break this, both of which look like cleanups: **adding `dependabot.yml`** turns Dependabot into a second version-update bot and the two *will* collide on the same pins and the same labels; **deleting `dependabot-auto-merge.yml`** leaves security updates sitting open with nothing to merge them.
 - **A Force Merge ignores branch protection.** Adding a required check to `main` will not gate the Refreshes; it will only gate Bot Updates ([ADR 0001](./docs/adr/0001-automated-updates-land-through-a-self-merging-pull-request.md)).
