@@ -5,7 +5,6 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
-  pull-requests: write
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false
@@ -23,7 +22,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          token: ${{ secrets.PAT }}
           persist-credentials: false
       - name: Fetch Wakatime stats
         uses: athul/waka-readme@370590ad8da8f54282ed92aa42b7c25ecbd5a9a6 # master
@@ -32,11 +30,3 @@ jobs:
           TARGET_PATH: ${{ matrix.readme }}
           GH_TOKEN: ${{ secrets.PAT }}
           COMMIT_MESSAGE: 'docs: update ${{ matrix.readme }} with latest WakaTime stats'
-      - name: Create and auto-merge PR
-        uses: ./.github/actions/create-auto-merge-pr
-        with:
-          token: ${{ secrets.PAT }}
-          commit-message: 'docs: update ${{ matrix.readme }} with latest WakaTime stats'
-          title: '🤖 [AUTOMATED] Update WakaTime Stats - ${{ matrix.readme }}'
-          branch: 'wakatime-${{ matrix.readme }}-${{ github.run_number }}'
-          force-merge: 'true'

@@ -49,7 +49,7 @@ _Avoid_: run, job, build, sync, update
 ## Landing Changes
 
 **Automated Update**:
-The pull request a Refresh opens against `main` carrying whatever it regenerated. It is how a Refresh is expected to land, and all but one do; the recent-activity Refresh pushes straight to `main` because the action it runs commits and pushes on its own.
+The pull request a Refresh opens against `main` carrying whatever it regenerated. It is how a Refresh is expected to land when the tool it runs leaves something to land: only the snake Refresh does today, because the two README generators commit and push on their own.
 _Avoid_: bot commit, auto-commit, automated PR
 
 **Force Merge**:
