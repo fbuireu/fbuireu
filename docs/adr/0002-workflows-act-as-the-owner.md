@@ -4,7 +4,7 @@ Date: 2026-07-31
 
 ## Status
 
-Accepted.
+Accepted. Amended 2026-08-28: the recent-activity steps moved to `GITHUB_TOKEN`, and `github-stars-tracker.yml` stopped persisting the Owner Token, which is what the last Consequence had claimed all along.
 
 ## Context
 
@@ -19,7 +19,7 @@ Beyond GitHub, five Refreshes read from services that have nothing to do with th
 
 `secrets.PAT` is the Owner Token, and it is used wherever a step must *be* the Owner: `actions/checkout` in the workflows that push, the pull request created by `create-auto-merge-pr`, `gh pr merge`, `gh pr review --approve`, and the star tracker's own repository reads.
 
-`GITHUB_TOKEN` is kept for everything that only reads or comments: the major-update comment in [`dependabot-auto-merge.yml`](../../.github/workflows/dependabot-auto-merge.yml), the checkout and `committer_token` in [`global-metrics.yml`](../../.github/workflows/global-metrics.yml), the contribution-grid generator in [`snake-animation.yml`](../../.github/workflows/snake-animation.yml), the orphan-branch cleanup, and (implicitly, by not being given anything else) [`dependency-review.yml`](../../.github/workflows/dependency-review.yml) and [`zizmor.yml`](../../.github/workflows/zizmor.yml).
+`GITHUB_TOKEN` is kept for everything that only reads or comments: the major-update comment in [`dependabot-auto-merge.yml`](../../.github/workflows/dependabot-auto-merge.yml), the checkout and `committer_token` in [`global-metrics.yml`](../../.github/workflows/global-metrics.yml), the contribution-grid generator in [`snake-animation.yml`](../../.github/workflows/snake-animation.yml), the four recent-activity steps in [`github-activity.yml`](../../.github/workflows/github-activity.yml), which call `activity.listPublicEventsForUser` and nothing else and push with the credential the checkout left rather than with what they are handed, the orphan-branch cleanup, and (implicitly, by not being given anything else) [`dependency-review.yml`](../../.github/workflows/dependency-review.yml) and [`zizmor.yml`](../../.github/workflows/zizmor.yml).
 
 Every external service gets its own Integration Token, named for that service and granting nothing on GitHub: `METRICS_TOKEN`, `WAKATIME_TOKEN`, `FOLLOWERS_NOTIFIER_TOKEN`, `SPOTIFY_CLIENT_ID`/`SPOTIFY_CLIENT_SECRET`/`SPOTIFY_REFRESH_TOKEN`, `STEAM_TOKEN`, `GOOGLE_MAPS_TOKEN`, `PAGESPEED_TOKEN`, `MAIL_PASSWORD`. The Owner Token is never passed to one.
 

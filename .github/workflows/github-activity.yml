@@ -5,7 +5,6 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
-  pull-requests: write
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
   cancel-in-progress: true
@@ -22,32 +21,24 @@ jobs:
       - name: Run recent activity (EN)
         uses: Readme-Workflows/recent-activity@2750d2b82f226b7327039aa8c3ff96748396ef80 # main (2026-06-08): removes dead glitch.me telemetry; no tag released yet
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }} 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           CONFIG_FILE: ./.github/config/github-activity/en.config.yml
       - name: Run recent activity (CA)
         uses: Readme-Workflows/recent-activity@2750d2b82f226b7327039aa8c3ff96748396ef80 # main (2026-06-08): removes dead glitch.me telemetry; no tag released yet
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }} 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           CONFIG_FILE: ./.github/config/github-activity/ca.config.yml
       - name: Run recent activity (IT)
         uses: Readme-Workflows/recent-activity@2750d2b82f226b7327039aa8c3ff96748396ef80 # main (2026-06-08): removes dead glitch.me telemetry; no tag released yet
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }} 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           CONFIG_FILE: ./.github/config/github-activity/it.config.yml      
       - name: Run recent activity (ES)
         uses: Readme-Workflows/recent-activity@2750d2b82f226b7327039aa8c3ff96748396ef80 # main (2026-06-08): removes dead glitch.me telemetry; no tag released yet
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }} 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           CONFIG_FILE: ./.github/config/github-activity/es.config.yml 
-      - name: Create and auto-merge PR
-        uses: ./.github/actions/create-auto-merge-pr
-        with:
-          token: ${{ secrets.PAT }}
-          commit-message: 'docs: update github activity'
-          title: '🤖 [AUTOMATED] Update GitHub Activity'
-          branch: 'activity-update-${{ github.run_number }}'
-          force-merge: 'true'
