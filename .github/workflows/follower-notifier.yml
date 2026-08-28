@@ -4,10 +4,14 @@ on:
     - cron: 0 0 * * 0
   workflow_dispatch:
 permissions: {}
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
 jobs:
   build:
     name: Followers Notifier
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Get followers change
         id: followers_change
