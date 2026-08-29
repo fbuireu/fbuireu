@@ -51,7 +51,8 @@ Four maintenance workflows run on events rather than the clock: [`dependabot-aut
 | --- | --- | --- |
 | `main` | the Editions, `assets/`, `dist/`, the workflows | Refreshes, via Automated Updates |
 | `star-tracker-data` | `stars-data.json`/`.csv`, `charts/*.svg`, `stars-badge.svg`, a report | `fbuireu/github-star-tracker` |
-| `snake-grid-animation` | two contribution-grid SVGs, last written 2025-06-26 | **nothing**: dead leftover of the old `snk` push mode, referenced by nothing since the Editions were repointed at `dist/`. **Delete it**: `git push origin :snake-grid-animation`. It is the last open item in this file that needs a hand on a keyboard |
+
+Those two are the whole list. `snk` can write its output to a branch of its own, the way it did here until 2025-06-26, and [`snake-animation.yml`](./.github/workflows/snake-animation.yml) does not: it writes both SVGs into `dist/` and lands them on `main` like any other Refresh, which is where the Editions quote them from.
 
 ## Secrets and variables
 
@@ -100,7 +101,7 @@ Propose an ADR in [`docs/adr/`](./docs/adr/) when a decision is **hard to revers
 - **The skyline plugin points at GitHub City, not at GitHub.** `skyline.github.com/<user>/<year>` returns a 404 and `github/skyline` has been deleted: GitHub retired the site in favour of the `gh skyline` CLI, which emits an `.stl` and is no use to a plugin that works by screenshotting a web page. The plugin never touched the GitHub API for this: it drives puppeteer over whatever `plugin_skyline_settings.url` says, records frames and embeds the animation in the SVG, so repointing it is pure configuration. What it points at now is [honzaap's GitHub City](https://github.com/honzaap/GithubCity), the alternative the plugin's own README documents. Two things follow. The `ready` and `hide` selectors are that site's DOM, so they break when it changes and the symptom is a 90-second `TimeoutError`, not a 404. The old default died exactly that way, waiting forever for a `Share on Twitter` span. And `plugin_skyline_year` is deliberately unset: the plugin resolves `${year}` to the runner's current year only while the input is absent, so pinning it freezes the animation on that year.
 - **Nothing on the profile shows the star tracker's output.** `github-stars-tracker.yml` writes charts and a badge to `star-tracker-data` and emails the report; no Edition embeds any of it.
 - **`{AMOUNT}` is dead in the push message, permanently.** GitHub removed `size` and `distinct_size` from the `PushEvent` payload of `GET /users/{user}/events/public`; the keys are simply absent now, so `recent-activity` renders the placeholder as the literal string `undefined`. All four activity configs therefore state the push message without a count. Restoring `{AMOUNT}` puts `undefined` back on the profile in every language; no version of the action can fix it, because the number is no longer served.
-- **The snake is quoted from `dist/` on `main`, not from a branch.** `snake-animation.yml` writes both SVGs there weekly. The dark variant is the `prefers-color-scheme: dark` source; the light variant is both the light source and the `<img>` fallback. Repointing either at `snake-grid-animation` reintroduces a year-old image.
+- **The snake is quoted from `dist/` on `main`, not from a branch.** `snake-animation.yml` writes both SVGs there weekly. The dark variant is the `prefers-color-scheme: dark` source; the light variant is both the light source and the `<img>` fallback. The branch that used to hold them, `snake-grid-animation`, was deleted on 2026-08-29; nothing had written to it since 2025-06-26 and no Edition had quoted it since they were repointed at `dist/`.
 
 ## Known inconsistencies
 
