@@ -235,11 +235,11 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. 💪 Ha obert una PR [#180](undefined) a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-2. 💪 Ha obert una PR [#124](undefined) a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
-3. 💬 Ha comentat a [#358](https://github.com/fbuireu/forever-pto/pull/358#issuecomment-5379801525) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-4. 💬 Ha comentat a [#362](https://github.com/fbuireu/forever-pto/pull/362#issuecomment-5379801344) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-5. 💬 Ha comentat a [#354](https://github.com/fbuireu/forever-pto/pull/354#issuecomment-5379801181) a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+1. ⬆️ Ha empès canvis a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+2. ⬆️ Ha empès canvis a [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+3. ⬆️ Ha empès canvis a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+4. ⬆️ Ha empès canvis a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+5. ⬆️ Ha empès canvis a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
