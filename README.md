@@ -239,11 +239,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 ## 👨🏻‍💻 Check out my GitHub stats
 ### Latest Activity
 <!--RECENT_ACTIVITY:start-->
-1. 💪 Opened PR [#180](undefined) in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-2. 💪 Opened PR [#124](undefined) in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
-3. 💬 Commented on [#358](https://github.com/fbuireu/forever-pto/pull/358#issuecomment-5379801525) in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-4. 💬 Commented on [#362](https://github.com/fbuireu/forever-pto/pull/362#issuecomment-5379801344) in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-5. 💬 Commented on [#354](https://github.com/fbuireu/forever-pto/pull/354#issuecomment-5379801181) in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+1. ⬆️ Pushed commits to [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+2. ⬆️ Pushed commits to [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+3. ⬆️ Pushed commits to [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+4. ⬆️ Pushed commits to [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+5. ⬆️ Pushed commits to [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
