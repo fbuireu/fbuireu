@@ -20,7 +20,7 @@ jobs:
           persist-credentials: false
       - name: Track star changes
         id: tracker
-        uses: fbuireu/github-star-tracker@9aa9eaf6738992cc2e2616c7f79cd62259269e9c # v1.25.0
+        uses: fbuireu/github-star-tracker@598b14cb3a2ccf576509bedd30eb9e03fc99aab2 # v1.26.1
         with:
           github-token: ${{ secrets.PAT }}
           visibility: public
