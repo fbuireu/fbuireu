@@ -38,7 +38,7 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
           commit-message: 'docs: update snake grid animation'
-          title: '🤖 [AUTOMATED] Update Snake Grid Animation'
+          title: 'docs: update snake grid animation'
           branch: 'snake-animation-update-${{ github.run_number }}'
           force-merge: 'true'
           max-retries: '5'

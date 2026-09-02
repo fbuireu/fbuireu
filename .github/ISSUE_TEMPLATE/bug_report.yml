@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report a typo, a broken link, a translation mistake, or a workflow that misbehaves
+description: Report a bug or unexpected behavior in the profile
 title: '[Bug]: '
 labels: ['bug', 'triage']
 assignees: ['fbuireu']
@@ -7,43 +7,51 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for the report! If what you found involves the workflows' secrets or a link that could harm someone, please use the Security Policy (linked when you chose a template) instead of a public issue.
-  - type: dropdown
-    id: kind
-    attributes:
-      label: What kind of problem?
-      options:
-        - Typo or wording
-        - Broken link or image
-        - Translation mistake
-        - A Generated Region looks wrong or stale
-        - Workflow failure
-        - Other
-    validations:
-      required: true
-  - type: dropdown
-    id: edition
-    attributes:
-      label: Which Edition?
-      description: The profile exists in four languages
-      options:
-        - English (README.md)
-        - Catalan (README.ca.md)
-        - Spanish (README.es.md)
-        - Italian (README.it.md)
-        - Several / all
-        - Not applicable
-    validations:
-      required: true
+        Thanks for taking the time to fill out this bug report! Please provide as much detail as possible.
+
+        Say which Edition (language) shows the problem, and whether it is inside a Generated Region: those are rewritten weekly by a workflow, not by hand.
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: What is wrong, and where?
+      description: A clear and concise description of what the bug is.
+      placeholder: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Where you saw it
+      placeholder: github.com/fbuireu in Chrome, the mobile app...
     validations:
       required: true
   - type: textarea
     id: additional
     attributes:
       label: Additional Context
-      description: Screenshots or links help
+      description: Screenshots, logs, console errors, or any other relevant information

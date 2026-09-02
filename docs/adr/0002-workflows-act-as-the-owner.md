@@ -11,7 +11,7 @@ Accepted. Amended 2026-08-28: the recent-activity steps moved to `GITHUB_TOKEN`,
 `secrets.GITHUB_TOKEN` is free, scoped to this repository, expires with the job and needs no maintenance. It is the right default, and it cannot do two things this repository depends on:
 
 - **A commit made with it does not trigger another workflow.** That is a deliberate GitHub loop-breaker, and it means an Automated Update merged with `GITHUB_TOKEN` starts nothing downstream.
-- **A review submitted with it is authored by `github-actions[bot]`, not by the Owner.** [`renovate-auto-approve.yml`](../../.github/workflows/renovate-auto-approve.yml) counts approvals whose author is `github.repository_owner` before deciding whether to add one, and that check can never be satisfied by the workflow identity.
+- **A review submitted with it is authored by `github-actions[bot]`, not by the Owner.** A `renovate-auto-approve.yml` workflow used to count approvals whose author is `github.repository_owner` before deciding whether to add one, and that check could never be satisfied by the workflow identity. The `main` ruleset requires no approval now, so that workflow is gone, and the point stands for anything that would submit a review here.
 
 Beyond GitHub, five Refreshes read from services that have nothing to do with this repository, and handing them a GitHub credential would be pointless as well as dangerous.
 
