@@ -8,18 +8,18 @@ Accepted. Amended 2026-08-28: the recent-activity steps moved to `GITHUB_TOKEN`,
 
 ## Context
 
-`secrets.GITHUB_TOKEN` is free, scoped to this repository, expires with the job and needs no maintenance. It is the right default, and it cannot do two things this repository depends on:
+`secrets.GITHUB_TOKEN` is free, scoped to this repository, expires with the job and needs no maintenance. It is the right default, and it cannot do some things this repository depends on:
 
 - **A commit made with it does not trigger another workflow.** That is a deliberate GitHub loop-breaker, and it means an Automated Update merged with `GITHUB_TOKEN` starts nothing downstream.
 - **A review submitted with it is authored by `github-actions[bot]`, not by the Owner.** A `renovate-auto-approve.yml` workflow used to count approvals whose author is `github.repository_owner` before deciding whether to add one, and that check could never be satisfied by the workflow identity. The `main` ruleset requires no approval now, so that workflow is gone, and the point stands for anything that would submit a review here.
 
-Beyond GitHub, five Refreshes read from services that have nothing to do with this repository, and handing them a GitHub credential would be pointless as well as dangerous.
+Beyond GitHub, most Refreshes read from services that have nothing to do with this repository, and handing them a GitHub credential would be pointless as well as dangerous.
 
 ## Decision
 
 `secrets.PAT` is the Owner Token, and it is used wherever a step must *be* the Owner: `actions/checkout` in the workflows that push, the pull request created by `create-auto-merge-pr`, `gh pr merge`, `gh pr review --approve`, and the star tracker's own repository reads.
 
-`GITHUB_TOKEN` is kept for everything that only reads or comments: the major-update comment in [`dependabot-auto-merge.yml`](../../.github/workflows/dependabot-auto-merge.yml), the checkout and `committer_token` in [`global-metrics.yml`](../../.github/workflows/global-metrics.yml), the contribution-grid generator in [`snake-animation.yml`](../../.github/workflows/snake-animation.yml), the four recent-activity steps in [`github-activity.yml`](../../.github/workflows/github-activity.yml), which call `activity.listPublicEventsForUser` and nothing else and push with the credential the checkout left rather than with what they are handed, the orphan-branch cleanup, and (implicitly, by not being given anything else) [`dependency-review.yml`](../../.github/workflows/dependency-review.yml) and [`zizmor.yml`](../../.github/workflows/zizmor.yml).
+`GITHUB_TOKEN` is kept for everything that only reads or comments: the major-update comment in [`dependabot-auto-merge.yml`](../../.github/workflows/dependabot-auto-merge.yml), the checkout and `committer_token` in [`global-metrics.yml`](../../.github/workflows/global-metrics.yml), the contribution-grid generator in [`snake-animation.yml`](../../.github/workflows/snake-animation.yml), the recent-activity steps in [`github-activity.yml`](../../.github/workflows/github-activity.yml), which call `activity.listPublicEventsForUser` and nothing else and push with the credential the checkout left rather than with what they are handed, the orphan-branch cleanup, and (implicitly, by not being given anything else) [`dependency-review.yml`](../../.github/workflows/dependency-review.yml) and [`zizmor.yml`](../../.github/workflows/zizmor.yml).
 
 Every external service gets its own Integration Token, named for that service and granting nothing on GitHub: `METRICS_TOKEN`, `WAKATIME_TOKEN`, `FOLLOWERS_NOTIFIER_TOKEN`, `SPOTIFY_CLIENT_ID`/`SPOTIFY_CLIENT_SECRET`/`SPOTIFY_REFRESH_TOKEN`, `STEAM_TOKEN`, `GOOGLE_MAPS_TOKEN`, `PAGESPEED_TOKEN`, `MAIL_PASSWORD`. The Owner Token is never passed to one.
 

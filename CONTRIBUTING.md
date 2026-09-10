@@ -14,12 +14,12 @@ The working rules are [CLAUDE.md](./CLAUDE.md); the vocabulary is
 By participating you are expected to uphold the
 [Code of Conduct](./CODE_OF_CONDUCT.md).
 
-## The two things to know before editing
+## What to know before editing
 
-1. **The profile exists in four Editions**: [`README.md`](./README.md) (English, the one
+1. **The profile exists in several Editions**: [`README.md`](./README.md) (English, the one
    GitHub renders), [`README.ca.md`](./README.ca.md), [`README.es.md`](./README.es.md) and [`README.it.md`](./README.it.md). Each is
    a whole document, deliberately not generated from a shared source. A text
-   fix in one Edition almost always needs the same fix in the other three; a
+   fix in one Edition almost always needs the same fix in the others; a
    translation fix needs only its own.
 
 2. **Parts of every Edition are machine-written.** The Generated Regions
@@ -33,7 +33,7 @@ and YAML, and it stays that way by decision.
 ## How to contribute
 
 - **A typo or a broken link** → a PR touching every Edition it appears in, or
-  an issue if you'd rather not chase all four
+  an issue if you'd rather not chase every one of them
 - **A translation mistake** → a PR touching that Edition only
 - **A workflow that misbehaves** → an issue; the automation runs with secrets,
   so changes to it are reviewed carefully

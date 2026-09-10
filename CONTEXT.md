@@ -9,15 +9,15 @@ The document GitHub renders on `github.com/fbuireu` because this repository's na
 _Avoid_: readme, landing page, homepage, bio
 
 **Edition**:
-One complete language rendering of the Profile README. There are four (English, Catalan, Spanish, Italian), and each is a whole document rather than a fragment: an Edition that falls behind is wrong on its own, not partially translated.
+One complete language rendering of the Profile README, in English, Catalan, Spanish and Italian. Each is a whole document rather than a fragment: an Edition that falls behind is wrong on its own, not partially translated.
 _Avoid_: translation, locale file, variant, version
 
 **Canonical Edition**:
-The English [`README.md`](./README.md). It is the only Edition GitHub will ever render on the profile itself; the other three are reachable only by a reader who follows the Language Table.
+The English [`README.md`](./README.md). It is the only Edition GitHub will ever render on the profile itself; the others are reachable only by a reader who follows the Language Table.
 _Avoid_: default readme, main readme, source of truth
 
 **Language Table**:
-The switcher at the head of every Edition, listing all four with a pin marking the one being read. It is the only navigation between Editions, and it is written by hand in each of them.
+The switcher at the head of every Edition, listing them all with a pin marking the one being read. It is the only navigation between Editions, and it is written by hand in each of them.
 _Avoid_: language switcher, nav, locale selector
 
 ## Provenance
@@ -49,7 +49,7 @@ _Avoid_: run, job, build, sync, update
 ## Landing Changes
 
 **Automated Update**:
-The pull request a Refresh opens against `main` carrying whatever it regenerated. It is how a Refresh is expected to land when the tool it runs leaves something to land: only the snake Refresh does today, because the two README generators commit and push on their own.
+The pull request a Refresh opens against `main` carrying whatever it regenerated. It is how a Refresh is expected to land when the tool it runs leaves something to land: only the snake Refresh does today, because the README generators commit and push on their own.
 _Avoid_: bot commit, auto-commit, automated PR
 
 **Force Merge**:
