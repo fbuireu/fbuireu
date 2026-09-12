@@ -10,7 +10,7 @@ Accepted. Amended 2026-08-28: [`github-activity.yml`](../../.github/workflows/gi
 
 A Refresh has to get regenerated content onto `main`. The obvious route is the one most profile repositories take and the one several of the actions used here offer out of the box: commit and `git push` straight to `main` from inside the workflow. It fails at several things this repository wants:
 
-- **No record to inspect.** These generators do produce garbage: every Edition currently carries `Pushed undefined commit(s)` in its activity region. A push leaves the damage in the branch history with no object to look at, reopen or revert as a unit.
+- **No record to inspect.** These generators do produce garbage: every Edition carried `Pushed undefined commit(s)` in its activity region for as long as the configs asked for a count GitHub had stopped serving. A push leaves the damage in the branch history with no object to look at, reopen or revert as a unit.
 - **Every generator its own way.** A scheduled workflow per generator, a third-party action behind each, and as many ideas of how to commit. A shared landing path is the only place run metadata, branch naming and retry behaviour can be stated once.
 - **A direct push cannot be gated later.** Adding any review requirement to `main` would mean rewriting every one of those workflows rather than one composite action.
 

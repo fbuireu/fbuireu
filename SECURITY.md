@@ -33,7 +33,7 @@ issue.
 
 ### What to Expect
 
-- **Acknowledgment**: we'll acknowledge receipt within 48 hours
+- **Acknowledgment**: I'll acknowledge receipt within 48 hours
 - **Timeline**: workflow and link fixes ship with a push, so confirmed
   reports should be fixed within days
-- **Credit**: we'll credit you (unless you prefer to remain anonymous)
+- **Credit**: I'll credit you (unless you prefer to remain anonymous)

@@ -16,7 +16,7 @@ Pinning to tags is what almost every profile repository does, reads better, and 
 
 Every `uses:` names a full commit SHA, with the human-readable version in a trailing comment. Renovate maintains both (`pinDigests: true` and `rangeStrategy: pin` in [`.github/renovate.json`](../../.github/renovate.json)), and pin, patch and minor Bot Updates merge themselves while major ones wait for the Owner. [`zizmor.yml`](../../.github/workflows/zizmor.yml) runs on every push to `main` and every pull request and reports into code scanning, so a regression is caught on the Bot Update that introduces it.
 
-Some pins deliberately reference a branch commit rather than a release, and the comment says why rather than leaving a reader to guess: `Readme-Workflows/recent-activity` (the commit that removes dead glitch.me telemetry is unreleased) and `athul/waka-readme` (master).
+Three pins deliberately reference a branch commit rather than a release, and each comment names the branch so a reader can see it is not a tag: `Readme-Workflows/recent-activity` on `main`, `athul/waka-readme` on `master`, and `gh-metrics/metrics` on `master`, ahead of the `v3.35.0-beta` its comment records. Only the first says *why* in its comment (the commit that removes dead glitch.me telemetry is unreleased); for the other two the reason is upstream's release habits and is not written down here.
 
 ## Consequences
 
