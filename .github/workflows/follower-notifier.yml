@@ -20,7 +20,7 @@ jobs:
           myToken: ${{ secrets.FOLLOWERS_NOTIFIER_TOKEN }}
           notifyUnFollowEvent: true
       - name: Email me
-        uses: dawidd6/action-send-mail@94de994a9f6fffee200243214e17002e2920bb59 # v18
+        uses: dawidd6/action-send-mail@03a02a49409134de07636216fb379a026c52991e # v21
         if: steps.followers_change.outputs.shouldNotify == 'true'
         with:
           server_address: ${{ vars.SMTP_SERVER }}
