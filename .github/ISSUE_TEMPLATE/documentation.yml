@@ -14,7 +14,7 @@ body:
       label: Documentation Type
       description: Which document is it about?
       options:
-        - CLAUDE.md guide
+        - AGENTS.md guide
         - CONTEXT.md glossary
         - An ADR
         - Other

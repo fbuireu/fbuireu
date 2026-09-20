@@ -6,7 +6,7 @@ keeps it current. It is personal by definition, so the contributions that fit
 are small: a typo, a broken translation, a dead link, a workflow that stopped
 working. For anything bigger, open an issue first.
 
-The working rules are [CLAUDE.md](./CLAUDE.md); the vocabulary is
+The working rules are [AGENTS.md](./AGENTS.md); the vocabulary is
 [CONTEXT.md](./CONTEXT.md); the decisions are [docs/adr/](./docs/adr/).
 
 ## Code of Conduct

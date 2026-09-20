@@ -1,4 +1,4 @@
-# CLAUDE.md
+# AGENTS.md
 
 Agent-facing guide for **fbuireu/fbuireu**: the Owner's GitHub profile README and the automation that keeps it current. See [CONTEXT.md](./CONTEXT.md) for the domain glossary (Edition, Generated Region, Artefact, Embed, Refresh, Automated Update…); do not duplicate it here.
 
