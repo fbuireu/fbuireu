@@ -34,7 +34,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create and auto-merge PR
-        uses: ./.github/actions/create-auto-merge-pr
+        uses: $/.github/actions/create-auto-merge-pr
         with:
           token: ${{ secrets.PAT }}
           commit-message: 'docs: update snake grid animation'
