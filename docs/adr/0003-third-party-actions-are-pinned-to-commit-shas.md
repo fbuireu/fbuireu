@@ -22,5 +22,5 @@ Three pins deliberately reference a branch commit rather than a release, and eac
 
 - **The trailing comment is the only readable version anywhere.** Renovate rewrites it with the SHA; editing one by hand desynchronises the two and nothing checks it.
 - **Those branch pins never advance on their own.** Renovate has no release to compare against, so they stay where they are until someone looks, which is the point, but it means "pinned" here also means "frozen".
-- **A major Bot Update blocks a Refresh silently.** It sits open, labelled `major-update,review-required`, while the workflow keeps running the old SHA quite happily. Nothing escalates.
+- **A major Bot Update blocks a Refresh silently.** It sits open, labelled `major-update`, while the workflow keeps running the old SHA quite happily. Nothing escalates.
 - **`zizmor` is not advisory.** It is the only automated check here with anything to inspect ([`dependency-review.yml`](../../.github/workflows/dependency-review.yml) runs on every pull request too, but there is no manifest in this repository for it to review), and it is why `persist-credentials: false` appears on the checkouts that do not need credentials.

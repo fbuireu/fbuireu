@@ -16,8 +16,8 @@ The tidy option is one source document plus a translation table, rendered into o
 
 Each Edition is a complete, hand-written document carrying its own Generated Regions. Automation fans out over those files rather than over one source:
 
-- [`wakatime-stats.yml`](../../.github/workflows/wakatime-stats.yml) runs a matrix over `README.md`, [`README.ca.md`](../../README.ca.md), [`README.es.md`](../../README.es.md), [`README.it.md`](../../README.it.md), with `max-parallel: 1` so the Automated Updates do not race each other onto `main`.
-- [`github-activity.yml`](../../.github/workflows/github-activity.yml) invokes the same action once per config under [`.github/config/github-activity/`](../../.github/config/github-activity). Those configs are also where the per-locale wording of activity lines lives, and [`en.config.yml`](../../.github/config/github-activity/en.config.yml) carries no `messages:` block because English is the action's default.
+- [`wakatime-stats.yml`](../../.github/workflows/wakatime-stats.yml) runs a matrix over `README.md`, [`README.ca.md`](../../README.ca.md), [`README.es.md`](../../README.es.md), [`README.it.md`](../../README.it.md), with `max-parallel: 1` so the direct pushes do not race each other onto `main`.
+- [`github-activity.yml`](../../.github/workflows/github-activity.yml) invokes the same action once per config under [`.github/config/github-activity/`](../../.github/config/github-activity). Those configs are also where the per-locale wording of activity lines lives, and [`en.config.yml`](../../.github/config/github-activity/en.config.yml) carries only the `push` message, restated without a count, because English is otherwise the action's default.
 
 ## Consequences
 
