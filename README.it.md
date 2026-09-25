@@ -51,7 +51,7 @@
 
 👯 **Cerco di collaborare**: progetti open-source, conoscenza condivisa e al cuore di qualsiasi framework straordinario.
 
-💬 **Chiedimi di**: quella volta che ho inventato una nuova ricetta di risotto durante la quarantena. Anche le domande relative alla programmazione sono benvenute.
+💬 **Chiedimi di**: quella volta che ho inventato una nuova ricetta di risotto durante la quarantena o come girare una tortilla. Anche le domande relative alla programmazione sono benvenute.
 
 ⚡ **Fatto divertente**: amo le sfide. Per questo corro la mezza maratona, suono la chitarra e non ho ancora smesso di girare le tortillas. So che posso farcela. La mia ragazza non è d'accordo.
 

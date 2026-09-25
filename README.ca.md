@@ -51,7 +51,7 @@
 
 👯 **Estic buscant col·laborar en**: projectes de codi obert, coneixement compartit i l'ànima de qualsevol llibreria impressionant.
 
-💬 **Pregunta'm sobre**: aquella vegada que vaig inventar una nova recepta de risotto durant la quarantena. També són benvingudes les preguntes relacionades amb la programació.
+💬 **Pregunta'm sobre**: aquella vegada que vaig inventar una nova recepta de risotto durant la quarantena o com donar-li la volta a una truita. També són benvingudes les preguntes relacionades amb la programació.
 
 ⚡ **Dada curiosa**: m'agraden els reptes. Per això, corro mitges maratons, toco la guitarra i encara no he renunciat a donar-li la volta a les truites. Sé que ho puc fer. La meva parella no hi està d'acord.
 
