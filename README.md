@@ -301,11 +301,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
   <!--START_SECTION:waka-->
 
 ```txt
-Go           5 hrs                 █████████▒░░░░░░░░░░░░░░░   37.86 %
-Markdown     4 hrs 26 mins         ████████▒░░░░░░░░░░░░░░░░   33.53 %
-TypeScript   1 hr 16 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.60 %
-Other        50 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.35 %
-Dart         45 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   05.74 %
+Go                3 hrs 19 mins         ██████████▓░░░░░░░░░░░░░░   42.11 %
+TypeScript        1 hr 29 mins          ████▓░░░░░░░░░░░░░░░░░░░░   18.91 %
+Markdown          1 hr 12 mins          ████░░░░░░░░░░░░░░░░░░░░░   15.34 %
+JavaScript        34 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   07.24 %
+Other             33 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   07.17 %
 ```
 
 <!--END_SECTION:waka-->
