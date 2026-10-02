@@ -2,6 +2,8 @@
 
 Agent-facing guide for **fbuireu/fbuireu**: the Owner's GitHub profile README and the automation that keeps it current. See [CONTEXT.md](./CONTEXT.md) for the domain glossary (Edition, Generated Region, Artefact, Embed, Refresh, Automated Update…); do not duplicate it here.
 
+Reviewing a diff: [CODING_STANDARDS.md](./CODING_STANDARDS.md).
+
 ## What this is
 
 A profile repository, not an application. There is no `package.json`, no dependency to install and nothing to build or run locally; the tree is markdown, images and YAML. Every piece of generated content comes from a third-party GitHub Action running on a weekly schedule, and the only thing this repository writes itself is the composite action that lands their output.
@@ -43,7 +45,7 @@ Every content workflow shares one cron, `0 0 * * 0` (Sunday 00:00 UTC), and ever
 
 The maintenance workflows run on events rather than the clock: [`dependabot-auto-merge.yml`](./.github/workflows/dependabot-auto-merge.yml) merges the security half of the Bot Updates (Renovate merges its own through the platform once the checks pass, since the `main` ruleset requires no approval), [`commit-message.yml`](./.github/workflows/commit-message.yml) lints the pull request title against conventional commits with a pinned action rather than a toolchain this repository does not have, [`dependency-review.yml`](./.github/workflows/dependency-review.yml) runs on every pull request, and [`zizmor.yml`](./.github/workflows/zizmor.yml) audits the workflows themselves ([ADR 0003](./docs/adr/0003-third-party-actions-are-pinned-to-commit-shas.md)). The `main` ruleset requires `Lint the pull request title`, `Dependency Review` and `zizmor`, the code-scanning check the zizmor action publishes, and gates only Bot Updates, since a Refresh force-merges past it ([ADR 0001](./docs/adr/0001-automated-updates-land-through-a-self-merging-pull-request.md)). The snake Refresh titles its pull request conventionally for the same reason: its pull request is opened with the Owner Token, so the workflows do run on it.
 
-[`.github/actions/create-auto-merge-pr`](./.github/actions/create-auto-merge-pr) is the only first-party automation in the repository. One Refresh calls it, [`snake-animation.yml`](./.github/workflows/snake-animation.yml), passing `force-merge: 'true'`; `Platane/snk` writes its files and commits nothing, so there is something for the composite to propose. Read [ADR 0001](./docs/adr/0001-automated-updates-land-through-a-self-merging-pull-request.md) before changing anything in it, and the Gotchas bullet below for the Refreshes that used to call it and never had anything to give it.
+[`.github/actions/create-auto-merge-pr`](./.github/actions/create-auto-merge-pr) is the only first-party automation in the repository. One Refresh calls it, [`snake-animation.yml`](./.github/workflows/snake-animation.yml), passing `force-merge: 'true'`; `Platane/snk` writes its files and commits nothing, so there is something for the composite to propose. Read [ADR 0001](./docs/adr/0001-automated-updates-land-through-a-self-merging-pull-request.md) before changing anything in it, and the Gotchas bullet below for the Refreshes that push for themselves and so give it nothing.
 
 ## Branches
 
@@ -52,7 +54,7 @@ The maintenance workflows run on events rather than the clock: [`dependabot-auto
 | `main` | the Editions, `assets/`, `dist/`, the workflows | Refreshes, via Automated Updates |
 | `star-tracker-data` | `stars-data.json`/`.csv`, `charts/*.svg`, `stars-badge.svg`, a report | `fbuireu/github-star-tracker` |
 
-Those are the whole list. `snk` can write its output to a branch of its own, the way it did here until 2025-06-26, and [`snake-animation.yml`](./.github/workflows/snake-animation.yml) does not: it writes both SVGs into `dist/` and lands them on `main` like any other Refresh, which is where the Editions quote them from.
+Those are the whole list. `snk` can write its output to a branch of its own, and [`snake-animation.yml`](./.github/workflows/snake-animation.yml) does not: it writes both SVGs into `dist/` and lands them on `main` like any other Refresh, which is where the Editions quote them from.
 
 ## Secrets and variables
 
@@ -64,20 +66,19 @@ The Owner Token is `secrets.PAT`; which steps get it and which get `GITHUB_TOKEN
 
 ## Conventions
 
-- **Conventional commits.** Refreshes use `docs:` for content and asset updates; keep that. Do NOT add a Co-Authored-By / Claude trailer to commits or PRs.
+- **Conventional commits**, on the pull request title that a squash merge commits, linted by [`commit-message.yml`](./.github/workflows/commit-message.yml). Refreshes use `docs:` for content and asset updates; keep that. Do NOT add a Co-Authored-By / Claude trailer to commits or PRs.
 - **A change to one Edition is a change to every Edition.** Anything in an Authored Region (a new link, a reworded line, a row in the Language Table) has to be applied to all of them in the same commit. Nothing checks this.
 - **Never hand-edit a Generated Region.** The next Refresh overwrites it, and the edit disappears without a trace.
-- **No explanatory comments in YAML.** Rationale goes in *Gotchas* below or in the ADR, not above the line; that is the same rule the Owner's other repositories apply to source. The single exception is the trailing comment on a SHA pin, which carries the version, or the branch where the pin follows one ([ADR 0003](./docs/adr/0003-third-party-actions-are-pinned-to-commit-shas.md) names the three that do).
-- **Every `uses:` is SHA-pinned with a version comment**, including the first-party composite action's dependencies. Renovate maintains both halves; do not edit the comment by hand ([ADR 0003](./docs/adr/0003-third-party-actions-are-pinned-to-commit-shas.md)).
-- **Shell steps read workflow data through `env:`, not through `${{ }}` interpolation** inside the script body. That is a zizmor rule (template injection) and the existing steps all follow it: `STEPS_CREATE_PR_OUTPUTS_PULL_REQUEST_NUMBER` and friends look verbose for exactly this reason.
+- **How a workflow is written** (pins, comments, `env:`, concurrency, credentials) is [CODING_STANDARDS.md](./CODING_STANDARDS.md).
 
 ## Maintenance contract
 
-These documents are not generated, and this repository has no test to enforce them; unlike the Owner's other repositories, there is no runtime here to run one in. That makes the contract entirely manual: when you change a workflow, update the docs **in the same commit**. A follow-up commit is a promise, not a fix.
+These documents are not generated. When you change code, update the docs **in the same commit**: a follow-up commit is a promise, not a fix. Unlike the Owner's other repositories, this one has no test to enforce them, because there is no runtime here to run one in, so the contract is entirely manual.
 
 | If you change | Update |
 | --- | --- |
 | What a domain word means, or introduce a new one | [`CONTEXT.md`](./CONTEXT.md): the glossary, vocabulary only |
+| A rule about how code is written: the workflows and the composite action | [`CODING_STANDARDS.md`](./CODING_STANDARDS.md) |
 | A workflow's schedule, output, or landing branch | the *Refreshes* table here |
 | A marker, or add a Generated Region | the *Surfaces* table here, and every Edition |
 | A secret or a repository variable | the *Secrets and variables* list here |
@@ -85,7 +86,7 @@ These documents are not generated, and this repository has no test to enforce th
 | An entry under *Known inconsistencies* | delete it: that is part of the fix, not tidying for later |
 | A decision an ADR records | that ADR: amend it, or supersede it with a new one and say so in both `## Status` blocks |
 
-Propose an ADR in [`docs/adr/`](./docs/adr/) when a decision is **hard to reverse**, **surprising without context** and **the result of a real trade-off**. All of them, or it is not an ADR. Copy [ADR 0000](./docs/adr/0000-adr-template.md), the template, number it one above the highest existing file (`NNNN-kebab-title.md`, `# N. Title` / `Date:` / `## Status` / `## Context` / `## Decision` / `## Consequences`), then link it from wherever it bites: a Gotchas bullet here, a row in a table above, a `CONTEXT.md` entry. There is no index; an ADR nothing links to will not be read.
+A new ADR starts as a copy of [ADR 0000](./docs/adr/0000-adr-template.md), the template, which says when a decision earns one and where to link it from.
 
 ## Gotchas
 
@@ -96,12 +97,11 @@ Propose an ADR in [`docs/adr/`](./docs/adr/) when a decision is **hard to revers
 - **A Force Merge ignores branch protection.** Adding a required check to `main` will not gate the Refreshes; it will only gate Bot Updates ([ADR 0001](./docs/adr/0001-automated-updates-land-through-a-self-merging-pull-request.md)).
 - **An Automated Update opened with `GITHUB_TOKEN` triggers no workflows.** GitHub deliberately does not fire `pull_request` events for pull requests its own workflow identity creates, so `zizmor.yml` never runs on a `metrics-run-*` branch and the `zizmor` status check the `main` ruleset requires stays pending on it forever. A Force Merge is therefore not an optimisation here, it is the only way out: waiting waits for something that is never coming. CodeQL still reports on those pull requests because it is GitHub's default setup, not a workflow in this tree.
 - **`persist-credentials: true` in `github-activity.yml` is deliberate** and zizmor will flag it. The recent-activity action pushes using the credentials checkout leaves behind ([ADR 0002](./docs/adr/0002-workflows-act-as-the-owner.md)). It is the only checkout in the repository that persists anything: the star tracker, which looks like it would need the same, builds its own `http.extraheader` from the `github-token` input instead.
-- **The README Refreshes push straight to `main`, and always did.** `recent-activity` and `waka-readme` each `git add / pull / commit / push` at the end of a run, with no input that disables it, so an Automated Update step after one of them found `main` already carrying the change and proposed nothing. Both such steps are gone rather than left as silent no-ops; ADR 0001's Consequence on generators that commit for themselves has the evidence and what it cost.
-- **A concurrency group keyed on `github.head_ref || github.run_id` does not serialise a Refresh.** `head_ref` is empty on `schedule` and on `workflow_dispatch`, so the group falls through to a run id that is unique per run and two overlapping Refreshes raced for the same Edition anyway. Every scheduled workflow keys on `${{ github.workflow }}-${{ github.ref }}`, with `cancel-in-progress: false`, so a later run queues instead of cancelling a push halfway.
-- **The skyline plugin points at [honzaap's GitHub City](https://github.com/honzaap/GithubCity), not at GitHub.** GitHub retired `skyline.github.com` in favour of a CLI that emits an `.stl`, which is no use to a plugin that works by screenshotting a page. It never touched the GitHub API for this: it drives puppeteer over whatever `plugin_skyline_settings.url` says, so repointing it is pure configuration. Two things follow. The `ready` and `hide` selectors are that site's DOM, so a redesign there breaks this and the symptom is a 90-second `TimeoutError` rather than a 404, which is how the old default died, waiting for a `Share on Twitter` span. And `plugin_skyline_year` is deliberately unset: the plugin resolves `${year}` to the runner's current year only while the input is absent, so pinning it freezes the animation on that year.
+- **The README Refreshes push straight to `main`.** `recent-activity` and `waka-readme` each `git add / pull / commit / push` at the end of a run, with no input that disables it, so an Automated Update step after one of them finds `main` already carrying the change and proposes nothing: give neither one. ADR 0001's Consequence on generators that commit for themselves has the evidence.
+- **The skyline plugin points at [honzaap's GitHub City](https://github.com/honzaap/GithubCity), not at GitHub.** GitHub retired `skyline.github.com` in favour of a CLI that emits an `.stl`, which is no use to a plugin that works by screenshotting a page. It never touched the GitHub API for this: it drives puppeteer over whatever `plugin_skyline_settings.url` says, so repointing it is pure configuration. Two things follow. The `ready` and `hide` selectors are that site's DOM, so a redesign there breaks this and the symptom is a 90-second `TimeoutError` rather than a 404. And `plugin_skyline_year` is deliberately unset: the plugin resolves `${year}` to the runner's current year only while the input is absent, so pinning it freezes the animation on that year.
 - **Nothing on the profile shows the star tracker's output.** `github-stars-tracker.yml` writes charts and a badge to `star-tracker-data` and emails the report; no Edition embeds any of it.
-- **`{AMOUNT}` is dead in the push message, permanently.** GitHub removed `size` and `distinct_size` from the `PushEvent` payload of `GET /users/{user}/events/public`; the keys are simply absent now, so `recent-activity` renders the placeholder as the literal string `undefined`. Every activity config therefore states the push message without a count. Restoring `{AMOUNT}` puts `undefined` back on the profile in every language; no version of the action can fix it, because the number is no longer served.
-- **The snake is quoted from `dist/` on `main`, not from a branch.** `snake-animation.yml` writes both SVGs there weekly. The dark variant is the `prefers-color-scheme: dark` source; the light variant is both the light source and the `<img>` fallback. The branch that used to hold them, `snake-grid-animation`, was deleted on 2026-08-29 once nothing wrote to it and no Edition quoted it.
+- **`{AMOUNT}` is dead in the push message, permanently.** The `PushEvent` payload of `GET /users/{user}/events/public` carries no `size` or `distinct_size`, so `recent-activity` renders the placeholder as the literal string `undefined`. Every activity config therefore states the push message without a count. Restoring `{AMOUNT}` puts `undefined` back on the profile in every language; no version of the action can fix it, because the API does not serve the number.
+- **The snake is quoted from `dist/` on `main`, not from a branch.** `snake-animation.yml` writes both SVGs there weekly. The dark variant is the `prefers-color-scheme: dark` source; the light variant is both the light source and the `<img>` fallback.
 
 ## Known inconsistencies
 

@@ -39,7 +39,7 @@ A third-party image URL written into an Edition and resolved by the reader's bro
 _Avoid_: badge, widget, external image, remote asset
 
 **Artefact Branch**:
-A branch holding Artefacts and nothing else, unrelated to the history on `main` and written by a single Refresh. Only the star tracker keeps one today; the snake and the metrics SVG are Artefacts committed to `main` and quoted from there. Wherever an Artefact is quoted from, that path is a public interface: moving it breaks every Edition, and breaks them silently.
+A branch holding Artefacts and nothing else, unrelated to the history on `main` and written by a single Refresh. Wherever an Artefact is quoted from, that path is a public interface: moving it breaks every Edition, and breaks them silently.
 _Avoid_: data branch, output branch, orphan branch, gh-pages
 
 **Refresh**:
@@ -49,7 +49,7 @@ _Avoid_: run, job, build, sync, update
 ## Landing Changes
 
 **Automated Update**:
-The pull request a Refresh opens against `main` carrying whatever it regenerated. It is how a Refresh is expected to land when the tool it runs leaves something to land: only the snake Refresh does today, because the README generators commit and push on their own.
+The pull request a Refresh opens against `main` carrying whatever it regenerated. It is how a Refresh is expected to land when the tool it runs leaves something to land.
 _Avoid_: bot commit, auto-commit, automated PR
 
 **Force Merge**:

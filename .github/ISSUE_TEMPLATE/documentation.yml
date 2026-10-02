@@ -15,6 +15,7 @@ body:
       description: Which document is it about?
       options:
         - AGENTS.md guide
+        - CODING_STANDARDS.md
         - CONTEXT.md glossary
         - An ADR
         - Other
