@@ -16,7 +16,7 @@ body:
       options:
         - AGENTS.md guide
         - CODING_STANDARDS.md
-        - CONTEXT.md glossary
+        - GLOSSARY.md glossary
         - An ADR
         - Other
     validations:

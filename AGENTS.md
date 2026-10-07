@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Agent-facing guide for **fbuireu/fbuireu**: the Owner's GitHub profile README and the automation that keeps it current. See [CONTEXT.md](./CONTEXT.md) for the domain glossary (Edition, Generated Region, Artefact, Embed, Refresh, Automated Update…); do not duplicate it here.
+Agent-facing guide for **fbuireu/fbuireu**: the Owner's GitHub profile README and the automation that keeps it current. See [GLOSSARY.md](./GLOSSARY.md) for the domain glossary (Edition, Generated Region, Artefact, Embed, Refresh, Automated Update…); do not duplicate it here.
 
 Reviewing a diff: [CODING_STANDARDS.md](./CODING_STANDARDS.md).
 
@@ -77,7 +77,7 @@ These documents are not generated. When you change code, update the docs **in th
 
 | If you change | Update |
 | --- | --- |
-| What a domain word means, or introduce a new one | [`CONTEXT.md`](./CONTEXT.md): the glossary, vocabulary only |
+| What a domain word means, or introduce a new one | [`GLOSSARY.md`](./GLOSSARY.md): the glossary, vocabulary only |
 | A rule about how code is written: the workflows and the composite action | [`CODING_STANDARDS.md`](./CODING_STANDARDS.md) |
 | A workflow's schedule, output, or landing branch | the *Refreshes* table here |
 | A marker, or add a Generated Region | the *Surfaces* table here, and every Edition |

@@ -39,7 +39,7 @@
 - [ ] I did not edit inside a Generated Region's markers, since that content is machine-written and would be overwritten within a week
 - [ ] I have reviewed my own diff against [`CODING_STANDARDS.md`](../CODING_STANDARDS.md)
 - [ ] A workflow change keeps its `permissions` block as narrow as before and every `uses:` pinned to a SHA with its version comment
-- [ ] I updated any [`AGENTS.md`](../AGENTS.md), [`CODING_STANDARDS.md`](../CODING_STANDARDS.md), [`CONTEXT.md`](../CONTEXT.md) or ADR my change affects, in this same PR
+- [ ] I updated any [`AGENTS.md`](../AGENTS.md), [`CODING_STANDARDS.md`](../CODING_STANDARDS.md), [`GLOSSARY.md`](../GLOSSARY.md) or ADR my change affects, in this same PR
 
 ## Additional Notes
 

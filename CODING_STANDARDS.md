@@ -1,6 +1,6 @@
 # Coding standards
 
-What a review checks a diff against. The words are the ones [CONTEXT.md](./CONTEXT.md) defines, the reasons
+What a review checks a diff against. The words are the ones [GLOSSARY.md](./GLOSSARY.md) defines, the reasons
 are in [docs/adr/](./docs/adr/), and what an implementer needs while working is in [AGENTS.md](./AGENTS.md).
 
 **hard** marks a rule whose breach is a defect: report it with the rule. **judgement** marks a call the
