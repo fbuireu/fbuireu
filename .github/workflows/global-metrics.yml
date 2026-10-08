@@ -139,6 +139,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
           HEAD_BRANCH: metrics-run-${{ github.run_id }}
+        shell: bash
         run: |
           gh pr list --head "$HEAD_BRANCH" --state open --json number --jq '.[].number' |
             while read -r pr; do
