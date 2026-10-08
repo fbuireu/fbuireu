@@ -3,8 +3,7 @@ on:
   schedule:
     - cron: 0 0 * * 0
   workflow_dispatch:
-permissions:
-  contents: write
+permissions: {}
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false
@@ -13,6 +12,8 @@ jobs:
     name: Update README files
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: read
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -36,10 +37,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          CONFIG_FILE: ./.github/config/github-activity/it.config.yml      
+          CONFIG_FILE: ./.github/config/github-activity/it.config.yml
       - name: Run recent activity (ES)
         uses: Readme-Workflows/recent-activity@2750d2b82f226b7327039aa8c3ff96748396ef80 # main (2026-06-08): removes dead glitch.me telemetry; no tag released yet
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          CONFIG_FILE: ./.github/config/github-activity/es.config.yml 
+          CONFIG_FILE: ./.github/config/github-activity/es.config.yml

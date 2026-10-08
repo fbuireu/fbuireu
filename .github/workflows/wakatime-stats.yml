@@ -3,8 +3,7 @@ on:
   schedule:
     - cron: 0 0 * * 0
   workflow_dispatch:
-permissions:
-  contents: write
+permissions: {}
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false
@@ -13,6 +12,8 @@ jobs:
     name: Update ${{ matrix.readme }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: read
     strategy:
       fail-fast: true
       max-parallel: 1
