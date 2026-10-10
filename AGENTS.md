@@ -83,7 +83,6 @@ These documents are not generated. When you change code, update the docs **in th
 | A marker, or add a Generated Region | the *Surfaces* table here, and every Edition |
 | A secret or a repository variable | the *Secrets and variables* list here |
 | A behaviour a doc states as an invariant or a gotcha | that bullet, or delete it if it stopped being true |
-| An entry under *Known inconsistencies* | delete it: that is part of the fix, not tidying for later |
 | A decision an ADR records | that ADR: amend it, or supersede it with a new one and say so in both `## Status` blocks |
 
 A new ADR starts as a copy of [ADR 0000](./docs/adr/0000-adr-template.md), the template, which says when a decision earns one and where to link it from.
@@ -102,9 +101,3 @@ A new ADR starts as a copy of [ADR 0000](./docs/adr/0000-adr-template.md), the t
 - **Nothing on the profile shows the star tracker's output.** `github-stars-tracker.yml` writes charts and a badge to `star-tracker-data` and emails the report; no Edition embeds any of it.
 - **`{AMOUNT}` is dead in the push message, permanently.** The `PushEvent` payload of `GET /users/{user}/events/public` carries no `size` or `distinct_size`, so `recent-activity` renders the placeholder as the literal string `undefined`. Every activity config therefore states the push message without a count. Restoring `{AMOUNT}` puts `undefined` back on the profile in every language; no version of the action can fix it, because the API does not serve the number.
 - **The snake is quoted from `dist/` on `main`, not from a branch.** `snake-animation.yml` writes both SVGs there weekly. The dark variant is the `prefers-color-scheme: dark` source; the light variant is both the light source and the `<img>` fallback.
-
-## Known inconsistencies
-
-Things that are wrong on the profile right now. Fix and delete the entry: deleting it is part of the fix, not tidying for later; do not let the list rot into decoration.
-
-- None open.
