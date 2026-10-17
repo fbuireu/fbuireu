@@ -206,8 +206,8 @@
 <a href="https://www.patreon.com/fbuireu" target="_blank" title="Patreon">
   <img src="https://img.shields.io/badge/patreon-ff424d?style=for-the-badge&logo=patreon&logoColor=ffffff" alt="Patreon" />
 </a>
-<a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank" title="Buy me a Coffe">
-  <img src="https://img.shields.io/badge/buy_me_a_coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000" alt="Buy me a Coffe" />
+<a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank" title="Buy me a Coffee">
+  <img src="https://img.shields.io/badge/buy_me_a_coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000" alt="Buy me a Coffee" />
 </a>
 <a href="https://github.com/sponsors/fbuireu" target="_blank" title="GitHub Sponsors">
   <img src="https://img.shields.io/badge/gitHub%20sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=ffffff" alt="GitHub Sponsors" />
@@ -244,11 +244,11 @@
 
 <details>
   <summary><strong>Principals repositoris</strong></summary>
-  <a href="https://github.com/fbuireu/fbuireu" target="__blank">
+  <a href="https://github.com/fbuireu/fbuireu" target="_blank">
     <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=fbuireu&repo=fbuireu&theme=onedark&hide_border=true"
          alt="fbuireu" />    
   </a>
-  <a href="https://github.com/fbuireu/biancafiore" target="__blank">
+  <a href="https://github.com/fbuireu/biancafiore" target="_blank">
     <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=fbuireu&repo=biancafiore&theme=onedark&hide_border=true"
          alt="biancafiore" />
   </a>
@@ -256,20 +256,20 @@
 
 <details>
   <summary><strong>Millors contribucions i ratxes</strong></summary>
-  <a href="https://github.com/withastro/docs/pull/9188" target="__blank">
+  <a href="https://github.com/withastro/docs/pull/9188" target="_blank">
   <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=withastro&repo=docs&theme=onedark&hide_border=true"
        alt="Astro" />
   </a>
-  <a href="https://github.com/gatsbyjs/gatsby/pull/33261" target="__blank">
+  <a href="https://github.com/gatsbyjs/gatsby/pull/33261" target="_blank">
   <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=gatsbyjs&repo=gatsby&theme=onedark&hide_border=true"
        alt="Gatsby" />
   </a>
-  <a href="https://github.com/netlify/netlify-cms/pull/3412" target="__blank">
+  <a href="https://github.com/netlify/netlify-cms/pull/3412" target="_blank">
     <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=netlify&repo=netlify-cms&theme=onedark&hide_border=true"
          alt="Netlify CMS" />
   </a>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=fbuireu&theme=github&bg_color=282c34&line=c3a875&point=d77077&hide_border=true"
-       alt="Gráfico de contribuciones mensuales a GitHub de Ferran Buireu" />
+       alt="Gràfic de contribucions mensuals a GitHub del Ferran Buireu" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=fbuireu&theme=onedark&hide_border=true"
        alt="La ratxa del Ferran Buireu a GitHub" />
 </details>    
@@ -279,11 +279,11 @@
   <img src="https://github-readme-stats-fast.vercel.app/api?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
        alt="Estadístiques del Ferran Buireu a GitHub" />
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
-       alt="Millors llenguages mejores lenguajes de GitHub de Ferran Buireu" />
+       alt="Millors llenguatges de GitHub del Ferran Buireu" />
 </details>
 
 <details>
-  <summary><strong>Trofeos</strong></summary>
+  <summary><strong>Trofeus</strong></summary>
   <img src="https://github-profile-trophy.vercel.app/?username=fbuireu&theme=onedark&no-frame=true"
        alt="Els trofeus del Ferran Buireu" />
 </details>    
@@ -322,7 +322,7 @@ Go           31 mins               ▓░░░░░░░░░░░░░░
 
 -------
 
-Si has arrivat fins aquí mereixes conèixer al ${\textcolor{purple}{\textnormal{Qwerty}}}$, la meva serp col·laboradora. Alimentada a diari (gairebé):
+Si has arribat fins aquí mereixes conèixer al ${\textcolor{purple}{\textnormal{Qwerty}}}$, la meva serp col·laboradora. Alimentada setmanalment (gairebé):
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fbuireu/fbuireu/main/dist/github-contribution-grid-snake-dark.svg" />
@@ -333,9 +333,9 @@ Si has arrivat fins aquí mereixes conèixer al ${\textcolor{purple}{\textnormal
 <details>
   <summary>Vols veure gràfics més detallats?</summary>
   <details>
-    <summary>De veritat, és llarg. ¿Seguro?</summary>
+    <summary>De veritat, és llarg. N'estàs segur?</summary>
     <details>
-      <summary>D'acord. Aquesta es l'última. Aquí va.</summary>
+      <summary>D'acord. Aquesta és l'última. Aquí va.</summary>
       <img src="assets/images/svg/github-metrics.svg" alt="Estadístiques de GitHub en detall" />
     </details>        
   </details>

@@ -210,8 +210,8 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <a href="https://www.patreon.com/fbuireu" target="_blank" title="Patreon">
   <img src="https://img.shields.io/badge/patreon-ff424d?style=for-the-badge&logo=patreon&logoColor=ffffff" alt="Patreon" />
 </a>
-<a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank" title="Buy me a Coffe">
-  <img src="https://img.shields.io/badge/buy_me_a_coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000" alt="Buy me a Coffe" />
+<a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank" title="Buy me a Coffee">
+  <img src="https://img.shields.io/badge/buy_me_a_coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000" alt="Buy me a Coffee" />
 </a>
 <a href="https://github.com/sponsors/fbuireu" target="_blank" title="GitHub Sponsors">
   <img src="https://img.shields.io/badge/gitHub%20sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=ffffff" alt="GitHub Sponsors" />
@@ -248,11 +248,11 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
 <details>
   <summary><strong>Top repositories</strong></summary>
-  <a href="https://github.com/fbuireu/fbuireu" target="__blank">
+  <a href="https://github.com/fbuireu/fbuireu" target="_blank">
     <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=fbuireu&repo=fbuireu&theme=onedark&hide_border=true"
          alt="fbuireu" />    
   </a>
-  <a href="https://github.com/fbuireu/biancafiore" target="__blank">
+  <a href="https://github.com/fbuireu/biancafiore" target="_blank">
     <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=fbuireu&repo=biancafiore&theme=onedark&hide_border=true"
          alt="biancafiore" />
   </a>
@@ -260,15 +260,15 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 
 <details>
   <summary><strong>Top Contributions & Streak</strong></summary>
-  <a href="https://github.com/withastro/docs/pull/9188" target="__blank">
+  <a href="https://github.com/withastro/docs/pull/9188" target="_blank">
   <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=withastro&repo=docs&theme=onedark&hide_border=true"
        alt="Astro" />
   </a>
-  <a href="https://github.com/gatsbyjs/gatsby/pull/33261" target="__blank">
+  <a href="https://github.com/gatsbyjs/gatsby/pull/33261" target="_blank">
   <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=gatsbyjs&repo=gatsby&theme=onedark&hide_border=true"
        alt="Gatsby" />
   </a>
-  <a href="https://github.com/netlify/netlify-cms/pull/3412" target="__blank">
+  <a href="https://github.com/netlify/netlify-cms/pull/3412" target="_blank">
     <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=netlify&repo=netlify-cms&theme=onedark&hide_border=true"
          alt="Netlify CMS" />
   </a>
@@ -326,7 +326,7 @@ Go           31 mins               ▓░░░░░░░░░░░░░░
 
 -------
 
-If you've reached this point, you deserve to meet ${\textcolor{purple}{\textnormal{Qwerty}}}$, my contribution snake. Fed daily (almost):
+If you've reached this point, you deserve to meet ${\textcolor{purple}{\textnormal{Qwerty}}}$, my contribution snake. Fed weekly (almost):
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fbuireu/fbuireu/main/dist/github-contribution-grid-snake-dark.svg" />

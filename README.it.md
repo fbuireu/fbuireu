@@ -157,7 +157,7 @@
   <img src="https://img.shields.io/badge/wakatime-29333a?style=for-the-badge&logo=wakatime&logoColor=ffffff" alt="WakaTime" />
 </a>
 
-### Volete un aiuto personalizzato? Potete trovarmi anche all'indirizzo
+### Vuoi un aiuto personalizzato? Puoi trovarmi anche su:
 <a href="https://mentorcruise.com/mentor/ferranbuireu/" target="_blank" title="MentorCruise">
   <img src="https://img.shields.io/badge/mentorcruise-05b197?style=for-the-badge&logo=mentorcruise&logoColor=ffffff" alt="MentorCruise" />
 </a>
@@ -202,12 +202,12 @@
   <img src="https://img.shields.io/badge/dreamstime-d9086e?style=for-the-badge&logo=dreamstime&logoColor=ffffff" alt="Dreamstime" />
 </a>
 
-###  ̶ ̶R̶i̶e̶m̶p̶i̶t̶e̶ ̶l̶a̶ ̶m̶i̶a̶ ̶b̶i̶r̶r̶a̶ e reidratatemi in:
+###  ̶ ̶R̶i̶e̶m̶p̶i̶ ̶l̶a̶ ̶m̶i̶a̶ ̶b̶i̶r̶r̶a̶ e reidratami in:
 <a href="https://www.patreon.com/fbuireu" target="_blank" title="Patreon">
   <img src="https://img.shields.io/badge/patreon-ff424d?style=for-the-badge&logo=patreon&logoColor=ffffff" alt="Patreon" />
 </a>
-<a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank" title="Buy me a Coffe">
-  <img src="https://img.shields.io/badge/buy_me_a_coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000" alt="Buy me a Coffe" />
+<a href="https://www.buymeacoffee.com/ferranbuireu" target="_blank" title="Buy me a Coffee">
+  <img src="https://img.shields.io/badge/buy_me_a_coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000" alt="Buy me a Coffee" />
 </a>
 <a href="https://github.com/sponsors/fbuireu" target="_blank" title="GitHub Sponsors">
   <img src="https://img.shields.io/badge/gitHub%20sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=ffffff" alt="GitHub Sponsors" />
@@ -215,7 +215,7 @@
 
 -------
 
-## 📝 A volte condivido le manie del mio sviluppatore in:
+## 📝 A volte condivido i miei deliri da sviluppatore su:
 
 ### Medium
 - [Floating Math Point: The Phantom Menace of Precision](https://fbuireu.medium.com/floating-math-point-the-phantom-menace-of-precision-cda818fe0ba7?source=rss-152ec07c2b6d------2)
@@ -244,11 +244,11 @@
 
 <details>
   <summary><strong>Repository principali</strong></summary>
-  <a href="https://github.com/fbuireu/fbuireu" target="__blank">
+  <a href="https://github.com/fbuireu/fbuireu" target="_blank">
     <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=fbuireu&repo=fbuireu&theme=onedark&hide_border=true"
          alt="fbuireu" />    
   </a>
-  <a href="https://github.com/fbuireu/biancafiore" target="__blank">
+  <a href="https://github.com/fbuireu/biancafiore" target="_blank">
     <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=fbuireu&repo=biancafiore&theme=onedark&hide_border=true"
          alt="biancafiore" />
   </a>
@@ -256,20 +256,20 @@
 
 <details>
   <summary><strong>Migliori contributi e strisce</strong></summary>
-  <a href="https://github.com/withastro/docs/pull/9188" target="__blank">
+  <a href="https://github.com/withastro/docs/pull/9188" target="_blank">
   <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=withastro&repo=docs&theme=onedark&hide_border=true"
        alt="Astro" />
   </a>
-  <a href="https://github.com/gatsbyjs/gatsby/pull/33261" target="__blank">
+  <a href="https://github.com/gatsbyjs/gatsby/pull/33261" target="_blank">
   <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=gatsbyjs&repo=gatsby&theme=onedark&hide_border=true"
        alt="Gatsby" />
   </a>
-  <a href="https://github.com/netlify/netlify-cms/pull/3412" target="__blank">
+  <a href="https://github.com/netlify/netlify-cms/pull/3412" target="_blank">
     <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=netlify&repo=netlify-cms&theme=onedark&hide_border=true"
          alt="Netlify CMS" />
   </a>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=fbuireu&theme=github&bg_color=282c34&line=c3a875&point=d77077&hide_border=true"
-       alt="Gráfico de contribuciones mensuales a GitHub de Ferran Buireu" />
+       alt="Grafico mensile dei contributi a GitHub di Ferran Buireu" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=fbuireu&theme=onedark&hide_border=true"
        alt="La striscia di Ferran Buireu su GitHub" />
 </details>    
@@ -279,7 +279,7 @@
   <img src="https://github-readme-stats-fast.vercel.app/api?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
        alt="Statistiche di Ferran Buireu su GitHub" />
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
-       alt="Le migliori linguaggi su GitHub di Ferran Buireu" />
+       alt="I migliori linguaggi su GitHub di Ferran Buireu" />
 </details>
 
 <details>
@@ -322,7 +322,7 @@ Go           31 mins               ▓░░░░░░░░░░░░░░
 
 -------
 
-Se siete arrivati fin qui, meritate di incontrare ${\textcolor{purple}{\textnormal{Qwerty}}}$, il mio collaboratore serpente. Nutrito quotidianamente (quasi):
+Se sei arrivato fin qui, meriti di incontrare ${\textcolor{purple}{\textnormal{Qwerty}}}$, il mio collaboratore serpente. Nutrito settimanalmente (quasi):
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fbuireu/fbuireu/main/dist/github-contribution-grid-snake-dark.svg" />
@@ -331,11 +331,11 @@ Se siete arrivati fin qui, meritate di incontrare ${\textcolor{purple}{\textnorm
 </picture>
 
 <details>
-  <summary>Volete vedere una grafica più dettagliata?</summary>
+  <summary>Vuoi vedere dei grafici più dettagliati?</summary>
   <details>
     <summary>Davvero, è lunga. Sei sicuro?</summary>
     <details>
-      <summary>Bene, questo è l'ultimo. Questo è l'ultimo. Ecco qui</summary>
+      <summary>Bene, questo è l'ultimo. Ecco qui</summary>
       <img src="assets/images/svg/github-metrics.svg" alt="Statistiche GitHub in dettaglio" />
     </details>        
   </details>
