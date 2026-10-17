@@ -53,7 +53,7 @@ The pull request a Refresh opens against `main` carrying whatever it regenerated
 _Avoid_: bot commit, auto-commit, automated PR
 
 **Force Merge**:
-Merging an Automated Update with the Owner's administrative privileges instead of waiting on checks. It is the normal path for a Refresh, not an escape hatch.
+Merging an Automated Update with the Owner's administrative privileges instead of waiting on checks. It is how every Automated Update lands, the snake's and the metrics', not an escape hatch; the README Refreshes open none and have nothing to merge.
 _Avoid_: admin merge, bypass, skip checks, override
 
 **Bot Update**:
@@ -67,15 +67,15 @@ _Avoid_: semver bump, risk level, category
 ## Identity
 
 **Owner**:
-The single human this Profile describes, and the only account with write access here. Every Automated Update is authored as the Owner rather than as a bot; that is deliberate, not cosmetic.
+The single human this Profile describes, and the only account with write access here. A Refresh acts with the Owner's rights wherever it has to, but the name on its commits is whichever identity its tool commits as: the Owner for the snake and WakaTime, `github-actions[bot]` for the metrics, `readme-bot` for the activity lines.
 _Avoid_: user, author, maintainer, account
 
 **Owner Token**:
-The credential that lets a Refresh act as the Owner instead of as GitHub's own workflow identity. It is what makes an Automated Update approvable, mergeable, and capable of triggering the next Refresh.
+The credential that lets a Refresh act as the Owner instead of as GitHub's own workflow identity. It is what lets an Automated Update be approved and force-merged, lets the README Refreshes push past the `main` ruleset, and makes a pull request it opens start the pull-request workflows, which one opened as the workflow identity does not. Every Refresh is started by the clock, so none of this triggers the next one.
 _Avoid_: PAT, GITHUB_TOKEN, secret, credential
 
 **Integration Token**:
-A credential scoped to one external service a Refresh reads from: the time tracker, the music service, the map provider. Each names its own service and grants nothing on GitHub.
+A credential handed to one tool for the one service it reads: the time tracker, the music service, the map provider. Each names its own service, and most grant nothing on GitHub; the two that read GitHub itself, for the metrics and for the followers, are GitHub personal access tokens of their own, kept apart from the Owner Token.
 _Avoid_: API key, third-party secret, service token
 
 **Pinned Action**:

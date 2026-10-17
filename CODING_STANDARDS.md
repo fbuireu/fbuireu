@@ -28,7 +28,9 @@ No rule below restates these, and a diff that breaks one fails CI:
 - **hard**: Every `uses:` names a full commit SHA with its version in a trailing comment, or its branch for a
   pin that follows one, and the two move together: the SHA is what runs, the comment is the only thing that
   makes it legible, and Renovate maintains both halves
-  ([ADR 0003](./docs/adr/0003-third-party-actions-are-pinned-to-commit-shas.md)).
+  ([ADR 0003](./docs/adr/0003-third-party-actions-are-pinned-to-commit-shas.md)). The one exception is this
+  repository's own composite action, referenced as `$/.github/actions/create-auto-merge-pr`: it has no third
+  party behind it to pin.
 - **hard**: YAML carries no explanatory comments; the reason for a line goes in the commit message, the
   pull request, an ADR or a rule here, and a gotcha an implementer would otherwise trip on goes in the
   *Gotchas* of [AGENTS.md](./AGENTS.md). The trailing comment on a SHA pin is the one exception.
@@ -57,5 +59,6 @@ No rule below restates these, and a diff that breaks one fails CI:
   per Edition, because a renderer would give this repository a toolchain it does not have
   ([ADR 0004](./docs/adr/0004-each-locale-is-a-whole-edition.md)).
 - **Shotgun Surgery**: a change to an Authored Region is made in every Edition, and a new language is a fixed
-  set of edits across the Editions, the activity configs and the WakaTime matrix
-  ([ADR 0004](./docs/adr/0004-each-locale-is-a-whole-edition.md)).
+  set of edits across the Editions, the activity configs, the activity steps in `github-activity.yml` and the
+  WakaTime matrix ([ADR 0004](./docs/adr/0004-each-locale-is-a-whole-edition.md);
+  [ARCHITECTURE.md](./ARCHITECTURE.md) §3 lists them).

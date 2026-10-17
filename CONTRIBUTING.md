@@ -6,6 +6,8 @@ keeps it current. It is personal by definition, so the contributions that fit
 are small: a typo, a broken translation, a dead link, a workflow that stopped
 working. For anything bigger, open an issue first.
 
+If you want how the profile is put together, where each section comes from
+and how the weekly refreshes run, that is [ARCHITECTURE.md](./ARCHITECTURE.md).
 If you want the working rules, that is [AGENTS.md](./AGENTS.md). If you want
 how code here is written, and what a review holds a diff to, that is
 [CODING_STANDARDS.md](./CODING_STANDARDS.md). If you want the vocabulary, that

@@ -17,6 +17,7 @@ body:
         - AGENTS.md guide
         - CODING_STANDARDS.md
         - GLOSSARY.md glossary
+        - ARCHITECTURE.md
         - An ADR
         - Other
     validations:
