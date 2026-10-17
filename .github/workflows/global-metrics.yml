@@ -135,7 +135,7 @@ jobs:
             fi
             gh pr merge "$PR_NUM" --admin --squash --delete-branch --subject "$SUBJECT"
       - name: Clean up orphaned metrics pull requests and branches
-        if: failure()
+        if: failure() || cancelled()
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
