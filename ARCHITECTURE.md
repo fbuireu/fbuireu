@@ -303,6 +303,30 @@ and its output is an email.
   compares against it and the follows and unfollows that failed to send are never reported.
 - **An expired `FOLLOWERS_NOTIFIER_TOKEN`** fails the run at the first step. The Owner Token is not involved.
 
+### Undoing a bad Refresh
+
+A Refresh that lands something wrong is undone by reverting what it wrote, and the revert lasts only until that
+workflow runs again: all six share the cron `0 0 * * 0`, so next Sunday's run, or any manual dispatch before it,
+regenerates the same region or file from the same live data. Fix the cause first, or stop the workflow meanwhile.
+
+| Refresh | What to revert | On |
+| --- | --- | --- |
+| [`github-activity.yml`](./.github/workflows/github-activity.yml) | one commit per Edition, such as `docs: update README.ca.md with latest GitHub activity`, by `readme-bot` | `main` |
+| [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml) | one commit per Edition, such as `docs: update README.ca.md with latest WakaTime stats`, by the Owner | `main` |
+| [`snake-animation.yml`](./.github/workflows/snake-animation.yml) | the squash of its Automated Update, `docs: update snake grid animation` | `main` |
+| [`global-metrics.yml`](./.github/workflows/global-metrics.yml) | the squash of its force-merged Automated Update, `docs: update assets/images/svg/github-metrics.svg` | `main` |
+| [`github-stars-tracker.yml`](./.github/workflows/github-stars-tracker.yml) | its `Update star data: …` commit | `star-tracker-data` |
+| [`follower-notifier.yml`](./.github/workflows/follower-notifier.yml) | nothing: the email has gone, and its state is a workflow artifact | none |
+
+- **On `main`, a revert is a pull request** like any other change, so its title must pass *Lint the pull request
+  title*: `revert: …` does, and the `Revert "…"` title GitHub's *Revert* button gives a merged Automated Update
+  does not. As an admin the Owner can also push the revert straight to `main`, as the README Refreshes do.
+- **On `star-tracker-data`, push the revert directly**: no ruleset covers that branch. Do it before the next run,
+  which compares against whatever history the branch holds.
+- **To stop a Refresh while the cause is fixed**, open the workflow in the Actions tab and choose *Disable
+  workflow*. It then starts neither on its cron nor by dispatch until *Enable workflow* is chosen. A run already
+  in progress carries on; cancel that one from its run page.
+
 ## 3. The four Editions
 
 Each Edition is a whole document, written and kept in step by hand

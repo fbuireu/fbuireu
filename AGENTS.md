@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Agent-facing guide for **fbuireu/fbuireu**: the Owner's GitHub profile README and the automation that keeps it current. See [GLOSSARY.md](./GLOSSARY.md) for the domain glossary (Edition, Generated Region, Artefact, Embed, Refresh, Automated Update…); do not duplicate it here. [ARCHITECTURE.md](./ARCHITECTURE.md) is the big picture: where each section of an Edition comes from, how each weekly Refresh runs and fails, how the Editions are kept, and the checks and the ADR index.
+Agent-facing guide for **fbuireu/fbuireu**: the Owner's GitHub profile README and the automation that keeps it current. See [GLOSSARY.md](./GLOSSARY.md) for the domain glossary (Edition, Generated Region, Artefact, Embed, Refresh, Automated Update…); do not duplicate it here. [ARCHITECTURE.md](./ARCHITECTURE.md) is the big picture: where each section of an Edition comes from, how each weekly Refresh runs and fails and how to undo one, how the Editions are kept, and the checks and the ADR index.
 
 Reviewing a diff: [CODING_STANDARDS.md](./CODING_STANDARDS.md).
 
@@ -32,7 +32,7 @@ Everything else in an Edition is an Authored Region and is expected to survive a
 
 ## Refreshes
 
-Every content workflow shares one cron, `0 0 * * 0` (Sunday 00:00 UTC), and every one of them accepts `workflow_dispatch`. GitHub starts them hours late, one after another; the observed start times, each Refresh's flow, its commit identity and what it does when it fails are in [ARCHITECTURE.md](./ARCHITECTURE.md) §2.
+Every content workflow shares one cron, `0 0 * * 0` (Sunday 00:00 UTC), and every one of them accepts `workflow_dispatch`. GitHub starts them hours late, one after another; the observed start times, each Refresh's flow, its commit identity, what it does when it fails and how to undo one are in [ARCHITECTURE.md](./ARCHITECTURE.md) §2.
 
 | Workflow | Writes | Lands on |
 | --- | --- | --- |
