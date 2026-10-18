@@ -103,15 +103,13 @@ flowchart TD
     cron["Sunday cron, or manual"] --> checkout["Checkout with the Owner Token,<br/>credentials left in .git/config"]
     checkout --> next["next config, in order<br/>en, ca, it, es"]
     next --> events["recent-activity reads the Owner's<br/>public events with GITHUB_TOKEN"]
-    events --> any{"any events?"}
-    any -->|no| next
-    any -->|yes| marker{"RECENT_ACTIVITY:start<br/>in that Edition?"}
+    events --> marker{"RECENT_ACTIVITY:start<br/>in that Edition?"}
     marker -->|no| fail["step fails; the Editions<br/>after it are skipped"]
-    marker -->|yes| rewrite["replace the list up to the end marker,<br/>adding the end marker if it is gone"]
+    marker -->|yes| rewrite["replace the list up to the end marker,<br/>adding the end marker if it is gone;<br/>a week with no events empties the list"]
     rewrite --> pull["git add, git pull"]
     pull --> moved{"main changed that<br/>Edition meanwhile?"}
     moved -->|yes| fail
-    moved -->|no| push["git commit and git push<br/>as readme-bot"]
+    moved -->|no| push["git commit and git push as readme-bot;<br/>an unchanged list commits nothing"]
     push --> next
     next -->|"all four done"| done["run ends green"]
 ```
@@ -123,8 +121,12 @@ one in the tree with `persist-credentials: true` ([ADR 0002](./docs/adr/0002-wor
 An unchanged list commits nothing.
 
 - **A missing start marker is loud.** The step stops with *Couldn't find the `<!--RECENT_ACTIVITY:start-->`
-  comment. Exiting!*, and since the steps run in sequence, every Edition after it keeps last week's list. A
-  missing end marker is repaired: the action writes the list and the end marker after the start one.
+  comment. Exiting!*, and since the steps run in sequence, every Edition after it keeps last week's list. The
+  marker is checked before the events are, so a missing one fails even a week with no events. A missing end
+  marker is repaired: the action writes the list and the end marker after the start one.
+- **A week with no events empties the list.** The action pads its list to five lines before it tests for an
+  empty one, so that test never passes and its *No events found. Leaving readme unchanged.* never shows: with
+  nothing to report it deletes last week's lines, writes none, and commits the empty region.
 - **A collision fails the step.** `git pull` refuses when a commit that reached `main` since the checkout
   touched the Edition it has staged, and `git push` is rejected if one lands between the pull and the push.
   Either way the later Editions are skipped too.
@@ -141,7 +143,7 @@ config:
 flowchart TD
     cron["Sunday cron, or manual"] --> matrix["one job per Edition, one at a time:<br/>README.md, README.ca.md,<br/>README.es.md, README.it.md"]
     matrix --> read["waka-readme reads the Edition<br/>through the Contents API"]
-    read --> marker{"START_SECTION:waka<br/>in it?"}
+    read --> marker{"START_SECTION:waka and<br/>END_SECTION:waka in it?"}
     marker -->|no| silent["warning in the log, nothing written,<br/>job ends green"]
     marker -->|yes| fetch["fetch the last 7 days<br/>from WakaTime with WAKATIME_TOKEN"]
     fetch --> answered{"WakaTime answered?"}
@@ -159,8 +161,10 @@ A matrix over the four Editions with `max-parallel: 1`, so they run one after an
 The checkout is not what writes: `athul/waka-readme` reads and writes each Edition through the GitHub Contents
 API with the Owner Token passed as `GH_TOKEN`, so every commit is the Owner's and none goes through `git push`.
 
-- **A missing marker is silent.** The action logs *Cannot find … pattern in readme*, leaves the Edition as it
-  is, and the job, the run and the *Debug* badge all stay green.
+- **A missing marker is silent, start or end.** The action looks for the whole block, start marker to end
+  marker, so losing either one makes it log *Cannot find … pattern in readme* and leave the Edition as it is, and
+  the job, the run and the *Debug* badge all stay green. Unlike the activity region, nothing repairs a lost end
+  marker.
 - **A dead WakaTime token takes every Edition down at once.** The first job, `README.md`, fails, and `fail-fast`
   cancels the three still queued. The metrics SVG's WakaTime section shows an error panel the same week (below).
 - **A collision fails the job.** The commit names the blob it read; if the Edition changed in between, the API
@@ -210,11 +214,11 @@ config:
 flowchart TD
     cron["Sunday cron, or manual;<br/>30-minute job timeout"] --> checkout["Checkout with GITHUB_TOKEN"]
     checkout --> branch["gh-metrics creates metrics-run-RUN_ID<br/>from main, with GITHUB_TOKEN"]
-    branch --> render["render the SVG: GitHub data through METRICS_TOKEN,<br/>each plugin through its own token"]
+    branch --> render["render the SVG: GitHub data through METRICS_TOKEN;<br/>PageSpeed, Maps, WakaTime, Spotify and Steam<br/>through their own tokens"]
     render --> plugin{"a plugin failed?"}
     plugin -->|yes| panel["error panel drawn into the SVG;<br/>the run carries on"]
     plugin -->|no| pr
-    panel --> pr["commit the SVG on the branch, open<br/>Auto-generated metrics for run RUN_ID,<br/>as github-actions[bot]"]
+    panel --> pr["commit the SVG on the branch, open<br/>Auto-generated metrics for run #35;RUN_ID,<br/>as github-actions[bot]"]
     pr --> force["Force merge metrics pull request:<br/>admin squash merge with the Owner Token,<br/>3 tries, 10 s apart"]
     force --> main["a commit on main,<br/>authored by github-actions[bot]"]
     render -->|"30 minutes up"| cancelled["job cancelled"]
@@ -226,8 +230,9 @@ flowchart TD
 The metrics action owns its commit step, so it is told `output_action: pull-request` and opens the Automated
 Update itself with `GITHUB_TOKEN`; a separate step force-merges it with the Owner Token
 ([ADR 0001](./docs/adr/0001-automated-updates-land-through-a-self-merging-pull-request.md)). A pull request
-opened with `GITHUB_TOKEN` starts no workflow, so the required `zizmor` check never reports on it and the Force
-Merge is the only way in. The head branch is deleted by the merge.
+opened with `GITHUB_TOKEN` starts none of this repository's workflows, so the required `zizmor` check never
+reports on it and the Force Merge is the only way in. CodeQL's default setup, which GitHub runs itself rather than
+a workflow in the tree, does analyse it. The head branch is deleted by the merge.
 
 - **A dead plugin token gives a green run.** `plugins_errors_fatal: no` tells the action to draw a plugin's error
   into its section of the SVG and carry on, so a revoked Spotify, Steam, PageSpeed, Maps or WakaTime token, or a
@@ -285,7 +290,7 @@ config:
 ---
 flowchart TD
     cron["Sunday cron, or manual"] --> fc["follower-change lists the followers<br/>of the account FOLLOWERS_NOTIFIER_TOKEN<br/>belongs to"]
-    fc --> compare["compare with the newest snapshot artifact,<br/>then upload this run's list<br/>as the next snapshot"]
+    fc --> compare["upload this run's list as the next snapshot,<br/>then compare it with the newest<br/>snapshot artifact before it"]
     compare --> notify{"shouldNotify?"}
     notify -->|"no change, or first run"| done["run ends green"]
     notify -->|yes| mail["Email me: follows and unfollows<br/>to MAIL_USERNAME over SMTP"]
@@ -343,8 +348,8 @@ bypasses it. CodeQL also runs, through GitHub's default setup rather than a work
 pull requests without being required.
 
 What that gates is narrower than it looks. The activity and WakaTime Refreshes never open a pull request; the
-snake's runs the checks and is force-merged without waiting; the metrics one starts no workflow at all (§2). The
-checks gate Bot Updates and human pull requests, and nothing else.
+snake's runs the checks and is force-merged without waiting; the metrics one starts none of the tree's workflows
+(§2). The checks gate Bot Updates and human pull requests, and nothing else.
 
 ### Bot Updates
 
@@ -412,7 +417,8 @@ flowchart TD
     created -->|no| wait["Wait before retry: 45 s"]
     wait --> retry["Retry create pull request,<br/>the last chance"]
     created -->|yes| vars["Set PR vars"]
-    retry --> vars
+    retry -->|succeeded| vars
+    retry -->|failed| failed["the step fails,<br/>and so does the Refresh"]
     vars --> number{"a pull request number?"}
     number -->|"no, nothing changed"| stop["ends, nothing to merge"]
     number -->|yes| ready["Wait for PR to be ready: 5 s"]
@@ -423,8 +429,9 @@ flowchart TD
     admin --> main
 ```
 
-The body it writes on every pull request says the pull request *will be auto-merged if all checks pass*, which
-is true only of the `--auto` path; its one caller takes the other.
+Only the first attempt carries `continue-on-error`: a retry that fails as well stops the composite there, and the
+Refresh that called it fails with nothing merged. The body it writes on every pull request says the pull request
+*will be auto-merged if all checks pass*, which is true only of the `--auto` path; its one caller takes the other.
 
 ## 5. Decision records
 
