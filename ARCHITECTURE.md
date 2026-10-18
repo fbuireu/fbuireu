@@ -250,18 +250,26 @@ config:
   layout: dagre
 ---
 flowchart TD
-    cron["Sunday cron, or manual"] --> tracker["github-star-tracker reads the stars<br/>of the Owner's public repositories<br/>with the Owner Token"]
-    tracker --> branch["push data, charts, badge and README<br/>to star-tracker-data,<br/>as github-actions[bot]"]
+    cron["Sunday cron, or manual"] --> tracker["github-star-tracker reads the stars of every<br/>public repository the Owner Token lists:<br/>owned, collaborator or org member"]
+    tracker --> exclude["drop forks, archived ones and the four<br/>exclude-repos names"]
+    exclude --> branch
+    branch["push data, charts, badge and README<br/>to star-tracker-data,<br/>as github-actions[bot]"]
     branch --> changed{"stars-changed?"}
     changed -->|no| done["run ends green"]
     changed -->|yes| mail["Send email report:<br/>the tracker's HTML report<br/>to MAIL_USERNAME over SMTP"]
 ```
 
-`fbuireu/github-star-tracker` skips three repositories (`curriculum-vitae`, `email-signature`,
-`hashnode-articles-backup`) and keeps its history on `star-tracker-data`: `stars-data.json` and `.csv`,
-`stargazers.json`, `charts/*.svg`, `stars-badge.svg` and a `README.md` report. No Edition quotes any of it. The
-charts drawn for the three skipped repositories before they were skipped are still on the branch; nothing
-deletes them.
+`fbuireu/github-star-tracker` asks for `visibility: public`, which it sends as `GET /user/repos?visibility=public`
+with GitHub's default affiliation: every public repository the Owner Token lists, the Owner's own and also those
+the Owner collaborates on or reaches through an organisation. Forks and archived repositories are left out by the
+action's defaults, and `exclude-repos` drops four more: `curriculum-vitae`, `email-signature`,
+`hashnode-articles-backup` and `bw`, for `code-istvan/bw`, which the Owner does not own. The action matches each
+entry against the repository name alone, never the owner, so an `owner/name` entry excludes nothing, and the bare
+`bw` would also drop any other repository named `bw` the token comes to list.
+
+It keeps its history on `star-tracker-data`: `stars-data.json` and `.csv`, `stargazers.json`, `charts/*.svg`,
+`stars-badge.svg` and a `README.md` report. No Edition quotes any of it. Each run deletes the charts it no longer
+draws, so a repository that stops being tracked loses its charts on the next run.
 
 - **An expired Owner Token** fails the tracker: nothing is pushed and no email goes out.
 - **A failed send** turns the run red after the branch has already been written, so that week's numbers are on
