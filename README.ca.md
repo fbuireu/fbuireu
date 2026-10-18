@@ -235,11 +235,11 @@
 ## 👨🏻‍💻 Consulta les meves estadístiques de GitHub
 ### Última activitat
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empès canvis a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-2. ⬆️ Ha empès canvis a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-3. ⬆️ Ha empès canvis a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-4. ⬆️ Ha empès canvis a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-5. ⬆️ Ha empès canvis a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+1. ⬆️ Ha empès canvis a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+2. ⬆️ Ha empès canvis a [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+3. ⬆️ Ha empès canvis a [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+4. ⬆️ Ha empès canvis a [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+5. ⬆️ Ha empès canvis a [fbuireu/curriculum-vitae](https://github.com/fbuireu/curriculum-vitae)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
