@@ -235,11 +235,11 @@
 ## 👨🏻‍💻 Controlla le mie statistiche su GitHub
 ### Ultima attività
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha impulsato modifiche in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-2. ⬆️ Ha impulsato modifiche in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-3. ⬆️ Ha impulsato modifiche in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-4. ⬆️ Ha impulsato modifiche in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-5. ⬆️ Ha impulsato modifiche in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+1. ⬆️ Ha impulsato modifiche in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+2. ⬆️ Ha impulsato modifiche in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+3. ⬆️ Ha impulsato modifiche in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+4. ⬆️ Ha impulsato modifiche in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+5. ⬆️ Ha impulsato modifiche in [fbuireu/curriculum-vitae](https://github.com/fbuireu/curriculum-vitae)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
