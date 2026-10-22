@@ -143,7 +143,8 @@ config:
 ---
 flowchart TD
     cron["Sunday cron, or manual"] --> checkout["Checkout with the Owner Token"]
-    checkout --> build["gh-metrics/metrics builds its image<br/>from the pinned commit, about 4 minutes"]
+    checkout --> warm["ask WakaTime for both ranges until<br/>it stops answering 202, up to 6 tries<br/>30 s apart each"]
+    warm --> build["gh-metrics/metrics builds its image<br/>from the pinned commit, about 4 minutes"]
     build --> fetch["its wakatime plugin reads the last 7 days,<br/>then the last year, with WAKATIME_TOKEN;<br/>no GitHub token"]
     fetch --> answered{"WakaTime answered?"}
     answered -->|no| failed["plugins_errors_fatal: the step fails,<br/>nothing is proposed"]
@@ -168,6 +169,12 @@ and operating system, and a graph of the eight largest of each. The second step 
 built, so the year costs seconds. All four Editions quote both files by relative path, so their labels are
 English in every Edition.
 
+- **WakaTime answers stale numbers while it recalculates.** The first request for a range whose cached stats
+  are out of date gets `202 Calculating stats for this user` with the old figures, and the plugin draws whatever it
+  gets: the first manual run, on 2026-10-22, drew the previous Sunday's week. *Wait for WakaTime to finish
+  calculating the stats* asks for both ranges first and retries only on 202, every 30 seconds, six times at most,
+  then lets the run carry on; any other answer, a refused token included, ends the wait at once and leaves the
+  failure to the metrics step.
 - **A WakaTime failure is loud.** `plugins_errors_fatal: yes` turns a refused or revoked `WAKATIME_TOKEN` into a
   failed step, so nothing is proposed, the *Debug* badge goes red and both cards on `main` stay last week's. The
   same token fails green in the metrics Refresh, as an error panel (below).
