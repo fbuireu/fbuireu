@@ -46,6 +46,7 @@ jobs:
           USERNAME: fbuireu
           AUTO_PUSH: false
           THEME: onedark
+          NAME: Ferran Buireu
       - name: Keep the cards, drop the generators' leftovers
         shell: bash
         run: |
