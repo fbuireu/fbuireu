@@ -264,12 +264,24 @@
   <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=gatsbyjs&repo=gatsby&theme=onedark&hide_border=true"
        alt="Gatsby" />
   </a>
-  <a href="https://github.com/netlify/netlify-cms/pull/3412" target="_blank">
-    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=netlify&repo=netlify-cms&theme=onedark&hide_border=true"
-         alt="Netlify CMS" />
+  <a href="https://github.com/decaporg/decap-cms/pull/3412" target="_blank">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=decaporg&repo=decap-cms&theme=onedark&hide_border=true"
+         alt="Decap CMS" />
   </a>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=fbuireu&theme=github&bg_color=282c34&line=c3a875&point=d77077&hide_border=true"
-       alt="Gráfico de contribuciones mensuales a GitHub de Ferran Buireu" />
+  <a href="https://github.com/anmol098/waka-readme-stats/pull/227" target="_blank">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=anmol098&repo=waka-readme-stats&theme=onedark&hide_border=true"
+         alt="WakaReadme Stats" />
+  </a>
+  <a href="https://github.com/whyboris/Video-Hub-App/pull/775" target="_blank">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=whyboris&repo=Video-Hub-App&theme=onedark&hide_border=true"
+         alt="Video Hub App" />
+  </a>
+  <a href="https://github.com/gatsby-uc/gatsby-plugin-s3/pull/274" target="_blank">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=gatsby-uc&repo=gatsby-plugin-s3&theme=onedark&hide_border=true"
+         alt="gatsby-plugin-s3" />
+  </a>
+  <img src="assets/images/svg/github-contributions.svg"
+       alt="Gráfico de contribuciones a GitHub de Ferran Buireu" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=fbuireu&theme=onedark&hide_border=true"
        alt="La racha de Ferran Buireu en GitHub" />
 </details>    
@@ -284,7 +296,7 @@
 
 <details>
   <summary><strong>Trofeos</strong></summary>
-  <img src="https://github-profile-trophy.vercel.app/?username=fbuireu&theme=onedark&no-frame=true"
+  <img src="assets/images/svg/trophies.svg"
        alt="Los trofeos de Ferran Buireu" />
 </details>    
 
@@ -344,6 +356,7 @@ Si has llegado hasta aquí mereces conocer a ${\textcolor{purple}{\textnormal{Qw
 [![Global Metrics](https://github.com/fbuireu/fbuireu/actions/workflows/global-metrics.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/global-metrics.yml)
 [![Snake Grid Animation](https://github.com/fbuireu/fbuireu/actions/workflows/snake-animation.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/snake-animation.yml)
 [![Wakatime Stats](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/wakatime-stats.yml)
+[![Profile Cards](https://github.com/fbuireu/fbuireu/actions/workflows/profile-cards.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/profile-cards.yml)
 [![Follower Notifier](https://github.com/fbuireu/fbuireu/actions/workflows/follower-notifier.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/follower-notifier.yml)
 [![GitHub Star Tracker](https://github.com/fbuireu/fbuireu/actions/workflows/github-stars-tracker.yml/badge.svg)](https://github.com/fbuireu/fbuireu/actions/workflows/github-stars-tracker.yml)
 

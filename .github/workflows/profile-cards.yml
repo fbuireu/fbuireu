@@ -1,0 +1,63 @@
+name: Profile Cards
+on:
+  schedule:
+    - cron: 0 0 * * 0
+  workflow_dispatch:
+permissions: {}
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    name: Update Trophy and Contribution Cards
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PAT }}
+          persist-credentials: false
+      - name: Checkout the trophy generator
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: ryo-ma/github-profile-trophy
+          ref: e3c89df995e92e67cdd4b2acaab9d974583dc1f7
+          path: .trophy-generator
+          persist-credentials: false
+      - name: Set up Deno
+        uses: denoland/setup-deno@22d081ff2d3a40755e97629de92e3bcbfa7cf2ed # v2.0.5
+        with:
+          deno-version: 1.44.4
+      - name: Render the trophies
+        shell: bash
+        working-directory: .trophy-generator
+        env:
+          GITHUB_TOKEN1: ${{ github.token }}
+        run: deno run --allow-net --allow-env --allow-read --allow-write render_svg.ts fbuireu ../assets/images/svg/trophies.svg onedark
+      - name: Render the contribution summary
+        uses: vn7n24fzkq/github-profile-summary-cards@58ec032e39377dd38329bdc1db70074fe74fbb17 # v0.12.1
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          USERNAME: fbuireu
+          AUTO_PUSH: false
+          THEME: onedark
+      - name: Keep the cards, drop the generators' leftovers
+        shell: bash
+        run: |
+          cp profile-summary-card-output/onedark/0-profile-details.svg assets/images/svg/github-contributions.svg
+          rm -rf profile-summary-card-output .trophy-generator
+      - name: Create and auto-merge PR
+        uses: $/.github/actions/create-auto-merge-pr
+        with:
+          token: ${{ secrets.PAT }}
+          commit-message: 'docs: update the trophy and contribution cards'
+          title: 'docs: update the trophy and contribution cards'
+          branch: 'profile-cards-update-${{ github.run_number }}'
+          force-merge: 'true'
+          max-retries: '5'
+          retry-delay: '15'

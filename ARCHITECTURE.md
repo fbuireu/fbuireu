@@ -23,14 +23,16 @@ flowchart LR
     ws["wakatime-stats.yml"] -->|"Artefact in assets/images/svg/"| waka
     sa["snake-animation.yml"] -->|"Artefact in dist/"| snake
     gm["global-metrics.yml"] -->|"Artefact in assets/images/svg/"| metrics
+    pc["profile-cards.yml"] -->|"Artefact in assets/images/svg/"| cards
     third["third-party image services<br/>and GitHub's status badges"] -->|"Embed, drawn when<br/>the profile is opened"| embeds
     subgraph edition["every Edition"]
         authored["heading, Language Table, about,<br/>links, article lists, CV, license"]
         activity["Latest Activity"]
-        embeds["stats cards, streak, trophies,<br/>music, Stack Overflow, Debug"]
+        embeds["stats and pin cards, streak,<br/>music, Stack Overflow, Debug"]
         waka["WakaTime weekly stats"]
         snake["Qwerty, the snake"]
         metrics["detailed charts"]
+        cards["trophies, contribution graph"]
     end
     st["github-stars-tracker.yml"] --> branch["star-tracker-data,<br/>an Artefact Branch"]
     fn["follower-notifier.yml"] --> mail["email to the Owner"]
@@ -49,14 +51,16 @@ the same order:
 | *dev delusions*: Medium and Hashnode | Authored Region | Article lists kept by hand |
 | *dev delusions*: Stack Overflow | Embed | `github-readme-stackoverflow.vercel.app` |
 | *Latest Activity* | Generated Region | `<!--RECENT_ACTIVITY:start-->` … `<!--RECENT_ACTIVITY:end-->`, rewritten by [`github-activity.yml`](./.github/workflows/github-activity.yml) |
-| *Top repositories*, *Top Contributions & Streak*, *Languages & Stats*, *Trophies* | Embeds | `github-readme-stats-fast.vercel.app`, `github-readme-activity-graph.vercel.app`, `github-readme-streak-stats.herokuapp.com`, `github-profile-trophy.vercel.app` |
+| *Top repositories*, *Top Contributions & Streak*, *Languages & Stats* | Embeds | `github-readme-stats-fast.vercel.app` for the pinned repositories, each linked to the Owner's pull request there, and the stats and languages; `github-readme-streak-stats.herokuapp.com` for the streak |
+| *Top Contributions & Streak*, the contribution graph | Artefact | [`assets/images/svg/github-contributions.svg`](./assets/images/svg/github-contributions.svg), written by [`profile-cards.yml`](./.github/workflows/profile-cards.yml) and quoted by relative path |
+| *Trophies* | Artefact | [`assets/images/svg/trophies.svg`](./assets/images/svg/trophies.svg), written by the same Refresh and quoted the same way |
 | *Wakatime stats*, *Weekly stats* | Artefact | [`assets/images/svg/wakatime.svg`](./assets/images/svg/wakatime.svg), written by [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml) and quoted by relative path |
 | *Wakatime stats*, *Yearly stats* | Artefact | [`assets/images/svg/wakatime-year.svg`](./assets/images/svg/wakatime-year.svg), written by the same Refresh and quoted the same way |
 | *Wakatime stats*, *Overall Languages* | Embed | `github-readme-stats-fast.vercel.app/api/wakatime` |
 | *My exquisite music taste* | Embed | `spotify-recently-played-readme.vercel.app` |
 | Qwerty, the contribution snake | Artefact | [`dist/github-contribution-grid-snake.svg`](./dist/github-contribution-grid-snake.svg) and its `-dark` twin, written by [`snake-animation.yml`](./.github/workflows/snake-animation.yml) and quoted from `raw.githubusercontent.com/…/main/dist/` |
 | *Wanna see more detailed charts?* | Artefact | [`assets/images/svg/github-metrics.svg`](./assets/images/svg/github-metrics.svg), written by [`global-metrics.yml`](./.github/workflows/global-metrics.yml) and quoted by relative path |
-| *Debug* | Embeds | GitHub's status badges for the six scheduled workflows; see §2 |
+| *Debug* | Embeds | GitHub's status badges for the seven scheduled workflows; see §2 |
 | *License* | Authored Region | Written by hand |
 
 When a reader opens the profile, GitHub renders the Canonical Edition as it stands on `main`. The Generated
@@ -67,7 +71,7 @@ notifier only sends email.
 
 ## 2. The weekly refreshes
 
-Six workflows run on a schedule, and they share one cron, `0 0 * * 0`, Sunday at 00:00 UTC; each also accepts
+Seven workflows run on a schedule, and they share one cron, `0 0 * * 0`, Sunday at 00:00 UTC; each also accepts
 `workflow_dispatch`. GitHub starts scheduled runs late when it is busy, and midnight UTC is busy. Over the eight
 Sundays from 2026-08-23 to 2026-10-11 they started at these times, in this order every week:
 
@@ -79,6 +83,7 @@ Sundays from 2026-08-23 to 2026-10-11 they started at these times, in this order
 | [`github-stars-tracker.yml`](./.github/workflows/github-stars-tracker.yml) | 01:04 to 04:07 | a push to the Artefact Branch, and an email | `github-actions[bot]`, on `star-tracker-data` |
 | [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml) | 01:10 to 04:19 | an Automated Update and a Force Merge | the Owner as author, GitHub as committer of the squash |
 | [`global-metrics.yml`](./.github/workflows/global-metrics.yml) | 01:49 to 05:32 | an Automated Update and a Force Merge | `github-actions[bot]` as author, GitHub as committer of the squash |
+| [`profile-cards.yml`](./.github/workflows/profile-cards.yml) | not yet observed: added 2026-10-22 | an Automated Update and a Force Merge | the Owner as author, GitHub as committer of the squash |
 
 That order is what GitHub happened to do, not a promise. Each workflow's `concurrency` group serialises its own
 runs and nothing else, so two Refreshes that write the same Edition, a manual dispatch, or a hand commit landing
@@ -88,7 +93,7 @@ The activity Refresh reaches `main` without a pull request only because the Owne
 `main` ruleset lets the admin role bypass it; with any other token its pushes would be refused.
 
 **How a failure gets noticed.** The *Debug* section at the foot of every Edition carries GitHub's status badge
-for each of the six workflows, and a red one means that workflow's latest run failed. GitHub also emails a
+for each of the seven workflows, and a red one means that workflow's latest run failed. GitHub also emails a
 failed scheduled run to whoever last changed that workflow's cron line. Neither sees the failures that end
 green: a plugin of the metrics Refresh that draws an error panel into its SVG.
 
@@ -183,6 +188,40 @@ English in every Edition.
   built rather than pulled is in [ADR 0003](./docs/adr/0003-third-party-actions-are-pinned-to-commit-shas.md).
 - **Opening and merging fail as the snake's do** (below): one retry of the pull request after 45 seconds, then
   five merge attempts, after which the run fails and the Automated Update stays open for the Owner.
+- **An expired Owner Token** stops the run at the checkout.
+
+### Profile cards
+
+```mermaid
+---
+config:
+  look: handDrawn
+  layout: dagre
+---
+flowchart TD
+    cron["Sunday cron, or manual"] --> checkout["Checkout with the Owner Token"]
+    checkout --> gen["check out ryo-ma/github-profile-trophy<br/>at its pinned commit, set up Deno 1.44.4"]
+    gen --> trophy["render_svg.ts writes trophies.svg,<br/>theme onedark, with GITHUB_TOKEN"]
+    trophy --> summary["github-profile-summary-cards renders<br/>the onedark cards with GITHUB_TOKEN,<br/>AUTO_PUSH false"]
+    summary --> keep["keep 0-profile-details.svg as<br/>github-contributions.svg, delete the rest<br/>and the generator checkout"]
+    keep --> composite["Create and auto-merge PR:<br/>the create-auto-merge-pr composite"]
+    composite --> diff{"anything changed?"}
+    diff -->|no| none["no pull request,<br/>run ends green"]
+    diff -->|yes| pr["Automated Update on<br/>profile-cards-update-N,<br/>opened with the Owner Token"]
+    pr --> merge["Force Merge: admin squash merge,<br/>up to 5 tries, 15 s apart"]
+    merge --> main["a commit on main,<br/>authored by the Owner"]
+```
+
+The two cards that used to be Embeds from public Vercel instances, which went dark with `402` in 2026-10. Both
+read public GitHub data only, so both get `GITHUB_TOKEN` and nothing else. The trophy generator runs from a
+checkout of its repository at a commit, not through its own action, for the reason the *Gotchas* in
+[AGENTS.md](./AGENTS.md) give. `github-profile-summary-cards` writes five cards per theme into
+`profile-summary-card-output/`; only the profile-details one, the contribution graph, is kept, and the folder goes
+before the composite runs, since `peter-evans/create-pull-request` proposes everything the workspace holds.
+
+- **A generator that fails fails the run.** A refused query or a rate limit stops its step, nothing is proposed
+  and both cards on `main` stay last week's.
+- **Opening and merging fail as the snake's do** (below).
 - **An expired Owner Token** stops the run at the checkout.
 
 ### Snake
@@ -321,7 +360,7 @@ and its output is an email.
 ### Undoing a bad Refresh
 
 A Refresh that lands something wrong is undone by reverting what it wrote, and the revert lasts only until that
-workflow runs again: all six share the cron `0 0 * * 0`, so next Sunday's run, or any manual dispatch before it,
+workflow runs again: all seven share the cron `0 0 * * 0`, so next Sunday's run, or any manual dispatch before it,
 regenerates the same region or file from the same live data. Fix the cause first, or stop the workflow meanwhile.
 
 | Refresh | What to revert | On |
@@ -330,6 +369,7 @@ regenerates the same region or file from the same live data. Fix the cause first
 | [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml) | the squash of its Automated Update, `docs: update the WakaTime stats cards` | `main` |
 | [`snake-animation.yml`](./.github/workflows/snake-animation.yml) | the squash of its Automated Update, `docs: update snake grid animation` | `main` |
 | [`global-metrics.yml`](./.github/workflows/global-metrics.yml) | the squash of its force-merged Automated Update, `docs: update assets/images/svg/github-metrics.svg` | `main` |
+| [`profile-cards.yml`](./.github/workflows/profile-cards.yml) | the squash of its Automated Update, `docs: update the trophy and contribution cards` | `main` |
 | [`github-stars-tracker.yml`](./.github/workflows/github-stars-tracker.yml) | its `Update star data: …` commit | `star-tracker-data` |
 | [`follower-notifier.yml`](./.github/workflows/follower-notifier.yml) | nothing: the email has gone, and its state is a workflow artifact | none |
 
@@ -356,7 +396,7 @@ Region separately, addressing it by file name and the region by marker.
 | [`README.es.md`](./README.es.md), Spanish | [`es.config.yml`](./.github/config/github-activity/es.config.yml) | *Run recent activity (ES)* |
 | [`README.it.md`](./README.it.md), Italian | [`it.config.yml`](./.github/config/github-activity/it.config.yml) | *Run recent activity (IT)* |
 
-The snake, the WakaTime cards and the metrics Artefacts are single files that all four Editions quote by the same
+The snake, the WakaTime cards, the profile cards and the metrics Artefacts are single files that all four Editions quote by the same
 path, so one Refresh updates every Edition at once.
 
 The activity configs under [`.github/config/github-activity/`](./.github/config/github-activity) each name their
@@ -385,8 +425,8 @@ code-scanning result of the findings [`zizmor.yml`](./.github/workflows/zizmor.y
 bypasses it. CodeQL also runs, through GitHub's default setup rather than a workflow in the tree, and reports on
 pull requests without being required.
 
-What that gates is narrower than it looks. The activity Refresh never opens a pull request; the snake's and the
-WakaTime cards' run the checks and are force-merged without waiting; the metrics one starts none of the tree's
+What that gates is narrower than it looks. The activity Refresh never opens a pull request; the snake's, the
+WakaTime cards' and the profile cards' run the checks and are force-merged without waiting; the metrics one starts none of the tree's
 workflows (§2). The checks gate Bot Updates and human pull requests, and nothing else.
 
 ### Bot Updates
@@ -426,20 +466,20 @@ secrets; the token table in [AGENTS.md](./AGENTS.md#secrets-and-variables) says 
 ### The create-auto-merge-pr action
 
 [`.github/actions/create-auto-merge-pr`](./.github/actions/create-auto-merge-pr/action.yml) is the one piece of
-automation this repository writes itself. Its callers are the snake and WakaTime Refreshes, which reference it as
+automation this repository writes itself. Its callers are the snake, WakaTime and profile-card Refreshes, which reference it as
 `uses: $/.github/actions/create-auto-merge-pr`: the `$/` prefix resolves the path in this repository itself,
 where `./` would resolve it in whatever the checkout left in the workspace. It is the one `uses:` in the tree
 without a SHA pin, because there is no third party behind it to pin.
 
-| Input | Default | What it does | The snake passes | The WakaTime Refresh passes |
-| --- | --- | --- | --- | --- |
-| `token` | `github.token` | Opens and merges the pull request; with the Owner Token the pull-request workflows run on it | `secrets.PAT` | `secrets.PAT` |
-| `commit-message` | `docs: update repository assets` | The commit on the branch, and the subject of the squash | `docs: update snake grid animation` | `docs: update the WakaTime stats cards` |
-| `title` | `🤖 [AUTOMATED] Update Repository Assets` | The pull request title | `docs: update snake grid animation` | `docs: update the WakaTime stats cards` |
-| `branch` | `auto-update-<run_number>` | The head branch | `snake-animation-update-<run_number>` | `wakatime-update-<run_number>` |
-| `force-merge` | `'false'` | `'true'` merges with `--admin`; `'false'` arms `--auto` and waits for the checks; any other value merges nothing | `'true'` | `'true'` |
-| `max-retries` | `'3'` | Attempts at the merge | `'5'` | `'5'` |
-| `retry-delay` | `'10'` | Seconds between them | `'15'` | `'15'` |
+| Input | Default | What it does | The snake passes | The WakaTime Refresh passes | The profile cards pass |
+| --- | --- | --- | --- | --- | --- |
+| `token` | `github.token` | Opens and merges the pull request; with the Owner Token the pull-request workflows run on it | `secrets.PAT` | `secrets.PAT` | `secrets.PAT` |
+| `commit-message` | `docs: update repository assets` | The commit on the branch, and the subject of the squash | `docs: update snake grid animation` | `docs: update the WakaTime stats cards` | `docs: update the trophy and contribution cards` |
+| `title` | `🤖 [AUTOMATED] Update Repository Assets` | The pull request title | `docs: update snake grid animation` | `docs: update the WakaTime stats cards` | `docs: update the trophy and contribution cards` |
+| `branch` | `auto-update-<run_number>` | The head branch | `snake-animation-update-<run_number>` | `wakatime-update-<run_number>` | `profile-cards-update-<run_number>` |
+| `force-merge` | `'false'` | `'true'` merges with `--admin`; `'false'` arms `--auto` and waits for the checks; any other value merges nothing | `'true'` | `'true'` | `'true'` |
+| `max-retries` | `'3'` | Attempts at the merge | `'5'` | `'5'` | `'5'` |
+| `retry-delay` | `'10'` | Seconds between them | `'15'` | `'15'` | `'15'` |
 
 It outputs `pull-request-number` and `pull-request-operation` (`created`, `updated` or `none`).
 
@@ -469,7 +509,7 @@ flowchart TD
 
 Only the first attempt carries `continue-on-error`: a retry that fails as well stops the composite there, and the
 Refresh that called it fails with nothing merged. The body it writes on every pull request says the pull request
-*will be auto-merged if all checks pass*, which is true only of the `--auto` path; both its callers take the other.
+*will be auto-merged if all checks pass*, which is true only of the `--auto` path; all its callers take the other.
 
 ## 5. Decision records
 

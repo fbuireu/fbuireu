@@ -4,7 +4,7 @@ Date: 2026-07-31
 
 ## Status
 
-Accepted. Amended 2026-10-22: `athul/waka-readme` is gone, and a SHA turns out not to freeze what a Docker action runs; see the Consequence that says so.
+Accepted. Amended 2026-10-22: `athul/waka-readme` is gone, and a SHA turns out not to freeze what a Docker action runs; see the Consequence that says so. Amended 2026-10-22: one third-party repository runs without a `uses:`; see the Decision.
 
 ## Context
 
@@ -17,6 +17,8 @@ Pinning to tags is what almost every profile repository does, reads better, and 
 Every `uses:` names a full commit SHA, with the human-readable version in a trailing comment. Renovate maintains both (`pinDigests: true` and `rangeStrategy: pin` in [`.github/renovate.json`](../../.github/renovate.json)), and pin, patch and minor Bot Updates merge themselves while major ones wait for the Owner. [`zizmor.yml`](../../.github/workflows/zizmor.yml) runs on every push to `main` and every pull request and reports into code scanning, so a regression is caught on the Bot Update that introduces it.
 
 Two actions are deliberately pinned to a branch commit rather than a release, and each comment names the branch so a reader can see it is not a tag: `Readme-Workflows/recent-activity` on `main`, and `gh-metrics/metrics` on `master`, ahead of the `v3.35.0-beta` its comment records, in both workflows that run it. Only the first says *why* in its comment (the commit that removes dead glitch.me telemetry is unreleased); for the second the reason is upstream's release habits and is not written down here. `athul/waka-readme` was a third, on `master` because it had tagged nothing since `v0.3.1` on 2024-05-01, until the WakaTime cards replaced it in 2026-10.
+
+One third-party repository runs without a `uses:` at all. [`profile-cards.yml`](../../.github/workflows/profile-cards.yml) checks `ryo-ma/github-profile-trophy` out by commit SHA and runs its generator on a pinned Deno, because the action that repository publishes calls `denoland/setup-deno@v1` by tag and asks for Deno `v1.x` by range, which is exactly the moved-tag exposure this decision exists to refuse. Renovate does not follow a checkout's `ref:`, so that pin is frozen in the same way as the branch pins below, and its remote imports are versioned `deno.land/x` URLs, which that registry does not let a publisher overwrite.
 
 ## Consequences
 

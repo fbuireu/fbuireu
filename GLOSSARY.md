@@ -53,7 +53,7 @@ The pull request a Refresh opens against `main` carrying whatever it regenerated
 _Avoid_: bot commit, auto-commit, automated PR
 
 **Force Merge**:
-Merging an Automated Update with the Owner's administrative privileges instead of waiting on checks. It is how every Automated Update lands, the snake's, the WakaTime cards' and the metrics', not an escape hatch; the activity Refresh opens none and has nothing to merge.
+Merging an Automated Update with the Owner's administrative privileges instead of waiting on checks. It is how every Automated Update lands, the snake's, the WakaTime cards', the profile cards' and the metrics', not an escape hatch; the activity Refresh opens none and has nothing to merge.
 _Avoid_: admin merge, bypass, skip checks, override
 
 **Bot Update**:
@@ -67,7 +67,7 @@ _Avoid_: semver bump, risk level, category
 ## Identity
 
 **Owner**:
-The single human this Profile describes, and the only account with write access here. A Refresh acts with the Owner's rights wherever it has to, but the name on its commits is whichever identity its tool commits as: the Owner for the snake and WakaTime, `github-actions[bot]` for the metrics, `readme-bot` for the activity lines.
+The single human this Profile describes, and the only account with write access here. A Refresh acts with the Owner's rights wherever it has to, but the name on its commits is whichever identity its tool commits as: the Owner for the snake, WakaTime and the profile cards, `github-actions[bot]` for the metrics, `readme-bot` for the activity lines.
 _Avoid_: user, author, maintainer, account
 
 **Owner Token**:
