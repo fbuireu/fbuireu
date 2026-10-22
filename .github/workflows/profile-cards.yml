@@ -51,7 +51,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: stats
-          options: username=fbuireu&show_icons=true&theme=onedark&hide_border=true
+          options: username=fbuireu&show_icons=true&theme=onedark&hide_border=true&disable_animations=true
           path: assets/images/svg/github-stats.svg
           token: ${{ github.token }}
           core_version: ""
@@ -60,7 +60,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: top-langs
-          options: username=fbuireu&theme=onedark&hide_border=true
+          options: username=fbuireu&theme=onedark&hide_border=true&disable_animations=true
           path: assets/images/svg/github-languages.svg
           token: ${{ github.token }}
           core_version: ""
@@ -69,7 +69,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: wakatime
-          options: username=fbuireu&theme=onedark&layout=compact&hide_border=true
+          options: username=fbuireu&theme=onedark&layout=compact&hide_border=true&langs_count=10&disable_animations=true
           path: assets/images/svg/wakatime-languages.svg
           token: ${{ github.token }}
           core_version: ""
@@ -149,7 +149,7 @@ jobs:
       - name: Render the streak card
         uses: DenverCoder1/github-readme-streak-stats@d855de1a23fe45bdda5ffbc28a6d4b80b0f107e1 # v1.8.0
         with:
-          options: user=fbuireu&theme=onedark&hide_border=true
+          options: user=fbuireu&theme=onedark&hide_border=true&disable_animations=true
           path: assets/images/svg/github-streak.svg
           token: ${{ github.token }}
       - name: Keep the cards, drop the generators' leftovers
