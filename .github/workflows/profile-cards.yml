@@ -9,7 +9,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    name: Update Trophy and Contribution Cards
+    name: Update Profile Cards
     runs-on: ubuntu-latest
     timeout-minutes: 20
     permissions:
@@ -47,6 +47,111 @@ jobs:
           AUTO_PUSH: false
           THEME: onedark
           NAME: Ferran Buireu
+      - name: Render the stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=fbuireu&show_icons=true&theme=onedark&hide_border=true
+          path: assets/images/svg/github-stats.svg
+          token: ${{ github.token }}
+          core_version: ""
+          fail_on_error: true
+      - name: Render the languages card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=fbuireu&theme=onedark&hide_border=true
+          path: assets/images/svg/github-languages.svg
+          token: ${{ github.token }}
+          core_version: ""
+          fail_on_error: true
+      - name: Render the WakaTime languages card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: wakatime
+          options: username=fbuireu&theme=onedark&layout=compact&hide_border=true
+          path: assets/images/svg/wakatime-languages.svg
+          token: ${{ github.token }}
+          core_version: ""
+          fail_on_error: true
+      - name: Render the fbuireu/fbuireu pin
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: pin
+          options: username=fbuireu&repo=fbuireu&theme=onedark&hide_border=true
+          path: assets/images/svg/pins/fbuireu-fbuireu.svg
+          token: ${{ github.token }}
+          core_version: ""
+          fail_on_error: true
+      - name: Render the fbuireu/biancafiore pin
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: pin
+          options: username=fbuireu&repo=biancafiore&theme=onedark&hide_border=true
+          path: assets/images/svg/pins/fbuireu-biancafiore.svg
+          token: ${{ github.token }}
+          core_version: ""
+          fail_on_error: true
+      - name: Render the withastro/docs pin
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: pin
+          options: username=withastro&repo=docs&theme=onedark&hide_border=true
+          path: assets/images/svg/pins/withastro-docs.svg
+          token: ${{ github.token }}
+          core_version: ""
+          fail_on_error: true
+      - name: Render the gatsbyjs/gatsby pin
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: pin
+          options: username=gatsbyjs&repo=gatsby&theme=onedark&hide_border=true
+          path: assets/images/svg/pins/gatsbyjs-gatsby.svg
+          token: ${{ github.token }}
+          core_version: ""
+          fail_on_error: true
+      - name: Render the decaporg/decap-cms pin
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: pin
+          options: username=decaporg&repo=decap-cms&theme=onedark&hide_border=true
+          path: assets/images/svg/pins/decaporg-decap-cms.svg
+          token: ${{ github.token }}
+          core_version: ""
+          fail_on_error: true
+      - name: Render the anmol098/waka-readme-stats pin
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: pin
+          options: username=anmol098&repo=waka-readme-stats&theme=onedark&hide_border=true
+          path: assets/images/svg/pins/anmol098-waka-readme-stats.svg
+          token: ${{ github.token }}
+          core_version: ""
+          fail_on_error: true
+      - name: Render the whyboris/Video-Hub-App pin
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: pin
+          options: username=whyboris&repo=Video-Hub-App&theme=onedark&hide_border=true
+          path: assets/images/svg/pins/whyboris-Video-Hub-App.svg
+          token: ${{ github.token }}
+          core_version: ""
+          fail_on_error: true
+      - name: Render the gatsby-uc/gatsby-plugin-s3 pin
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: pin
+          options: username=gatsby-uc&repo=gatsby-plugin-s3&theme=onedark&hide_border=true
+          path: assets/images/svg/pins/gatsby-uc-gatsby-plugin-s3.svg
+          token: ${{ github.token }}
+          core_version: ""
+          fail_on_error: true
+      - name: Render the streak card
+        uses: DenverCoder1/github-readme-streak-stats@d855de1a23fe45bdda5ffbc28a6d4b80b0f107e1 # v1.8.0
+        with:
+          options: user=fbuireu&theme=onedark&hide_border=true
+          path: assets/images/svg/github-streak.svg
+          token: ${{ github.token }}
       - name: Keep the cards, drop the generators' leftovers
         shell: bash
         run: |
@@ -56,8 +161,8 @@ jobs:
         uses: $/.github/actions/create-auto-merge-pr
         with:
           token: ${{ secrets.PAT }}
-          commit-message: 'docs: update the trophy and contribution cards'
-          title: 'docs: update the trophy and contribution cards'
+          commit-message: 'docs: update the profile cards'
+          title: 'docs: update the profile cards'
           branch: 'profile-cards-update-${{ github.run_number }}'
           force-merge: 'true'
           max-retries: '5'

@@ -28,11 +28,11 @@ flowchart LR
     subgraph edition["every Edition"]
         authored["heading, Language Table, about,<br/>links, article lists, CV, license"]
         activity["Latest Activity"]
-        embeds["stats and pin cards, streak,<br/>music, Stack Overflow, Debug"]
+        embeds["music, Stack Overflow,<br/>badges, Debug"]
         waka["WakaTime weekly stats"]
         snake["Qwerty, the snake"]
         metrics["detailed charts"]
-        cards["trophies, contribution graph"]
+        cards["stats, languages, pins, streak,<br/>trophies, contribution graph"]
     end
     st["github-stars-tracker.yml"] --> branch["star-tracker-data,<br/>an Artefact Branch"]
     fn["follower-notifier.yml"] --> mail["email to the Owner"]
@@ -51,12 +51,12 @@ the same order:
 | *dev delusions*: Medium and Hashnode | Authored Region | Article lists kept by hand |
 | *dev delusions*: Stack Overflow | Embed | `github-readme-stackoverflow.vercel.app` |
 | *Latest Activity* | Generated Region | `<!--RECENT_ACTIVITY:start-->` … `<!--RECENT_ACTIVITY:end-->`, rewritten by [`github-activity.yml`](./.github/workflows/github-activity.yml) |
-| *Top repositories*, *Top Contributions & Streak*, *Languages & Stats* | Embeds | `github-readme-stats-fast.vercel.app` for the pinned repositories, each linked to the Owner's pull request there, and the stats and languages; `github-readme-streak-stats.herokuapp.com` for the streak |
-| *Top Contributions & Streak*, the contribution graph | Artefact | [`assets/images/svg/github-contributions.svg`](./assets/images/svg/github-contributions.svg), written by [`profile-cards.yml`](./.github/workflows/profile-cards.yml) and quoted by relative path |
-| *Trophies* | Artefact | [`assets/images/svg/trophies.svg`](./assets/images/svg/trophies.svg), written by the same Refresh and quoted the same way |
+| *Top repositories*, *Top Contributions & Streak* | Artefacts | one pin per repository under [`assets/images/svg/pins/`](./assets/images/svg/pins), each linked to the Owner's pull request there, [`github-contributions.svg`](./assets/images/svg/github-contributions.svg) and [`github-streak.svg`](./assets/images/svg/github-streak.svg), written by [`profile-cards.yml`](./.github/workflows/profile-cards.yml) and quoted by relative path |
+| *Languages & Stats* | Artefacts | [`github-stats.svg`](./assets/images/svg/github-stats.svg) and [`github-languages.svg`](./assets/images/svg/github-languages.svg), written by the same Refresh |
+| *Trophies* | Artefact | [`assets/images/svg/trophies.svg`](./assets/images/svg/trophies.svg), written by the same Refresh |
 | *Wakatime stats*, *Weekly stats* | Artefact | [`assets/images/svg/wakatime.svg`](./assets/images/svg/wakatime.svg), written by [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml) and quoted by relative path |
 | *Wakatime stats*, *Yearly stats* | Artefact | [`assets/images/svg/wakatime-year.svg`](./assets/images/svg/wakatime-year.svg), written by the same Refresh and quoted the same way |
-| *Wakatime stats*, *Overall Languages* | Embed | `github-readme-stats-fast.vercel.app/api/wakatime` |
+| *Wakatime stats*, *Overall Languages* | Artefact | [`assets/images/svg/wakatime-languages.svg`](./assets/images/svg/wakatime-languages.svg), the WakaTime card of `github-readme-stats-action`, written by [`profile-cards.yml`](./.github/workflows/profile-cards.yml) from the Owner's public WakaTime profile |
 | *My exquisite music taste* | Embed | `spotify-recently-played-readme.vercel.app` |
 | Qwerty, the contribution snake | Artefact | [`dist/github-contribution-grid-snake.svg`](./dist/github-contribution-grid-snake.svg) and its `-dark` twin, written by [`snake-animation.yml`](./.github/workflows/snake-animation.yml) and quoted from `raw.githubusercontent.com/…/main/dist/` |
 | *Wanna see more detailed charts?* | Artefact | [`assets/images/svg/github-metrics.svg`](./assets/images/svg/github-metrics.svg), written by [`global-metrics.yml`](./.github/workflows/global-metrics.yml) and quoted by relative path |
@@ -203,7 +203,8 @@ flowchart TD
     checkout --> gen["check out ryo-ma/github-profile-trophy<br/>at its pinned commit, set up Deno 1.44.4"]
     gen --> trophy["render_svg.ts writes trophies.svg,<br/>theme onedark, with GITHUB_TOKEN"]
     trophy --> summary["github-profile-summary-cards renders<br/>the onedark cards with GITHUB_TOKEN,<br/>AUTO_PUSH false"]
-    summary --> keep["keep 0-profile-details.svg as<br/>github-contributions.svg, delete the rest<br/>and the generator checkout"]
+    summary --> grs["github-readme-stats-action renders stats,<br/>languages, WakaTime languages and 8 pins;<br/>github-readme-streak-stats the streak"]
+    grs --> keep["keep 0-profile-details.svg as<br/>github-contributions.svg, delete the rest<br/>and the generator checkout"]
     keep --> composite["Create and auto-merge PR:<br/>the create-auto-merge-pr composite"]
     composite --> diff{"anything changed?"}
     diff -->|no| none["no pull request,<br/>run ends green"]
@@ -212,15 +213,19 @@ flowchart TD
     merge --> main["a commit on main,<br/>authored by the Owner"]
 ```
 
-The two cards that used to be Embeds from public Vercel instances, which went dark with `402` in 2026-10. Both
-read public GitHub data only, so both get `GITHUB_TOKEN` and nothing else. The trophy generator runs from a
+Every GitHub card the Editions show, all of which used to be Embeds from free public instances: two of them went
+dark with `402` in 2026-10, and the rest were moved here before they could. They read public GitHub data only, so
+every generator gets `GITHUB_TOKEN` and nothing else; the WakaTime languages card reads the Owner's public
+WakaTime profile and needs no token at all. The trophy generator runs from a
 checkout of its repository at a commit, not through its own action, for the reason the *Gotchas* in
 [AGENTS.md](./AGENTS.md) give. `github-profile-summary-cards` writes five cards per theme into
 `profile-summary-card-output/`; only the profile-details one, the contribution graph, is kept, and the folder goes
 before the composite runs, since `peter-evans/create-pull-request` proposes everything the workspace holds.
 
 - **A generator that fails fails the run.** A refused query or a rate limit stops its step, nothing is proposed
-  and both cards on `main` stay last week's.
+  and every card on `main` stays last week's. `github-readme-stats-action` draws an error card instead unless it is
+  given `fail_on_error: true`, which every step here is; it also installs its core from npm on every run unless
+  `core_version` is empty, which every step here leaves it, so it runs the version its lockfile pins.
 - **Opening and merging fail as the snake's do** (below).
 - **An expired Owner Token** stops the run at the checkout.
 
@@ -369,7 +374,7 @@ regenerates the same region or file from the same live data. Fix the cause first
 | [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml) | the squash of its Automated Update, `docs: update the WakaTime stats cards` | `main` |
 | [`snake-animation.yml`](./.github/workflows/snake-animation.yml) | the squash of its Automated Update, `docs: update snake grid animation` | `main` |
 | [`global-metrics.yml`](./.github/workflows/global-metrics.yml) | the squash of its force-merged Automated Update, `docs: update assets/images/svg/github-metrics.svg` | `main` |
-| [`profile-cards.yml`](./.github/workflows/profile-cards.yml) | the squash of its Automated Update, `docs: update the trophy and contribution cards` | `main` |
+| [`profile-cards.yml`](./.github/workflows/profile-cards.yml) | the squash of its Automated Update, `docs: update the profile cards` | `main` |
 | [`github-stars-tracker.yml`](./.github/workflows/github-stars-tracker.yml) | its `Update star data: …` commit | `star-tracker-data` |
 | [`follower-notifier.yml`](./.github/workflows/follower-notifier.yml) | nothing: the email has gone, and its state is a workflow artifact | none |
 
@@ -474,8 +479,8 @@ without a SHA pin, because there is no third party behind it to pin.
 | Input | Default | What it does | The snake passes | The WakaTime Refresh passes | The profile cards pass |
 | --- | --- | --- | --- | --- | --- |
 | `token` | `github.token` | Opens and merges the pull request; with the Owner Token the pull-request workflows run on it | `secrets.PAT` | `secrets.PAT` | `secrets.PAT` |
-| `commit-message` | `docs: update repository assets` | The commit on the branch, and the subject of the squash | `docs: update snake grid animation` | `docs: update the WakaTime stats cards` | `docs: update the trophy and contribution cards` |
-| `title` | `🤖 [AUTOMATED] Update Repository Assets` | The pull request title | `docs: update snake grid animation` | `docs: update the WakaTime stats cards` | `docs: update the trophy and contribution cards` |
+| `commit-message` | `docs: update repository assets` | The commit on the branch, and the subject of the squash | `docs: update snake grid animation` | `docs: update the WakaTime stats cards` | `docs: update the profile cards` |
+| `title` | `🤖 [AUTOMATED] Update Repository Assets` | The pull request title | `docs: update snake grid animation` | `docs: update the WakaTime stats cards` | `docs: update the profile cards` |
 | `branch` | `auto-update-<run_number>` | The head branch | `snake-animation-update-<run_number>` | `wakatime-update-<run_number>` | `profile-cards-update-<run_number>` |
 | `force-merge` | `'false'` | `'true'` merges with `--admin`; `'false'` arms `--auto` and waits for the checks; any other value merges nothing | `'true'` | `'true'` | `'true'` |
 | `max-retries` | `'3'` | Attempts at the merge | `'5'` | `'5'` | `'5'` |

@@ -245,11 +245,11 @@
 <details>
   <summary><strong>Repository principali</strong></summary>
   <a href="https://github.com/fbuireu/fbuireu" target="_blank">
-    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=fbuireu&repo=fbuireu&theme=onedark&hide_border=true"
+    <img src="assets/images/svg/pins/fbuireu-fbuireu.svg"
          alt="fbuireu" />    
   </a>
   <a href="https://github.com/fbuireu/biancafiore" target="_blank">
-    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=fbuireu&repo=biancafiore&theme=onedark&hide_border=true"
+    <img src="assets/images/svg/pins/fbuireu-biancafiore.svg"
          alt="biancafiore" />
   </a>
 </details>
@@ -257,40 +257,40 @@
 <details>
   <summary><strong>Migliori contributi e strisce</strong></summary>
   <a href="https://github.com/withastro/docs/pull/9188" target="_blank">
-  <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=withastro&repo=docs&theme=onedark&hide_border=true"
+  <img src="assets/images/svg/pins/withastro-docs.svg"
        alt="Astro" />
   </a>
   <a href="https://github.com/gatsbyjs/gatsby/pull/33261" target="_blank">
-  <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=gatsbyjs&repo=gatsby&theme=onedark&hide_border=true"
+  <img src="assets/images/svg/pins/gatsbyjs-gatsby.svg"
        alt="Gatsby" />
   </a>
   <a href="https://github.com/decaporg/decap-cms/pull/3412" target="_blank">
-    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=decaporg&repo=decap-cms&theme=onedark&hide_border=true"
+    <img src="assets/images/svg/pins/decaporg-decap-cms.svg"
          alt="Decap CMS" />
   </a>
   <a href="https://github.com/anmol098/waka-readme-stats/pull/227" target="_blank">
-    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=anmol098&repo=waka-readme-stats&theme=onedark&hide_border=true"
+    <img src="assets/images/svg/pins/anmol098-waka-readme-stats.svg"
          alt="WakaReadme Stats" />
   </a>
   <a href="https://github.com/whyboris/Video-Hub-App/pull/775" target="_blank">
-    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=whyboris&repo=Video-Hub-App&theme=onedark&hide_border=true"
+    <img src="assets/images/svg/pins/whyboris-Video-Hub-App.svg"
          alt="Video Hub App" />
   </a>
   <a href="https://github.com/gatsby-uc/gatsby-plugin-s3/pull/274" target="_blank">
-    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=gatsby-uc&repo=gatsby-plugin-s3&theme=onedark&hide_border=true"
+    <img src="assets/images/svg/pins/gatsby-uc-gatsby-plugin-s3.svg"
          alt="gatsby-plugin-s3" />
   </a>
   <img src="assets/images/svg/github-contributions.svg"
        alt="Grafico dei contributi a GitHub di Ferran Buireu" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fbuireu&theme=onedark&hide_border=true"
+  <img src="assets/images/svg/github-streak.svg"
        alt="La striscia di Ferran Buireu su GitHub" />
 </details>    
 
 <details>
   <summary><strong>Linguaggi e statistiche</strong></summary>
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
+  <img src="assets/images/svg/github-stats.svg"
        alt="Statistiche di Ferran Buireu su GitHub" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=fbuireu&show_icons=true&theme=onedark&hide_border=true"
+  <img src="assets/images/svg/github-languages.svg"
        alt="I migliori linguaggi su GitHub di Ferran Buireu" />
 </details>
 
@@ -317,7 +317,7 @@
 
 <details>
   <summary><strong>Linguaggi</strong></summary>
-  <img src="https://github-readme-stats-fast.vercel.app/api/wakatime?username=fbuireu&theme=onedark&layout=compact&hide_border=true"
+  <img src="assets/images/svg/wakatime-languages.svg"
        alt="Linguaggi in Wakatime" />
 </details>   
 
