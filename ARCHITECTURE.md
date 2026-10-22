@@ -173,8 +173,9 @@ English in every Edition.
   are out of date gets `202 Calculating stats for this user` with the old figures, and the plugin draws whatever it
   gets: the first manual run, on 2026-10-22, drew the previous Sunday's week. *Wait for WakaTime to finish
   calculating the stats* asks for both ranges first and retries only on 202, every 30 seconds, six times at most,
-  then lets the run carry on; any other answer, a refused token included, ends the wait at once and leaves the
-  failure to the metrics step.
+  then lets the run carry on; any other answer, a refused token included, ends the wait at once with a warning in
+  the run summary and leaves the failure to the metrics step. It sends the key as `api_key`, trimmed, the way the
+  plugin does: the first version sent it as Basic authentication, got `401` for both ranges and waited for nothing.
 - **A WakaTime failure is loud.** `plugins_errors_fatal: yes` turns a refused or revoked `WAKATIME_TOKEN` into a
   failed step, so nothing is proposed, the *Debug* badge goes red and both cards on `main` stay last week's. The
   same token fails green in the metrics Refresh, as an error panel (below).
