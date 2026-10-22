@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Ferran Buireu&#39;s GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 52, Total Commits  (last year) : 5052, Total PRs: 695, Total Issues: 26, Contributed to (last year): 2</desc>
+        <desc id="descId">Total Stars Earned: 52, Total Commits  (last year) : 5054, Total PRs: 696, Total Issues: 26, Contributed to (last year): 2</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 54.165216296402214;
+        stroke-dashoffset: 54.165159518824304;
       }
     }
   
@@ -99,7 +99,7 @@
         }
       }
     
-          
+          * { animation-duration: 0s !important; animation-delay: 0s !important; }
         </style>
 
         
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >695</text>
+      >696</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
