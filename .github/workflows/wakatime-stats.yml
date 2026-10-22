@@ -9,7 +9,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    name: Update WakaTime Stats Asset
+    name: Update WakaTime Stats Assets
     runs-on: ubuntu-latest
     timeout-minutes: 20
     permissions:
@@ -21,7 +21,7 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.PAT }}
           persist-credentials: false
-      - name: Use metrics
+      - name: Use metrics (week)
         uses: gh-metrics/metrics@491b81a96df4b70e14a356a2f90e38c2e84e2b84 # master (v3.35.0-beta)
         with:
           token: NOT_NEEDED
@@ -35,16 +35,33 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_days: 7
+          plugin_wakatime_limit: 8
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, editors-graphs, os, os-graphs
-      - name: Copy the render into the repository
+      - name: Use metrics (year)
+        uses: gh-metrics/metrics@491b81a96df4b70e14a356a2f90e38c2e84e2b84 # master (v3.35.0-beta)
+        with:
+          token: NOT_NEEDED
+          user: fbuireu
+          filename: assets/images/svg/wakatime-year.svg
+          output_action: none
+          use_prebuilt_image: no
+          template: classic
+          base: ""
+          plugins_errors_fatal: yes
+          plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          plugin_wakatime_days: 365
+          plugin_wakatime_limit: 8
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, editors-graphs, os, os-graphs
+      - name: Copy the renders into the repository
         shell: bash
-        run: cp /metrics_renders/assets/images/svg/wakatime.svg assets/images/svg/wakatime.svg
+        run: cp /metrics_renders/assets/images/svg/wakatime.svg /metrics_renders/assets/images/svg/wakatime-year.svg assets/images/svg/
       - name: Create and auto-merge PR
         uses: $/.github/actions/create-auto-merge-pr
         with:
           token: ${{ secrets.PAT }}
-          commit-message: 'docs: update assets/images/svg/wakatime.svg'
-          title: 'docs: update assets/images/svg/wakatime.svg'
+          commit-message: 'docs: update the WakaTime stats cards'
+          title: 'docs: update the WakaTime stats cards'
           branch: 'wakatime-update-${{ github.run_number }}'
           force-merge: 'true'
           max-retries: '5'

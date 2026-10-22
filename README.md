@@ -302,6 +302,12 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 </details>  
 
 <details>
+  <summary><strong>Yearly stats</strong></summary>
+
+  <img src="assets/images/svg/wakatime-year.svg" alt="WakaTime stats for the last year" />
+</details>
+
+<details>
   <summary><strong>Overall Languages</strong></summary>
   <img src="https://github-readme-stats-fast.vercel.app/api/wakatime?username=fbuireu&theme=onedark&layout=compact&hide_border=true"
        alt="Wakatime Overall Languages" />

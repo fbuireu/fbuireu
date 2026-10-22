@@ -298,6 +298,12 @@
 </details>  
 
 <details>
+  <summary><strong>Estadísticas anuales</strong></summary>
+
+  <img src="assets/images/svg/wakatime-year.svg" alt="Estadísticas de WakaTime del último año" />
+</details>
+
+<details>
   <summary><strong>Lenguajes</strong></summary>
   <img src="https://github-readme-stats-fast.vercel.app/api/wakatime?username=fbuireu&theme=onedark&layout=compact&hide_border=true"
        alt="Lenguajes en Wakatime" />

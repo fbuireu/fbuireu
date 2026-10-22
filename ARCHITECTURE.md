@@ -51,6 +51,7 @@ the same order:
 | *Latest Activity* | Generated Region | `<!--RECENT_ACTIVITY:start-->` … `<!--RECENT_ACTIVITY:end-->`, rewritten by [`github-activity.yml`](./.github/workflows/github-activity.yml) |
 | *Top repositories*, *Top Contributions & Streak*, *Languages & Stats*, *Trophies* | Embeds | `github-readme-stats-fast.vercel.app`, `github-readme-activity-graph.vercel.app`, `github-readme-streak-stats.herokuapp.com`, `github-profile-trophy.vercel.app` |
 | *Wakatime stats*, *Weekly stats* | Artefact | [`assets/images/svg/wakatime.svg`](./assets/images/svg/wakatime.svg), written by [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml) and quoted by relative path |
+| *Wakatime stats*, *Yearly stats* | Artefact | [`assets/images/svg/wakatime-year.svg`](./assets/images/svg/wakatime-year.svg), written by the same Refresh and quoted the same way |
 | *Wakatime stats*, *Overall Languages* | Embed | `github-readme-stats-fast.vercel.app/api/wakatime` |
 | *My exquisite music taste* | Embed | `spotify-recently-played-readme.vercel.app` |
 | Qwerty, the contribution snake | Artefact | [`dist/github-contribution-grid-snake.svg`](./dist/github-contribution-grid-snake.svg) and its `-dark` twin, written by [`snake-animation.yml`](./.github/workflows/snake-animation.yml) and quoted from `raw.githubusercontent.com/…/main/dist/` |
@@ -143,11 +144,11 @@ config:
 flowchart TD
     cron["Sunday cron, or manual"] --> checkout["Checkout with the Owner Token"]
     checkout --> build["gh-metrics/metrics builds its image<br/>from the pinned commit, about 4 minutes"]
-    build --> fetch["its wakatime plugin reads the last 7 days<br/>with WAKATIME_TOKEN; no GitHub token"]
+    build --> fetch["its wakatime plugin reads the last 7 days,<br/>then the last year, with WAKATIME_TOKEN;<br/>no GitHub token"]
     fetch --> answered{"WakaTime answered?"}
     answered -->|no| failed["plugins_errors_fatal: the step fails,<br/>nothing is proposed"]
-    answered -->|yes| render["render wakatime.svg into /metrics_renders,<br/>committing nothing"]
-    render --> copy["copy it to assets/images/svg/"]
+    answered -->|yes| render["render wakatime.svg and wakatime-year.svg<br/>into /metrics_renders, committing nothing"]
+    render --> copy["copy both to assets/images/svg/"]
     copy --> composite["Create and auto-merge PR:<br/>the create-auto-merge-pr composite"]
     composite --> diff{"anything changed?"}
     diff -->|no| none["no pull request,<br/>run ends green"]
@@ -156,17 +157,19 @@ flowchart TD
     merge --> main["a commit on main,<br/>authored by the Owner"]
 ```
 
-One job, running the action the metrics Refresh runs, at the same pin, with every section but its WakaTime plugin
-switched off: `base: ""` drops the GitHub sections, and `token: NOT_NEEDED` tells the action not to read GitHub at
-all, so the step holds `WAKATIME_TOKEN` and no GitHub credential. `output_action: none` leaves the render in
-`/metrics_renders` instead of committing it; the workflow copies it to `assets/images/svg/wakatime.svg`, which is
-what gives the composite action something to propose (§4), as `Platane/snk` does for the snake. The card covers
-the last seven days: the total and the daily average, the top project, language, editor and operating system,
-and a graph of the five largest of each. All four Editions quote the one file by relative path, so its labels are
+One job, running the action the metrics Refresh runs, at the same pin, twice, with every section but its WakaTime
+plugin switched off: `base: ""` drops the GitHub sections, and `token: NOT_NEEDED` tells the action not to read GitHub at
+all, so each step holds `WAKATIME_TOKEN` and no GitHub credential; the plugin never reads GitHub, so a token would
+change nothing it draws. `output_action: none` leaves the renders in `/metrics_renders` instead of committing
+them; the workflow copies them to `assets/images/svg/wakatime.svg` and `wakatime-year.svg`, which is what gives the
+composite action something to propose (§4), as `Platane/snk` does for the snake. One card covers the last seven
+days and the other the last year, each with the total and the daily average, the top project, language, editor
+and operating system, and a graph of the eight largest of each. The second step finds the image the first one
+built, so the year costs seconds. All four Editions quote both files by relative path, so their labels are
 English in every Edition.
 
 - **A WakaTime failure is loud.** `plugins_errors_fatal: yes` turns a refused or revoked `WAKATIME_TOKEN` into a
-  failed step, so nothing is proposed, the *Debug* badge goes red and the card on `main` stays last week's. The
+  failed step, so nothing is proposed, the *Debug* badge goes red and both cards on `main` stay last week's. The
   same token fails green in the metrics Refresh, as an error panel (below).
 - **Every run builds the metrics image** before it renders anything, and the build is most of the run. Why it is
   built rather than pulled is in [ADR 0003](./docs/adr/0003-third-party-actions-are-pinned-to-commit-shas.md).
@@ -316,7 +319,7 @@ regenerates the same region or file from the same live data. Fix the cause first
 | Refresh | What to revert | On |
 | --- | --- | --- |
 | [`github-activity.yml`](./.github/workflows/github-activity.yml) | one commit per Edition, such as `docs: update README.ca.md with latest GitHub activity`, by `readme-bot` | `main` |
-| [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml) | the squash of its Automated Update, `docs: update assets/images/svg/wakatime.svg` | `main` |
+| [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml) | the squash of its Automated Update, `docs: update the WakaTime stats cards` | `main` |
 | [`snake-animation.yml`](./.github/workflows/snake-animation.yml) | the squash of its Automated Update, `docs: update snake grid animation` | `main` |
 | [`global-metrics.yml`](./.github/workflows/global-metrics.yml) | the squash of its force-merged Automated Update, `docs: update assets/images/svg/github-metrics.svg` | `main` |
 | [`github-stars-tracker.yml`](./.github/workflows/github-stars-tracker.yml) | its `Update star data: …` commit | `star-tracker-data` |
@@ -345,7 +348,7 @@ Region separately, addressing it by file name and the region by marker.
 | [`README.es.md`](./README.es.md), Spanish | [`es.config.yml`](./.github/config/github-activity/es.config.yml) | *Run recent activity (ES)* |
 | [`README.it.md`](./README.it.md), Italian | [`it.config.yml`](./.github/config/github-activity/it.config.yml) | *Run recent activity (IT)* |
 
-The snake, the WakaTime card and the metrics Artefacts are single files that all four Editions quote by the same
+The snake, the WakaTime cards and the metrics Artefacts are single files that all four Editions quote by the same
 path, so one Refresh updates every Edition at once.
 
 The activity configs under [`.github/config/github-activity/`](./.github/config/github-activity) each name their
@@ -375,7 +378,7 @@ bypasses it. CodeQL also runs, through GitHub's default setup rather than a work
 pull requests without being required.
 
 What that gates is narrower than it looks. The activity Refresh never opens a pull request; the snake's and the
-WakaTime card's run the checks and are force-merged without waiting; the metrics one starts none of the tree's
+WakaTime cards' run the checks and are force-merged without waiting; the metrics one starts none of the tree's
 workflows (§2). The checks gate Bot Updates and human pull requests, and nothing else.
 
 ### Bot Updates
@@ -423,8 +426,8 @@ without a SHA pin, because there is no third party behind it to pin.
 | Input | Default | What it does | The snake passes | The WakaTime Refresh passes |
 | --- | --- | --- | --- | --- |
 | `token` | `github.token` | Opens and merges the pull request; with the Owner Token the pull-request workflows run on it | `secrets.PAT` | `secrets.PAT` |
-| `commit-message` | `docs: update repository assets` | The commit on the branch, and the subject of the squash | `docs: update snake grid animation` | `docs: update assets/images/svg/wakatime.svg` |
-| `title` | `🤖 [AUTOMATED] Update Repository Assets` | The pull request title | `docs: update snake grid animation` | `docs: update assets/images/svg/wakatime.svg` |
+| `commit-message` | `docs: update repository assets` | The commit on the branch, and the subject of the squash | `docs: update snake grid animation` | `docs: update the WakaTime stats cards` |
+| `title` | `🤖 [AUTOMATED] Update Repository Assets` | The pull request title | `docs: update snake grid animation` | `docs: update the WakaTime stats cards` |
 | `branch` | `auto-update-<run_number>` | The head branch | `snake-animation-update-<run_number>` | `wakatime-update-<run_number>` |
 | `force-merge` | `'false'` | `'true'` merges with `--admin`; `'false'` arms `--auto` and waits for the checks; any other value merges nothing | `'true'` | `'true'` |
 | `max-retries` | `'3'` | Attempts at the merge | `'5'` | `'5'` |

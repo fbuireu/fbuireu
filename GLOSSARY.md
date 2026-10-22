@@ -53,7 +53,7 @@ The pull request a Refresh opens against `main` carrying whatever it regenerated
 _Avoid_: bot commit, auto-commit, automated PR
 
 **Force Merge**:
-Merging an Automated Update with the Owner's administrative privileges instead of waiting on checks. It is how every Automated Update lands, the snake's, the WakaTime card's and the metrics', not an escape hatch; the activity Refresh opens none and has nothing to merge.
+Merging an Automated Update with the Owner's administrative privileges instead of waiting on checks. It is how every Automated Update lands, the snake's, the WakaTime cards' and the metrics', not an escape hatch; the activity Refresh opens none and has nothing to merge.
 _Avoid_: admin merge, bypass, skip checks, override
 
 **Bot Update**:
