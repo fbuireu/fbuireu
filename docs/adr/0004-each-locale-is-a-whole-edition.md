@@ -4,7 +4,7 @@ Date: 2026-07-31
 
 ## Status
 
-Accepted.
+Accepted. Amended 2026-10-22: the WakaTime stats became one Artefact that every Edition quotes, so the WakaTime matrix and its Generated Region are gone and the activity region is the only one.
 
 ## Context
 
@@ -14,13 +14,12 @@ The tidy option is one source document plus a translation table, rendered into o
 
 ## Decision
 
-Each Edition is a complete, hand-written document carrying its own Generated Regions. Automation fans out over those files rather than over one source:
+Each Edition is a complete, hand-written document carrying its own Generated Region. Automation fans out over those files rather than over one source:
 
-- [`wakatime-stats.yml`](../../.github/workflows/wakatime-stats.yml) runs a matrix over `README.md`, [`README.ca.md`](../../README.ca.md), [`README.es.md`](../../README.es.md), [`README.it.md`](../../README.it.md), with `max-parallel: 1` so the direct pushes do not race each other onto `main`.
 - [`github-activity.yml`](../../.github/workflows/github-activity.yml) invokes the same action once per config under [`.github/config/github-activity/`](../../.github/config/github-activity). Those configs are also where the per-locale wording of activity lines lives, and [`en.config.yml`](../../.github/config/github-activity/en.config.yml) carries only the `push` message, restated without a count, because English is otherwise the action's default.
 
 ## Consequences
 
 - **An Authored Region edited in one Edition is wrong in the others** until someone copies it across, and nothing detects the drift. This is the whole cost of the decision, and it is paid on every content edit, not on every Refresh.
-- **Adding a language is a fixed set of edits**, none of them optional: a new `README.xx.md`, a new activity config, a new step in [`github-activity.yml`](../../.github/workflows/github-activity.yml) that runs the action on that config, a new entry in the WakaTime matrix, a new row in the Language Table (in every Edition), and a flag under [`assets/images/png/flags/`](../../assets/images/png/flags). [`ARCHITECTURE.md`](../../ARCHITECTURE.md) §3 lists them in order.
-- **The Generated Regions must exist in every Edition with identical markers**, because the workflows address them by marker, not by position. The two regions fail in opposite ways when a marker goes. An Edition missing `<!--RECENT_ACTIVITY:start-->` fails its activity step, loudly, and the Editions after it in that run are skipped. An Edition missing `<!--START_SECTION:waka-->` is the silent case: `waka-readme` logs a warning, leaves the Edition untouched and the run stays green.
+- **Adding a language is a fixed set of edits**, none of them optional: a new `README.xx.md`, a new activity config, a new step in [`github-activity.yml`](../../.github/workflows/github-activity.yml) that runs the action on that config, a new row in the Language Table (in every Edition), and a flag under [`assets/images/png/flags/`](../../assets/images/png/flags). [`ARCHITECTURE.md`](../../ARCHITECTURE.md) §3 lists them in order.
+- **The Generated Region must exist in every Edition with identical markers**, because the workflow addresses it by marker, not by position. An Edition missing `<!--RECENT_ACTIVITY:start-->` fails its activity step, loudly, and the Editions after it in that run are skipped. The WakaTime region, which failed silently instead, went with `waka-readme` in 2026-10.

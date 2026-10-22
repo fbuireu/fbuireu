@@ -23,7 +23,7 @@ _Avoid_: language switcher, nav, locale selector
 ## Provenance
 
 **Generated Region**:
-A span inside an Edition delimited by a pair of HTML comment markers, whose contents are overwritten wholesale on each Refresh. The markers belong to whichever tool writes the region, so their spelling differs from one region to the next and is not ours to choose.
+A span inside an Edition delimited by a pair of HTML comment markers, whose contents are overwritten wholesale on each Refresh. The markers belong to whichever tool writes the region, so their spelling is not ours to choose.
 _Avoid_: placeholder, slot, injected block, template
 
 **Authored Region**:
@@ -53,7 +53,7 @@ The pull request a Refresh opens against `main` carrying whatever it regenerated
 _Avoid_: bot commit, auto-commit, automated PR
 
 **Force Merge**:
-Merging an Automated Update with the Owner's administrative privileges instead of waiting on checks. It is how every Automated Update lands, the snake's and the metrics', not an escape hatch; the README Refreshes open none and have nothing to merge.
+Merging an Automated Update with the Owner's administrative privileges instead of waiting on checks. It is how every Automated Update lands, the snake's, the WakaTime card's and the metrics', not an escape hatch; the activity Refresh opens none and has nothing to merge.
 _Avoid_: admin merge, bypass, skip checks, override
 
 **Bot Update**:
@@ -71,7 +71,7 @@ The single human this Profile describes, and the only account with write access 
 _Avoid_: user, author, maintainer, account
 
 **Owner Token**:
-The credential that lets a Refresh act as the Owner instead of as GitHub's own workflow identity. It is what lets an Automated Update be approved and force-merged, lets the README Refreshes push past the `main` ruleset, and makes a pull request it opens start the pull-request workflows, which one opened as the workflow identity does not. Every Refresh is started by the clock, so none of this triggers the next one.
+The credential that lets a Refresh act as the Owner instead of as GitHub's own workflow identity. It is what lets an Automated Update be approved and force-merged, lets the activity Refresh push past the `main` ruleset, and makes a pull request it opens start the pull-request workflows, which one opened as the workflow identity does not. Every Refresh is started by the clock, so none of this triggers the next one.
 _Avoid_: PAT, GITHUB_TOKEN, secret, credential
 
 **Integration Token**:

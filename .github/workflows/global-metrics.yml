@@ -31,6 +31,7 @@ jobs:
           committer_message: 'docs: update ${filename}'
           committer_branch: main
           output_action: pull-request
+          use_prebuilt_image: no
           committer_gist: ""
           dryrun: no
           template: classic

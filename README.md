@@ -298,17 +298,7 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <details>
   <summary><strong>Weekly stats</strong></summary>
 
-  <!--START_SECTION:waka-->
-
-```txt
-TypeScript     18 hrs                █████████████▒░░░░░░░░░░░   52.82 %
-Markdown       5 hrs 17 mins         ████░░░░░░░░░░░░░░░░░░░░░   15.53 %
-Other          2 hrs 57 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.65 %
-JSON           1 hr 20 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.94 %
-JavaScript     1 hr 12 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.56 %
-```
-
-<!--END_SECTION:waka-->
+  <img src="assets/images/svg/wakatime.svg" alt="WakaTime stats for the last 7 days" />
 </details>  
 
 <details>

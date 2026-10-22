@@ -20,7 +20,7 @@ config:
 flowchart LR
     owner["the Owner, by hand"] -->|"Authored Region"| authored
     ga["github-activity.yml"] -->|"Generated Region"| activity
-    ws["wakatime-stats.yml"] -->|"Generated Region"| waka
+    ws["wakatime-stats.yml"] -->|"Artefact in assets/images/svg/"| waka
     sa["snake-animation.yml"] -->|"Artefact in dist/"| snake
     gm["global-metrics.yml"] -->|"Artefact in assets/images/svg/"| metrics
     third["third-party image services<br/>and GitHub's status badges"] -->|"Embed, drawn when<br/>the profile is opened"| embeds
@@ -50,7 +50,7 @@ the same order:
 | *dev delusions*: Stack Overflow | Embed | `github-readme-stackoverflow.vercel.app` |
 | *Latest Activity* | Generated Region | `<!--RECENT_ACTIVITY:start-->` … `<!--RECENT_ACTIVITY:end-->`, rewritten by [`github-activity.yml`](./.github/workflows/github-activity.yml) |
 | *Top repositories*, *Top Contributions & Streak*, *Languages & Stats*, *Trophies* | Embeds | `github-readme-stats-fast.vercel.app`, `github-readme-activity-graph.vercel.app`, `github-readme-streak-stats.herokuapp.com`, `github-profile-trophy.vercel.app` |
-| *Wakatime stats*, *Weekly stats* | Generated Region | `<!--START_SECTION:waka-->` … `<!--END_SECTION:waka-->`, rewritten by [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml) |
+| *Wakatime stats*, *Weekly stats* | Artefact | [`assets/images/svg/wakatime.svg`](./assets/images/svg/wakatime.svg), written by [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml) and quoted by relative path |
 | *Wakatime stats*, *Overall Languages* | Embed | `github-readme-stats-fast.vercel.app/api/wakatime` |
 | *My exquisite music taste* | Embed | `spotify-recently-played-readme.vercel.app` |
 | Qwerty, the contribution snake | Artefact | [`dist/github-contribution-grid-snake.svg`](./dist/github-contribution-grid-snake.svg) and its `-dark` twin, written by [`snake-animation.yml`](./.github/workflows/snake-animation.yml) and quoted from `raw.githubusercontent.com/…/main/dist/` |
@@ -59,7 +59,7 @@ the same order:
 | *License* | Authored Region | Written by hand |
 
 When a reader opens the profile, GitHub renders the Canonical Edition as it stands on `main`. The Generated
-Regions are already text in it, the Artefacts are files in this repository, and every Embed is fetched through
+Region is already text in it, the Artefacts are files in this repository, and every Embed is fetched through
 GitHub's image proxy at that moment, from a server this repository does not run. Two scheduled workflows feed
 nothing the profile shows: the star tracker writes an Artefact Branch no Edition quotes, and the follower
 notifier only sends email.
@@ -76,20 +76,20 @@ Sundays from 2026-08-23 to 2026-10-11 they started at these times, in this order
 | [`follower-notifier.yml`](./.github/workflows/follower-notifier.yml) | 00:34 to 03:10 | an email | none |
 | [`snake-animation.yml`](./.github/workflows/snake-animation.yml) | 00:51 to 03:37 | an Automated Update and a Force Merge | the Owner as author, GitHub as committer of the squash |
 | [`github-stars-tracker.yml`](./.github/workflows/github-stars-tracker.yml) | 01:04 to 04:07 | a push to the Artefact Branch, and an email | `github-actions[bot]`, on `star-tracker-data` |
-| [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml) | 01:10 to 04:19 | a Contents API commit per Edition | the Owner |
+| [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml) | 01:10 to 04:19 | an Automated Update and a Force Merge | the Owner as author, GitHub as committer of the squash |
 | [`global-metrics.yml`](./.github/workflows/global-metrics.yml) | 01:49 to 05:32 | an Automated Update and a Force Merge | `github-actions[bot]` as author, GitHub as committer of the squash |
 
 That order is what GitHub happened to do, not a promise. Each workflow's `concurrency` group serialises its own
 runs and nothing else, so two Refreshes that write the same Edition, a manual dispatch, or a hand commit landing
 mid-run can still meet. What each writer does when they do is in its own flow below.
 
-The README Refreshes reach `main` without a pull request only because the Owner Token belongs to an admin and the
-`main` ruleset lets the admin role bypass it; with any other token those pushes would be refused.
+The activity Refresh reaches `main` without a pull request only because the Owner Token belongs to an admin and the
+`main` ruleset lets the admin role bypass it; with any other token its pushes would be refused.
 
 **How a failure gets noticed.** The *Debug* section at the foot of every Edition carries GitHub's status badge
 for each of the six workflows, and a red one means that workflow's latest run failed. GitHub also emails a
 failed scheduled run to whoever last changed that workflow's cron line. Neither sees the failures that end
-green: a metrics plugin that draws an error panel, or an Edition whose WakaTime markers have gone.
+green: a plugin of the metrics Refresh that draws an error panel into its SVG.
 
 ### Recent activity
 
@@ -141,34 +141,38 @@ config:
   layout: dagre
 ---
 flowchart TD
-    cron["Sunday cron, or manual"] --> matrix["one job per Edition, one at a time:<br/>README.md, README.ca.md,<br/>README.es.md, README.it.md"]
-    matrix --> read["waka-readme reads the Edition<br/>through the Contents API"]
-    read --> marker{"START_SECTION:waka and<br/>END_SECTION:waka in it?"}
-    marker -->|no| silent["warning in the log, nothing written,<br/>job ends green"]
-    marker -->|yes| fetch["fetch the last 7 days<br/>from WakaTime with WAKATIME_TOKEN"]
+    cron["Sunday cron, or manual"] --> checkout["Checkout with the Owner Token"]
+    checkout --> build["gh-metrics/metrics builds its image<br/>from the pinned commit, about 4 minutes"]
+    build --> fetch["its wakatime plugin reads the last 7 days<br/>with WAKATIME_TOKEN; no GitHub token"]
     fetch --> answered{"WakaTime answered?"}
-    answered -->|no| failed["job fails after its retries"]
-    answered -->|yes| changed{"stats changed?"}
-    changed -->|no| unchanged["no commit"]
-    changed -->|yes| commit["update_file against the blob it read,<br/>with the Owner Token"]
-    commit --> stale{"Edition changed<br/>since it was read?"}
-    stale -->|yes| failed
-    stale -->|no| main["a commit on main,<br/>authored by the Owner"]
-    failed --> cancel["fail-fast cancels the<br/>Editions still queued"]
+    answered -->|no| failed["plugins_errors_fatal: the step fails,<br/>nothing is proposed"]
+    answered -->|yes| render["render wakatime.svg into /metrics_renders,<br/>committing nothing"]
+    render --> copy["copy it to assets/images/svg/"]
+    copy --> composite["Create and auto-merge PR:<br/>the create-auto-merge-pr composite"]
+    composite --> diff{"anything changed?"}
+    diff -->|no| none["no pull request,<br/>run ends green"]
+    diff -->|yes| pr["Automated Update on<br/>wakatime-update-N,<br/>opened with the Owner Token"]
+    pr --> merge["Force Merge: admin squash merge,<br/>up to 5 tries, 15 s apart"]
+    merge --> main["a commit on main,<br/>authored by the Owner"]
 ```
 
-A matrix over the four Editions with `max-parallel: 1`, so they run one after another, and `fail-fast: true`.
-The checkout is not what writes: `athul/waka-readme` reads and writes each Edition through the GitHub Contents
-API with the Owner Token passed as `GH_TOKEN`, so every commit is the Owner's and none goes through `git push`.
+One job, running the action the metrics Refresh runs, at the same pin, with every section but its WakaTime plugin
+switched off: `base: ""` drops the GitHub sections, and `token: NOT_NEEDED` tells the action not to read GitHub at
+all, so the step holds `WAKATIME_TOKEN` and no GitHub credential. `output_action: none` leaves the render in
+`/metrics_renders` instead of committing it; the workflow copies it to `assets/images/svg/wakatime.svg`, which is
+what gives the composite action something to propose (§4), as `Platane/snk` does for the snake. The card covers
+the last seven days: the total and the daily average, the top project, language, editor and operating system,
+and a graph of the five largest of each. All four Editions quote the one file by relative path, so its labels are
+English in every Edition.
 
-- **A missing marker is silent, start or end.** The action looks for the whole block, start marker to end
-  marker, so losing either one makes it log *Cannot find … pattern in readme* and leave the Edition as it is, and
-  the job, the run and the *Debug* badge all stay green. Unlike the activity region, nothing repairs a lost end
-  marker.
-- **A dead WakaTime token takes every Edition down at once.** The first job, `README.md`, fails, and `fail-fast`
-  cancels the three still queued. The metrics SVG's WakaTime section shows an error panel the same week (below).
-- **A collision fails the job.** The commit names the blob it read; if the Edition changed in between, the API
-  refuses it, the job fails, and `fail-fast` cancels the rest.
+- **A WakaTime failure is loud.** `plugins_errors_fatal: yes` turns a refused or revoked `WAKATIME_TOKEN` into a
+  failed step, so nothing is proposed, the *Debug* badge goes red and the card on `main` stays last week's. The
+  same token fails green in the metrics Refresh, as an error panel (below).
+- **Every run builds the metrics image** before it renders anything, and the build is most of the run. Why it is
+  built rather than pulled is in [ADR 0003](./docs/adr/0003-third-party-actions-are-pinned-to-commit-shas.md).
+- **Opening and merging fail as the snake's do** (below): one retry of the pull request after 45 seconds, then
+  five merge attempts, after which the run fails and the Automated Update stays open for the Owner.
+- **An expired Owner Token** stops the run at the checkout.
 
 ### Snake
 
@@ -312,7 +316,7 @@ regenerates the same region or file from the same live data. Fix the cause first
 | Refresh | What to revert | On |
 | --- | --- | --- |
 | [`github-activity.yml`](./.github/workflows/github-activity.yml) | one commit per Edition, such as `docs: update README.ca.md with latest GitHub activity`, by `readme-bot` | `main` |
-| [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml) | one commit per Edition, such as `docs: update README.ca.md with latest WakaTime stats`, by the Owner | `main` |
+| [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml) | the squash of its Automated Update, `docs: update assets/images/svg/wakatime.svg` | `main` |
 | [`snake-animation.yml`](./.github/workflows/snake-animation.yml) | the squash of its Automated Update, `docs: update snake grid animation` | `main` |
 | [`global-metrics.yml`](./.github/workflows/global-metrics.yml) | the squash of its force-merged Automated Update, `docs: update assets/images/svg/github-metrics.svg` | `main` |
 | [`github-stars-tracker.yml`](./.github/workflows/github-stars-tracker.yml) | its `Update star data: …` commit | `star-tracker-data` |
@@ -320,7 +324,7 @@ regenerates the same region or file from the same live data. Fix the cause first
 
 - **On `main`, a revert is a pull request** like any other change, so its title must pass *Lint the pull request
   title*: `revert: …` does, and the `Revert "…"` title GitHub's *Revert* button gives a merged Automated Update
-  does not. As an admin the Owner can also push the revert straight to `main`, as the README Refreshes do.
+  does not. As an admin the Owner can also push the revert straight to `main`, as the activity Refresh does.
 - **On `star-tracker-data`, push the revert directly**: no ruleset covers that branch. Do it before the next run,
   which compares against whatever history the branch holds.
 - **To stop a Refresh while the cause is fixed**, open the workflow in the Actions tab and choose *Disable
@@ -331,18 +335,18 @@ regenerates the same region or file from the same live data. Fix the cause first
 
 Each Edition is a whole document, written and kept in step by hand
 ([ADR 0004](./docs/adr/0004-each-locale-is-a-whole-edition.md)). Nothing assembles them from a shared source: the
-Authored Regions are copied across by whoever edits one, and the Refreshes fill each Edition's Generated Regions
-separately, addressing it by file name and its regions by marker.
+Authored Regions are copied across by whoever edits one, and the activity Refresh fills each Edition's Generated
+Region separately, addressing it by file name and the region by marker.
 
-| Edition | Activity config | Activity step | WakaTime matrix entry |
-| --- | --- | --- | --- |
-| [`README.md`](./README.md), English, the Canonical Edition | [`en.config.yml`](./.github/config/github-activity/en.config.yml) | *Run recent activity (EN)* | `README.md` |
-| [`README.ca.md`](./README.ca.md), Catalan | [`ca.config.yml`](./.github/config/github-activity/ca.config.yml) | *Run recent activity (CA)* | `README.ca.md` |
-| [`README.es.md`](./README.es.md), Spanish | [`es.config.yml`](./.github/config/github-activity/es.config.yml) | *Run recent activity (ES)* | `README.es.md` |
-| [`README.it.md`](./README.it.md), Italian | [`it.config.yml`](./.github/config/github-activity/it.config.yml) | *Run recent activity (IT)* | `README.it.md` |
+| Edition | Activity config | Activity step |
+| --- | --- | --- |
+| [`README.md`](./README.md), English, the Canonical Edition | [`en.config.yml`](./.github/config/github-activity/en.config.yml) | *Run recent activity (EN)* |
+| [`README.ca.md`](./README.ca.md), Catalan | [`ca.config.yml`](./.github/config/github-activity/ca.config.yml) | *Run recent activity (CA)* |
+| [`README.es.md`](./README.es.md), Spanish | [`es.config.yml`](./.github/config/github-activity/es.config.yml) | *Run recent activity (ES)* |
+| [`README.it.md`](./README.it.md), Italian | [`it.config.yml`](./.github/config/github-activity/it.config.yml) | *Run recent activity (IT)* |
 
-The snake and the metrics Artefacts are single files that all four Editions quote by the same path, so one
-Refresh updates every Edition at once.
+The snake, the WakaTime card and the metrics Artefacts are single files that all four Editions quote by the same
+path, so one Refresh updates every Edition at once.
 
 The activity configs under [`.github/config/github-activity/`](./.github/config/github-activity) each name their
 Edition (`readme_file`), the commit message for it (`commit_msg`) and the `Europe/Madrid` timezone, then the
@@ -351,7 +355,7 @@ activity lines. `en.config.yml` overrides only the `push` line, restated without
 
 Adding a language, say `xx`, is this fixed set of edits, none of them optional:
 
-1. Write `README.xx.md` as a whole Edition, with both pairs of markers spelt exactly as the others spell them.
+1. Write `README.xx.md` as a whole Edition, with the activity markers spelt exactly as the others spell them.
 2. Add its row to the Language Table in every Edition, with the pin only in its own.
 3. Add its flag under [`assets/images/png/flags/`](./assets/images/png/flags).
 4. Add `.github/config/github-activity/xx.config.yml`, with `readme_file: "./README.xx.md"`, its `commit_msg`, the
@@ -359,8 +363,7 @@ Adding a language, say `xx`, is this fixed set of edits, none of them optional:
 5. Add a *Run recent activity (XX)* step to [`github-activity.yml`](./.github/workflows/github-activity.yml),
    the same pinned action pointed at that config. Without it the Edition's activity list never changes, and
    nothing fails to say so.
-6. Add `README.xx.md` to the `readme` matrix in [`wakatime-stats.yml`](./.github/workflows/wakatime-stats.yml).
-7. Add it to the *Surfaces* table in [AGENTS.md](./AGENTS.md) and to the table above.
+6. Add it to the *Surfaces* table in [AGENTS.md](./AGENTS.md) and to the table above.
 
 ## 4. Automation and checks
 
@@ -371,9 +374,9 @@ code-scanning result of the findings [`zizmor.yml`](./.github/workflows/zizmor.y
 bypasses it. CodeQL also runs, through GitHub's default setup rather than a workflow in the tree, and reports on
 pull requests without being required.
 
-What that gates is narrower than it looks. The activity and WakaTime Refreshes never open a pull request; the
-snake's runs the checks and is force-merged without waiting; the metrics one starts none of the tree's workflows
-(§2). The checks gate Bot Updates and human pull requests, and nothing else.
+What that gates is narrower than it looks. The activity Refresh never opens a pull request; the snake's and the
+WakaTime card's run the checks and are force-merged without waiting; the metrics one starts none of the tree's
+workflows (§2). The checks gate Bot Updates and human pull requests, and nothing else.
 
 ### Bot Updates
 
@@ -412,20 +415,20 @@ secrets; the token table in [AGENTS.md](./AGENTS.md#secrets-and-variables) says 
 ### The create-auto-merge-pr action
 
 [`.github/actions/create-auto-merge-pr`](./.github/actions/create-auto-merge-pr/action.yml) is the one piece of
-automation this repository writes itself. Its only caller is the snake Refresh, which references it as
+automation this repository writes itself. Its callers are the snake and WakaTime Refreshes, which reference it as
 `uses: $/.github/actions/create-auto-merge-pr`: the `$/` prefix resolves the path in this repository itself,
 where `./` would resolve it in whatever the checkout left in the workspace. It is the one `uses:` in the tree
 without a SHA pin, because there is no third party behind it to pin.
 
-| Input | Default | What it does | The snake passes |
-| --- | --- | --- | --- |
-| `token` | `github.token` | Opens and merges the pull request; with the Owner Token the pull-request workflows run on it | `secrets.PAT` |
-| `commit-message` | `docs: update repository assets` | The commit on the branch, and the subject of the squash | `docs: update snake grid animation` |
-| `title` | `🤖 [AUTOMATED] Update Repository Assets` | The pull request title | `docs: update snake grid animation` |
-| `branch` | `auto-update-<run_number>` | The head branch | `snake-animation-update-<run_number>` |
-| `force-merge` | `'false'` | `'true'` merges with `--admin`; `'false'` arms `--auto` and waits for the checks; any other value merges nothing | `'true'` |
-| `max-retries` | `'3'` | Attempts at the merge | `'5'` |
-| `retry-delay` | `'10'` | Seconds between them | `'15'` |
+| Input | Default | What it does | The snake passes | The WakaTime Refresh passes |
+| --- | --- | --- | --- | --- |
+| `token` | `github.token` | Opens and merges the pull request; with the Owner Token the pull-request workflows run on it | `secrets.PAT` | `secrets.PAT` |
+| `commit-message` | `docs: update repository assets` | The commit on the branch, and the subject of the squash | `docs: update snake grid animation` | `docs: update assets/images/svg/wakatime.svg` |
+| `title` | `🤖 [AUTOMATED] Update Repository Assets` | The pull request title | `docs: update snake grid animation` | `docs: update assets/images/svg/wakatime.svg` |
+| `branch` | `auto-update-<run_number>` | The head branch | `snake-animation-update-<run_number>` | `wakatime-update-<run_number>` |
+| `force-merge` | `'false'` | `'true'` merges with `--admin`; `'false'` arms `--auto` and waits for the checks; any other value merges nothing | `'true'` | `'true'` |
+| `max-retries` | `'3'` | Attempts at the merge | `'5'` | `'5'` |
+| `retry-delay` | `'10'` | Seconds between them | `'15'` | `'15'` |
 
 It outputs `pull-request-number` and `pull-request-operation` (`created`, `updated` or `none`).
 
@@ -455,7 +458,7 @@ flowchart TD
 
 Only the first attempt carries `continue-on-error`: a retry that fails as well stops the composite there, and the
 Refresh that called it fails with nothing merged. The body it writes on every pull request says the pull request
-*will be auto-merged if all checks pass*, which is true only of the `--auto` path; its one caller takes the other.
+*will be auto-merged if all checks pass*, which is true only of the `--auto` path; both its callers take the other.
 
 ## 5. Decision records
 

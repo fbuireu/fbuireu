@@ -27,10 +27,10 @@ By participating you are expected to uphold the
    fix in one Edition almost always needs the same fix in the others; a
    translation fix needs only its own.
 
-2. **Parts of every Edition are machine-written.** The Generated Regions
-   between markers are rewritten on a weekly schedule by GitHub Actions. Do
+2. **Part of every Edition is machine-written.** The Generated Region
+   between markers is rewritten on a weekly schedule by GitHub Actions. Do
    not edit inside the markers: your change will be overwritten within a week.
-   The marker spelling differs between regions on purpose; do not normalise it.
+   The marker spelling is the writing tool's; do not normalise it.
 
 There is nothing to install and nothing to build: the tree is markdown, images
 and YAML, and it stays that way by decision.

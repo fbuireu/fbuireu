@@ -9,25 +9,43 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    name: Update ${{ matrix.readme }}
+    name: Update WakaTime Stats Asset
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     permissions:
       contents: read
-    strategy:
-      fail-fast: true
-      max-parallel: 1
-      matrix:
-        readme: [README.md, README.ca.md, README.es.md, README.it.md]
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          fetch-depth: 0
+          token: ${{ secrets.PAT }}
           persist-credentials: false
-      - name: Fetch Wakatime stats
-        uses: athul/waka-readme@370590ad8da8f54282ed92aa42b7c25ecbd5a9a6 # master
+      - name: Use metrics
+        uses: gh-metrics/metrics@491b81a96df4b70e14a356a2f90e38c2e84e2b84 # master (v3.35.0-beta)
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_TOKEN }}
-          TARGET_PATH: ${{ matrix.readme }}
-          GH_TOKEN: ${{ secrets.PAT }}
-          COMMIT_MESSAGE: 'docs: update ${{ matrix.readme }} with latest WakaTime stats'
+          token: NOT_NEEDED
+          user: fbuireu
+          filename: assets/images/svg/wakatime.svg
+          output_action: none
+          use_prebuilt_image: no
+          template: classic
+          base: ""
+          plugins_errors_fatal: yes
+          plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          plugin_wakatime_days: 7
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, editors-graphs, os, os-graphs
+      - name: Copy the render into the repository
+        shell: bash
+        run: cp /metrics_renders/assets/images/svg/wakatime.svg assets/images/svg/wakatime.svg
+      - name: Create and auto-merge PR
+        uses: $/.github/actions/create-auto-merge-pr
+        with:
+          token: ${{ secrets.PAT }}
+          commit-message: 'docs: update assets/images/svg/wakatime.svg'
+          title: 'docs: update assets/images/svg/wakatime.svg'
+          branch: 'wakatime-update-${{ github.run_number }}'
+          force-merge: 'true'
+          max-retries: '5'
+          retry-delay: '15'

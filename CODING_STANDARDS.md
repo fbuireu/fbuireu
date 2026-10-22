@@ -59,6 +59,6 @@ No rule below restates these, and a diff that breaks one fails CI:
   per Edition, because a renderer would give this repository a toolchain it does not have
   ([ADR 0004](./docs/adr/0004-each-locale-is-a-whole-edition.md)).
 - **Shotgun Surgery**: a change to an Authored Region is made in every Edition, and a new language is a fixed
-  set of edits across the Editions, the activity configs, the activity steps in `github-activity.yml` and the
-  WakaTime matrix ([ADR 0004](./docs/adr/0004-each-locale-is-a-whole-edition.md);
+  set of edits across the Editions, the activity configs and the activity steps in `github-activity.yml`
+  ([ADR 0004](./docs/adr/0004-each-locale-is-a-whole-edition.md);
   [ARCHITECTURE.md](./ARCHITECTURE.md) §3 lists them).
