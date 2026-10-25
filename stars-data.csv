@@ -1,10 +1,10 @@
 repository,owner,name,stars,previous,delta,status
-code-istvan/bw,code-istvan,bw,1,1,0,active
 fbuireu/biancafiore,fbuireu,biancafiore,8,8,0,active
-fbuireu/contribKit,fbuireu,contribKit,4,4,0,active
-fbuireu/curriculum-vitae,fbuireu,curriculum-vitae,1,1,0,active
-fbuireu/email-signature,fbuireu,email-signature,0,0,0,active
+fbuireu/contribKit,fbuireu,contribKit,5,4,1,active
 fbuireu/fbuireu,fbuireu,fbuireu,5,5,0,active
 fbuireu/forever-pto,fbuireu,forever-pto,0,0,0,active
-fbuireu/github-star-tracker,fbuireu,github-star-tracker,16,16,0,active
-fbuireu/hashnode-articles-backup,fbuireu,hashnode-articles-backup,0,0,0,active
+fbuireu/github-star-tracker,fbuireu,github-star-tracker,17,16,1,active
+code-istvan/bw,code-istvan,bw,0,1,-1,removed
+fbuireu/curriculum-vitae,fbuireu,curriculum-vitae,0,1,-1,removed
+fbuireu/email-signature,fbuireu,email-signature,0,0,0,removed
+fbuireu/hashnode-articles-backup,fbuireu,hashnode-articles-backup,0,0,0,removed

@@ -1,8 +1,8 @@
 # Star Tracker Report
 
-**2026-10-18** | Total: **35 stars** | Change: **0**
+**2026-10-25** | Total: **35 stars** | Change: **0**
 
-> Compared to snapshot from 2026-10-11
+> Compared to snapshot from 2026-10-18
 
 ## 📈 Star Trend
 
@@ -15,7 +15,7 @@
 <details>
 <summary>Individual Repository Charts</summary>
 
-#### fbuireu/github-star-tracker: 16 ★ (0)
+#### fbuireu/github-star-tracker: 17 ★ (+1)
 
 ![fbuireu/github-star-tracker](./charts/fbuireu-github-star-tracker.svg)
 
@@ -23,33 +23,17 @@
 
 ![fbuireu/biancafiore](./charts/fbuireu-biancafiore.svg)
 
+#### fbuireu/contribKit: 5 ★ (+1)
+
+![fbuireu/contribKit](./charts/fbuireu-contribKit.svg)
+
 #### fbuireu/fbuireu: 5 ★ (0)
 
 ![fbuireu/fbuireu](./charts/fbuireu-fbuireu.svg)
 
-#### fbuireu/contribKit: 4 ★ (0)
-
-![fbuireu/contribKit](./charts/fbuireu-contribKit.svg)
-
-#### code-istvan/bw: 1 ★ (0)
-
-![code-istvan/bw](./charts/code-istvan-bw.svg)
-
-#### fbuireu/curriculum-vitae: 1 ★ (0)
-
-![fbuireu/curriculum-vitae](./charts/fbuireu-curriculum-vitae.svg)
-
-#### fbuireu/email-signature: 0 ★ (0)
-
-![fbuireu/email-signature](./charts/fbuireu-email-signature.svg)
-
 #### fbuireu/forever-pto: 0 ★ (0)
 
 ![fbuireu/forever-pto](./charts/fbuireu-forever-pto.svg)
-
-#### fbuireu/hashnode-articles-backup: 0 ★ (0)
-
-![fbuireu/hashnode-articles-backup](./charts/fbuireu-hashnode-articles-backup.svg)
 
 </details>
 
@@ -57,20 +41,23 @@
 
 | Repositories | Stars | Change | Trend |
 |:-----------|------:|-------:|:-----:|
-| [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker) | 16 | 0 | ➖ |
+| [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker) | 17 | +1 | ⬆️ |
 | [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore) | 8 | 0 | ➖ |
+| [fbuireu/contribKit](https://github.com/fbuireu/contribKit) | 5 | +1 | ⬆️ |
 | [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu) | 5 | 0 | ➖ |
-| [fbuireu/contribKit](https://github.com/fbuireu/contribKit) | 4 | 0 | ➖ |
-| [code-istvan/bw](https://github.com/code-istvan/bw) | 1 | 0 | ➖ |
-| [fbuireu/curriculum-vitae](https://github.com/fbuireu/curriculum-vitae) | 1 | 0 | ➖ |
-| [fbuireu/email-signature](https://github.com/fbuireu/email-signature) | 0 | 0 | ➖ |
 | [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto) | 0 | 0 | ➖ |
-| [fbuireu/hashnode-articles-backup](https://github.com/fbuireu/hashnode-articles-backup) | 0 | 0 | ➖ |
+
+## Removed Repositories
+
+code-istvan/bw: was 1 stars
+fbuireu/curriculum-vitae: was 1 stars
+fbuireu/email-signature: was 0 stars
+fbuireu/hashnode-articles-backup: was 0 stars
 
 ## Summary
 
-- **Stars gained:** 0
-- **Stars lost:** 0
+- **Stars gained:** 2
+- **Stars lost:** 2
 - **Net change:** 0
 
 ## 🔮 Growth Forecast
@@ -93,8 +80,8 @@
 
 | Method | Week 1 | Week 2 | Week 3 | Week 4 |
 |:---|---:|---:|---:|---:|
-| Linear Regression | 17 | 17 | 18 | 19 |
-| Weighted Moving Average | 17 | 17 | 18 | 19 |
+| Linear Regression | 18 | 18 | 19 | 20 |
+| Weighted Moving Average | 18 | 19 | 19 | 20 |
 
 ![fbuireu/github-star-tracker](./charts/forecast-fbuireu-github-star-tracker.svg)
 
@@ -115,6 +102,20 @@
 </details>
 
 <details>
+<summary>fbuireu/contribKit</summary>
+
+**fbuireu/contribKit**
+
+| Method | Week 1 | Week 2 | Week 3 | Week 4 |
+|:---|---:|---:|---:|---:|
+| Linear Regression | 5 | 5 | 6 | 6 |
+| Weighted Moving Average | 5 | 5 | 6 | 6 |
+
+![fbuireu/contribKit](./charts/forecast-fbuireu-contribKit.svg)
+
+</details>
+
+<details>
 <summary>fbuireu/fbuireu</summary>
 
 **fbuireu/fbuireu**
@@ -125,58 +126,6 @@
 | Weighted Moving Average | 5 | 5 | 5 | 5 |
 
 ![fbuireu/fbuireu](./charts/forecast-fbuireu-fbuireu.svg)
-
-</details>
-
-<details>
-<summary>fbuireu/contribKit</summary>
-
-**fbuireu/contribKit**
-
-| Method | Week 1 | Week 2 | Week 3 | Week 4 |
-|:---|---:|---:|---:|---:|
-| Linear Regression | 4 | 4 | 5 | 5 |
-| Weighted Moving Average | 4 | 4 | 4 | 5 |
-
-![fbuireu/contribKit](./charts/forecast-fbuireu-contribKit.svg)
-
-</details>
-
-<details>
-<summary>code-istvan/bw</summary>
-
-**code-istvan/bw**
-
-| Method | Week 1 | Week 2 | Week 3 | Week 4 |
-|:---|---:|---:|---:|---:|
-| Linear Regression | 1 | 1 | 1 | 1 |
-| Weighted Moving Average | 1 | 1 | 1 | 1 |
-
-</details>
-
-<details>
-<summary>fbuireu/curriculum-vitae</summary>
-
-**fbuireu/curriculum-vitae**
-
-| Method | Week 1 | Week 2 | Week 3 | Week 4 |
-|:---|---:|---:|---:|---:|
-| Linear Regression | 1 | 1 | 1 | 1 |
-| Weighted Moving Average | 1 | 1 | 1 | 1 |
-
-![fbuireu/curriculum-vitae](./charts/forecast-fbuireu-curriculum-vitae.svg)
-
-</details>
-
-<details>
-<summary>fbuireu/email-signature</summary>
-
-**fbuireu/email-signature**
-
-| Method | Week 1 | Week 2 | Week 3 | Week 4 |
-|:---|---:|---:|---:|---:|
-| Linear Regression | 0 | 0 | 0 | 0 |
-| Weighted Moving Average | 0 | 0 | 0 | 0 |
 
 </details>
 
@@ -192,20 +141,8 @@
 
 </details>
 
-<details>
-<summary>fbuireu/hashnode-articles-backup</summary>
-
-**fbuireu/hashnode-articles-backup**
-
-| Method | Week 1 | Week 2 | Week 3 | Week 4 |
-|:---|---:|---:|---:|---:|
-| Linear Regression | 0 | 0 | 0 | 0 |
-| Weighted Moving Average | 0 | 0 | 0 | 0 |
-
-</details>
-
 ---
-*Generated by [GitHub Star Tracker](https://github.com/fbuireu/github-star-tracker) on 2026-10-18T02:51:38.474Z*
+*Generated by [GitHub Star Tracker](https://github.com/fbuireu/github-star-tracker) on 2026-10-25T03:01:19.978Z*
 <div align="center">
 
 *Made with 🤘 by [Ferran Buireu](https://github.com/fbuireu)*
