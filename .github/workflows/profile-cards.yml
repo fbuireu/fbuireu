@@ -39,7 +39,7 @@ jobs:
           GITHUB_TOKEN1: ${{ github.token }}
         run: deno run --allow-net --allow-env --allow-read --allow-write render_svg.ts fbuireu ../assets/images/svg/trophies.svg onedark
       - name: Render the contribution summary
-        uses: vn7n24fzkq/github-profile-summary-cards@58ec032e39377dd38329bdc1db70074fe74fbb17 # v0.12.1
+        uses: vn7n24fzkq/github-profile-summary-cards@7022eb6bd48de38b092f54110a8ff8185f2ac4a1 # v0.13.0
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
