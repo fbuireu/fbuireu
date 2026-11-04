@@ -444,8 +444,6 @@ config:
 ---
 flowchart TD
     renovate["Renovate: 1st and 15th,<br/>vulnerability alerts any time"] --> required
-    dependabot["Dependabot:<br/>security updates only"] --> armer["dependabot-auto-merge.yml:<br/>approve and arm squash auto-merge<br/>with PAT, unless major"]
-    armer --> required
     subgraph required["required checks"]
         lint["Lint the pull request title"]
         dr["Dependency Review"]
@@ -462,11 +460,10 @@ flowchart TD
 
 Renovate opens the version updates on the 1st and 15th, and vulnerability updates at any time, and arms GitHub's
 squash auto-merge on every Update Type its config lets through, so it needs no credential: the ruleset asks for
-no approval. Dependabot has no `dependabot.yml`, so it opens only the security updates GitHub raises on its own,
-and [`dependabot-auto-merge.yml`](./.github/workflows/dependabot-auto-merge.yml) approves and arms those with the
-Owner Token, comments on a major instead, and labels each by type. A run started by a Dependabot pull request
-reads only the repository's Dependabot secrets, so `PAT` has to be stored there as well as among the Actions
-secrets; the token table in [AGENTS.md](./AGENTS.md#secrets-and-variables) says where every secret lives.
+no approval. Dependabot opens no pull requests here: its security updates are off in the repository settings and
+it has no `dependabot.yml`, so only its alerts stay on, and Renovate reads them, with the OSV database, to open the
+vulnerability updates. With no Dependabot pull request to run a workflow on, `PAT` is an Actions secret only; the
+token table in [AGENTS.md](./AGENTS.md#secrets-and-variables) says where every secret lives.
 
 ### The create-auto-merge-pr action
 
