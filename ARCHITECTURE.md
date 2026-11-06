@@ -200,7 +200,7 @@ config:
 ---
 flowchart TD
     cron["Sunday cron, or manual"] --> checkout["Checkout with the Owner Token"]
-    checkout --> gen["check out ryo-ma/github-profile-trophy<br/>at its pinned commit, set up Deno 1.44.4"]
+    checkout --> gen["check out ryo-ma/github-profile-trophy<br/>at its pinned commit, set up Deno v2.9.8"]
     gen --> trophy["render_svg.ts writes trophies.svg,<br/>theme onedark, with GITHUB_TOKEN"]
     trophy --> summary["github-profile-summary-cards renders<br/>the onedark cards with GITHUB_TOKEN,<br/>AUTO_PUSH false"]
     summary --> grs["github-readme-stats-action renders stats,<br/>languages, WakaTime languages and 8 pins;<br/>github-readme-streak-stats the streak"]
