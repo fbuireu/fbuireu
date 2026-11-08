@@ -235,11 +235,11 @@
 ## 👨🏻‍💻 Controlla le mie statistiche su GitHub
 ### Ultima attività
 <!--RECENT_ACTIVITY:start-->
-1. 💬 Ha commentato [#210](https://github.com/fbuireu/github-star-tracker/pull/210#issuecomment-6551300253) in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-2. 💬 Ha commentato [#211](https://github.com/fbuireu/github-star-tracker/pull/211#issuecomment-6551299770) in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-3. ✌️ Ha publicato [v1.28.9](https://github.com/fbuireu/github-star-tracker/releases/tag/v1.28.9) in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-4. ⬆️ Ha impulsato modifiche in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
-5. ⬆️ Ha impulsato modifiche in [fbuireu/fbuireu](https://github.com/fbuireu/fbuireu)<br>
+1. ⬆️ Ha impulsato modifiche in [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
+2. ⬆️ Ha impulsato modifiche in [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+3. ✌️ Ha publicato [web-v1.16.1](https://github.com/fbuireu/forever-pto/releases/tag/web-v1.16.1) in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+4. ⬆️ Ha impulsato modifiche in [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+5. ⬆️ Ha impulsato modifiche in [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
