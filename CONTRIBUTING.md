@@ -44,5 +44,7 @@ and YAML, and it stays that way by decision.
   so changes to it are reviewed carefully
 - **A suspicious link, or anything involving the workflows' security** → the
   [Security Policy](./SECURITY.md), not a public issue
+- **An accessibility barrier** → an issue, with what
+  [ACCESSIBILITY.md](./ACCESSIBILITY.md) asks for
 
 Thanks for contributing! 🎉
