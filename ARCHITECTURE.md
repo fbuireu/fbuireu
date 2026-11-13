@@ -43,7 +43,7 @@ the same order:
 
 | Section | Route | Source |
 | --- | --- | --- |
-| Heading, hero image and quotes | Authored Region | Written by hand; the images are files under [`assets/images/`](./assets/images) |
+| Heading, hero image and quotes | Authored Region | Written by hand; the images are files under [`assets/images/`](./assets/images), and the hero GIF is decoration, so its `alt` is empty |
 | Language Table | Authored Region | Written by hand in every Edition; the flags are under [`assets/images/png/flags/`](./assets/images/png/flags) |
 | The *working on*, *learning*, *ask me about* lines | Authored Region | Written by hand |
 | *Download my Resume* | Authored Region | [`assets/pdf/Ferran-Buireu-CV.pdf`](./assets/pdf/Ferran-Buireu-CV.pdf), committed by hand; nothing here regenerates it |
@@ -155,7 +155,8 @@ flowchart TD
     answered -->|no| failed["plugins_errors_fatal: the step fails,<br/>nothing is proposed"]
     answered -->|yes| render["render wakatime.svg and wakatime-year.svg<br/>into /metrics_renders, committing nothing"]
     render --> copy["copy both to assets/images/svg/"]
-    copy --> composite["Create and auto-merge PR:<br/>the create-auto-merge-pr composite"]
+    copy --> alt["card-alt.js writes both cards' figures<br/>into their alt in every Edition"]
+    alt --> composite["Create and auto-merge PR:<br/>the create-auto-merge-pr composite"]
     composite --> diff{"anything changed?"}
     diff -->|no| none["no pull request,<br/>run ends green"]
     diff -->|yes| pr["Automated Update on<br/>wakatime-update-N,<br/>opened with the Owner Token"]
@@ -168,7 +169,7 @@ plugin switched off: `base: ""` drops the GitHub sections, and `token: NOT_NEEDE
 all, so each step holds `WAKATIME_TOKEN` and no GitHub credential; the plugin never reads GitHub, so a token would
 change nothing it draws. `output_action: none` leaves the renders in `/metrics_renders` instead of committing
 them; the workflow copies them to `assets/images/svg/wakatime.svg` and `wakatime-year.svg`, which is what gives the
-composite action something to propose (§4), as `Platane/snk` does for the snake. One card covers the last seven
+composite action something to propose (§4), as `Platane/snk` does for the snake. A step after the copy runs [`card-alt.js`](./.github/scripts/card-alt.js) on both files, which rewrites the figures in the `alt` of their `<img>` in every Edition (the Card Summary of [GLOSSARY.md](./GLOSSARY.md)), so the pull request carries the cards and the Editions that describe them. One card covers the last seven
 days and the other the last year, each with the total and the daily average, the top project, language, editor
 and operating system, and a graph of the eight largest of each. The second step finds the image the first one
 built, so the year costs seconds. All four Editions quote both files by relative path, so their labels are
@@ -205,7 +206,8 @@ flowchart TD
     trophy --> summary["github-profile-summary-cards renders<br/>the onedark cards with GITHUB_TOKEN,<br/>AUTO_PUSH false"]
     summary --> grs["github-readme-stats-action renders stats,<br/>languages, WakaTime languages and 8 pins;<br/>github-readme-streak-stats the streak"]
     grs --> keep["keep 0-profile-details.svg as<br/>github-contributions.svg, delete the rest<br/>and the generator checkout"]
-    keep --> composite["Create and auto-merge PR:<br/>the create-auto-merge-pr composite"]
+    keep --> alt["card-alt.js writes the six cards' figures<br/>into their alt in every Edition"]
+    alt --> composite["Create and auto-merge PR:<br/>the create-auto-merge-pr composite"]
     composite --> diff{"anything changed?"}
     diff -->|no| none["no pull request,<br/>run ends green"]
     diff -->|yes| pr["Automated Update on<br/>profile-cards-update-N,<br/>opened with the Owner Token"]
@@ -222,10 +224,14 @@ checkout of its repository at a commit, not through its own action, for the reas
 `profile-summary-card-output/`; only the profile-details one, the contribution graph, is kept, and the folder goes
 before the composite runs, since `peter-evans/create-pull-request` proposes everything the workspace holds.
 
+The images are text a screen reader cannot read, so after the folder is cleaned [`card-alt.js`](./.github/scripts/card-alt.js) reads the figures out of the contribution graph, stats, languages, WakaTime languages, streak and trophies SVGs and writes them, in English, after the card's name in the `alt` of its `<img>` in each of the four Editions (`Ferran Buireu's GitHub stats: rank A, 57 stars earned, …`). The name before the first `: ` stays whatever each Edition says in its own language; the pins keep their plain `alt`. The edit lands in the same Automated Update as the SVG.
+
 - **A generator that fails fails the run.** A refused query or a rate limit stops its step, nothing is proposed
   and every card on `main` stays last week's. `github-readme-stats-action` draws an error card instead unless it is
   given `fail_on_error: true`, which every step here is; it also installs its core from npm on every run unless
   `core_version` is empty, which every step here leaves it, so it runs the version its lockfile pins.
+- **A card the script cannot read fails the run** like a generator that fails: its step exits non-zero, nothing is proposed and the cards and their `alt` both stay last week's.
+- **This Refresh and the WakaTime one edit the same Editions** at the same time, in different lines, so their pull requests merge cleanly unless a hand edit sits between two card images.
 - **Opening and merging fail as the snake's do** (below).
 - **An expired Owner Token** stops the run at the checkout.
 
@@ -240,7 +246,8 @@ config:
 flowchart TD
     cron["Sunday cron, or manual"] --> checkout["Checkout with the Owner Token"]
     checkout --> snk["Platane/snk reads the contribution calendar<br/>with GITHUB_TOKEN and writes both SVGs<br/>into dist/, committing nothing"]
-    snk --> composite["Create and auto-merge PR:<br/>the create-auto-merge-pr composite"]
+    snk --> motion["append a prefers-reduced-motion rule<br/>to each SVG, unless it has one"]
+    motion --> composite["Create and auto-merge PR:<br/>the create-auto-merge-pr composite"]
     composite --> diff{"anything changed?"}
     diff -->|no| none["no pull request,<br/>run ends green"]
     diff -->|yes| pr["Automated Update on<br/>snake-animation-update-N,<br/>opened with the Owner Token"]
@@ -251,7 +258,7 @@ flowchart TD
 
 `Platane/snk` renders `dist/github-contribution-grid-snake.svg` and the `-dark` variant from the Owner's
 contribution calendar and leaves them uncommitted, which is what gives the composite action something to propose
-(§4). Because the Owner Token opens the pull request, the pull-request workflows do run on it, which is why its
+(§4). `snk` animates with CSS keyframes inside each SVG and writes no `prefers-reduced-motion` rule, so a step between it and the composite appends `@media (prefers-reduced-motion: reduce){*{animation:none!important}.s,.u{display:none}}` to both files, and fails if the rule is not there afterwards. With the animation off every cell shows its final colour, and the snake and the progress bar beneath the grid are hidden, so a reader who asks for reduced motion sees the whole contribution grid, still. Because the Owner Token opens the pull request, the pull-request workflows do run on it, which is why its
 title is a Conventional Commit; the Force Merge does not wait for them
 ([ADR 0001](./docs/adr/0001-automated-updates-land-through-a-self-merging-pull-request.md)). The branch goes when
 the pull request merges.
@@ -420,6 +427,7 @@ Adding a language, say `xx`, is this fixed set of edits, none of them optional:
    the same pinned action pointed at that config. Without it the Edition's activity list never changes, and
    nothing fails to say so.
 6. Add it to the *Surfaces* table in [AGENTS.md](./AGENTS.md) and to the table above.
+7. Add it to `EDITIONS` in [`card-alt.js`](./.github/scripts/card-alt.js); without it the Edition's cards keep last week's figures in their `alt`, and nothing fails to say so.
 
 ## 4. Automation and checks
 

@@ -157,6 +157,16 @@ jobs:
         run: |
           cp profile-summary-card-output/onedark/0-profile-details.svg assets/images/svg/github-contributions.svg
           rm -rf profile-summary-card-output .trophy-generator
+      - name: Write the cards' figures into their alt text
+        shell: bash
+        run: >
+          node .github/scripts/card-alt.js
+          assets/images/svg/trophies.svg
+          assets/images/svg/github-contributions.svg
+          assets/images/svg/github-stats.svg
+          assets/images/svg/github-languages.svg
+          assets/images/svg/wakatime-languages.svg
+          assets/images/svg/github-streak.svg
       - name: Create and auto-merge PR
         uses: $/.github/actions/create-auto-merge-pr
         with:

@@ -33,6 +33,13 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Stop the snake for readers who ask for reduced motion
+        shell: bash
+        run: |
+          for svg in dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg; do
+            grep -q 'prefers-reduced-motion' "$svg" || sed -i 's#</style>#@media (prefers-reduced-motion:reduce){*{animation:none!important}.s,.u{display:none}}</style>#' "$svg"
+            grep -q 'prefers-reduced-motion' "$svg"
+          done
       - name: Create and auto-merge PR
         uses: $/.github/actions/create-auto-merge-pr
         with:

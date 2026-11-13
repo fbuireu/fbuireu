@@ -11,16 +11,29 @@ reduced motion, how to report a barrier, and what a change has to keep.
   Editions by name, with the flag beside the name rather than in its place, and marks the Edition you are reading.
 - **Links that say where they go.** Each badge that links to another profile, such as LinkedIn or Medium, has alt
   text naming the site.
-- **Named cards.** The repository, statistics, streak, trophy, WakaTime and metrics cards have alt text naming what
-  each one shows. The cards are images, so their numbers are not text a screen reader can read.
+- **Cards that say their figures.** The contribution graph, streak, statistics, languages, trophy and three
+  WakaTime cards are images, so their numbers are not text a screen reader can read. Each one's alt text gives the
+  card's name and then its main figures, for example the stars, commits, pull requests and issues of the statistics
+  card, or the current and longest streak. The weekly refresh that redraws a card rewrites that text from the card
+  in the same commit, so the figures match the picture. The card names are in the language of each Edition; the
+  figures after them are in English, like the cards.
+- **Named cards, without figures.** The repository cards and the metrics card have alt text naming what each one
+  shows, but not the numbers on it.
+- **A silent heading image.** The animated GIF beside the heading is decoration, so it has an empty alt text and a
+  screen reader skips it.
 - **Collapsed sections that work from the keyboard.** The card groups are `details` elements, which open with Enter
   or Space.
 - **A snake that follows your theme.** The contribution-snake animation has a light and a dark version, picked by
   your system's colour preference.
+- **A snake that stops when you ask for less motion.** If your system asks for reduced motion, both versions of
+  the snake show the contribution grid standing still, without the snake, instead of looping. The weekly refresh
+  adds that rule each time it redraws the snake. It depends on your browser passing the setting to images; it is
+  checked in Chromium and not in other browsers.
 
 GitHub renders the README, so the page's structure, its language and how it zooms are GitHub's. The statistics and
 repository cards are drawn by a third-party service in a fixed dark theme. The statistics cards are drawn without
-animation; the repository cards, the metrics card and the snake are animated.
+animation; the repository cards and the metrics card are animated, and so is the snake unless you ask for reduced
+motion.
 
 ## Known barriers
 

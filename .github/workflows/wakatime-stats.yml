@@ -71,6 +71,9 @@ jobs:
       - name: Copy the renders into the repository
         shell: bash
         run: cp /metrics_renders/assets/images/svg/wakatime.svg /metrics_renders/assets/images/svg/wakatime-year.svg assets/images/svg/
+      - name: Write the cards' figures into their alt text
+        shell: bash
+        run: node .github/scripts/card-alt.js assets/images/svg/wakatime.svg assets/images/svg/wakatime-year.svg
       - name: Create and auto-merge PR
         uses: $/.github/actions/create-auto-merge-pr
         with:

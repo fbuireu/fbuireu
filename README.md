@@ -1,4 +1,4 @@
-# <img src="https://github.com/fbuireu/fbuireu/blob/main/assets/images/gif/punk-horn.gif?raw=true" width="45px"> Hi there, I'm a software engineer based in Barcelona
+# <img src="https://github.com/fbuireu/fbuireu/blob/main/assets/images/gif/punk-horn.gif?raw=true" width="45px" alt=""> Hi there, I'm a software engineer based in Barcelona
 
 ![Hi there, I'm a Software Engineer based in Barcelona](https://github.com/fbuireu/fbuireu/blob/main/assets/images/png/backgrounds/developer-life.png?raw=true)
 
@@ -285,23 +285,23 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
          alt="gatsby-plugin-s3" />
   </a>
   <img src="assets/images/svg/github-contributions.svg"
-       alt="Ferran Buireu's GitHub Contribution Graph" />
+       alt="Ferran Buireu's GitHub Contribution Graph: 16.05k contributions on GitHub, 9 public repositories, joined GitHub 11 years ago" />
   <img src="assets/images/svg/github-streak.svg"
-       alt="Ferran Buireu's GitHub Streak" />
+       alt="Ferran Buireu's GitHub Streak: 16,046 total contributions since Sep 22, 2015, current streak 8 days (Nov 1 - Nov 8), longest streak 353 days (Jan 7, 2025 - Dec 25, 2025)" />
 </details>    
 
 <details>
   <summary><strong>Languages & Stats</strong></summary>
   <img src="assets/images/svg/github-stats.svg"
-       alt="Ferran Buireu's GitHub stats" />
+       alt="Ferran Buireu's GitHub stats: rank A, 57 stars earned, 5084 commits in the last year, 710 pull requests, 26 issues, contributed to 1 repository in the last year" />
   <img src="assets/images/svg/github-languages.svg"
-       alt="Ferran Buireu's Top GitHub Languages" />
+       alt="Ferran Buireu's Top GitHub Languages: TypeScript 75.22%, Dart 9.87%, MDX 8.93%, CSS 3.14%, Astro 2.83%" />
 </details>
 
 <details>
   <summary><strong>Trophies</strong></summary>
   <img src="assets/images/svg/trophies.svg"
-       alt="Ferran Buireu's Trophies" />
+       alt="Ferran Buireu's Trophies: LongTimeUser 11, Commits 5.2k, Reviews 573, PullRequest 710, Experience 40, Stars 57, Followers 66, Issues 26, Repositories 26" />
 </details>    
 
 -------
@@ -310,19 +310,19 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <details>
   <summary><strong>Weekly stats</strong></summary>
 
-  <img src="assets/images/svg/wakatime.svg" alt="WakaTime stats for the last 7 days" />
+  <img src="assets/images/svg/wakatime.svg" alt="WakaTime stats for the last 7 days: about 7 coding hours recorded over the last week, about 2 hours of coding per day, top languages Other 33%, TypeScript 23%, Bash 7%, top editor Claude Code 72%" />
 </details>  
 
 <details>
   <summary><strong>Yearly stats</strong></summary>
 
-  <img src="assets/images/svg/wakatime-year.svg" alt="WakaTime stats for the last year" />
+  <img src="assets/images/svg/wakatime-year.svg" alt="WakaTime stats for the last year: about 865 coding hours recorded over the last year, about 3 hours of coding per day, top languages TypeScript 46%, Markdown 12%, Go 10%, top editor VS Code 49%" />
 </details>
 
 <details>
   <summary><strong>Overall Languages</strong></summary>
   <img src="assets/images/svg/wakatime-languages.svg"
-       alt="Wakatime Overall Languages" />
+       alt="Wakatime Overall Languages: TypeScript 2,275 hrs, Other 499 hrs, Dart 494 hrs, JavaScript 385 hrs, Go 181 hrs" />
 </details>   
 
 -------

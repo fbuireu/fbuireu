@@ -27,12 +27,16 @@ A span inside an Edition delimited by a pair of HTML comment markers, whose cont
 _Avoid_: placeholder, slot, injected block, template
 
 **Authored Region**:
-Everything in an Edition outside a Generated Region: the links, the prose, the jokes, the Language Table. It changes only when a human changes it, and a Refresh is expected to leave it byte-identical.
+Everything in an Edition outside a Generated Region: the links, the prose, the jokes, the Language Table. It changes only when a human changes it, and a Refresh is expected to leave it byte-identical; the one exception is the Card Summary.
 _Avoid_: static content, manual section, hardcoded
 
 **Artefact**:
 A file produced by a Refresh and committed to this repository: an SVG, a badge, a CSV. Because it is served from a URL under this repository, it keeps working for exactly as long as the file does.
 _Avoid_: asset, output, build product, generated file
+
+**Card Summary**:
+The figures a Refresh writes into the `alt` of a card's `<img>`, after the card's name and a `: `, so a screen reader announces what the card says and not only that it exists. It sits inside an Authored Region and has no markers; the script that writes it replaces everything after the first `: `.
+_Avoid_: caption, description, alt text (the whole attribute is that)
 
 **Embed**:
 A third-party image URL written into an Edition and resolved by the reader's browser, through GitHub's image proxy, at the moment the profile is opened. Nothing about it is stored here: an Embed is a live dependency on somebody else's uptime, and a dead one shows on the profile as a broken image.
