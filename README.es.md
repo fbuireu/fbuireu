@@ -281,23 +281,23 @@
          alt="gatsby-plugin-s3" />
   </a>
   <img src="assets/images/svg/github-contributions.svg"
-       alt="Gráfico de contribuciones a GitHub de Ferran Buireu: 16.05k contributions on GitHub, 9 public repositories, joined GitHub 11 years ago" />
+       alt="Gráfico de contribuciones a GitHub de Ferran Buireu: 16.10k contributions on GitHub, 9 public repositories, joined GitHub 11 years ago" />
   <img src="assets/images/svg/github-streak.svg"
-       alt="La racha de Ferran Buireu en GitHub: 16,046 total contributions since Sep 22, 2015, current streak 8 days (Nov 1 - Nov 8), longest streak 353 days (Jan 7, 2025 - Dec 25, 2025)" />
+       alt="La racha de Ferran Buireu en GitHub: 16,097 total contributions since Sep 22, 2015, current streak 3 days (Nov 13 - Nov 15), longest streak 353 days (Jan 7, 2025 - Dec 25, 2025)" />
 </details>    
 
 <details>
   <summary><strong>Lenguajes y estadísticas</strong></summary>
   <img src="assets/images/svg/github-stats.svg"
-       alt="Estadísticas de Ferran Buireu en GitHub: rank A, 57 stars earned, 5084 commits in the last year, 710 pull requests, 26 issues, contributed to 1 repository in the last year" />
+       alt="Estadísticas de Ferran Buireu en GitHub: rank A, 58 stars earned, 5069 commits in the last year, 713 pull requests, 42 issues, contributed to 1 repository in the last year" />
   <img src="assets/images/svg/github-languages.svg"
-       alt="Mejores lenguajes de GitHub de Ferran Buireu: TypeScript 75.22%, Dart 9.87%, MDX 8.93%, CSS 3.14%, Astro 2.83%" />
+       alt="Mejores lenguajes de GitHub de Ferran Buireu: TypeScript 75.35%, Dart 9.80%, MDX 8.90%, CSS 3.14%, Astro 2.81%" />
 </details>
 
 <details>
   <summary><strong>Trofeos</strong></summary>
   <img src="assets/images/svg/trophies.svg"
-       alt="Los trofeos de Ferran Buireu: LongTimeUser 11, Commits 5.2k, Reviews 573, PullRequest 710, Experience 40, Stars 57, Followers 66, Issues 26, Repositories 26" />
+       alt="Los trofeos de Ferran Buireu: LongTimeUser 11, Commits 5.2k, Reviews 573, PullRequest 713, Experience 40, Stars 58, Followers 63, Issues 42, Repositories 26" />
 </details>    
 
 -------
@@ -318,7 +318,7 @@
 <details>
   <summary><strong>Lenguajes</strong></summary>
   <img src="assets/images/svg/wakatime-languages.svg"
-       alt="Lenguajes en Wakatime: TypeScript 2,275 hrs, Other 499 hrs, Dart 494 hrs, JavaScript 385 hrs, Go 181 hrs" />
+       alt="Lenguajes en Wakatime: TypeScript 2,277 hrs, Other 501 hrs, Dart 494 hrs, JavaScript 385 hrs, Go 182 hrs" />
 </details>   
 
 -------
