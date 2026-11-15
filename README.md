@@ -310,13 +310,13 @@ flipping tortillas. I know I can do it. My girlfriend disagrees.
 <details>
   <summary><strong>Weekly stats</strong></summary>
 
-  <img src="assets/images/svg/wakatime.svg" alt="WakaTime stats for the last 7 days: about 7 coding hours recorded over the last week, about 2 hours of coding per day, top languages Other 33%, TypeScript 23%, Bash 7%, top editor Claude Code 72%" />
+  <img src="assets/images/svg/wakatime.svg" alt="WakaTime stats for the last 7 days: about 4 coding hours recorded over the last week, about 1 hours of coding per day, top languages TypeScript 41%, Other 30%, Go 24%, top editor Claude Code 85%" />
 </details>  
 
 <details>
   <summary><strong>Yearly stats</strong></summary>
 
-  <img src="assets/images/svg/wakatime-year.svg" alt="WakaTime stats for the last year: about 865 coding hours recorded over the last year, about 3 hours of coding per day, top languages TypeScript 46%, Markdown 12%, Go 10%, top editor VS Code 49%" />
+  <img src="assets/images/svg/wakatime-year.svg" alt="WakaTime stats for the last year: about 866 coding hours recorded over the last year, about 3 hours of coding per day, top languages TypeScript 46%, Markdown 12%, Go 10%, top editor VS Code 48%" />
 </details>
 
 <details>
