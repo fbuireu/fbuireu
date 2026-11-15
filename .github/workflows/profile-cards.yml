@@ -147,7 +147,7 @@ jobs:
           core_version: ""
           fail_on_error: true
       - name: Render the streak card
-        uses: DenverCoder1/github-readme-streak-stats@adbd07609bb771d3510a15ee2f3b31d5fbe5201d # v1.8.1
+        uses: DenverCoder1/github-readme-streak-stats@125aaaf200620410446ebfa51897fca3607e04fd # v1.8.2
         with:
           options: user=fbuireu&theme=onedark&hide_border=true&disable_animations=true
           path: assets/images/svg/github-streak.svg
