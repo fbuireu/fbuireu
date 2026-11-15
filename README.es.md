@@ -235,11 +235,11 @@
 ## 👨🏻‍💻 Consulta mis estadísticas de GitHub
 ### Última actividad
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Ha empujado cambios en [fbuireu/github-star-tracker](https://github.com/fbuireu/github-star-tracker)<br>
-2. ⬆️ Ha empujado cambios en [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
-3. ✌️ Ha publicado [web-v1.16.1](https://github.com/fbuireu/forever-pto/releases/tag/web-v1.16.1) en [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
-4. ⬆️ Ha empujado cambios en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
-5. ⬆️ Ha empujado cambios en [fbuireu/forever-pto](https://github.com/fbuireu/forever-pto)<br>
+1. 💬 Ha comentado a [#1231](https://github.com/fbuireu/biancafiore/pull/1231#issuecomment-6874810307) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+2. ✌️ Ha publicado [v1.29.20](https://github.com/fbuireu/biancafiore/releases/tag/v1.29.20) en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+3. ⬆️ Ha empujado cambios en [fbuireu/biancafiore](https://github.com/fbuireu/biancafiore)<br>
+4. 💬 Ha comentado a [#187](https://github.com/fbuireu/contribKit/pull/187#issuecomment-6868763833) en [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
+5. ✌️ Ha publicado [web-v2.0.8](https://github.com/fbuireu/contribKit/releases/tag/web-v2.0.8) en [fbuireu/contribKit](https://github.com/fbuireu/contribKit)<br>
 <!--RECENT_ACTIVITY:end-->
 
 <details>
