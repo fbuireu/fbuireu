@@ -306,13 +306,13 @@
 <details>
   <summary><strong>Statistiche settimanali</strong></summary>
 
-  <img src="assets/images/svg/wakatime.svg" alt="Statistiche WakaTime degli ultimi 7 giorni: about 4 coding hours recorded over the last week, about 1 hours of coding per day, top languages TypeScript 41%, Other 30%, Go 24%, top editor Claude Code 85%" />
+  <img src="assets/images/svg/wakatime.svg" alt="Statistiche WakaTime degli ultimi 7 giorni: about 6 coding hours recorded over the last week, about 1 hours of coding per day, top languages Go 35%, Markdown 17%, YAML 13%, top editor Claude Code 67%" />
 </details>  
 
 <details>
   <summary><strong>Statistiche annuali</strong></summary>
 
-  <img src="assets/images/svg/wakatime-year.svg" alt="Statistiche WakaTime dell'ultimo anno: about 866 coding hours recorded over the last year, about 3 hours of coding per day, top languages TypeScript 46%, Markdown 12%, Go 10%, top editor VS Code 48%" />
+  <img src="assets/images/svg/wakatime-year.svg" alt="Statistiche WakaTime dell'ultimo anno: about 872 coding hours recorded over the last year, about 3 hours of coding per day, top languages TypeScript 46%, Markdown 12%, Go 11%, top editor VS Code 48%" />
 </details>
 
 <details>
