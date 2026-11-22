@@ -283,13 +283,13 @@
   <img src="assets/images/svg/github-contributions.svg"
        alt="Grafico dei contributi a GitHub di Ferran Buireu: 16.10k contributions on GitHub, 9 public repositories, joined GitHub 11 years ago" />
   <img src="assets/images/svg/github-streak.svg"
-       alt="La striscia di Ferran Buireu su GitHub: 16,097 total contributions since Sep 22, 2015, current streak 3 days (Nov 13 - Nov 15), longest streak 353 days (Jan 7, 2025 - Dec 25, 2025)" />
+       alt="La striscia di Ferran Buireu su GitHub: 16,103 total contributions since Sep 22, 2015, current streak 1 day, longest streak 353 days (Jan 7, 2025 - Dec 25, 2025)" />
 </details>    
 
 <details>
   <summary><strong>Linguaggi e statistiche</strong></summary>
   <img src="assets/images/svg/github-stats.svg"
-       alt="Statistiche di Ferran Buireu su GitHub: rank A, 58 stars earned, 5069 commits in the last year, 713 pull requests, 42 issues, contributed to 1 repository in the last year" />
+       alt="Statistiche di Ferran Buireu su GitHub: rank A, 58 stars earned, 5016 commits in the last year, 716 pull requests, 42 issues, contributed to 1 repository in the last year" />
   <img src="assets/images/svg/github-languages.svg"
        alt="I migliori linguaggi su GitHub di Ferran Buireu: TypeScript 75.35%, Dart 9.80%, MDX 8.90%, CSS 3.14%, Astro 2.81%" />
 </details>
@@ -297,7 +297,7 @@
 <details>
   <summary><strong>Trofei</strong></summary>
   <img src="assets/images/svg/trophies.svg"
-       alt="Trofei di Ferran Buireu: LongTimeUser 11, Commits 5.2k, Reviews 573, PullRequest 713, Experience 40, Stars 58, Followers 63, Issues 42, Repositories 26" />
+       alt="Trofei di Ferran Buireu: LongTimeUser 11, Commits 5.1k, Reviews 573, PullRequest 716, Experience 40, Stars 58, Followers 62, Issues 42, Repositories 26" />
 </details>    
 
 -------
@@ -318,7 +318,7 @@
 <details>
   <summary><strong>Linguaggi</strong></summary>
   <img src="assets/images/svg/wakatime-languages.svg"
-       alt="Linguaggi in Wakatime: TypeScript 2,277 hrs, Other 501 hrs, Dart 494 hrs, JavaScript 385 hrs, Go 182 hrs" />
+       alt="Linguaggi in Wakatime: TypeScript 2,277 hrs, Other 502 hrs, Dart 494 hrs, JavaScript 385 hrs, Go 185 hrs" />
 </details>   
 
 -------
